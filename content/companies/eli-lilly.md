@@ -4,8 +4,10 @@ type: "big pharma"
 publicly_traded: true
 ticker: "NYSE:LLY"
 headquarters: "Indianapolis, IN, USA"
+founded: 1876
 pd_focus: "secondary"
 total_pd_assets: 2
+market_cap: "$981B (Feb 2026)"
 website: "https://www.lilly.com"
 tags:
   - pd-pipeline

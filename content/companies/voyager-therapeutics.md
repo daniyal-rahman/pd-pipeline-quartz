@@ -4,8 +4,10 @@ type: "biotech"
 publicly_traded: true
 ticker: "NASDAQ:VYGR"
 headquarters: "Lexington, MA, USA"
+founded: 2013
 pd_focus: "single-asset"
 total_pd_assets: 1
+market_cap: "$190M (Feb 2026)"
 website: "https://www.voyagertherapeutics.com"
 tags:
   - pd-pipeline

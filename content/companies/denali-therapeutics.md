@@ -4,8 +4,10 @@ type: "biotech"
 publicly_traded: true
 ticker: "NASDAQ:DNLI"
 headquarters: "South San Francisco, CA, USA"
+founded: 2015
 pd_focus: "primary"
 total_pd_assets: 3
+market_cap: "$3.1B (Feb 2026)"
 website: "https://www.denalitherapeutics.com"
 tags:
   - pd-pipeline

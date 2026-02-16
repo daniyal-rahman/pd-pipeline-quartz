@@ -4,8 +4,10 @@ type: "big pharma"
 publicly_traded: true
 ticker: "NYSE:NVS"
 headquarters: "Basel, Switzerland"
+founded: 1996
 pd_focus: "primary"
 total_pd_assets: 3
+market_cap: "$309B (Feb 2026)"
 website: "https://www.novartis.com"
 tags:
   - pd-pipeline

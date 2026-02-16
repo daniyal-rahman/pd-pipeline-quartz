@@ -3,6 +3,7 @@
 rsync -a --delete \
   --exclude='.DS_Store' \
   --exclude='.obsidian' \
+  --exclude='vc-sourcing' \
   "/Users/dani/Library/Mobile Documents/iCloud~md~obsidian/Documents/Main/pd-pipeline-research/" \
   ~/Repos/pd-pipeline-quartz/content/
 

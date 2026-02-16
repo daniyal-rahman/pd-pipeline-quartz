@@ -4,8 +4,10 @@ type: "big pharma"
 publicly_traded: true
 ticker: "SIX:ROG"
 headquarters: "Basel, Switzerland"
+founded: 1896
 pd_focus: "primary"
 total_pd_assets: 3
+market_cap: "$248B CHF / ~$296B USD (Feb 2026)"
 website: "https://www.roche.com"
 tags:
   - pd-pipeline

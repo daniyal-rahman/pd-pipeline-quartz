@@ -4,8 +4,10 @@ type: "big pharma"
 publicly_traded: true
 ticker: "NYSE:ABBV"
 headquarters: "North Chicago, IL, USA"
+founded: 2013
 pd_focus: "primary"
 total_pd_assets: 3
+market_cap: "$409B (Feb 2026)"
 website: "https://www.abbvie.com"
 tags:
   - pd-pipeline
