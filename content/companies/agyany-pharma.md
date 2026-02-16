@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Multiple investigators / Agyany Pharma" OR partner = "Multiple investigators / Agyany Pharma"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[ambroxol]] | Ambroxol | Phase 2 | Active | GBA1 / GCase (glucocerebrosidase) | 4/10 |

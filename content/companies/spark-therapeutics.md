@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Spark Therapeutics" OR partner = "Spark Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[spark-program]] | Spark PD Gene Therapy Program | Preclinical | Active | undisclosed (neurodegenerative / PD-related) | 2/10 |

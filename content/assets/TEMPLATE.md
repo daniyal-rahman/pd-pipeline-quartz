@@ -132,12 +132,7 @@ Rules:
 Start with a **Dataview query** that auto-populates competitors:
 
 ~~~markdown
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "{TARGET_STRING}") AND file.name != "{THIS_FILE}"
-SORT stage DESC
-```
+*No results*
 ~~~
 
 The `{TARGET_STRING}` should match what other notes in the same target class use in their `target:` frontmatter field. It only needs to be a substring — `contains()` handles partial matching. For example, `"alpha-synuclein"` will match `"alpha-synuclein (aggregated, C-terminal)"`.

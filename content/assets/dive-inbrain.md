@@ -78,12 +78,32 @@ InBrain Pharma (startup, Lille, France) completed the Phase 1/2 DIVE-I trial dem
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "dopamine") AND file.name != "dive-inbrain"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[sana-program]] | Preclinical | Deprioritized | Sana Biotechnology | cell therapy (iPSC allogeneic) |
+| [[alc01]] | Phase 1 | Active | iCamuno Biotherapeutics | cell therapy (iPSC allogeneic) |
+| [[autologous-mdaps]] | Phase 1 | Active | McLean Hospital / Neuroregeneration Research Institute (NRI) | cell therapy (iPSC autologous) |
+| [[cellino-ipsc]] | Phase 1 | Active | Cellino Biotech | platform |
+| [[lu-af28996]] | Phase 1 | Active | Lundbeck | small molecule |
+| [[rndp-001]] | Phase 1 | Active | Kenai Therapeutics | cell therapy (iPSC allogeneic) |
+| [[ux-da001]] | Phase 1 | Active | UniXell Biotechnology | cell therapy (iPSC autologous) |
+| [[ser-252]] | Phase 1b | Active | Serina Therapeutics | small molecule |
+| [[anpd001]] | Phase 1/2 | Active | Aspen Neuroscience | cell therapy (iPSC autologous) |
+| [[dive-inbrain]] | Phase 1/2 | Active | InBrain Pharma | device-aided therapy (drug/device combination) |
+| [[kyoto-ipsc]] | Phase 1/2 | Active | CiRA (Kyoto University) / Sumitomo Pharma | cell therapy (iPSC allogeneic) |
+| [[nouvneu001]] | Phase 1/2 | Active | iRegene Therapeutics | cell therapy (iPSC allogeneic) |
+| [[sizhe-biopharma]] | Phase 1/2 | Active | XellSmart / Shize Bio (士泽生物) | cell therapy (iPSC allogeneic) |
+| [[stem-pd]] | Phase 1/2 | Active | Lund University / University of Cambridge | cell therapy (ESC) |
+| [[ted-a9]] | Phase 1/2 | Active | S.BIOMEDICS | cell therapy (ESC) |
+| [[vgn-r09b]] | Phase 1/2 | Active | Shanghai Vitalgen BioPharma | AAV gene therapy |
+| [[cbt-npc]] | Phase 2 | Active | CHA Biotech | cell therapy (ESC) |
+| [[glovadalen]] | Phase 2 | Active | UCB | small molecule |
+| [[bemdaneprocel]] | Phase 3 | Active | BlueRock Therapeutics | cell therapy (ESC) |
+| [[mesdopetam]] | Phase 3 | Active | IRLAB Therapeutics | small molecule |
+| [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
+| [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
+| [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 
 - The competitive set for A-dopamine is **device-aided therapies (DATs) for advanced PD**, not disease-modifying agents. Direct comparators: DBS (Medtronic, Abbott, Boston Scientific — all approved), Duodopa/LCIG (AbbVie — approved), subcutaneous apomorphine infusion (Britannia — approved), and [[nd0612|ND0612]] (NeuroDerm/Mitsubishi Tanabe — subcutaneous levodopa/carbidopa infusion)
 - Key advantage over DBS: pharmacological mechanism directly addresses dopamine deficit rather than modulating circuits electrically. DBS can cause speech/gait side effects from stimulation of adjacent structures; A-dopamine avoids this

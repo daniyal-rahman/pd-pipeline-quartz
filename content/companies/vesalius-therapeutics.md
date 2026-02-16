@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Vesalius Therapeutics" OR partner = "Vesalius Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[vesalius-gsk]] | Vesalius-GSK PD Program | Preclinical | Active | undisclosed (novel multigene circuit-derived neurodegeneration target) | 3/10 |

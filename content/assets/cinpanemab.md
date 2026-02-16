@@ -77,12 +77,40 @@ Cinpanemab failed. The SPARK Phase 2 trial (N=357) showed no difference from pla
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "alpha-synuclein") AND file.name != "cinpanemab"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[cinpanemab]] | Terminated | Failed | Biogen | monoclonal antibody |
+| [[ion464]] | Discontinued | Discontinued | Ionis Pharmaceuticals | ASO |
+| [[minzasolmin]] | Terminated | Terminated | UCB | small molecule |
+| [[saamplify-asyn]] | Commercial | Active | Amprion | diagnostic assay |
+| [[trimtech-trim21]] | Discovery | Active | TRIMTECH Therapeutics | small molecule |
+| [[adp062-abc]] | Preclinical | Active | Alector | siRNA |
+| [[aro-snca]] | Preclinical | Active | Arrowhead Pharmaceuticals | siRNA |
+| [[booster-therapeutics]] | Preclinical | Active | Booster Therapeutics | small molecule |
+| [[eubiologics-vaccine]] | Preclinical | Active | EuBiologics | active vaccine |
+| [[lbp-pd01]] | Preclinical | Active | LISCure Biosciences | live biotherapeutic product |
+| [[mor-a-syn]] | Preclinical | Active | AC Immune | small molecule |
+| [[act-02]] | IND-enabling | Active | Accure Therapeutics | small molecule |
+| [[dnl422]] | IND-enabling | Active | Denali Therapeutics | ASO |
+| [[18f-fd4]] | Phase 1 | Active | SynuSight Biotech | PET tracer |
+| [[abl301]] | Phase 1 | Deprioritized | ABL Bio | bispecific antibody |
+| [[energi-f705pd]] | Phase 1 | Active | Energenesis Biomedical | small molecule |
+| [[ly3962681]] | Phase 1 | Active | Prevail Therapeutics (Eli Lilly subsidiary) | siRNA |
+| [[mk-7337]] | Phase 1 | Discontinued | Merck | PET tracer |
+| [[nm-101]] | Phase 1 | Active | Neuramedy | monoclonal antibody |
+| [[sar446159]] | Phase 1 | Deprioritized | ABL Bio | bispecific antibody |
+| [[ucb7853]] | Phase 1 | Active | UCB | monoclonal antibody |
+| [[vt-5006]] | Phase 1 | Active | Vertero Therapeutics | small molecule |
+| [[emrusolmin]] | Phase 1b | Active | MODAG GmbH | small molecule |
+| [[her-096]] | Phase 1b | Active | Herantis Pharma | peptide |
+| [[ub-312]] | Phase 1b | Active | Vaxxinity | active vaccine |
+| [[aci-7104]] | Phase 2 | Active | AC Immune | active vaccine |
+| [[ath-434]] | Phase 2 | Active | Alterity Therapeutics | small molecule |
+| [[exidavnemab]] | Phase 2 | Active | BioArctic | monoclonal antibody |
+| [[lu-af67643]] | Phase 2 | Unverified | Lundbeck | monoclonal antibody |
+| [[amlenetug]] | Phase 3 | Active | Lundbeck | monoclonal antibody |
+| [[buntanetap]] | Phase 3 | Active | Annovis Bio | small molecule |
+| [[prasinezumab]] | Phase 3 | Active | Prothena | Monoclonal antibody |
 
 - Cinpanemab's failure is the **critical negative control** for the alpha-synuclein antibody field: same selectivity (800-fold for aggregates), same route (IV), same population (early PD) — but different epitope (N-terminus vs. C-terminus). The fact that [[prasinezumab]] (C-terminal) showed a borderline motor signal (HR=0.84, p=0.0657 in PADOVA) while cinpanemab showed zero signal at any dose is the strongest evidence that epitope selection matters
 - The complete absence of DaT-SPECT changes in SPARK — unlike minzasolmin (which showed imaging changes without clinical benefit in ORCHESTRA) — suggests cinpanemab may not have achieved sufficient target engagement to produce any measurable CNS effect

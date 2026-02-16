@@ -59,12 +59,17 @@ No clinical trials initiated. No IND-enabling studies have been publicly disclos
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(modality, "AAV gene therapy") AND file.name != "spark-program"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[eladocagene]] | Approved (AADC deficiency); Phase 1b completed (PD — terminated) | Active (AADC deficiency); Discontinued (PD) | PTC Therapeutics | AAV gene therapy |
+| [[cavgene]] | Preclinical | Active | CavGene Therapeutics | AAV gene therapy |
+| [[spark-program]] | Preclinical | Active | Spark Therapeutics | AAV gene therapy |
+| [[gba1-voyager]] | IND-enabling | Active | Voyager Therapeutics | AAV gene therapy |
+| [[cap-003]] | Phase 1/2 | Active | Capsida Biotherapeutics | AAV gene therapy |
+| [[pr001]] | Phase 1/2 | Active | Prevail Therapeutics | AAV gene therapy |
+| [[vgn-r09b]] | Phase 1/2 | Active | Shanghai Vitalgen BioPharma | AAV gene therapy |
+| [[aav-gad]] | Phase 2 | Active | MeiraGTx | AAV gene therapy |
+| [[ab-1005]] | Phase 2 | Active | AskBio | AAV gene therapy |
 
 - The PD gene therapy field is stratified by target: **GBA1/GCase** ([[pr001]], [[cap-003]], [[gba1-voyager]]), **GDNF** ([[ab-1005]]), **GAD** ([[aav-gad]]), and **AADC** (historical programs). A new Spark entrant would need to differentiate on either target or delivery platform
 - [[aav-gad|AAV-GAD]] (MeiraGTx) is the most clinically advanced PD gene therapy, with 58 patients treated, RMAT designation, and Phase 3 (exPDite-2) initiated -- this is the nearest-term approval threat that any new entrant must contend with

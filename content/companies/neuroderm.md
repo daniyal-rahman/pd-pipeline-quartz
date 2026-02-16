@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "NeuroDerm" OR partner = "NeuroDerm"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[nd0612]] | ND0612 | NDA Filed | Active | levodopa delivery optimization (continuous subcutaneous L-DOPA/carbidopa) | 5/10 |

@@ -56,12 +56,12 @@ No clinical trials initiated. The program is in discovery/early preclinical:
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "lysosomal") AND file.name != "mair-tmem175"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[mair-tmem175]] | Discovery | Active | Mair Therapeutics | small molecule |
+| [[caraway-tmem175]] | Preclinical | Active | Caraway Therapeutics (acquired by Merck) | small molecule |
+| [[endlyz]] | Preclinical | Active | Endlyz Therapeutics | small molecule |
+| [[casma-trpml1]] | IND-enabling | Active | Casma Therapeutics | small molecule |
 
 - **Merck & Co. / Caraway Therapeutics** is the primary competitor with a TMEM175 agonist program acquired for up to $610M in November 2023. Caraway's program was preclinical at acquisition and was developed under an AbbVie collaboration ($17M upfront, up to $267M biobucks). Current status of the Merck TMEM175 program is undisclosed but presumably advancing through IND-enabling studies with big pharma resources
 - [[casma-trpml1|CSM-101]] (Casma Therapeutics) targets a different lysosomal ion channel -- TRPML1 -- with an IND-enabling program and H1 2026 IND filing target. TRPML1 and TMEM175 are both lysosomal ion channels but serve different functions (cation efflux vs. proton leak), so they are scientifically complementary rather than directly competitive

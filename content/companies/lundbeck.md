@@ -16,9 +16,9 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Lundbeck" OR partner = "Lundbeck"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[amlenetug]] | Amlenetug | Phase 3 | Active | alpha-synuclein (all extracellular forms, epitope aa 112-117) | 4/10 |
+| [[lu-af67643]] | Lu AF67643 | Phase 2 | Unverified | alpha-synuclein | 1/10 |
+| [[lu-af28996]] | Lu AF28996 | Phase 1 | Active | dopamine D1/D2 receptor | 4/10 |
+| [[otsuka-program]] | Otsuka PD Program | Preclinical | Active | Undisclosed |  |

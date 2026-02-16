@@ -66,12 +66,10 @@ No clinical trials initiated. The program is preclinical with development candid
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(thesis_cluster, "ai-discovery") AND file.name != "vesalius-gsk"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[valo-merck]] | Discovery | Active | Valo Health | AI discovery platform |
+| [[vesalius-gsk]] | Preclinical | Active | Vesalius Therapeutics | small molecule |
 
 - Vesalius occupies a unique niche: AI-driven target discovery for PD subpopulations rather than a known-target drug. No other PD pipeline asset in this folder uses an equivalent multigene circuit discovery approach
 - The nearest competitive comparison is other platform-to-pipeline deals: Verge Genomics (ALS/PD, AI-driven), Recursion (broad neurodegeneration), and Insilico Medicine (Sanofi deal for AI targets) — none have produced a clinical PD candidate yet

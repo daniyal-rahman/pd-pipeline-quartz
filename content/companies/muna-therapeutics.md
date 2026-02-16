@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "MUNA Therapeutics" OR partner = "MUNA Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[muna-kv13]] | MUNA Kv1.3 Blocker | Preclinical | Active | Kv1.3 (voltage-gated potassium channel 1.3, microglial) | 3/10 |

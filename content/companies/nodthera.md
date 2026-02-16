@@ -15,9 +15,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "NodThera" OR partner = "NodThera"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[nt-0796]] | NT-0796 | Phase 1b | Active | NLRP3 inflammasome | 5/10 |
+| [[nt-0150]] | NT-0150 | Phase 1 | Active | NLRP3 inflammasome | 4/10 |

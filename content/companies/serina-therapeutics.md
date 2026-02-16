@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Serina Therapeutics" OR partner = "Serina Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[ser-252]] | SER-252 | Phase 1b | Active | dopamine receptors (D1/D2 agonist, extended-release) | 5/10 |

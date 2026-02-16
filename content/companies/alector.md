@@ -16,9 +16,8 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Alector" OR partner = "Alector"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[adp062-abc]] | ADP062-ABC | Preclinical | Active | SNCA mRNA (alpha-synuclein production inhibition) | 2/10 |
+| [[adp065-abc]] | ADP065-ABC | Preclinical | Active | NLRP3 inflammasome | 2/10 |
+| [[al050-abc]] | AL050-ABC | Preclinical | Active | GBA1 / GCase (glucocerebrosidase) | 3/10 |

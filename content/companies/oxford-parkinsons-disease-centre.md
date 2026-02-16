@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Oxford Parkinson's Disease Centre (OPDC)" OR partner = "Oxford Parkinson's Disease Centre (OPDC)"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[lario-cav23]] | Lario CaV2.3 Inhibitor | Preclinical | Active | CaV2.3 (R-type voltage-gated calcium channel, CACNA1E) | 3/10 |

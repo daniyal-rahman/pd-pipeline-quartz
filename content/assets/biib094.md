@@ -76,12 +76,15 @@ BIIB094 (ION859) was an intrathecally delivered LRRK2-targeting antisense oligon
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "LRRK2") AND file.name != "biib094"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[biib094]] | Discontinued | Discontinued | Ionis Pharmaceuticals | ASO |
+| [[montara-lrrk2]] | Preclinical | Active | Montara Therapeutics | small molecule |
+| [[seal-rock-lrrk2]] | Preclinical | Active | Seal Rock Therapeutics | small molecule |
+| [[snp614]] | IND-enabling | Active | SciNeuro Pharmaceuticals | ASO |
+| [[arv-102]] | Phase 1 | Active | Arvinas | small molecule |
+| [[neu-723]] | Phase 2 | Active | Neuron23 | small molecule |
+| [[biib122]] | Phase 2b | Active | Denali Therapeutics | small molecule |
 
 - [[biib122|BIIB122]] (Biogen/Denali) is the dominant LRRK2 competitor — oral small molecule kinase inhibitor with better delivery profile. LIGHTHOUSE Phase 3 was terminated but LUMA Phase 2 continues, now enrolling LRRK2-mutant patients alongside idiopathic PD
 - Key modality distinction: ASO (total protein knockdown) vs. kinase inhibitor (enzymatic blockade only). The ASO approach captures kinase-independent LRRK2 functions but at the cost of intrathecal delivery

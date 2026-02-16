@@ -77,12 +77,15 @@ UDCA is a naturally occurring bile acid approved since the 1980s for primary bil
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "mitochondri") AND file.name != "udca"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[vb-23]] | IND-enabling | Active | Vincere Biosciences | small molecule |
+| [[mtx325]] | Phase 1 | Active | Mission Therapeutics | small molecule |
+| [[nrg5051]] | Phase 1 | Active | NRG Therapeutics | small molecule |
+| [[stealth-bio]] | Phase 1 | Active | Stealth BioTherapeutics | small molecule |
+| [[udca]] | Phase 2 | Active | University of Sheffield / UCL | small molecule |
+| [[ejs-act-pd]] | Phase 3 | Active | UCL / MRC Clinical Trials Unit | platform |
+| [[nicotinamide-riboside]] | Phase 3 | Active | Neuro-SysMed / Haukeland University Hospital | small molecule |
 
 - UDCA occupies the mitochondrial rescue / bioenergetics space within PD disease modification, competing with mechanistically distinct approaches to the same biological problem
 - [[nrg5051]] (Neurogene/NRG Therapeutics) targets the mitochondrial permeability transition pore (mPTP) -- a different downstream mechanism, and is a proprietary small molecule unlike UDCA's generic status

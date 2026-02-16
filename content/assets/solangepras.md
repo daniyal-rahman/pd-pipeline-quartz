@@ -77,12 +77,29 @@ Solengepras (CVN424) is a first-in-class oral GPR6 inverse agonist from Cerevanc
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "symptomatic") OR contains(thesis_cluster, "symptomatic") AND file.name != "solangepras"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[eladocagene]] | Approved (AADC deficiency); Phase 1b completed (PD — terminated) | Active (AADC deficiency); Discontinued (PD) | PTC Therapeutics | AAV gene therapy |
+| [[cavgene]] | Preclinical | Active | CavGene Therapeutics | AAV gene therapy |
+| [[lario-cav23]] | Preclinical | Active | Lario Therapeutics | small molecule |
+| [[otsuka-program]] | Preclinical | Active | Otsuka Pharmaceutical | Undisclosed |
+| [[lu-af28996]] | Phase 1 | Active | Lundbeck | small molecule |
+| [[ly03017]] | Phase 1 | Active | Luye Pharma Group | small molecule |
+| [[irl757]] | Phase 1b | Active | IRLAB Therapeutics | small molecule |
+| [[ser-252]] | Phase 1b | Active | Serina Therapeutics | small molecule |
+| [[appello-mglu4]] | Phase 1/2 | Active | Appello Pharmaceuticals | small molecule |
+| [[dive-inbrain]] | Phase 1/2 | Active | InBrain Pharma | device-aided therapy (drug/device combination) |
+| [[vgn-r09b]] | Phase 1/2 | Active | Shanghai Vitalgen BioPharma | AAV gene therapy |
+| [[aav-gad]] | Phase 2 | Active | MeiraGTx | AAV gene therapy |
+| [[addex-program]] | Phase 2 | Deprioritized | Addex Therapeutics | small molecule |
+| [[blarcamesine]] | Phase 2 | Active | Anavex Life Sciences | small molecule |
+| [[glovadalen]] | Phase 2 | Active | UCB | small molecule |
+| [[mesdopetam]] | Phase 3 | Active | IRLAB Therapeutics | small molecule |
+| [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
+| [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
+| [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
+| [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 
 - The primary competitive frame is **non-dopaminergic adjunctive PD therapies**. [[tavapadon|Tavapadon]] (AbbVie) is a D1/D5 partial agonist -- technically still dopaminergic but avoids D2/D3 side effects. [[mesdopetam|Mesdopetam]] (IRLAB/Ipsen) targets levodopa-induced dyskinesia specifically via D3 antagonism
 - Istradefylline (Nourianz, Kyowa Kirin) is the closest approved comparator -- also a non-dopaminergic mechanism (adenosine A2A antagonist), also reduces OFF-time, but commercial performance has been modest, suggesting either market access barriers or limited physician adoption for non-dopaminergic mechanisms

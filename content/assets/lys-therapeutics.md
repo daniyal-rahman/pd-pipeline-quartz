@@ -67,12 +67,36 @@ No clinical trials initiated. IND-enabling studies are underway.
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(thesis_cluster, "neuroinflammation") AND file.name != "lys-therapeutics"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[vent-02]] | Terminated | Terminated | Ventus Therapeutics | small molecule |
+| [[adp065-abc]] | Preclinical | Active | Alector | siRNA |
+| [[lbp-pd01]] | Preclinical | Active | LISCure Biosciences | live biotherapeutic product |
+| [[muna-kv13]] | Preclinical | Active | MUNA Therapeutics | small molecule |
+| [[neumora-nlrp3]] | Preclinical | Active | Neumora Therapeutics | small molecule |
+| [[rome-line1]] | Preclinical | Active | ROME Therapeutics | small molecule |
+| [[lys-therapeutics]] | IND-enabling | Active | Lys Therapeutics | monoclonal antibody |
+| [[nly02]] | IND-enabling | Active | Neuraly (D&D Pharmatech) / 1ST Bio | small molecule |
+| [[hl192]] | Phase 1 | Active | NurrOn Pharmaceuticals | small molecule |
+| [[ism8969]] | Phase 1 | Active | Insilico Medicine | small molecule |
+| [[lbt-3627]] | Phase 1 | Active | Longevity Biotech | peptide |
+| [[nm-101]] | Phase 1 | Active | Neuramedy | monoclonal antibody |
+| [[nt-0150]] | Phase 1 | Active | NodThera | small molecule |
+| [[her-096]] | Phase 1b | Active | Herantis Pharma | peptide |
+| [[nt-0796]] | Phase 1b | Active | NodThera | small molecule |
+| [[sargramostim]] | Phase 1b | Active | University of Nebraska Medical Center (Howard Gendelman) | recombinant protein (cytokine) |
+| [[selnoflast]] | Phase 1b | Active | Roche | small molecule |
+| [[snk01]] | Phase 1/2 | Active | NKGen Biotech | cell therapy (autologous NK) |
+| [[dapansutrile]] | Phase 2 | Active | Olatec Therapeutics | small molecule |
+| [[liraglutide]] | Phase 2 | Active | Academic (Cedars-Sinai / Cure Parkinson's) | small molecule |
+| [[lixisenatide]] | Phase 2 | Active | Toulouse University Hospital (academic) | small molecule |
+| [[nly01]] | Phase 2 | Active | Neuraly (D&D Pharmatech) | small molecule |
+| [[pt320]] | Phase 2 | Failed | Peptron | small molecule |
+| [[semaglutide]] | Phase 2 | Active | Novo Nordisk / Osaka University | small molecule |
+| [[vtx3232]] | Phase 2 | Active | Ventyx Biosciences | small molecule |
+| [[bhv-8000]] | Phase 2/3 | Active | Biohaven | small molecule |
+| [[ejs-act-pd]] | Phase 3 | Active | UCL / MRC Clinical Trials Unit | platform |
+| [[exenatide]] | Phase 3 | Failed | UCL (Tom Foltynie) | small molecule |
 
 - LYS241 occupies a unique niche: it is not competing directly with alpha-synuclein-targeting agents ([[prasinezumab]], [[aro-snca|ARO-SNCA]]) or genetic-PD targets ([[biib122|BIIB122]], [[pariceract]]) — it targets a downstream neuroinflammatory/BBB mechanism
 - The closest mechanistic comparison would be anti-neuroinflammation approaches, but LYS241's specific target (tPA-NMDAR interaction) has no direct competitors in clinical development for PD

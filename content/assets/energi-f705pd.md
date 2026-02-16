@@ -62,12 +62,16 @@ ENERGI-F705PD is a first-in-class oral small molecule from Energenesis Biomedica
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "ATP") OR contains(target, "mitochondrial") OR contains(target, "NAD+") AND file.name != "energi-f705pd"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[endlyz]] | Preclinical | Active | Endlyz Therapeutics | small molecule |
+| [[vb-23]] | IND-enabling | Active | Vincere Biosciences | small molecule |
+| [[energi-f705pd]] | Phase 1 | Active | Energenesis Biomedical | small molecule |
+| [[mtx325]] | Phase 1 | Active | Mission Therapeutics | small molecule |
+| [[nrg5051]] | Phase 1 | Active | NRG Therapeutics | small molecule |
+| [[stealth-bio]] | Phase 1 | Active | Stealth BioTherapeutics | small molecule |
+| [[udca]] | Phase 2 | Active | University of Sheffield / UCL | small molecule |
+| [[nicotinamide-riboside]] | Phase 3 | Active | Neuro-SysMed / Haukeland University Hospital | small molecule |
 
 - The mitophagy/mitochondrial cluster is increasingly competitive: [[nicotinamide-riboside]] is already in Phase 3 (NOPARK), [[mtx325]] has confirmed CNS penetration, [[nrg5051]] is backed by Dementia Discovery Fund money, and [[progenra-pink1|Progenra/AbbVie]] are pursuing direct PINK1 activation
 - ENERGI-F705PD's differentiation is mechanistic: it targets the metabolic *output* (ATP levels) rather than mitochondrial *quality control* (mitophagy) or *structural integrity* (mPTP inhibition) -- this is upstream of protein aggregation in a way that other mitochondrial assets are not

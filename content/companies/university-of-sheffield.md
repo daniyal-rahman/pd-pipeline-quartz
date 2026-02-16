@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "University of Sheffield / UCL" OR partner = "University of Sheffield / UCL"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[udca]] | Ursodeoxycholic acid | Phase 2 | Active | mitochondrial dysfunction (respiratory chain / membrane potential) | 4/10 |

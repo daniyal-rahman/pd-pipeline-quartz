@@ -66,12 +66,9 @@ Blarcamesine (ANAVEX 2-73) is an oral sigma-1 receptor agonist from Anavex Life 
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "sigma-1") AND file.name != "blarcamesine"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[blarcamesine]] | Phase 2 | Active | Anavex Life Sciences | small molecule |
 
 - Blarcamesine occupies a unique niche: the only clinical-stage sigma-1 receptor agonist with a dedicated PDD program. Pridopidine (Prilenia) has sigma-1 agonist activity but is focused on Huntington's/ALS, not PDD
 - The PDD competitive landscape is sparse: [[buntanetap]] (Annovis Bio) is the most direct competitor targeting PDD/cognitive decline in PD, though via a completely different mechanism (IRE-mediated translational inhibition). Both share the challenge of missed or borderline primary endpoints and small company risk

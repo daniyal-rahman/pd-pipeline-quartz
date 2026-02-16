@@ -64,12 +64,23 @@ STEM-PD is the first European stem cell-derived dopamine neuron replacement tria
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "dopaminergic neuron replacement") AND file.name != "stem-pd"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[sana-program]] | Preclinical | Deprioritized | Sana Biotechnology | cell therapy (iPSC allogeneic) |
+| [[alc01]] | Phase 1 | Active | iCamuno Biotherapeutics | cell therapy (iPSC allogeneic) |
+| [[autologous-mdaps]] | Phase 1 | Active | McLean Hospital / Neuroregeneration Research Institute (NRI) | cell therapy (iPSC autologous) |
+| [[cellino-ipsc]] | Phase 1 | Active | Cellino Biotech | platform |
+| [[rndp-001]] | Phase 1 | Active | Kenai Therapeutics | cell therapy (iPSC allogeneic) |
+| [[ux-da001]] | Phase 1 | Active | UniXell Biotechnology | cell therapy (iPSC autologous) |
+| [[anpd001]] | Phase 1/2 | Active | Aspen Neuroscience | cell therapy (iPSC autologous) |
+| [[kyoto-ipsc]] | Phase 1/2 | Active | CiRA (Kyoto University) / Sumitomo Pharma | cell therapy (iPSC allogeneic) |
+| [[nouvneu001]] | Phase 1/2 | Active | iRegene Therapeutics | cell therapy (iPSC allogeneic) |
+| [[sizhe-biopharma]] | Phase 1/2 | Active | XellSmart / Shize Bio (士泽生物) | cell therapy (iPSC allogeneic) |
+| [[stem-pd]] | Phase 1/2 | Active | Lund University / University of Cambridge | cell therapy (ESC) |
+| [[ted-a9]] | Phase 1/2 | Active | S.BIOMEDICS | cell therapy (ESC) |
+| [[cbt-npc]] | Phase 2 | Active | CHA Biotech | cell therapy (ESC) |
+| [[bemdaneprocel]] | Phase 3 | Active | BlueRock Therapeutics | cell therapy (ESC) |
+| [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 
 - All four first-in-human PD cell therapy trials ([[bemdaneprocel]], [[raguneprocel]], [[ted-a9|TED-A9]], STEM-PD) have now reported early safety and graft survival data -- the field has crossed the proof-of-concept threshold collectively
 - [[bemdaneprocel]] is the primary competitive benchmark: same ESC source type, same intraputamenal delivery, but further ahead clinically (Phase 3 enrolling, RMAT designation) and fully resourced by Bayer

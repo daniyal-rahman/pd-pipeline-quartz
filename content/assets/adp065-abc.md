@@ -59,12 +59,17 @@ No clinical trials initiated. No IND timeline disclosed for ADP065-ABC.
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "NLRP3") AND file.name != "adp065-abc"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[vent-02]] | Terminated | Terminated | Ventus Therapeutics | small molecule |
+| [[adp065-abc]] | Preclinical | Active | Alector | siRNA |
+| [[neumora-nlrp3]] | Preclinical | Active | Neumora Therapeutics | small molecule |
+| [[ism8969]] | Phase 1 | Active | Insilico Medicine | small molecule |
+| [[nt-0150]] | Phase 1 | Active | NodThera | small molecule |
+| [[nt-0796]] | Phase 1b | Active | NodThera | small molecule |
+| [[selnoflast]] | Phase 1b | Active | Roche | small molecule |
+| [[dapansutrile]] | Phase 2 | Active | Olatec Therapeutics | small molecule |
+| [[vtx3232]] | Phase 2 | Active | Ventyx Biosciences | small molecule |
 
 - [[nt-0796|NT-0796]] (NodThera, Phase 1b completed) demonstrated CSF neuroinflammation reversal in PD patients -- the first clinical proof that NLRP3 inhibition can engage CNS targets in PD. NodThera is advancing NT-0150 (next-gen) to Phase 2
 - [[selnoflast]] (Roche, Phase 1b completed) is peripherally restricted -- open question whether peripheral-only NLRP3 inhibition is sufficient. Results undisclosed as of early 2026

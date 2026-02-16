@@ -62,12 +62,23 @@ TED-A9 (A9-DPC) is an hESC-derived dopaminergic progenitor cell therapy from S.B
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "dopaminergic neuron replacement") AND file.name != "ted-a9"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[sana-program]] | Preclinical | Deprioritized | Sana Biotechnology | cell therapy (iPSC allogeneic) |
+| [[alc01]] | Phase 1 | Active | iCamuno Biotherapeutics | cell therapy (iPSC allogeneic) |
+| [[autologous-mdaps]] | Phase 1 | Active | McLean Hospital / Neuroregeneration Research Institute (NRI) | cell therapy (iPSC autologous) |
+| [[cellino-ipsc]] | Phase 1 | Active | Cellino Biotech | platform |
+| [[rndp-001]] | Phase 1 | Active | Kenai Therapeutics | cell therapy (iPSC allogeneic) |
+| [[ux-da001]] | Phase 1 | Active | UniXell Biotechnology | cell therapy (iPSC autologous) |
+| [[anpd001]] | Phase 1/2 | Active | Aspen Neuroscience | cell therapy (iPSC autologous) |
+| [[kyoto-ipsc]] | Phase 1/2 | Active | CiRA (Kyoto University) / Sumitomo Pharma | cell therapy (iPSC allogeneic) |
+| [[nouvneu001]] | Phase 1/2 | Active | iRegene Therapeutics | cell therapy (iPSC allogeneic) |
+| [[sizhe-biopharma]] | Phase 1/2 | Active | XellSmart / Shize Bio (士泽生物) | cell therapy (iPSC allogeneic) |
+| [[stem-pd]] | Phase 1/2 | Active | Lund University / University of Cambridge | cell therapy (ESC) |
+| [[ted-a9]] | Phase 1/2 | Active | S.BIOMEDICS | cell therapy (ESC) |
+| [[cbt-npc]] | Phase 2 | Active | CHA Biotech | cell therapy (ESC) |
+| [[bemdaneprocel]] | Phase 3 | Active | BlueRock Therapeutics | cell therapy (ESC) |
+| [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 
 - [[raguneprocel]] (Sumitomo/CiRA, iPSC-derived, NDA filed Japan) is the most advanced cell therapy for PD globally. If approved in H2 2026, it validates the neuron replacement paradigm and creates regulatory precedent that TED-A9 could leverage -- but also demonstrates the bar TED-A9 must clear
 - Bemdaneprocel (BlueRock/Bayer, hESC-derived, Phase 3) is the most direct competitor: same cell source (hESC), same target tissue (putamen), same modality. BlueRock's Phase 1 showed 17.9-point MDS-UPDRS Part III improvement at 36 months in the high-dose cohort. Their Phase 3 (exPDite-2, ~102 patients) dosed first patient September 2025 and will generate registrational data before TED-A9 can reach that stage

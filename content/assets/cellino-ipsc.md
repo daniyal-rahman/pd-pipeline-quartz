@@ -81,12 +81,23 @@ Cellino Biotech (startup, private) is a manufacturing platform company deploying
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "dopaminergic neuron replacement") AND file.name != "cellino-ipsc"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[sana-program]] | Preclinical | Deprioritized | Sana Biotechnology | cell therapy (iPSC allogeneic) |
+| [[alc01]] | Phase 1 | Active | iCamuno Biotherapeutics | cell therapy (iPSC allogeneic) |
+| [[autologous-mdaps]] | Phase 1 | Active | McLean Hospital / Neuroregeneration Research Institute (NRI) | cell therapy (iPSC autologous) |
+| [[cellino-ipsc]] | Phase 1 | Active | Cellino Biotech | platform |
+| [[rndp-001]] | Phase 1 | Active | Kenai Therapeutics | cell therapy (iPSC allogeneic) |
+| [[ux-da001]] | Phase 1 | Active | UniXell Biotechnology | cell therapy (iPSC autologous) |
+| [[anpd001]] | Phase 1/2 | Active | Aspen Neuroscience | cell therapy (iPSC autologous) |
+| [[kyoto-ipsc]] | Phase 1/2 | Active | CiRA (Kyoto University) / Sumitomo Pharma | cell therapy (iPSC allogeneic) |
+| [[nouvneu001]] | Phase 1/2 | Active | iRegene Therapeutics | cell therapy (iPSC allogeneic) |
+| [[sizhe-biopharma]] | Phase 1/2 | Active | XellSmart / Shize Bio (士泽生物) | cell therapy (iPSC allogeneic) |
+| [[stem-pd]] | Phase 1/2 | Active | Lund University / University of Cambridge | cell therapy (ESC) |
+| [[ted-a9]] | Phase 1/2 | Active | S.BIOMEDICS | cell therapy (ESC) |
+| [[cbt-npc]] | Phase 2 | Active | CHA Biotech | cell therapy (ESC) |
+| [[bemdaneprocel]] | Phase 3 | Active | BlueRock Therapeutics | cell therapy (ESC) |
+| [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 
 - [[bemdaneprocel]] (BlueRock/Bayer) is the overall cell therapy leader: allogeneic ESC-derived, Phase 3 (exPDite-2, N~102), FDA RMAT + Fast Track. Allogeneic manufacturing scales inherently better than autologous but requires lifelong immunosuppression -- an open long-term safety question
 - [[anpd001|ANPD001]] (Aspen Neuroscience) is the most direct competitor: also autologous iPSC-derived, further along clinically (ASPIRO Phase 1/2a, 6-month data showing 45% MDS-UPDRS Part III improvement), and developing its own automated manufacturing. Cellino could theoretically serve as a manufacturing partner for programs like ANPD001 if the platform proves superior

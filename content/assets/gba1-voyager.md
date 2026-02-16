@@ -76,12 +76,18 @@ No clinical trials initiated. Program is in IND-enabling studies (GLP toxicology
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "GBA1") AND file.name != "gba1-voyager"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[al050-abc]] | Preclinical | Active | Alector | enzyme activator |
+| [[congruence-gcase]] | IND-enabling | Active | Congruence Therapeutics | small molecule |
+| [[dnl111]] | IND-enabling | Active | Denali Therapeutics | platform |
+| [[gba1-voyager]] | IND-enabling | Active | Voyager Therapeutics | AAV gene therapy |
+| [[gt-02287]] | Phase 1b | Active | Gain Therapeutics | small molecule |
+| [[vq-101]] | Phase 1b | Active | Vanqua Bio | small molecule |
+| [[cap-003]] | Phase 1/2 | Active | Capsida Biotherapeutics | AAV gene therapy |
+| [[pr001]] | Phase 1/2 | Active | Prevail Therapeutics | AAV gene therapy |
+| [[ambroxol]] | Phase 2 | Active | Multiple investigators / Agyany Pharma | small molecule |
+| [[pariceract]] | Phase 2b | Active | BIAL | small molecule |
 
 - **Route of administration is the key differentiator**: IV (Voyager) vs. intracisternal ([[pr001|PR001/LY3884961]]) vs. oral ([[pariceract]]). IV delivery avoids the procedural risk and patient burden of cisterna magna injection while achieving broader CNS distribution than intracisternal approaches
 - [[pr001|PR001]] (Lilly/Prevail) is the most clinically advanced GBA1 gene therapy (Phase 1/2, PROPEL trial), but uses conventional AAV9 via intracisternal injection -- an invasive route that required aggressive immunosuppression after a serious adverse event in the first patient

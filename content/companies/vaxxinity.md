@@ -16,9 +16,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Vaxxinity" OR partner = "Vaxxinity"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[ub-312]] | UB-312 | Phase 1b | Active | alpha-synuclein (aggregated, C-terminal peptide) | 4/10 |

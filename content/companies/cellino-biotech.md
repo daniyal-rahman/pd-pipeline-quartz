@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Cellino Biotech" OR partner = "Cellino Biotech"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[cellino-ipsc]] | Cellino iPSC Platform (MGH) | Phase 1 | Active | dopaminergic neuron replacement (autologous iPSC-derived DA progenitors) | 3/10 |

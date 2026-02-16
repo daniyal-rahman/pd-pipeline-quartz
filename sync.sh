@@ -9,6 +9,9 @@ rsync -a --delete \
 # Re-copy Excel
 cp ~/Downloads/PD_Pipeline_Atomic_Notes.xlsx ~/Repos/pd-pipeline-quartz/content/ 2>/dev/null
 
+# Pre-render Dataview queries to static markdown tables
+/opt/homebrew/Caskroom/miniconda/base/bin/python3 ~/Repos/pd-pipeline-quartz/prerender-dataview.py
+
 cd ~/Repos/pd-pipeline-quartz
 git add -A
 git commit -m "Sync vault content $(date +%Y-%m-%d)" && git push

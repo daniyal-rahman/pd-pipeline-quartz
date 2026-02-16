@@ -98,12 +98,32 @@ Note: Ipsen returned worldwide rights to IRLAB in August 2023. IRLAB retains ful
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "dopamine") AND file.name != "mesdopetam"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[sana-program]] | Preclinical | Deprioritized | Sana Biotechnology | cell therapy (iPSC allogeneic) |
+| [[alc01]] | Phase 1 | Active | iCamuno Biotherapeutics | cell therapy (iPSC allogeneic) |
+| [[autologous-mdaps]] | Phase 1 | Active | McLean Hospital / Neuroregeneration Research Institute (NRI) | cell therapy (iPSC autologous) |
+| [[cellino-ipsc]] | Phase 1 | Active | Cellino Biotech | platform |
+| [[lu-af28996]] | Phase 1 | Active | Lundbeck | small molecule |
+| [[rndp-001]] | Phase 1 | Active | Kenai Therapeutics | cell therapy (iPSC allogeneic) |
+| [[ux-da001]] | Phase 1 | Active | UniXell Biotechnology | cell therapy (iPSC autologous) |
+| [[ser-252]] | Phase 1b | Active | Serina Therapeutics | small molecule |
+| [[anpd001]] | Phase 1/2 | Active | Aspen Neuroscience | cell therapy (iPSC autologous) |
+| [[dive-inbrain]] | Phase 1/2 | Active | InBrain Pharma | device-aided therapy (drug/device combination) |
+| [[kyoto-ipsc]] | Phase 1/2 | Active | CiRA (Kyoto University) / Sumitomo Pharma | cell therapy (iPSC allogeneic) |
+| [[nouvneu001]] | Phase 1/2 | Active | iRegene Therapeutics | cell therapy (iPSC allogeneic) |
+| [[sizhe-biopharma]] | Phase 1/2 | Active | XellSmart / Shize Bio (士泽生物) | cell therapy (iPSC allogeneic) |
+| [[stem-pd]] | Phase 1/2 | Active | Lund University / University of Cambridge | cell therapy (ESC) |
+| [[ted-a9]] | Phase 1/2 | Active | S.BIOMEDICS | cell therapy (ESC) |
+| [[vgn-r09b]] | Phase 1/2 | Active | Shanghai Vitalgen BioPharma | AAV gene therapy |
+| [[cbt-npc]] | Phase 2 | Active | CHA Biotech | cell therapy (ESC) |
+| [[glovadalen]] | Phase 2 | Active | UCB | small molecule |
+| [[bemdaneprocel]] | Phase 3 | Active | BlueRock Therapeutics | cell therapy (ESC) |
+| [[mesdopetam]] | Phase 3 | Active | IRLAB Therapeutics | small molecule |
+| [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
+| [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
+| [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 
 - The LID treatment landscape is dominated by **amantadine** (NMDA receptor antagonist), available in extended-release formulations (Gocovri/ADS-5102, Osmolex ER). Amantadine is now generic in many markets, creating pricing pressure for any new LID entrant
 - Mesdopetam's key differentiation is its novel mechanism (D3 antagonism vs. NMDA antagonism), potentially offering benefit in patients who do not respond to or tolerate amantadine

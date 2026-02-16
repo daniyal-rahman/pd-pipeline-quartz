@@ -16,9 +16,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "MSRD (Otsuka)" OR partner = "MSRD (Otsuka)" OR developer = "Otsuka Pharmaceutical" OR partner = "Otsuka Pharmaceutical"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[irl757]] | IRL757 | Phase 1b | Active | frontal-subcortical circuit dysfunction (apathy) | 4/10 |
+| [[otsuka-program]] | Otsuka PD Program | Preclinical | Active | Undisclosed |  |

@@ -69,12 +69,12 @@ SAAmplify-aSYN (Amprion, startup) is the first and only commercially available s
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(thesis_cluster, "diagnostics") AND file.name != "saamplify-asyn"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[saamplify-asyn]] | Commercial | Active | Amprion | diagnostic assay |
+| [[ai-blood-test]] | Research | Active | UCL / Guilford Street Laboratories | diagnostic assay |
+| [[18f-fd4]] | Phase 1 | Active | SynuSight Biotech | PET tracer |
+| [[mk-7337]] | Phase 1 | Discontinued | Merck | PET tracer |
 
 - SAAmplify-aSYN is currently the **only commercially available** alpha-synuclein SAA test, giving Amprion first-mover advantage in a market that is becoming mandatory for PD drug development
 - **Academic SAA labs** (e.g., Indiana University RT-QuIC, MJFF-funded academic sites) perform similar assays for research, but none have Amprion's commercial infrastructure, CLIA certification, or Mayo distribution

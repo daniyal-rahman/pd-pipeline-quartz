@@ -15,9 +15,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Cure Parkinson's / MRC / NIHR" OR partner = "Cure Parkinson's / MRC / NIHR" OR developer = "Cure Parkinson's / Parkinson's UK / MJFF / Van Andel Institute" OR partner = "Cure Parkinson's / Parkinson's UK / MJFF / Van Andel Institute"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[ejs-act-pd]] | EJS ACT-PD Platform | Phase 3 | Active | multiple (AT1R / PGK1 / TUDCA-mitochondria) | 4/10 |
+| [[udca]] | Ursodeoxycholic acid | Phase 2 | Active | mitochondrial dysfunction (respiratory chain / membrane potential) | 4/10 |

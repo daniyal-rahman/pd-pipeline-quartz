@@ -16,9 +16,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Gain Therapeutics" OR partner = "Gain Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[gt-02287]] | GT-02287 | Phase 1b | Active | GBA1 / GCase (glucocerebrosidase) | 5/10 |

@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Osaka University (academic collaboration)" OR partner = "Osaka University (academic collaboration)"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[semaglutide]] | Semaglutide | Phase 2 | Active | GLP-1 receptor (neuroinflammation / neuroprotection) | 4/10 |

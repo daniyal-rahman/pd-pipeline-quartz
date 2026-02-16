@@ -78,12 +78,9 @@ ASN51 is an oral OGA inhibitor from Asceneuron (biotech, private, Switzerland) t
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "O-GlcNAcase") AND file.name != "asn51"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[asn51]] | Phase 1 | Deprioritized | Asceneuron | small molecule |
 
 - OGA inhibition is a distinct mechanism from direct alpha-synuclein targeting ([[prasinezumab]], [[aro-snca|ARO-SNCA]]) — it modifies synuclein post-translationally rather than clearing or reducing it
 - **Lilly ceperognastat** — the most advanced OGA inhibitor (Phase 2 in AD) — showed mixed results: significant hippocampal volume preservation and tau PET slowing, but accelerated cognitive decline at 3 mg dose and safety signals (cardiac, neoplasm, nervous system). This creates ambiguity: the biomarker data supports the mechanism, but clinical outcomes undermine it

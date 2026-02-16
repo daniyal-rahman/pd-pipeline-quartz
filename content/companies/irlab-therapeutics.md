@@ -16,9 +16,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "IRLAB Therapeutics" OR partner = "IRLAB Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[mesdopetam]] | Mesdopetam | Phase 3 | Active | dopamine D3 receptor | 5/10 |
+| [[irl757]] | IRL757 | Phase 1b | Active | frontal-subcortical circuit dysfunction (apathy) | 4/10 |

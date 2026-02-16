@@ -73,12 +73,25 @@ XS-411 is an allogeneic, off-the-shelf iPSC-derived dopaminergic neural progenit
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(thesis_cluster, "cell-therapy") AND file.name != "sizhe-biopharma"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[brainstorm-nurown]] | Preclinical | Inactive | BrainStorm Cell Therapeutics | cell therapy (autologous MSC) |
+| [[sana-program]] | Preclinical | Deprioritized | Sana Biotechnology | cell therapy (iPSC allogeneic) |
+| [[alc01]] | Phase 1 | Active | iCamuno Biotherapeutics | cell therapy (iPSC allogeneic) |
+| [[autologous-mdaps]] | Phase 1 | Active | McLean Hospital / Neuroregeneration Research Institute (NRI) | cell therapy (iPSC autologous) |
+| [[cellino-ipsc]] | Phase 1 | Active | Cellino Biotech | platform |
+| [[rndp-001]] | Phase 1 | Active | Kenai Therapeutics | cell therapy (iPSC allogeneic) |
+| [[ux-da001]] | Phase 1 | Active | UniXell Biotechnology | cell therapy (iPSC autologous) |
+| [[anpd001]] | Phase 1/2 | Active | Aspen Neuroscience | cell therapy (iPSC autologous) |
+| [[kyoto-ipsc]] | Phase 1/2 | Active | CiRA (Kyoto University) / Sumitomo Pharma | cell therapy (iPSC allogeneic) |
+| [[nouvneu001]] | Phase 1/2 | Active | iRegene Therapeutics | cell therapy (iPSC allogeneic) |
+| [[sizhe-biopharma]] | Phase 1/2 | Active | XellSmart / Shize Bio (士泽生物) | cell therapy (iPSC allogeneic) |
+| [[stem-pd]] | Phase 1/2 | Active | Lund University / University of Cambridge | cell therapy (ESC) |
+| [[ted-a9]] | Phase 1/2 | Active | S.BIOMEDICS | cell therapy (ESC) |
+| [[cbt-npc]] | Phase 2 | Active | CHA Biotech | cell therapy (ESC) |
+| [[hb-admsc]] | Phase 2 | Active | Hope Biosciences Research Foundation | cell therapy (MSC allogeneic) |
+| [[bemdaneprocel]] | Phase 3 | Active | BlueRock Therapeutics | cell therapy (ESC) |
+| [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 
 - Primary competitor is [[bemdaneprocel]] (Bayer/BlueRock): ESC-derived dopaminergic cells, Phase 1 data reported, larger pharma backing (Bayer acquired BlueRock for $1B+). ESC vs. iPSC is the key platform distinction; XS-411's allogeneic iPSC approach avoids embryonic sourcing constraints but has less clinical track record
 - Aspen Neuroscience ANPD001: autologous iPSC approach (patient's own cells) eliminates immunosuppression need but introduces manufacturing complexity, cost, and delay per patient. FDA cleared IND in 2023

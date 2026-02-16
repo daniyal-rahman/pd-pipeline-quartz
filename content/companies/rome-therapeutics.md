@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "ROME Therapeutics" OR partner = "ROME Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[rome-line1]] | ROME LINE-1 RT Inhibitor | Preclinical | Active | LINE-1 reverse transcriptase (retrotransposon-driven neuroinflammation) | 3/10 |

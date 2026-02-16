@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "UniXell Biotechnology" OR partner = "UniXell Biotechnology"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[ux-da001]] | UX-DA001 | Phase 1 | Active | dopaminergic neuron replacement | 4/10 |

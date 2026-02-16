@@ -75,12 +75,12 @@ No clinical trials initiated. The TMEM175 program remains in preclinical develop
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "lysosom") AND file.name != "caraway-tmem175"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[mair-tmem175]] | Discovery | Active | Mair Therapeutics | small molecule |
+| [[caraway-tmem175]] | Preclinical | Active | Caraway Therapeutics (acquired by Merck) | small molecule |
+| [[endlyz]] | Preclinical | Active | Endlyz Therapeutics | small molecule |
+| [[casma-trpml1]] | IND-enabling | Active | Casma Therapeutics | small molecule |
 
 - [[casma-trpml1|CSM-101]] (Casma Therapeutics, startup) targets TRPML1, a different lysosomal ion channel but in the same lysosomal restoration thesis. CSM-101 is more advanced (IND-enabling, IND planned H1 2026) but Casma has only ~11 employees and faces resource constraints. Merck's parallel TRPML1 program from Calporta is a direct competitive threat to Casma
 - [[pariceract]] (Sanofi, Phase 2b) is the most advanced lysosomal/GCase approach -- a direct allosteric GCase activator. If pariceract succeeds, it validates lysosomal restoration broadly and supports TMEM175 as a complementary or second-line target. If it fails, the entire lysosomal thesis takes a hit, though TMEM175's distinct mechanism (pH correction upstream of GCase) could still differentiate

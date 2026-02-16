@@ -71,12 +71,14 @@ Exenatide (Bydureon), a GLP-1 receptor agonist originally developed by AstraZene
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "GLP-1") AND file.name != "exenatide"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[liraglutide]] | Phase 2 | Active | Academic (Cedars-Sinai / Cure Parkinson's) | small molecule |
+| [[lixisenatide]] | Phase 2 | Active | Toulouse University Hospital (academic) | small molecule |
+| [[nly01]] | Phase 2 | Active | Neuraly (D&D Pharmatech) | small molecule |
+| [[pt320]] | Phase 2 | Failed | Peptron | small molecule |
+| [[semaglutide]] | Phase 2 | Active | Novo Nordisk / Osaka University | small molecule |
+| [[exenatide]] | Phase 3 | Failed | UCL (Tom Foltynie) | small molecule |
 
 - The GLP-1 agonist field in PD now includes multiple agents at various stages: **lixisenatide** (positive Phase 2, LIXIPARK, Meissner et al. NEJM 2024 — 3.08-point advantage on MDS-UPDRS III, p=0.007, but high nausea at 46%), **NLY01** (Neuraly, PEGylated exendin-4 designed for CNS penetration — Phase 2 missed primary but showed signal in patients <60, dose-related), and **semaglutide** (Phase 2, NCT03659682, Oslo — ongoing)
 - Key competitive question is **brain penetration**: exenatide's failure may be pharmacokinetic, not mechanistic. Agents engineered for better CNS access (NLY01) or with intrinsically different PK profiles (lixisenatide, semaglutide) may succeed where exenatide failed

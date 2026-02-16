@@ -16,9 +16,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Ventyx Biosciences" OR partner = "Ventyx Biosciences"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[vtx3232]] | VTX3232 | Phase 2 | Active | NLRP3 inflammasome | 4/10 |

@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Seal Rock Therapeutics" OR partner = "Seal Rock Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[seal-rock-lrrk2]] | LASC Inhibitors | Preclinical | Active | LRRK2 kinase + ASK1 (dual signaling complex) | 3/10 |

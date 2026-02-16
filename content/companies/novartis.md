@@ -16,9 +16,8 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Novartis" OR partner = "Novartis"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[ucb7853]] | UCB7853 | Phase 1 | Active | alpha-synuclein (extracellular spread) | 3/10 |
+| [[aro-snca]] | ARO-SNCA | Preclinical | Active | SNCA mRNA (alpha-synuclein production inhibition) | 6/10 |
+| [[minzasolmin]] | Minzasolmin | Terminated | Terminated | alpha-synuclein (membrane-bound oligomers) | N/A (terminated) |

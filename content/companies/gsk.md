@@ -16,9 +16,8 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "GSK" OR partner = "GSK"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[abl301]] | ABL301 | Phase 1 | Deprioritized | alpha-synuclein (aggregated, C-terminal) + IGF1R (BBB shuttle) | 3/10 |
+| [[muna-kv13]] | MUNA Kv1.3 Blocker | Preclinical | Active | Kv1.3 (voltage-gated potassium channel 1.3, microglial) | 3/10 |
+| [[vesalius-gsk]] | Vesalius-GSK PD Program | Preclinical | Active | undisclosed (novel multigene circuit-derived neurodegeneration target) | 3/10 |

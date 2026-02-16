@@ -59,12 +59,9 @@ Key preclinical foundation (from Dawson lab, not NLY03-specific):
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "parthanatos") AND file.name != "nly03"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[nly03]] | Preclinical | Active | Neuraly (D&D Pharmatech) | small molecule |
 
 - NLY03 is the **only known PD-directed program targeting the parthanatos pathway** -- there are no direct competitors targeting PARP-1/PAR/AIF/MIF in PD specifically
 - Oncology PARP inhibitors (olaparib, niraparib, rucaparib, talazoparib) exist as approved drugs but target PARP-1 for synthetic lethality in BRCA-mutant cancers, not for neuroprotection. Chronic PARP inhibition for neuroprotection raises distinct safety questions (DNA repair impairment, myelosuppression) that would not apply to PAAN/MIF-targeted approaches

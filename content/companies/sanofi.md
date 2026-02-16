@@ -16,9 +16,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Sanofi" OR partner = "Sanofi" OR developer = "Sanofi (drug supply)" OR partner = "Sanofi (drug supply)"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[lixisenatide]] | Lixisenatide | Phase 2 | Active | GLP-1 receptor (neuroprotection via insulin signaling, anti-neuroinflammation) | 5/10 |
+| [[sar446159]] | SAR446159 | Phase 1 | Deprioritized | alpha-synuclein (aggregated, C-terminal) + IGF1R (BBB shuttle) | 3/10 |

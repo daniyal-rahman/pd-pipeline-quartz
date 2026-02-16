@@ -72,12 +72,14 @@ Semaglutide (Novo Nordisk, big pharma, NVO) is an oral GLP-1 receptor agonist ap
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "GLP-1") AND file.name != "semaglutide"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[liraglutide]] | Phase 2 | Active | Academic (Cedars-Sinai / Cure Parkinson's) | small molecule |
+| [[lixisenatide]] | Phase 2 | Active | Toulouse University Hospital (academic) | small molecule |
+| [[nly01]] | Phase 2 | Active | Neuraly (D&D Pharmatech) | small molecule |
+| [[pt320]] | Phase 2 | Failed | Peptron | small molecule |
+| [[semaglutide]] | Phase 2 | Active | Novo Nordisk / Osaka University | small molecule |
+| [[exenatide]] | Phase 3 | Failed | UCL (Tom Foltynie) | small molecule |
 
 - The GLP-1 class in PD includes three agents with clinical data: **lixisenatide** (LixiPark Phase 2 positive, p=0.0068 on MDS-UPDRS III; being advanced to Phase 3 by Sanofi/Cure Parkinson's), **exenatide** (Phase 3 failure, Lancet 2025, N=194, no benefit over placebo), and semaglutide (Phase 2 ongoing)
 - Lixisenatide's positive Phase 2 is the strongest clinical signal in the class, but the exenatide Phase 3 failure casts doubt on whether the class effect is real or whether lixisenatide was a false positive

@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Longevity Biotech" OR partner = "Longevity Biotech"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[lbt-3627]] | LBT-3627 | Phase 1 | Active | VPAC2 receptor (Treg-mediated neuroinflammation) | 3/10 |

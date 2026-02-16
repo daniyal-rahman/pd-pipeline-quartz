@@ -8,37 +8,40 @@
 
 ## Pipeline Summary by Stage
 
-```dataview
-TABLE WITHOUT ID
-  stage AS "Stage",
-  length(rows) AS "Count"
-FROM "pd-pipeline-research/assets"
-WHERE drug_name != null AND status = "Active"
-GROUP BY stage
-SORT stage ASC
-```
+| Stage | Count |
+| --- | --- |
+| Approved | 1 |
+| NDA Filed | 3 |
+| Phase 3 | 9 |
+| Phase 2/3 | 1 |
+| Phase 2b | 3 |
+| Phase 2 | 20 |
+| Phase 1/2 | 12 |
+| Phase 1b | 10 |
+| Phase 1 | 21 |
+| IND-enabling | 10 |
+| Preclinical | 23 |
+| Discovery | 3 |
+| Research | 1 |
+| Commercial | 1 |
 
 ---
 
 ## Approved
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", mechanism AS "Mechanism", route_of_administration AS "Route"
-FROM "pd-pipeline-research/assets"
-WHERE stage = "Approved" AND status = "Active"
-SORT drug_name ASC
-```
+| File | Drug | Company | Mechanism | Route |
+| --- | --- | --- | --- | --- |
+| [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Extended-release oral carbidopa/levodopa capsule combining IR granules for ra... | oral |
 
 ---
 
 ## NDA / MAA Filed
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", mechanism AS "Mechanism", next_catalyst AS "Next Catalyst", catalyst_date AS "Expected"
-FROM "pd-pipeline-research/assets"
-WHERE stage = "NDA Filed" AND status = "Active"
-SORT drug_name ASC
-```
+| File | Drug | Company | Mechanism | Next Catalyst | Expected |
+| --- | --- | --- | --- | --- | --- |
+| [[nd0612]] | ND0612 | NeuroDerm | Drug-device combination providing 24-hour continuous subcutaneous infusion of... | FDA decision on second NDA resubmission | 2026 |
+| [[raguneprocel]] | Raguneprocel | Sumitomo Pharma / RACTHERA | Allogeneic iPSC-derived dopaminergic neural progenitor cells transplanted int... | PMDA approval decision (Japan) | H2 2026 |
+| [[tavapadon]] | Tavapadon | Cerevel Therapeutics | Selective D1/D5 dopamine receptor partial agonist that activates direct-pathw... | FDA PDUFA decision | H1 2026 |
 
 ### NDA-Stage Commentary
 
@@ -54,12 +57,126 @@ SORT drug_name ASC
 
 ## Phase 3 / Pivotal
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", target AS "Target", mechanism AS "Mechanism", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE (stage = "Phase 3" OR stage = "Phase 2/3") AND status = "Active"
-SORT confidence_rating DESC
-```
+| File | Drug | Company | Target | Mechanism | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[dnl422]] | DNL422 | Denali Therapeutics | SNCA mRNA (alpha-synuclein production inhibition) | OTV-conjugated ASO targeting SNCA mRNA; engineered Fc domain binds transferri... |  |
+| [[ipx203]] | IPX203 | Amneal Pharmaceuticals | dopamine (symptomatic replacement via L-DOPA) | Extended-release oral carbidopa/levodopa capsule combining IR granules for ra... |  |
+| [[ly03017]] | LY03017 | Luye Pharma Group | serotonin 5-HT2A / 5-HT2C receptors | Next-generation 5-HT2A receptor inverse agonist and 5-HT2C receptor antagonis... |  |
+| [[otsuka-program]] | Otsuka PD Program | Otsuka Pharmaceutical | Undisclosed | Undisclosed; Otsuka has disclosed dopamine partial agonist work in CNS but sp... |  |
+| [[pariceract]] | Pariceract | BIAL | GBA1 / GCase (glucocerebrosidase) | Oral allosteric GCase activator that stabilizes the enzyme in its active conf... | 6.5/10 |
+| [[saamplify-asyn]] | SAAmplify-aSYN | Amprion | alpha-synuclein (misfolded aggregates) | Seed amplification assay that detects trace amounts of misfolded alpha-synucl... |  |
+| [[trimtech-trim21]] | TRIMTAC (PD program) | TRIMTECH Therapeutics | alpha-synuclein (aggregated) | Small molecule TRIMTAC/TRIMGLUE degrader recruiting TRIM21 E3 ligase to selec... |  |
+| [[valo-merck]] | Valo-Merck PD Program | Valo Health | NOD2 (nucleotide-binding oligomerization domain containing 2) | AI-discovered NOD2 pathway modulator targeting neuroinflammation at the inter... |  |
+| [[vq-101]] | VQ-101 | Vanqua Bio | GBA1 / GCase (glucocerebrosidase) | Oral, brain-penetrant small molecule allosteric activator of lysosomal GCase ... | 5.5/10 |
+| [[nly03]] | NLY03 | Neuraly (D&D Pharmatech) | parthanatos pathway (PARP-1/PAR/AIF/MIF cascade) | Inhibitor of the parthanatos cell death cascade, targeting PARP-1-mediated PA... | 1/10 |
+| [[adp062-abc]] | ADP062-ABC | Alector | SNCA mRNA (alpha-synuclein production inhibition) | siRNA targeting alpha-synuclein mRNA, conjugated to Alector Brain Carrier (AB... | 2/10 |
+| [[adp065-abc]] | ADP065-ABC | Alector | NLRP3 inflammasome | siRNA targeting NLRP3 mRNA, conjugated to Alector Brain Carrier (ABC) for tra... | 2/10 |
+| [[alc01]] | ALC01 | iCamuno Biotherapeutics | dopaminergic neuron replacement (iPSC-derived DA progenitors) | Allogeneic iPSC-derived dopaminergic progenitor cells (iPSC-DAPs) transplante... | 2/10 |
+| [[ct1812]] | CT1812 | Cognition Therapeutics | sigma-2 receptor (TMEM97) | Small molecule sigma-2 receptor antagonist that blocks alpha-synuclein oligom... | 2/10 |
+| [[energi-f705pd]] | ENERGI-F705PD | Energenesis Biomedical | cellular ATP levels / alpha-synuclein aggregation (metabolic) | Oral sustained-release small molecule that enhances cellular ATP production v... | 2/10 |
+| [[eubiologics-vaccine]] | EuBiologics PD Vaccine | EuBiologics | alpha-synuclein (peptide epitope, active immunotherapy) | Peptide epitope vaccine using SNAP nanoliposome antigen display and EcML adju... | 2/10 |
+| [[lbp-pd01]] | LB-P4 | LISCure Biosciences | gut-brain axis (microbiome dysbiosis, alpha-synuclein propagation) | Oral live biotherapeutic product delivering brain-targeting bacterial exosome... | 2/10 |
+| [[mair-tmem175]] | Mair TMEM175 Agonist | Mair Therapeutics | TMEM175 (lysosomal potassium/proton channel) | Small molecule agonist of the lysosomal ion channel TMEM175, restoring proton... | 2/10 |
+| [[neumora-nlrp3]] | NMRA-NLRP3 | Neumora Therapeutics | NLRP3 inflammasome | Oral, brain-penetrant small molecule NLRP3 inflammasome inhibitor blocking ne... | 2/10 |
+| [[nly02]] | NLY02 | Neuraly (D&D Pharmatech) / 1ST Bio | RIPK2 (NOD2/RIPK2 neuroinflammatory signaling) | Oral BBB-penetrating RIPK2 kinase inhibitor that blocks alpha-synuclein-trigg... | 2/10 |
+| [[snk01]] | Troculeucel | NKGen Biotech | neuroinflammation / immune modulation (NK cell-mediated) | Autologous ex vivo-expanded natural killer cells administered IV to reduce ne... | 2/10 |
+| [[spark-program]] | Spark PD Gene Therapy Program | Spark Therapeutics | undisclosed (neurodegenerative / PD-related) | AAV gene therapy for Parkinson's disease; specific transgene and target undis... | 2/10 |
+| [[act-02]] | ACT-02 | Accure Therapeutics | prolyl endopeptidase (PREP) — promotes alpha-synuclein aggregation | First-in-class oral PREP inhibitor that reduces alpha-synuclein aggregation v... | 3/10 |
+| [[al050-abc]] | AL050-ABC | Alector | GBA1 / GCase (glucocerebrosidase) | ABC-enabled engineered GCase enzyme replacement therapy; longer half-life GCa... | 3/10 |
+| [[buntanetap]] | Buntanetap | Annovis Bio | neurotoxic protein translation (IRE-mediated: APP, alpha-synuclein, tau) | Oral small molecule that binds iron-responsive elements (IRE) in mRNA of APP,... | 3/10 |
+| [[cellino-ipsc]] | Cellino iPSC Platform (MGH) | Cellino Biotech | dopaminergic neuron replacement (autologous iPSC-derived DA progenitors) | AI-driven autonomous iPSC manufacturing platform (Nebula) producing patient-s... | 3/10 |
+| [[endlyz]] | ATP13A2 modulators | Endlyz Therapeutics | ATP13A2 / PARK9 (lysosomal P-type ATPase) | Small molecule potentiators of ATP13A2, a lysosomal H+/K+-ATPase encoded by t... | 3/10 |
+| [[hb-admsc]] | HB-adMSCs | Hope Biosciences Research Foundation | neuroinflammation / immunomodulation (paracrine MSC) | Allogeneic adipose-derived mesenchymal stem cells administered IV to exert pa... | 3/10 |
+| [[km-819]] | KM-819 | FAScinate Therapeutics | FAF1 (Fas-associated factor 1) | Small molecule FAF1 inhibitor that restores autophagy-mediated alpha-synuclei... | 3/10 |
+| [[lario-cav23]] | Lario CaV2.3 Inhibitor | Lario Therapeutics | CaV2.3 (R-type voltage-gated calcium channel, CACNA1E) | Selective small molecule inhibitor of CaV2.3 R-type calcium channels to reduc... | 3/10 |
+| [[lbt-3627]] | LBT-3627 | Longevity Biotech | VPAC2 receptor (Treg-mediated neuroinflammation) | Synthetic VPAC2 receptor agonist (Hybridtide) that expands regulatory T cell ... | 3/10 |
+| [[ly3962681]] | LY3962681 | Prevail Therapeutics (Eli Lilly subsidiary) | SNCA mRNA (alpha-synuclein production inhibition) | Intrathecally delivered siRNA targeting SNCA mRNA to reduce alpha-synuclein p... | 3/10 |
+| [[montara-lrrk2]] | Montara BrainOnly LRRK2 | Montara Therapeutics | LRRK2 kinase | Brain-selective LRRK2 kinase inhibitor using binary pharmacology: a brain-pen... | 3/10 |
+| [[mor-a-syn]] | Morphomer alpha-synuclein | AC Immune | alpha-synuclein (intracellular aggregates) | Orally bioavailable small molecule aggregation inhibitor derived from the Mor... | 3/10 |
+| [[muna-kv13]] | MUNA Kv1.3 Blocker | MUNA Therapeutics | Kv1.3 (voltage-gated potassium channel 1.3, microglial) | Brain-penetrant small molecule blocker of the Kv1.3 potassium channel on dise... | 3/10 |
+| [[nly01]] | NLY01 | Neuraly (D&D Pharmatech) | GLP-1 receptor (neuroinflammation / microglial activation) | Pegylated exendin-4 GLP-1R agonist that crosses BBB, inhibits microglial acti... | 3/10 |
+| [[nm-101]] | NM-101 | Neuramedy | TLR2 (neuroinflammation, alpha-synuclein-mediated microglial activation) | Humanized IgG4 monoclonal antibody antagonizing Toll-like receptor 2 to block... | 3/10 |
+| [[nrg5051]] | NRG5051 | NRG Therapeutics | mitochondrial permeability transition pore (mPTP) | First-in-class orally bioavailable CNS-penetrant small molecule mPTP inhibito... | 3/10 |
+| [[radotinib]] | Radotinib | Il-Yang Pharmaceutical | c-Abl tyrosine kinase | Second-generation c-Abl tyrosine kinase inhibitor that suppresses alpha-synuc... | 3/10 |
+| [[rome-line1]] | ROME LINE-1 RT Inhibitor | ROME Therapeutics | LINE-1 reverse transcriptase (retrotransposon-driven neuroinflammation) | Small molecule inhibitor of LINE-1 reverse transcriptase, blocking retrotrans... | 3/10 |
+| [[sargramostim]] | Sargramostim | University of Nebraska Medical Center (Howard Gendelman) | neuroinflammation / immune modulation (Treg-mediated neuroprotection) | Recombinant human GM-CSF that induces tolerogenic dendritic cells and expands... | 3/10 |
+| [[seal-rock-lrrk2]] | LASC Inhibitors | Seal Rock Therapeutics | LRRK2 kinase + ASK1 (dual signaling complex) | First-in-class oral, brain-penetrant small molecules that simultaneously inhi... | 3/10 |
+| [[selnoflast]] | Selnoflast | Roche | NLRP3 inflammasome | Orally available, peripherally-restricted small molecule that blocks NLRP3 in... | 3/10 |
+| [[stealth-bio]] | Bevemipretide | Stealth BioTherapeutics | cardiolipin / inner mitochondrial membrane | mitochondria-targeted peptidomimetic that stabilizes cardiolipin on the inner... | 3/10 |
+| [[ucb7853]] | UCB7853 | UCB | alpha-synuclein (extracellular spread) | Anti-alpha-synuclein monoclonal antibody targeting extracellular pathological... | 3/10 |
+| [[vesalius-gsk]] | Vesalius-GSK PD Program | Vesalius Therapeutics | undisclosed (novel multigene circuit-derived neurodegeneration target) | AI/genetics-identified small molecule targeting novel intervention point in P... | 3/10 |
+| [[vt-5006]] | VT-5006 | Vertero Therapeutics | CsgA bacterial curli amyloid (gut-to-brain alpha-synuclein seeding) | Gut-selective small molecule inhibitor of CsgA bacterial curli amyloid protei... | 3/10 |
+| [[ambroxol]] | Ambroxol | Multiple investigators / Agyany Pharma | GBA1 / GCase (glucocerebrosidase) | Pharmacological chaperone that binds misfolded GCase in the ER, facilitates p... | 4/10 |
+| [[amlenetug]] | Amlenetug | Lundbeck | alpha-synuclein (all extracellular forms, epitope aa 112-117) | Fully human IgG1 mAb binding all major extracellular alpha-synuclein forms (m... | 4/10 |
+| [[appello-mglu4]] | AP-472 | Appello Pharmaceuticals | mGlu4 (metabotropic glutamate receptor 4) | Small molecule positive allosteric modulator (PAM) of mGlu4 that enhances glu... | 4/10 |
+| [[autologous-mdaps]] | Autologous mDAPs (NRI/McLean) | McLean Hospital / Neuroregeneration Research Institute (NRI) | dopaminergic neuron replacement (autologous iPSC-derived DA progenitors) | Patient blood-derived iPSCs differentiated into midbrain dopaminergic progeni... | 4/10 |
+| [[bhv-8000]] | BHV-8000 | Biohaven | TYK2/JAK1 (neuroinflammation, JAK-STAT pathway) | Brain-penetrant dual TYK2/JAK1 kinase inhibitor reducing microglial neuroinfl... | 4/10 |
+| [[blarcamesine]] | Blarcamesine | Anavex Life Sciences | sigma-1 receptor (SIGMAR1) | Oral small molecule sigma-1 receptor agonist that restores cellular homeostas... | 4/10 |
+| [[booster-therapeutics]] | Booster Therapeutics proteasome activator (lead undisclosed) | Booster Therapeutics | 20S proteasome (activation) / alpha-synuclein (indirect clearance) | small molecule 20S proteasome activator that restores cellular protein qualit... | 4/10 |
+| [[caraway-tmem175]] | Caraway TMEM175 Modulator | Caraway Therapeutics (acquired by Merck) | TMEM175 (lysosomal potassium/proton channel) | Small molecule activator of TMEM175 lysosomal potassium/proton channel to res... | 4/10 |
+| [[casma-trpml1]] | CSM-101 | Casma Therapeutics | TRPML1 (lysosomal ion channel) | First-in-class oral small molecule TRPML1 agonist that restores lysosomal fun... | 4/10 |
+| [[cbt-npc]] | CBT-NPC | CHA Biotech | dopaminergic neuron replacement (fetal midbrain-derived neural progenitor cells) | Human fetal midbrain-derived dopamine neuronal precursor cells transplanted i... | 4/10 |
+| [[congruence-gcase]] | Congruence GCase Program | Congruence Therapeutics | GBA1 / GCase (glucocerebrosidase) | Oral allosteric small molecule correctors and activators that stabilize misfo... | 4/10 |
+| [[dapansutrile]] | Dapansutrile | Olatec Therapeutics | NLRP3 inflammasome | Oral selective NLRP3 inflammasome inhibitor that blocks ATPase-dependent asse... | 4/10 |
+| [[dnl111]] | DNL111 | Denali Therapeutics | GBA1 / GCase (glucocerebrosidase) | Enzyme Transport Vehicle (ETV) fusing recombinant GCase to an engineered Fc d... | 4/10 |
+| [[ejs-act-pd]] | EJS ACT-PD Platform | UCL / MRC Clinical Trials Unit | multiple (AT1R / PGK1 / TUDCA-mitochondria) | Multi-arm multi-stage platform trial testing repurposed drugs for disease mod... | 4/10 |
+| [[exidavnemab]] | Exidavnemab | BioArctic | alpha-synuclein (aggregated, oligomeric/protofibrillar) | Humanized IgG4 mAb with 100,000-fold selectivity for aggregated vs. monomeric... | 4/10 |
+| [[hl192]] | HL192 | NurrOn Pharmaceuticals | Nurr1 (NR4A2) transcription factor | First-in-class small molecule activator of the orphan nuclear receptor Nurr1,... | 4/10 |
+| [[irl757]] | IRL757 | IRLAB Therapeutics | frontal-subcortical circuit dysfunction (apathy) | Restores cortical-to-subcortical nerve signaling by activating synaptic activ... | 4/10 |
+| [[ism8969]] | ISM8969 | Insilico Medicine | NLRP3 inflammasome | AI-designed oral, brain-penetrant small molecule NLRP3 inflammasome inhibitor... | 4/10 |
+| [[liraglutide]] | Liraglutide | Academic (Cedars-Sinai / Cure Parkinson's) | GLP-1 receptor (neuroprotection) | GLP-1 receptor agonist repurposed from diabetes; crosses BBB to activate anti... | 4/10 |
+| [[lu-af28996]] | Lu AF28996 | Lundbeck | dopamine D1/D2 receptor | Oral dual D1/D2 dopamine receptor agonist with active metabolite, designed as... | 4/10 |
+| [[lys-therapeutics]] | LYS241 | Lys Therapeutics | tPA-NMDA receptor interaction (vascular endothelial) | Fully humanized IgG1 mAb blocking tPA binding to vascular NMDA receptors to r... | 4/10 |
+| [[nicotinamide-riboside]] | Nicotinamide Riboside | Neuro-SysMed / Haukeland University Hospital | NAD+ metabolism / mitochondrial bioenergetics | Oral NAD+ precursor (vitamin B3 form) that boosts neuronal NAD+ levels, rescu... | 4/10 |
+| [[nt-0150]] | NT-0150 | NodThera | NLRP3 inflammasome | Oral, CNS-optimized small molecule inhibitor of NLRP3 inflammasomes; novel py... | 4/10 |
+| [[pr001]] | PR001 | Prevail Therapeutics | GBA1 / GCase (glucocerebrosidase) | AAV9-delivered functional GBA1 gene replacement restoring glucocerebrosidase ... | 4/10 |
+| [[progenra-pink1]] | Progenra PINK1 activator (lead undisclosed) | Progenra | PINK1 kinase (activation of mutant and wild-type forms) | small molecule PINK1 activator that restores kinase function in pathogenic PI... | 4/10 |
+| [[semaglutide]] | Semaglutide | Novo Nordisk / Osaka University | GLP-1 receptor (neuroinflammation / neuroprotection) | GLP-1 receptor agonist repurposed for neuroprotection — reduces microglial ac... | 4/10 |
+| [[snp614]] | SNP614 | SciNeuro Pharmaceuticals | LRRK2 mRNA | Next-generation LNA-modified antisense oligonucleotide that degrades LRRK2 mR... | 4/10 |
+| [[stem-pd]] | STEM-PD | Lund University / University of Cambridge | dopaminergic neuron replacement (hESC-derived DA progenitors) | Dopaminergic neural progenitor cells derived from the RC17 hESC line, transpl... | 4/10 |
+| [[ub-312]] | UB-312 | Vaxxinity | alpha-synuclein (aggregated, C-terminal peptide) | Active immunotherapy using a synthetic 10-amino-acid C-terminal alpha-synucle... | 4/10 |
+| [[udca]] | Ursodeoxycholic acid | University of Sheffield / UCL | mitochondrial dysfunction (respiratory chain / membrane potential) | Bile acid that rescues mitochondrial function by increasing respiratory chain... | 4/10 |
+| [[ux-da001]] | UX-DA001 | UniXell Biotechnology | dopaminergic neuron replacement | Autologous iPSC-derived midbrain dopaminergic neural precursor cells reprogra... | 4/10 |
+| [[vtx3232]] | VTX3232 | Ventyx Biosciences | NLRP3 inflammasome | Oral, CNS-penetrant small molecule NLRP3 inflammasome inhibitor that suppress... | 4/10 |
+| [[ab-1005]] | AB-1005 | AskBio | GDNF (glial cell line-derived neurotrophic factor) | AAV2-delivered GDNF transgene enabling continuous neurotrophic factor express... | 5/10 |
+| [[aci-7104]] | ACI-7104.056 | AC Immune | alpha-synuclein (aggregated, C-terminal mimotope) | Active immunotherapy vaccine using a synthetic peptide mimotope of the alpha-... | 5/10 |
+| [[ai-blood-test]] | AI Blood Test | UCL / Guilford Street Laboratories | 8-protein blood biomarker panel (plasma proteomics) | Machine learning classifier applied to multiplexed mass spectrometry of 8 blo... | 5/10 |
+| [[anpd001]] | ANPD001 | Aspen Neuroscience | dopaminergic neuron replacement | Autologous iPSC-derived dopaminergic neuronal precursor cells (DANPCs) transp... | 5/10 |
+| [[arv-102]] | ARV-102 | Arvinas | LRRK2 (full protein degradation) | Oral, brain-penetrant PROTAC bifunctional molecule that recruits E3 ubiquitin... | 5/10 |
+| [[ath-434]] | ATH-434 | Alterity Therapeutics | iron (labile brain iron) / alpha-synuclein aggregation | Oral small molecule iron chaperone that redistributes excess labile iron in t... | 5/10 |
+| [[bemdaneprocel]] | Bemdaneprocel | BlueRock Therapeutics | dopaminergic neuron replacement (cell therapy) | Cryopreserved allogeneic hESC-derived dopaminergic neuron progenitors grafted... | 5/10 |
+| [[cavgene]] | CGT-102 / CGT-103 | CavGene Therapeutics | CaV1.3 L-type calcium channel (CACNA1D) | AAV-delivered shRNA silencing of striatal CaV1.3 calcium channels to prevent/... | 5/10 |
+| [[dive-inbrain]] | A-dopamine (anaerobic dopamine) | InBrain Pharma | dopamine replacement (direct CNS delivery) | Continuous intracerebroventricular infusion of anaerobic dopamine via implant... | 5/10 |
+| [[emrusolmin]] | Emrusolmin | MODAG GmbH | alpha-synuclein (pathological oligomers) | Orally bioavailable small molecule that binds inside alpha-synuclein fibril c... | 5/10 |
+| [[gba1-voyager]] | GBA1 Gene Therapy (VYGR) | Voyager Therapeutics | GBA1 / GCase (glucocerebrosidase) | IV-administered AAV gene therapy using TRACER-derived BBB-penetrant capsid to... | 5/10 |
+| [[gt-02287]] | GT-02287 | Gain Therapeutics | GBA1 / GCase (glucocerebrosidase) | Oral brain-penetrant allosteric GCase activator (structurally targeted allost... | 5/10 |
+| [[her-096]] | HER-096 | Herantis Pharma | CDNF/UPR pathway (ER stress, alpha-synuclein aggregation, neuroinflammation) | First-in-class CDNF mimetic peptide that modulates the Unfolded Protein Respo... | 5/10 |
+| [[lixisenatide]] | Lixisenatide | Toulouse University Hospital (academic) | GLP-1 receptor (neuroprotection via insulin signaling, anti-neuroinflammation) | GLP-1 receptor agonist repurposed from diabetes; activates PI3K/Akt and cAMP/... | 5/10 |
+| [[mesdopetam]] | Mesdopetam | IRLAB Therapeutics | dopamine D3 receptor | Selective dopamine D3 receptor antagonist that reduces levodopa-induced dyski... | 5/10 |
+| [[mtx325]] | MTX325 | Mission Therapeutics | USP30 (mitochondrial deubiquitinase) | Oral, brain-penetrant, selective USP30 inhibitor that enhances PINK1/Parkin-m... | 5/10 |
+| [[nd0612]] | ND0612 | NeuroDerm | levodopa delivery optimization (continuous subcutaneous L-DOPA/carbidopa) | Drug-device combination providing 24-hour continuous subcutaneous infusion of... | 5/10 |
+| [[nouvneu001]] | NouvNeu001 | iRegene Therapeutics | dopaminergic neuron replacement (cell therapy) | Chemically induced allogeneic iPSC-derived dopaminergic progenitor cells tran... | 5/10 |
+| [[nt-0796]] | NT-0796 | NodThera | NLRP3 inflammasome | Oral, brain-penetrant small molecule inhibitor of NLRP3-containing inflammaso... | 5/10 |
+| [[risvodetinib]] | Risvodetinib | ABLi Therapeutics | c-Abl tyrosine kinase | Selective, brain-penetrant c-Abl kinase inhibitor that suppresses alpha-synuc... | 5/10 |
+| [[rndp-001]] | RNDP-001 | Kenai Therapeutics | dopaminergic neuron replacement (iPSC-derived DA progenitors) | Off-the-shelf allogeneic iPSC-derived dopamine progenitor cells transplanted ... | 5/10 |
+| [[ser-252]] | SER-252 | Serina Therapeutics | dopamine receptors (D1/D2 agonist, extended-release) | POZ polymer-conjugated apomorphine providing continuous dopaminergic stimulat... | 5/10 |
+| [[sizhe-biopharma]] | XS-411 | XellSmart / Shize Bio (士泽生物) | dopaminergic neuron replacement (iPSC-derived DA progenitors) | allogeneic off-the-shelf iPSC-derived dopaminergic neural progenitor cells tr... | 5/10 |
+| [[ted-a9]] | TED-A9 | S.BIOMEDICS | dopaminergic neuron replacement (hESC-derived DA progenitors) | High-purity ventral midbrain dopaminergic progenitor cells derived from hESCs... | 5/10 |
+| [[vb-23]] | VB-23 | Vincere Biosciences | USP30 (mitochondrial deubiquitinase) | Oral, brain-penetrant small molecule inhibitor of USP30 that removes the brak... | 5/10 |
+| [[vgn-r09b]] | VGN-R09b | Shanghai Vitalgen BioPharma | AADC + GDNF (dual-gene: dopamine synthesis restoration + neurotrophic neuropr... | AAV9-delivered dual-gene therapy (AADC + GDNF) to the striatum via bilateral ... | 5/10 |
+| [[aav-gad]] | AAV-GAD | MeiraGTx | subthalamic nucleus GABAergic inhibition (GAD65/GAD67) | AAV2-delivered glutamic acid decarboxylase gene therapy to the STN, restoring... | 6/10 |
+| [[aro-snca]] | ARO-SNCA | Arrowhead Pharmaceuticals | SNCA mRNA (alpha-synuclein production inhibition) | siRNA-mediated gene silencing of SNCA via TRiM conjugate platform; subcutaneo... | 6/10 |
+| [[biib122]] | BIIB122 | Denali Therapeutics | LRRK2 kinase | Oral, brain-penetrant, selective LRRK2 kinase inhibitor that reduces pathogen... | 6/10 |
+| [[cap-003]] | CAP-003 | Capsida Biotherapeutics | GBA1 / GCase (glucocerebrosidase) | IV-administered AAV gene therapy delivering functional human GBA1 via a novel... | 6/10 |
+| [[prasinezumab]] | Prasinezumab | Prothena | alpha-synuclein (aggregated, C-terminal) | Humanized IgG1 mAb selectively binding aggregated alpha-synuclein to block pr... | 6/10 |
+| [[solangepras]] | Solengepras | Cerevance | GPR6 (G-protein coupled receptor 6, indirect striatopallidal pathway) | First-in-class oral GPR6 inverse agonist that reduces constitutive cAMP signa... | 6/10 |
+| [[18f-fd4]] | 18F-FD4 | SynuSight Biotech | alpha-synuclein (pathological aggregates, fibrils) | Selective, high-affinity small-molecule PET radiotracer that binds pathogenic... | 7/10 |
+| [[glovadalen]] | Glovadalen | UCB | dopamine D1 receptor (positive allosteric modulator) | Oral, brain-penetrant small molecule that selectively potentiates endogenous ... | 7/10 |
+| [[kyoto-ipsc]] | Kyoto iPSC-DA (CiRA-derived) | CiRA (Kyoto University) / Sumitomo Pharma | dopaminergic neuron replacement (iPSC-derived DA progenitors) | Allogeneic iPSC-derived CORIN-sorted dopaminergic neuron progenitors transpla... | 7/10 |
+| [[p2b001]] | P2B001 | Pharma Two B | dopamine receptors / MAO-B enzyme (symptomatic combination) | Fixed-dose extended-release combination of low-dose pramipexole (D2/D3 dopami... | 7/10 |
+| [[raguneprocel]] | Raguneprocel | Sumitomo Pharma / RACTHERA | dopaminergic neuron replacement (iPSC-derived DA progenitors) | Allogeneic iPSC-derived dopaminergic neural progenitor cells transplanted int... | 7/10 |
+| [[neu-723]] | NEU-411 | Neuron23 | LRRK2 kinase | AI-designed selective brain-penetrant LRRK2 kinase inhibitor with companion d... | 8/10 |
+| [[tavapadon]] | Tavapadon | Cerevel Therapeutics | dopamine D1/D5 receptor | Selective D1/D5 dopamine receptor partial agonist that activates direct-pathw... | 8/10 |
 
 ### Phase 3 Bottleneck Analysis
 
@@ -84,12 +201,11 @@ The Phase 3 PD pipeline faces a structural bottleneck: all four disease-modifyin
 
 ## Phase 2b
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", target AS "Target", mechanism AS "Mechanism", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE stage = "Phase 2b" AND status = "Active"
-SORT confidence_rating DESC
-```
+| File | Drug | Company | Target | Mechanism | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[pariceract]] | Pariceract | BIAL | GBA1 / GCase (glucocerebrosidase) | Oral allosteric GCase activator that stabilizes the enzyme in its active conf... | 6.5/10 |
+| [[risvodetinib]] | Risvodetinib | ABLi Therapeutics | c-Abl tyrosine kinase | Selective, brain-penetrant c-Abl kinase inhibitor that suppresses alpha-synuc... | 5/10 |
+| [[biib122]] | BIIB122 | Denali Therapeutics | LRRK2 kinase | Oral, brain-penetrant, selective LRRK2 kinase inhibitor that reduces pathogen... | 6/10 |
 
 ### Phase 2b Key Readouts
 
@@ -103,12 +219,28 @@ SORT confidence_rating DESC
 
 ## Phase 2
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", target AS "Target", mechanism AS "Mechanism", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE stage = "Phase 2" AND status = "Active"
-SORT confidence_rating DESC
-```
+| File | Drug | Company | Target | Mechanism | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[hb-admsc]] | HB-adMSCs | Hope Biosciences Research Foundation | neuroinflammation / immunomodulation (paracrine MSC) | Allogeneic adipose-derived mesenchymal stem cells administered IV to exert pa... | 3/10 |
+| [[km-819]] | KM-819 | FAScinate Therapeutics | FAF1 (Fas-associated factor 1) | Small molecule FAF1 inhibitor that restores autophagy-mediated alpha-synuclei... | 3/10 |
+| [[nly01]] | NLY01 | Neuraly (D&D Pharmatech) | GLP-1 receptor (neuroinflammation / microglial activation) | Pegylated exendin-4 GLP-1R agonist that crosses BBB, inhibits microglial acti... | 3/10 |
+| [[radotinib]] | Radotinib | Il-Yang Pharmaceutical | c-Abl tyrosine kinase | Second-generation c-Abl tyrosine kinase inhibitor that suppresses alpha-synuc... | 3/10 |
+| [[ambroxol]] | Ambroxol | Multiple investigators / Agyany Pharma | GBA1 / GCase (glucocerebrosidase) | Pharmacological chaperone that binds misfolded GCase in the ER, facilitates p... | 4/10 |
+| [[blarcamesine]] | Blarcamesine | Anavex Life Sciences | sigma-1 receptor (SIGMAR1) | Oral small molecule sigma-1 receptor agonist that restores cellular homeostas... | 4/10 |
+| [[cbt-npc]] | CBT-NPC | CHA Biotech | dopaminergic neuron replacement (fetal midbrain-derived neural progenitor cells) | Human fetal midbrain-derived dopamine neuronal precursor cells transplanted i... | 4/10 |
+| [[dapansutrile]] | Dapansutrile | Olatec Therapeutics | NLRP3 inflammasome | Oral selective NLRP3 inflammasome inhibitor that blocks ATPase-dependent asse... | 4/10 |
+| [[exidavnemab]] | Exidavnemab | BioArctic | alpha-synuclein (aggregated, oligomeric/protofibrillar) | Humanized IgG4 mAb with 100,000-fold selectivity for aggregated vs. monomeric... | 4/10 |
+| [[liraglutide]] | Liraglutide | Academic (Cedars-Sinai / Cure Parkinson's) | GLP-1 receptor (neuroprotection) | GLP-1 receptor agonist repurposed from diabetes; crosses BBB to activate anti... | 4/10 |
+| [[semaglutide]] | Semaglutide | Novo Nordisk / Osaka University | GLP-1 receptor (neuroinflammation / neuroprotection) | GLP-1 receptor agonist repurposed for neuroprotection — reduces microglial ac... | 4/10 |
+| [[udca]] | Ursodeoxycholic acid | University of Sheffield / UCL | mitochondrial dysfunction (respiratory chain / membrane potential) | Bile acid that rescues mitochondrial function by increasing respiratory chain... | 4/10 |
+| [[vtx3232]] | VTX3232 | Ventyx Biosciences | NLRP3 inflammasome | Oral, CNS-penetrant small molecule NLRP3 inflammasome inhibitor that suppress... | 4/10 |
+| [[ab-1005]] | AB-1005 | AskBio | GDNF (glial cell line-derived neurotrophic factor) | AAV2-delivered GDNF transgene enabling continuous neurotrophic factor express... | 5/10 |
+| [[aci-7104]] | ACI-7104.056 | AC Immune | alpha-synuclein (aggregated, C-terminal mimotope) | Active immunotherapy vaccine using a synthetic peptide mimotope of the alpha-... | 5/10 |
+| [[ath-434]] | ATH-434 | Alterity Therapeutics | iron (labile brain iron) / alpha-synuclein aggregation | Oral small molecule iron chaperone that redistributes excess labile iron in t... | 5/10 |
+| [[lixisenatide]] | Lixisenatide | Toulouse University Hospital (academic) | GLP-1 receptor (neuroprotection via insulin signaling, anti-neuroinflammation) | GLP-1 receptor agonist repurposed from diabetes; activates PI3K/Akt and cAMP/... | 5/10 |
+| [[aav-gad]] | AAV-GAD | MeiraGTx | subthalamic nucleus GABAergic inhibition (GAD65/GAD67) | AAV2-delivered glutamic acid decarboxylase gene therapy to the STN, restoring... | 6/10 |
+| [[glovadalen]] | Glovadalen | UCB | dopamine D1 receptor (positive allosteric modulator) | Oral, brain-penetrant small molecule that selectively potentiates endogenous ... | 7/10 |
+| [[neu-723]] | NEU-411 | Neuron23 | LRRK2 kinase | AI-designed selective brain-penetrant LRRK2 kinase inhibitor with companion d... | 8/10 |
 
 ### Phase 2 Thesis-Level Observations
 
@@ -128,12 +260,20 @@ SORT confidence_rating DESC
 
 ## Phase 1/2
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", target AS "Target", modality AS "Modality", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE stage = "Phase 1/2" AND status = "Active"
-SORT confidence_rating DESC
-```
+| File | Drug | Company | Target | Modality | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[snk01]] | Troculeucel | NKGen Biotech | neuroinflammation / immune modulation (NK cell-mediated) | cell therapy (autologous NK) | 2/10 |
+| [[appello-mglu4]] | AP-472 | Appello Pharmaceuticals | mGlu4 (metabotropic glutamate receptor 4) | small molecule | 4/10 |
+| [[pr001]] | PR001 | Prevail Therapeutics | GBA1 / GCase (glucocerebrosidase) | AAV gene therapy | 4/10 |
+| [[stem-pd]] | STEM-PD | Lund University / University of Cambridge | dopaminergic neuron replacement (hESC-derived DA progenitors) | cell therapy (ESC) | 4/10 |
+| [[anpd001]] | ANPD001 | Aspen Neuroscience | dopaminergic neuron replacement | cell therapy (iPSC autologous) | 5/10 |
+| [[dive-inbrain]] | A-dopamine (anaerobic dopamine) | InBrain Pharma | dopamine replacement (direct CNS delivery) | device-aided therapy (drug/device combination) | 5/10 |
+| [[nouvneu001]] | NouvNeu001 | iRegene Therapeutics | dopaminergic neuron replacement (cell therapy) | cell therapy (iPSC allogeneic) | 5/10 |
+| [[sizhe-biopharma]] | XS-411 | XellSmart / Shize Bio (士泽生物) | dopaminergic neuron replacement (iPSC-derived DA progenitors) | cell therapy (iPSC allogeneic) | 5/10 |
+| [[ted-a9]] | TED-A9 | S.BIOMEDICS | dopaminergic neuron replacement (hESC-derived DA progenitors) | cell therapy (ESC) | 5/10 |
+| [[vgn-r09b]] | VGN-R09b | Shanghai Vitalgen BioPharma | AADC + GDNF (dual-gene: dopamine synthesis restoration + neurotrophic neuropr... | AAV gene therapy | 5/10 |
+| [[cap-003]] | CAP-003 | Capsida Biotherapeutics | GBA1 / GCase (glucocerebrosidase) | AAV gene therapy | 6/10 |
+| [[kyoto-ipsc]] | Kyoto iPSC-DA (CiRA-derived) | CiRA (Kyoto University) / Sumitomo Pharma | dopaminergic neuron replacement (iPSC-derived DA progenitors) | cell therapy (iPSC allogeneic) | 7/10 |
 
 ### Phase 1/2 Cell Therapy Race
 
@@ -148,12 +288,18 @@ This stage is dominated by cell therapy programs, each with distinct strategic p
 
 ## Phase 1b
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", target AS "Target", mechanism AS "Mechanism", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE stage = "Phase 1b" AND status = "Active"
-SORT confidence_rating DESC
-```
+| File | Drug | Company | Target | Mechanism | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[vq-101]] | VQ-101 | Vanqua Bio | GBA1 / GCase (glucocerebrosidase) | Oral, brain-penetrant small molecule allosteric activator of lysosomal GCase ... | 5.5/10 |
+| [[sargramostim]] | Sargramostim | University of Nebraska Medical Center (Howard Gendelman) | neuroinflammation / immune modulation (Treg-mediated neuroprotection) | Recombinant human GM-CSF that induces tolerogenic dendritic cells and expands... | 3/10 |
+| [[selnoflast]] | Selnoflast | Roche | NLRP3 inflammasome | Orally available, peripherally-restricted small molecule that blocks NLRP3 in... | 3/10 |
+| [[irl757]] | IRL757 | IRLAB Therapeutics | frontal-subcortical circuit dysfunction (apathy) | Restores cortical-to-subcortical nerve signaling by activating synaptic activ... | 4/10 |
+| [[ub-312]] | UB-312 | Vaxxinity | alpha-synuclein (aggregated, C-terminal peptide) | Active immunotherapy using a synthetic 10-amino-acid C-terminal alpha-synucle... | 4/10 |
+| [[emrusolmin]] | Emrusolmin | MODAG GmbH | alpha-synuclein (pathological oligomers) | Orally bioavailable small molecule that binds inside alpha-synuclein fibril c... | 5/10 |
+| [[gt-02287]] | GT-02287 | Gain Therapeutics | GBA1 / GCase (glucocerebrosidase) | Oral brain-penetrant allosteric GCase activator (structurally targeted allost... | 5/10 |
+| [[her-096]] | HER-096 | Herantis Pharma | CDNF/UPR pathway (ER stress, alpha-synuclein aggregation, neuroinflammation) | First-in-class CDNF mimetic peptide that modulates the Unfolded Protein Respo... | 5/10 |
+| [[nt-0796]] | NT-0796 | NodThera | NLRP3 inflammasome | Oral, brain-penetrant small molecule inhibitor of NLRP3-containing inflammaso... | 5/10 |
+| [[ser-252]] | SER-252 | Serina Therapeutics | dopamine receptors (D1/D2 agonist, extended-release) | POZ polymer-conjugated apomorphine providing continuous dopaminergic stimulat... | 5/10 |
 
 ### Phase 1b Highlights
 
@@ -171,12 +317,29 @@ SORT confidence_rating DESC
 
 ## Phase 1
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", target AS "Target", modality AS "Modality", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE stage = "Phase 1" AND status = "Active"
-SORT confidence_rating DESC
-```
+| File | Drug | Company | Target | Modality | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[ly03017]] | LY03017 | Luye Pharma Group | serotonin 5-HT2A / 5-HT2C receptors | small molecule |  |
+| [[alc01]] | ALC01 | iCamuno Biotherapeutics | dopaminergic neuron replacement (iPSC-derived DA progenitors) | cell therapy (iPSC allogeneic) | 2/10 |
+| [[energi-f705pd]] | ENERGI-F705PD | Energenesis Biomedical | cellular ATP levels / alpha-synuclein aggregation (metabolic) | small molecule | 2/10 |
+| [[cellino-ipsc]] | Cellino iPSC Platform (MGH) | Cellino Biotech | dopaminergic neuron replacement (autologous iPSC-derived DA progenitors) | platform | 3/10 |
+| [[lbt-3627]] | LBT-3627 | Longevity Biotech | VPAC2 receptor (Treg-mediated neuroinflammation) | peptide | 3/10 |
+| [[ly3962681]] | LY3962681 | Prevail Therapeutics (Eli Lilly subsidiary) | SNCA mRNA (alpha-synuclein production inhibition) | siRNA | 3/10 |
+| [[nm-101]] | NM-101 | Neuramedy | TLR2 (neuroinflammation, alpha-synuclein-mediated microglial activation) | monoclonal antibody | 3/10 |
+| [[nrg5051]] | NRG5051 | NRG Therapeutics | mitochondrial permeability transition pore (mPTP) | small molecule | 3/10 |
+| [[stealth-bio]] | Bevemipretide | Stealth BioTherapeutics | cardiolipin / inner mitochondrial membrane | small molecule | 3/10 |
+| [[ucb7853]] | UCB7853 | UCB | alpha-synuclein (extracellular spread) | monoclonal antibody | 3/10 |
+| [[vt-5006]] | VT-5006 | Vertero Therapeutics | CsgA bacterial curli amyloid (gut-to-brain alpha-synuclein seeding) | small molecule | 3/10 |
+| [[autologous-mdaps]] | Autologous mDAPs (NRI/McLean) | McLean Hospital / Neuroregeneration Research Institute (NRI) | dopaminergic neuron replacement (autologous iPSC-derived DA progenitors) | cell therapy (iPSC autologous) | 4/10 |
+| [[hl192]] | HL192 | NurrOn Pharmaceuticals | Nurr1 (NR4A2) transcription factor | small molecule | 4/10 |
+| [[ism8969]] | ISM8969 | Insilico Medicine | NLRP3 inflammasome | small molecule | 4/10 |
+| [[lu-af28996]] | Lu AF28996 | Lundbeck | dopamine D1/D2 receptor | small molecule | 4/10 |
+| [[nt-0150]] | NT-0150 | NodThera | NLRP3 inflammasome | small molecule | 4/10 |
+| [[ux-da001]] | UX-DA001 | UniXell Biotechnology | dopaminergic neuron replacement | cell therapy (iPSC autologous) | 4/10 |
+| [[arv-102]] | ARV-102 | Arvinas | LRRK2 (full protein degradation) | small molecule | 5/10 |
+| [[mtx325]] | MTX325 | Mission Therapeutics | USP30 (mitochondrial deubiquitinase) | small molecule | 5/10 |
+| [[rndp-001]] | RNDP-001 | Kenai Therapeutics | dopaminergic neuron replacement (iPSC-derived DA progenitors) | cell therapy (iPSC allogeneic) | 5/10 |
+| [[18f-fd4]] | 18F-FD4 | SynuSight Biotech | alpha-synuclein (pathological aggregates, fibrils) | PET tracer | 7/10 |
 
 ### Phase 1 Signals
 
@@ -198,12 +361,18 @@ SORT confidence_rating DESC
 
 ## IND-Enabling / Clinical-Ready
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", target AS "Target", mechanism AS "Mechanism", next_catalyst AS "Next Catalyst"
-FROM "pd-pipeline-research/assets"
-WHERE stage = "IND-enabling" AND status = "Active"
-SORT drug_name ASC
-```
+| File | Drug | Company | Target | Mechanism | Next Catalyst |
+| --- | --- | --- | --- | --- | --- |
+| [[act-02]] | ACT-02 | Accure Therapeutics | prolyl endopeptidase (PREP) — promotes alpha-synuclein aggregation | First-in-class oral PREP inhibitor that reduces alpha-synuclein aggregation v... | IND filing for Phase 1 |
+| [[congruence-gcase]] | Congruence GCase Program | Congruence Therapeutics | GBA1 / GCase (glucocerebrosidase) | Oral allosteric small molecule correctors and activators that stabilize misfo... | IND filing for lead GCase program |
+| [[casma-trpml1]] | CSM-101 | Casma Therapeutics | TRPML1 (lysosomal ion channel) | First-in-class oral small molecule TRPML1 agonist that restores lysosomal fun... | IND filing with FDA |
+| [[dnl111]] | DNL111 | Denali Therapeutics | GBA1 / GCase (glucocerebrosidase) | Enzyme Transport Vehicle (ETV) fusing recombinant GCase to an engineered Fc d... | IND filing / first-in-human dosing |
+| [[dnl422]] | DNL422 | Denali Therapeutics | SNCA mRNA (alpha-synuclein production inhibition) | OTV-conjugated ASO targeting SNCA mRNA; engineered Fc domain binds transferri... | IND filing / Phase 1 initiation |
+| [[gba1-voyager]] | GBA1 Gene Therapy (VYGR) | Voyager Therapeutics | GBA1 / GCase (glucocerebrosidase) | IV-administered AAV gene therapy using TRACER-derived BBB-penetrant capsid to... | IND filing and Phase 1 initiation |
+| [[lys-therapeutics]] | LYS241 | Lys Therapeutics | tPA-NMDA receptor interaction (vascular endothelial) | Fully humanized IgG1 mAb blocking tPA binding to vascular NMDA receptors to r... | First-in-human clinical trial initiation |
+| [[nly02]] | NLY02 | Neuraly (D&D Pharmatech) / 1ST Bio | RIPK2 (NOD2/RIPK2 neuroinflammatory signaling) | Oral BBB-penetrating RIPK2 kinase inhibitor that blocks alpha-synuclein-trigg... | IND filing and Phase 1 initiation |
+| [[snp614]] | SNP614 | SciNeuro Pharmaceuticals | LRRK2 mRNA | Next-generation LNA-modified antisense oligonucleotide that degrades LRRK2 mR... | IND filing |
+| [[vb-23]] | VB-23 | Vincere Biosciences | USP30 (mitochondrial deubiquitinase) | Oral, brain-penetrant small molecule inhibitor of USP30 that removes the brak... | IND filing and Phase 1 trial initiation |
 
 ### IND-Enabling Commentary
 
@@ -221,34 +390,281 @@ SORT drug_name ASC
 
 ## Preclinical (Named Programs)
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", target AS "Target", mechanism AS "Mechanism"
-FROM "pd-pipeline-research/assets"
-WHERE stage = "Preclinical" AND status = "Active"
-SORT drug_name ASC
-```
+| File | Drug | Company | Target | Mechanism |
+| --- | --- | --- | --- | --- |
+| [[adp062-abc]] | ADP062-ABC | Alector | SNCA mRNA (alpha-synuclein production inhibition) | siRNA targeting alpha-synuclein mRNA, conjugated to Alector Brain Carrier (AB... |
+| [[adp065-abc]] | ADP065-ABC | Alector | NLRP3 inflammasome | siRNA targeting NLRP3 mRNA, conjugated to Alector Brain Carrier (ABC) for tra... |
+| [[al050-abc]] | AL050-ABC | Alector | GBA1 / GCase (glucocerebrosidase) | ABC-enabled engineered GCase enzyme replacement therapy; longer half-life GCa... |
+| [[aro-snca]] | ARO-SNCA | Arrowhead Pharmaceuticals | SNCA mRNA (alpha-synuclein production inhibition) | siRNA-mediated gene silencing of SNCA via TRiM conjugate platform; subcutaneo... |
+| [[endlyz]] | ATP13A2 modulators | Endlyz Therapeutics | ATP13A2 / PARK9 (lysosomal P-type ATPase) | Small molecule potentiators of ATP13A2, a lysosomal H+/K+-ATPase encoded by t... |
+| [[booster-therapeutics]] | Booster Therapeutics proteasome activator (lead undisclosed) | Booster Therapeutics | 20S proteasome (activation) / alpha-synuclein (indirect clearance) | small molecule 20S proteasome activator that restores cellular protein qualit... |
+| [[caraway-tmem175]] | Caraway TMEM175 Modulator | Caraway Therapeutics (acquired by Merck) | TMEM175 (lysosomal potassium/proton channel) | Small molecule activator of TMEM175 lysosomal potassium/proton channel to res... |
+| [[cavgene]] | CGT-102 / CGT-103 | CavGene Therapeutics | CaV1.3 L-type calcium channel (CACNA1D) | AAV-delivered shRNA silencing of striatal CaV1.3 calcium channels to prevent/... |
+| [[ct1812]] | CT1812 | Cognition Therapeutics | sigma-2 receptor (TMEM97) | Small molecule sigma-2 receptor antagonist that blocks alpha-synuclein oligom... |
+| [[eubiologics-vaccine]] | EuBiologics PD Vaccine | EuBiologics | alpha-synuclein (peptide epitope, active immunotherapy) | Peptide epitope vaccine using SNAP nanoliposome antigen display and EcML adju... |
+| [[lario-cav23]] | Lario CaV2.3 Inhibitor | Lario Therapeutics | CaV2.3 (R-type voltage-gated calcium channel, CACNA1E) | Selective small molecule inhibitor of CaV2.3 R-type calcium channels to reduc... |
+| [[seal-rock-lrrk2]] | LASC Inhibitors | Seal Rock Therapeutics | LRRK2 kinase + ASK1 (dual signaling complex) | First-in-class oral, brain-penetrant small molecules that simultaneously inhi... |
+| [[lbp-pd01]] | LB-P4 | LISCure Biosciences | gut-brain axis (microbiome dysbiosis, alpha-synuclein propagation) | Oral live biotherapeutic product delivering brain-targeting bacterial exosome... |
+| [[montara-lrrk2]] | Montara BrainOnly LRRK2 | Montara Therapeutics | LRRK2 kinase | Brain-selective LRRK2 kinase inhibitor using binary pharmacology: a brain-pen... |
+| [[mor-a-syn]] | Morphomer alpha-synuclein | AC Immune | alpha-synuclein (intracellular aggregates) | Orally bioavailable small molecule aggregation inhibitor derived from the Mor... |
+| [[muna-kv13]] | MUNA Kv1.3 Blocker | MUNA Therapeutics | Kv1.3 (voltage-gated potassium channel 1.3, microglial) | Brain-penetrant small molecule blocker of the Kv1.3 potassium channel on dise... |
+| [[nly03]] | NLY03 | Neuraly (D&D Pharmatech) | parthanatos pathway (PARP-1/PAR/AIF/MIF cascade) | Inhibitor of the parthanatos cell death cascade, targeting PARP-1-mediated PA... |
+| [[neumora-nlrp3]] | NMRA-NLRP3 | Neumora Therapeutics | NLRP3 inflammasome | Oral, brain-penetrant small molecule NLRP3 inflammasome inhibitor blocking ne... |
+| [[otsuka-program]] | Otsuka PD Program | Otsuka Pharmaceutical | Undisclosed | Undisclosed; Otsuka has disclosed dopamine partial agonist work in CNS but sp... |
+| [[progenra-pink1]] | Progenra PINK1 activator (lead undisclosed) | Progenra | PINK1 kinase (activation of mutant and wild-type forms) | small molecule PINK1 activator that restores kinase function in pathogenic PI... |
+| [[rome-line1]] | ROME LINE-1 RT Inhibitor | ROME Therapeutics | LINE-1 reverse transcriptase (retrotransposon-driven neuroinflammation) | Small molecule inhibitor of LINE-1 reverse transcriptase, blocking retrotrans... |
+| [[spark-program]] | Spark PD Gene Therapy Program | Spark Therapeutics | undisclosed (neurodegenerative / PD-related) | AAV gene therapy for Parkinson's disease; specific transgene and target undis... |
+| [[vesalius-gsk]] | Vesalius-GSK PD Program | Vesalius Therapeutics | undisclosed (novel multigene circuit-derived neurodegeneration target) | AI/genetics-identified small molecule targeting novel intervention point in P... |
 
 ---
 
 ## Discovery / Research
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", target AS "Target", mechanism AS "Mechanism"
-FROM "pd-pipeline-research/assets"
-WHERE (stage = "Discovery" OR stage = "Research") AND status = "Active"
-SORT drug_name ASC
-```
+| File | Drug | Company | Target | Mechanism |
+| --- | --- | --- | --- | --- |
+| [[18f-fd4]] | 18F-FD4 | SynuSight Biotech | alpha-synuclein (pathological aggregates, fibrils) | Selective, high-affinity small-molecule PET radiotracer that binds pathogenic... |
+| [[dive-inbrain]] | A-dopamine (anaerobic dopamine) | InBrain Pharma | dopamine replacement (direct CNS delivery) | Continuous intracerebroventricular infusion of anaerobic dopamine via implant... |
+| [[aav-gad]] | AAV-GAD | MeiraGTx | subthalamic nucleus GABAergic inhibition (GAD65/GAD67) | AAV2-delivered glutamic acid decarboxylase gene therapy to the STN, restoring... |
+| [[ab-1005]] | AB-1005 | AskBio | GDNF (glial cell line-derived neurotrophic factor) | AAV2-delivered GDNF transgene enabling continuous neurotrophic factor express... |
+| [[aci-7104]] | ACI-7104.056 | AC Immune | alpha-synuclein (aggregated, C-terminal mimotope) | Active immunotherapy vaccine using a synthetic peptide mimotope of the alpha-... |
+| [[act-02]] | ACT-02 | Accure Therapeutics | prolyl endopeptidase (PREP) — promotes alpha-synuclein aggregation | First-in-class oral PREP inhibitor that reduces alpha-synuclein aggregation v... |
+| [[adp062-abc]] | ADP062-ABC | Alector | SNCA mRNA (alpha-synuclein production inhibition) | siRNA targeting alpha-synuclein mRNA, conjugated to Alector Brain Carrier (AB... |
+| [[adp065-abc]] | ADP065-ABC | Alector | NLRP3 inflammasome | siRNA targeting NLRP3 mRNA, conjugated to Alector Brain Carrier (ABC) for tra... |
+| [[ai-blood-test]] | AI Blood Test | UCL / Guilford Street Laboratories | 8-protein blood biomarker panel (plasma proteomics) | Machine learning classifier applied to multiplexed mass spectrometry of 8 blo... |
+| [[al050-abc]] | AL050-ABC | Alector | GBA1 / GCase (glucocerebrosidase) | ABC-enabled engineered GCase enzyme replacement therapy; longer half-life GCa... |
+| [[alc01]] | ALC01 | iCamuno Biotherapeutics | dopaminergic neuron replacement (iPSC-derived DA progenitors) | Allogeneic iPSC-derived dopaminergic progenitor cells (iPSC-DAPs) transplante... |
+| [[ambroxol]] | Ambroxol | Multiple investigators / Agyany Pharma | GBA1 / GCase (glucocerebrosidase) | Pharmacological chaperone that binds misfolded GCase in the ER, facilitates p... |
+| [[amlenetug]] | Amlenetug | Lundbeck | alpha-synuclein (all extracellular forms, epitope aa 112-117) | Fully human IgG1 mAb binding all major extracellular alpha-synuclein forms (m... |
+| [[anpd001]] | ANPD001 | Aspen Neuroscience | dopaminergic neuron replacement | Autologous iPSC-derived dopaminergic neuronal precursor cells (DANPCs) transp... |
+| [[appello-mglu4]] | AP-472 | Appello Pharmaceuticals | mGlu4 (metabotropic glutamate receptor 4) | Small molecule positive allosteric modulator (PAM) of mGlu4 that enhances glu... |
+| [[aro-snca]] | ARO-SNCA | Arrowhead Pharmaceuticals | SNCA mRNA (alpha-synuclein production inhibition) | siRNA-mediated gene silencing of SNCA via TRiM conjugate platform; subcutaneo... |
+| [[arv-102]] | ARV-102 | Arvinas | LRRK2 (full protein degradation) | Oral, brain-penetrant PROTAC bifunctional molecule that recruits E3 ubiquitin... |
+| [[ath-434]] | ATH-434 | Alterity Therapeutics | iron (labile brain iron) / alpha-synuclein aggregation | Oral small molecule iron chaperone that redistributes excess labile iron in t... |
+| [[endlyz]] | ATP13A2 modulators | Endlyz Therapeutics | ATP13A2 / PARK9 (lysosomal P-type ATPase) | Small molecule potentiators of ATP13A2, a lysosomal H+/K+-ATPase encoded by t... |
+| [[autologous-mdaps]] | Autologous mDAPs (NRI/McLean) | McLean Hospital / Neuroregeneration Research Institute (NRI) | dopaminergic neuron replacement (autologous iPSC-derived DA progenitors) | Patient blood-derived iPSCs differentiated into midbrain dopaminergic progeni... |
+| [[bemdaneprocel]] | Bemdaneprocel | BlueRock Therapeutics | dopaminergic neuron replacement (cell therapy) | Cryopreserved allogeneic hESC-derived dopaminergic neuron progenitors grafted... |
+| [[stealth-bio]] | Bevemipretide | Stealth BioTherapeutics | cardiolipin / inner mitochondrial membrane | mitochondria-targeted peptidomimetic that stabilizes cardiolipin on the inner... |
+| [[bhv-8000]] | BHV-8000 | Biohaven | TYK2/JAK1 (neuroinflammation, JAK-STAT pathway) | Brain-penetrant dual TYK2/JAK1 kinase inhibitor reducing microglial neuroinfl... |
+| [[biib122]] | BIIB122 | Denali Therapeutics | LRRK2 kinase | Oral, brain-penetrant, selective LRRK2 kinase inhibitor that reduces pathogen... |
+| [[blarcamesine]] | Blarcamesine | Anavex Life Sciences | sigma-1 receptor (SIGMAR1) | Oral small molecule sigma-1 receptor agonist that restores cellular homeostas... |
+| [[booster-therapeutics]] | Booster Therapeutics proteasome activator (lead undisclosed) | Booster Therapeutics | 20S proteasome (activation) / alpha-synuclein (indirect clearance) | small molecule 20S proteasome activator that restores cellular protein qualit... |
+| [[buntanetap]] | Buntanetap | Annovis Bio | neurotoxic protein translation (IRE-mediated: APP, alpha-synuclein, tau) | Oral small molecule that binds iron-responsive elements (IRE) in mRNA of APP,... |
+| [[cap-003]] | CAP-003 | Capsida Biotherapeutics | GBA1 / GCase (glucocerebrosidase) | IV-administered AAV gene therapy delivering functional human GBA1 via a novel... |
+| [[caraway-tmem175]] | Caraway TMEM175 Modulator | Caraway Therapeutics (acquired by Merck) | TMEM175 (lysosomal potassium/proton channel) | Small molecule activator of TMEM175 lysosomal potassium/proton channel to res... |
+| [[cbt-npc]] | CBT-NPC | CHA Biotech | dopaminergic neuron replacement (fetal midbrain-derived neural progenitor cells) | Human fetal midbrain-derived dopamine neuronal precursor cells transplanted i... |
+| [[cellino-ipsc]] | Cellino iPSC Platform (MGH) | Cellino Biotech | dopaminergic neuron replacement (autologous iPSC-derived DA progenitors) | AI-driven autonomous iPSC manufacturing platform (Nebula) producing patient-s... |
+| [[cavgene]] | CGT-102 / CGT-103 | CavGene Therapeutics | CaV1.3 L-type calcium channel (CACNA1D) | AAV-delivered shRNA silencing of striatal CaV1.3 calcium channels to prevent/... |
+| [[congruence-gcase]] | Congruence GCase Program | Congruence Therapeutics | GBA1 / GCase (glucocerebrosidase) | Oral allosteric small molecule correctors and activators that stabilize misfo... |
+| [[casma-trpml1]] | CSM-101 | Casma Therapeutics | TRPML1 (lysosomal ion channel) | First-in-class oral small molecule TRPML1 agonist that restores lysosomal fun... |
+| [[ct1812]] | CT1812 | Cognition Therapeutics | sigma-2 receptor (TMEM97) | Small molecule sigma-2 receptor antagonist that blocks alpha-synuclein oligom... |
+| [[dapansutrile]] | Dapansutrile | Olatec Therapeutics | NLRP3 inflammasome | Oral selective NLRP3 inflammasome inhibitor that blocks ATPase-dependent asse... |
+| [[dnl111]] | DNL111 | Denali Therapeutics | GBA1 / GCase (glucocerebrosidase) | Enzyme Transport Vehicle (ETV) fusing recombinant GCase to an engineered Fc d... |
+| [[dnl422]] | DNL422 | Denali Therapeutics | SNCA mRNA (alpha-synuclein production inhibition) | OTV-conjugated ASO targeting SNCA mRNA; engineered Fc domain binds transferri... |
+| [[ejs-act-pd]] | EJS ACT-PD Platform | UCL / MRC Clinical Trials Unit | multiple (AT1R / PGK1 / TUDCA-mitochondria) | Multi-arm multi-stage platform trial testing repurposed drugs for disease mod... |
+| [[emrusolmin]] | Emrusolmin | MODAG GmbH | alpha-synuclein (pathological oligomers) | Orally bioavailable small molecule that binds inside alpha-synuclein fibril c... |
+| [[energi-f705pd]] | ENERGI-F705PD | Energenesis Biomedical | cellular ATP levels / alpha-synuclein aggregation (metabolic) | Oral sustained-release small molecule that enhances cellular ATP production v... |
+| [[eubiologics-vaccine]] | EuBiologics PD Vaccine | EuBiologics | alpha-synuclein (peptide epitope, active immunotherapy) | Peptide epitope vaccine using SNAP nanoliposome antigen display and EcML adju... |
+| [[exidavnemab]] | Exidavnemab | BioArctic | alpha-synuclein (aggregated, oligomeric/protofibrillar) | Humanized IgG4 mAb with 100,000-fold selectivity for aggregated vs. monomeric... |
+| [[gba1-voyager]] | GBA1 Gene Therapy (VYGR) | Voyager Therapeutics | GBA1 / GCase (glucocerebrosidase) | IV-administered AAV gene therapy using TRACER-derived BBB-penetrant capsid to... |
+| [[glovadalen]] | Glovadalen | UCB | dopamine D1 receptor (positive allosteric modulator) | Oral, brain-penetrant small molecule that selectively potentiates endogenous ... |
+| [[gt-02287]] | GT-02287 | Gain Therapeutics | GBA1 / GCase (glucocerebrosidase) | Oral brain-penetrant allosteric GCase activator (structurally targeted allost... |
+| [[hb-admsc]] | HB-adMSCs | Hope Biosciences Research Foundation | neuroinflammation / immunomodulation (paracrine MSC) | Allogeneic adipose-derived mesenchymal stem cells administered IV to exert pa... |
+| [[her-096]] | HER-096 | Herantis Pharma | CDNF/UPR pathway (ER stress, alpha-synuclein aggregation, neuroinflammation) | First-in-class CDNF mimetic peptide that modulates the Unfolded Protein Respo... |
+| [[hl192]] | HL192 | NurrOn Pharmaceuticals | Nurr1 (NR4A2) transcription factor | First-in-class small molecule activator of the orphan nuclear receptor Nurr1,... |
+| [[ipx203]] | IPX203 | Amneal Pharmaceuticals | dopamine (symptomatic replacement via L-DOPA) | Extended-release oral carbidopa/levodopa capsule combining IR granules for ra... |
+| [[irl757]] | IRL757 | IRLAB Therapeutics | frontal-subcortical circuit dysfunction (apathy) | Restores cortical-to-subcortical nerve signaling by activating synaptic activ... |
+| [[ism8969]] | ISM8969 | Insilico Medicine | NLRP3 inflammasome | AI-designed oral, brain-penetrant small molecule NLRP3 inflammasome inhibitor... |
+| [[km-819]] | KM-819 | FAScinate Therapeutics | FAF1 (Fas-associated factor 1) | Small molecule FAF1 inhibitor that restores autophagy-mediated alpha-synuclei... |
+| [[kyoto-ipsc]] | Kyoto iPSC-DA (CiRA-derived) | CiRA (Kyoto University) / Sumitomo Pharma | dopaminergic neuron replacement (iPSC-derived DA progenitors) | Allogeneic iPSC-derived CORIN-sorted dopaminergic neuron progenitors transpla... |
+| [[lario-cav23]] | Lario CaV2.3 Inhibitor | Lario Therapeutics | CaV2.3 (R-type voltage-gated calcium channel, CACNA1E) | Selective small molecule inhibitor of CaV2.3 R-type calcium channels to reduc... |
+| [[seal-rock-lrrk2]] | LASC Inhibitors | Seal Rock Therapeutics | LRRK2 kinase + ASK1 (dual signaling complex) | First-in-class oral, brain-penetrant small molecules that simultaneously inhi... |
+| [[lbp-pd01]] | LB-P4 | LISCure Biosciences | gut-brain axis (microbiome dysbiosis, alpha-synuclein propagation) | Oral live biotherapeutic product delivering brain-targeting bacterial exosome... |
+| [[lbt-3627]] | LBT-3627 | Longevity Biotech | VPAC2 receptor (Treg-mediated neuroinflammation) | Synthetic VPAC2 receptor agonist (Hybridtide) that expands regulatory T cell ... |
+| [[liraglutide]] | Liraglutide | Academic (Cedars-Sinai / Cure Parkinson's) | GLP-1 receptor (neuroprotection) | GLP-1 receptor agonist repurposed from diabetes; crosses BBB to activate anti... |
+| [[lixisenatide]] | Lixisenatide | Toulouse University Hospital (academic) | GLP-1 receptor (neuroprotection via insulin signaling, anti-neuroinflammation) | GLP-1 receptor agonist repurposed from diabetes; activates PI3K/Akt and cAMP/... |
+| [[lu-af28996]] | Lu AF28996 | Lundbeck | dopamine D1/D2 receptor | Oral dual D1/D2 dopamine receptor agonist with active metabolite, designed as... |
+| [[ly03017]] | LY03017 | Luye Pharma Group | serotonin 5-HT2A / 5-HT2C receptors | Next-generation 5-HT2A receptor inverse agonist and 5-HT2C receptor antagonis... |
+| [[ly3962681]] | LY3962681 | Prevail Therapeutics (Eli Lilly subsidiary) | SNCA mRNA (alpha-synuclein production inhibition) | Intrathecally delivered siRNA targeting SNCA mRNA to reduce alpha-synuclein p... |
+| [[lys-therapeutics]] | LYS241 | Lys Therapeutics | tPA-NMDA receptor interaction (vascular endothelial) | Fully humanized IgG1 mAb blocking tPA binding to vascular NMDA receptors to r... |
+| [[mair-tmem175]] | Mair TMEM175 Agonist | Mair Therapeutics | TMEM175 (lysosomal potassium/proton channel) | Small molecule agonist of the lysosomal ion channel TMEM175, restoring proton... |
+| [[mesdopetam]] | Mesdopetam | IRLAB Therapeutics | dopamine D3 receptor | Selective dopamine D3 receptor antagonist that reduces levodopa-induced dyski... |
+| [[montara-lrrk2]] | Montara BrainOnly LRRK2 | Montara Therapeutics | LRRK2 kinase | Brain-selective LRRK2 kinase inhibitor using binary pharmacology: a brain-pen... |
+| [[mor-a-syn]] | Morphomer alpha-synuclein | AC Immune | alpha-synuclein (intracellular aggregates) | Orally bioavailable small molecule aggregation inhibitor derived from the Mor... |
+| [[mtx325]] | MTX325 | Mission Therapeutics | USP30 (mitochondrial deubiquitinase) | Oral, brain-penetrant, selective USP30 inhibitor that enhances PINK1/Parkin-m... |
+| [[muna-kv13]] | MUNA Kv1.3 Blocker | MUNA Therapeutics | Kv1.3 (voltage-gated potassium channel 1.3, microglial) | Brain-penetrant small molecule blocker of the Kv1.3 potassium channel on dise... |
+| [[nd0612]] | ND0612 | NeuroDerm | levodopa delivery optimization (continuous subcutaneous L-DOPA/carbidopa) | Drug-device combination providing 24-hour continuous subcutaneous infusion of... |
+| [[neu-723]] | NEU-411 | Neuron23 | LRRK2 kinase | AI-designed selective brain-penetrant LRRK2 kinase inhibitor with companion d... |
+| [[nicotinamide-riboside]] | Nicotinamide Riboside | Neuro-SysMed / Haukeland University Hospital | NAD+ metabolism / mitochondrial bioenergetics | Oral NAD+ precursor (vitamin B3 form) that boosts neuronal NAD+ levels, rescu... |
+| [[nly01]] | NLY01 | Neuraly (D&D Pharmatech) | GLP-1 receptor (neuroinflammation / microglial activation) | Pegylated exendin-4 GLP-1R agonist that crosses BBB, inhibits microglial acti... |
+| [[nly02]] | NLY02 | Neuraly (D&D Pharmatech) / 1ST Bio | RIPK2 (NOD2/RIPK2 neuroinflammatory signaling) | Oral BBB-penetrating RIPK2 kinase inhibitor that blocks alpha-synuclein-trigg... |
+| [[nly03]] | NLY03 | Neuraly (D&D Pharmatech) | parthanatos pathway (PARP-1/PAR/AIF/MIF cascade) | Inhibitor of the parthanatos cell death cascade, targeting PARP-1-mediated PA... |
+| [[nm-101]] | NM-101 | Neuramedy | TLR2 (neuroinflammation, alpha-synuclein-mediated microglial activation) | Humanized IgG4 monoclonal antibody antagonizing Toll-like receptor 2 to block... |
+| [[neumora-nlrp3]] | NMRA-NLRP3 | Neumora Therapeutics | NLRP3 inflammasome | Oral, brain-penetrant small molecule NLRP3 inflammasome inhibitor blocking ne... |
+| [[nouvneu001]] | NouvNeu001 | iRegene Therapeutics | dopaminergic neuron replacement (cell therapy) | Chemically induced allogeneic iPSC-derived dopaminergic progenitor cells tran... |
+| [[nrg5051]] | NRG5051 | NRG Therapeutics | mitochondrial permeability transition pore (mPTP) | First-in-class orally bioavailable CNS-penetrant small molecule mPTP inhibito... |
+| [[nt-0150]] | NT-0150 | NodThera | NLRP3 inflammasome | Oral, CNS-optimized small molecule inhibitor of NLRP3 inflammasomes; novel py... |
+| [[nt-0796]] | NT-0796 | NodThera | NLRP3 inflammasome | Oral, brain-penetrant small molecule inhibitor of NLRP3-containing inflammaso... |
+| [[otsuka-program]] | Otsuka PD Program | Otsuka Pharmaceutical | Undisclosed | Undisclosed; Otsuka has disclosed dopamine partial agonist work in CNS but sp... |
+| [[p2b001]] | P2B001 | Pharma Two B | dopamine receptors / MAO-B enzyme (symptomatic combination) | Fixed-dose extended-release combination of low-dose pramipexole (D2/D3 dopami... |
+| [[pariceract]] | Pariceract | BIAL | GBA1 / GCase (glucocerebrosidase) | Oral allosteric GCase activator that stabilizes the enzyme in its active conf... |
+| [[pr001]] | PR001 | Prevail Therapeutics | GBA1 / GCase (glucocerebrosidase) | AAV9-delivered functional GBA1 gene replacement restoring glucocerebrosidase ... |
+| [[prasinezumab]] | Prasinezumab | Prothena | alpha-synuclein (aggregated, C-terminal) | Humanized IgG1 mAb selectively binding aggregated alpha-synuclein to block pr... |
+| [[progenra-pink1]] | Progenra PINK1 activator (lead undisclosed) | Progenra | PINK1 kinase (activation of mutant and wild-type forms) | small molecule PINK1 activator that restores kinase function in pathogenic PI... |
+| [[radotinib]] | Radotinib | Il-Yang Pharmaceutical | c-Abl tyrosine kinase | Second-generation c-Abl tyrosine kinase inhibitor that suppresses alpha-synuc... |
+| [[raguneprocel]] | Raguneprocel | Sumitomo Pharma / RACTHERA | dopaminergic neuron replacement (iPSC-derived DA progenitors) | Allogeneic iPSC-derived dopaminergic neural progenitor cells transplanted int... |
+| [[risvodetinib]] | Risvodetinib | ABLi Therapeutics | c-Abl tyrosine kinase | Selective, brain-penetrant c-Abl kinase inhibitor that suppresses alpha-synuc... |
+| [[rndp-001]] | RNDP-001 | Kenai Therapeutics | dopaminergic neuron replacement (iPSC-derived DA progenitors) | Off-the-shelf allogeneic iPSC-derived dopamine progenitor cells transplanted ... |
+| [[rome-line1]] | ROME LINE-1 RT Inhibitor | ROME Therapeutics | LINE-1 reverse transcriptase (retrotransposon-driven neuroinflammation) | Small molecule inhibitor of LINE-1 reverse transcriptase, blocking retrotrans... |
+| [[saamplify-asyn]] | SAAmplify-aSYN | Amprion | alpha-synuclein (misfolded aggregates) | Seed amplification assay that detects trace amounts of misfolded alpha-synucl... |
+| [[sargramostim]] | Sargramostim | University of Nebraska Medical Center (Howard Gendelman) | neuroinflammation / immune modulation (Treg-mediated neuroprotection) | Recombinant human GM-CSF that induces tolerogenic dendritic cells and expands... |
+| [[selnoflast]] | Selnoflast | Roche | NLRP3 inflammasome | Orally available, peripherally-restricted small molecule that blocks NLRP3 in... |
+| [[semaglutide]] | Semaglutide | Novo Nordisk / Osaka University | GLP-1 receptor (neuroinflammation / neuroprotection) | GLP-1 receptor agonist repurposed for neuroprotection — reduces microglial ac... |
+| [[ser-252]] | SER-252 | Serina Therapeutics | dopamine receptors (D1/D2 agonist, extended-release) | POZ polymer-conjugated apomorphine providing continuous dopaminergic stimulat... |
+| [[snp614]] | SNP614 | SciNeuro Pharmaceuticals | LRRK2 mRNA | Next-generation LNA-modified antisense oligonucleotide that degrades LRRK2 mR... |
+| [[solangepras]] | Solengepras | Cerevance | GPR6 (G-protein coupled receptor 6, indirect striatopallidal pathway) | First-in-class oral GPR6 inverse agonist that reduces constitutive cAMP signa... |
+| [[spark-program]] | Spark PD Gene Therapy Program | Spark Therapeutics | undisclosed (neurodegenerative / PD-related) | AAV gene therapy for Parkinson's disease; specific transgene and target undis... |
+| [[stem-pd]] | STEM-PD | Lund University / University of Cambridge | dopaminergic neuron replacement (hESC-derived DA progenitors) | Dopaminergic neural progenitor cells derived from the RC17 hESC line, transpl... |
+| [[tavapadon]] | Tavapadon | Cerevel Therapeutics | dopamine D1/D5 receptor | Selective D1/D5 dopamine receptor partial agonist that activates direct-pathw... |
+| [[ted-a9]] | TED-A9 | S.BIOMEDICS | dopaminergic neuron replacement (hESC-derived DA progenitors) | High-purity ventral midbrain dopaminergic progenitor cells derived from hESCs... |
+| [[trimtech-trim21]] | TRIMTAC (PD program) | TRIMTECH Therapeutics | alpha-synuclein (aggregated) | Small molecule TRIMTAC/TRIMGLUE degrader recruiting TRIM21 E3 ligase to selec... |
+| [[snk01]] | Troculeucel | NKGen Biotech | neuroinflammation / immune modulation (NK cell-mediated) | Autologous ex vivo-expanded natural killer cells administered IV to reduce ne... |
+| [[ub-312]] | UB-312 | Vaxxinity | alpha-synuclein (aggregated, C-terminal peptide) | Active immunotherapy using a synthetic 10-amino-acid C-terminal alpha-synucle... |
+| [[ucb7853]] | UCB7853 | UCB | alpha-synuclein (extracellular spread) | Anti-alpha-synuclein monoclonal antibody targeting extracellular pathological... |
+| [[udca]] | Ursodeoxycholic acid | University of Sheffield / UCL | mitochondrial dysfunction (respiratory chain / membrane potential) | Bile acid that rescues mitochondrial function by increasing respiratory chain... |
+| [[ux-da001]] | UX-DA001 | UniXell Biotechnology | dopaminergic neuron replacement | Autologous iPSC-derived midbrain dopaminergic neural precursor cells reprogra... |
+| [[valo-merck]] | Valo-Merck PD Program | Valo Health | NOD2 (nucleotide-binding oligomerization domain containing 2) | AI-discovered NOD2 pathway modulator targeting neuroinflammation at the inter... |
+| [[vb-23]] | VB-23 | Vincere Biosciences | USP30 (mitochondrial deubiquitinase) | Oral, brain-penetrant small molecule inhibitor of USP30 that removes the brak... |
+| [[vesalius-gsk]] | Vesalius-GSK PD Program | Vesalius Therapeutics | undisclosed (novel multigene circuit-derived neurodegeneration target) | AI/genetics-identified small molecule targeting novel intervention point in P... |
+| [[vgn-r09b]] | VGN-R09b | Shanghai Vitalgen BioPharma | AADC + GDNF (dual-gene: dopamine synthesis restoration + neurotrophic neuropr... | AAV9-delivered dual-gene therapy (AADC + GDNF) to the striatum via bilateral ... |
+| [[vq-101]] | VQ-101 | Vanqua Bio | GBA1 / GCase (glucocerebrosidase) | Oral, brain-penetrant small molecule allosteric activator of lysosomal GCase ... |
+| [[vt-5006]] | VT-5006 | Vertero Therapeutics | CsgA bacterial curli amyloid (gut-to-brain alpha-synuclein seeding) | Gut-selective small molecule inhibitor of CsgA bacterial curli amyloid protei... |
+| [[vtx3232]] | VTX3232 | Ventyx Biosciences | NLRP3 inflammasome | Oral, CNS-penetrant small molecule NLRP3 inflammasome inhibitor that suppress... |
+| [[sizhe-biopharma]] | XS-411 | XellSmart / Shize Bio (士泽生物) | dopaminergic neuron replacement (iPSC-derived DA progenitors) | allogeneic off-the-shelf iPSC-derived dopaminergic neural progenitor cells tr... |
 
 ---
 
 ## Diagnostics / Imaging / Commercial
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", modality AS "Modality", mechanism AS "Mechanism"
-FROM "pd-pipeline-research/assets"
-WHERE (stage = "Commercial" OR thesis_cluster = "diagnostics") AND status = "Active"
-SORT drug_name ASC
-```
+| File | Drug | Company | Modality | Mechanism |
+| --- | --- | --- | --- | --- |
+| [[18f-fd4]] | 18F-FD4 | SynuSight Biotech | PET tracer | Selective, high-affinity small-molecule PET radiotracer that binds pathogenic... |
+| [[dive-inbrain]] | A-dopamine (anaerobic dopamine) | InBrain Pharma | device-aided therapy (drug/device combination) | Continuous intracerebroventricular infusion of anaerobic dopamine via implant... |
+| [[aav-gad]] | AAV-GAD | MeiraGTx | AAV gene therapy | AAV2-delivered glutamic acid decarboxylase gene therapy to the STN, restoring... |
+| [[ab-1005]] | AB-1005 | AskBio | AAV gene therapy | AAV2-delivered GDNF transgene enabling continuous neurotrophic factor express... |
+| [[aci-7104]] | ACI-7104.056 | AC Immune | active vaccine | Active immunotherapy vaccine using a synthetic peptide mimotope of the alpha-... |
+| [[act-02]] | ACT-02 | Accure Therapeutics | small molecule | First-in-class oral PREP inhibitor that reduces alpha-synuclein aggregation v... |
+| [[adp062-abc]] | ADP062-ABC | Alector | siRNA | siRNA targeting alpha-synuclein mRNA, conjugated to Alector Brain Carrier (AB... |
+| [[adp065-abc]] | ADP065-ABC | Alector | siRNA | siRNA targeting NLRP3 mRNA, conjugated to Alector Brain Carrier (ABC) for tra... |
+| [[ai-blood-test]] | AI Blood Test | UCL / Guilford Street Laboratories | diagnostic assay | Machine learning classifier applied to multiplexed mass spectrometry of 8 blo... |
+| [[al050-abc]] | AL050-ABC | Alector | enzyme activator | ABC-enabled engineered GCase enzyme replacement therapy; longer half-life GCa... |
+| [[alc01]] | ALC01 | iCamuno Biotherapeutics | cell therapy (iPSC allogeneic) | Allogeneic iPSC-derived dopaminergic progenitor cells (iPSC-DAPs) transplante... |
+| [[ambroxol]] | Ambroxol | Multiple investigators / Agyany Pharma | small molecule | Pharmacological chaperone that binds misfolded GCase in the ER, facilitates p... |
+| [[amlenetug]] | Amlenetug | Lundbeck | monoclonal antibody | Fully human IgG1 mAb binding all major extracellular alpha-synuclein forms (m... |
+| [[anpd001]] | ANPD001 | Aspen Neuroscience | cell therapy (iPSC autologous) | Autologous iPSC-derived dopaminergic neuronal precursor cells (DANPCs) transp... |
+| [[appello-mglu4]] | AP-472 | Appello Pharmaceuticals | small molecule | Small molecule positive allosteric modulator (PAM) of mGlu4 that enhances glu... |
+| [[aro-snca]] | ARO-SNCA | Arrowhead Pharmaceuticals | siRNA | siRNA-mediated gene silencing of SNCA via TRiM conjugate platform; subcutaneo... |
+| [[arv-102]] | ARV-102 | Arvinas | small molecule | Oral, brain-penetrant PROTAC bifunctional molecule that recruits E3 ubiquitin... |
+| [[ath-434]] | ATH-434 | Alterity Therapeutics | small molecule | Oral small molecule iron chaperone that redistributes excess labile iron in t... |
+| [[endlyz]] | ATP13A2 modulators | Endlyz Therapeutics | small molecule | Small molecule potentiators of ATP13A2, a lysosomal H+/K+-ATPase encoded by t... |
+| [[autologous-mdaps]] | Autologous mDAPs (NRI/McLean) | McLean Hospital / Neuroregeneration Research Institute (NRI) | cell therapy (iPSC autologous) | Patient blood-derived iPSCs differentiated into midbrain dopaminergic progeni... |
+| [[bemdaneprocel]] | Bemdaneprocel | BlueRock Therapeutics | cell therapy (ESC) | Cryopreserved allogeneic hESC-derived dopaminergic neuron progenitors grafted... |
+| [[stealth-bio]] | Bevemipretide | Stealth BioTherapeutics | small molecule | mitochondria-targeted peptidomimetic that stabilizes cardiolipin on the inner... |
+| [[bhv-8000]] | BHV-8000 | Biohaven | small molecule | Brain-penetrant dual TYK2/JAK1 kinase inhibitor reducing microglial neuroinfl... |
+| [[biib122]] | BIIB122 | Denali Therapeutics | small molecule | Oral, brain-penetrant, selective LRRK2 kinase inhibitor that reduces pathogen... |
+| [[blarcamesine]] | Blarcamesine | Anavex Life Sciences | small molecule | Oral small molecule sigma-1 receptor agonist that restores cellular homeostas... |
+| [[booster-therapeutics]] | Booster Therapeutics proteasome activator (lead undisclosed) | Booster Therapeutics | small molecule | small molecule 20S proteasome activator that restores cellular protein qualit... |
+| [[buntanetap]] | Buntanetap | Annovis Bio | small molecule | Oral small molecule that binds iron-responsive elements (IRE) in mRNA of APP,... |
+| [[cap-003]] | CAP-003 | Capsida Biotherapeutics | AAV gene therapy | IV-administered AAV gene therapy delivering functional human GBA1 via a novel... |
+| [[caraway-tmem175]] | Caraway TMEM175 Modulator | Caraway Therapeutics (acquired by Merck) | small molecule | Small molecule activator of TMEM175 lysosomal potassium/proton channel to res... |
+| [[cbt-npc]] | CBT-NPC | CHA Biotech | cell therapy (ESC) | Human fetal midbrain-derived dopamine neuronal precursor cells transplanted i... |
+| [[cellino-ipsc]] | Cellino iPSC Platform (MGH) | Cellino Biotech | platform | AI-driven autonomous iPSC manufacturing platform (Nebula) producing patient-s... |
+| [[cavgene]] | CGT-102 / CGT-103 | CavGene Therapeutics | AAV gene therapy | AAV-delivered shRNA silencing of striatal CaV1.3 calcium channels to prevent/... |
+| [[congruence-gcase]] | Congruence GCase Program | Congruence Therapeutics | small molecule | Oral allosteric small molecule correctors and activators that stabilize misfo... |
+| [[casma-trpml1]] | CSM-101 | Casma Therapeutics | small molecule | First-in-class oral small molecule TRPML1 agonist that restores lysosomal fun... |
+| [[ct1812]] | CT1812 | Cognition Therapeutics | small molecule | Small molecule sigma-2 receptor antagonist that blocks alpha-synuclein oligom... |
+| [[dapansutrile]] | Dapansutrile | Olatec Therapeutics | small molecule | Oral selective NLRP3 inflammasome inhibitor that blocks ATPase-dependent asse... |
+| [[dnl111]] | DNL111 | Denali Therapeutics | platform | Enzyme Transport Vehicle (ETV) fusing recombinant GCase to an engineered Fc d... |
+| [[dnl422]] | DNL422 | Denali Therapeutics | ASO | OTV-conjugated ASO targeting SNCA mRNA; engineered Fc domain binds transferri... |
+| [[ejs-act-pd]] | EJS ACT-PD Platform | UCL / MRC Clinical Trials Unit | platform | Multi-arm multi-stage platform trial testing repurposed drugs for disease mod... |
+| [[emrusolmin]] | Emrusolmin | MODAG GmbH | small molecule | Orally bioavailable small molecule that binds inside alpha-synuclein fibril c... |
+| [[energi-f705pd]] | ENERGI-F705PD | Energenesis Biomedical | small molecule | Oral sustained-release small molecule that enhances cellular ATP production v... |
+| [[eubiologics-vaccine]] | EuBiologics PD Vaccine | EuBiologics | active vaccine | Peptide epitope vaccine using SNAP nanoliposome antigen display and EcML adju... |
+| [[exidavnemab]] | Exidavnemab | BioArctic | monoclonal antibody | Humanized IgG4 mAb with 100,000-fold selectivity for aggregated vs. monomeric... |
+| [[gba1-voyager]] | GBA1 Gene Therapy (VYGR) | Voyager Therapeutics | AAV gene therapy | IV-administered AAV gene therapy using TRACER-derived BBB-penetrant capsid to... |
+| [[glovadalen]] | Glovadalen | UCB | small molecule | Oral, brain-penetrant small molecule that selectively potentiates endogenous ... |
+| [[gt-02287]] | GT-02287 | Gain Therapeutics | small molecule | Oral brain-penetrant allosteric GCase activator (structurally targeted allost... |
+| [[hb-admsc]] | HB-adMSCs | Hope Biosciences Research Foundation | cell therapy (MSC allogeneic) | Allogeneic adipose-derived mesenchymal stem cells administered IV to exert pa... |
+| [[her-096]] | HER-096 | Herantis Pharma | peptide | First-in-class CDNF mimetic peptide that modulates the Unfolded Protein Respo... |
+| [[hl192]] | HL192 | NurrOn Pharmaceuticals | small molecule | First-in-class small molecule activator of the orphan nuclear receptor Nurr1,... |
+| [[ipx203]] | IPX203 | Amneal Pharmaceuticals | small molecule | Extended-release oral carbidopa/levodopa capsule combining IR granules for ra... |
+| [[irl757]] | IRL757 | IRLAB Therapeutics | small molecule | Restores cortical-to-subcortical nerve signaling by activating synaptic activ... |
+| [[ism8969]] | ISM8969 | Insilico Medicine | small molecule | AI-designed oral, brain-penetrant small molecule NLRP3 inflammasome inhibitor... |
+| [[km-819]] | KM-819 | FAScinate Therapeutics | small molecule | Small molecule FAF1 inhibitor that restores autophagy-mediated alpha-synuclei... |
+| [[kyoto-ipsc]] | Kyoto iPSC-DA (CiRA-derived) | CiRA (Kyoto University) / Sumitomo Pharma | cell therapy (iPSC allogeneic) | Allogeneic iPSC-derived CORIN-sorted dopaminergic neuron progenitors transpla... |
+| [[lario-cav23]] | Lario CaV2.3 Inhibitor | Lario Therapeutics | small molecule | Selective small molecule inhibitor of CaV2.3 R-type calcium channels to reduc... |
+| [[seal-rock-lrrk2]] | LASC Inhibitors | Seal Rock Therapeutics | small molecule | First-in-class oral, brain-penetrant small molecules that simultaneously inhi... |
+| [[lbp-pd01]] | LB-P4 | LISCure Biosciences | live biotherapeutic product | Oral live biotherapeutic product delivering brain-targeting bacterial exosome... |
+| [[lbt-3627]] | LBT-3627 | Longevity Biotech | peptide | Synthetic VPAC2 receptor agonist (Hybridtide) that expands regulatory T cell ... |
+| [[liraglutide]] | Liraglutide | Academic (Cedars-Sinai / Cure Parkinson's) | small molecule | GLP-1 receptor agonist repurposed from diabetes; crosses BBB to activate anti... |
+| [[lixisenatide]] | Lixisenatide | Toulouse University Hospital (academic) | small molecule | GLP-1 receptor agonist repurposed from diabetes; activates PI3K/Akt and cAMP/... |
+| [[lu-af28996]] | Lu AF28996 | Lundbeck | small molecule | Oral dual D1/D2 dopamine receptor agonist with active metabolite, designed as... |
+| [[ly03017]] | LY03017 | Luye Pharma Group | small molecule | Next-generation 5-HT2A receptor inverse agonist and 5-HT2C receptor antagonis... |
+| [[ly3962681]] | LY3962681 | Prevail Therapeutics (Eli Lilly subsidiary) | siRNA | Intrathecally delivered siRNA targeting SNCA mRNA to reduce alpha-synuclein p... |
+| [[lys-therapeutics]] | LYS241 | Lys Therapeutics | monoclonal antibody | Fully humanized IgG1 mAb blocking tPA binding to vascular NMDA receptors to r... |
+| [[mair-tmem175]] | Mair TMEM175 Agonist | Mair Therapeutics | small molecule | Small molecule agonist of the lysosomal ion channel TMEM175, restoring proton... |
+| [[mesdopetam]] | Mesdopetam | IRLAB Therapeutics | small molecule | Selective dopamine D3 receptor antagonist that reduces levodopa-induced dyski... |
+| [[montara-lrrk2]] | Montara BrainOnly LRRK2 | Montara Therapeutics | small molecule | Brain-selective LRRK2 kinase inhibitor using binary pharmacology: a brain-pen... |
+| [[mor-a-syn]] | Morphomer alpha-synuclein | AC Immune | small molecule | Orally bioavailable small molecule aggregation inhibitor derived from the Mor... |
+| [[mtx325]] | MTX325 | Mission Therapeutics | small molecule | Oral, brain-penetrant, selective USP30 inhibitor that enhances PINK1/Parkin-m... |
+| [[muna-kv13]] | MUNA Kv1.3 Blocker | MUNA Therapeutics | small molecule | Brain-penetrant small molecule blocker of the Kv1.3 potassium channel on dise... |
+| [[nd0612]] | ND0612 | NeuroDerm | small molecule | Drug-device combination providing 24-hour continuous subcutaneous infusion of... |
+| [[neu-723]] | NEU-411 | Neuron23 | small molecule | AI-designed selective brain-penetrant LRRK2 kinase inhibitor with companion d... |
+| [[nicotinamide-riboside]] | Nicotinamide Riboside | Neuro-SysMed / Haukeland University Hospital | small molecule | Oral NAD+ precursor (vitamin B3 form) that boosts neuronal NAD+ levels, rescu... |
+| [[nly01]] | NLY01 | Neuraly (D&D Pharmatech) | small molecule | Pegylated exendin-4 GLP-1R agonist that crosses BBB, inhibits microglial acti... |
+| [[nly02]] | NLY02 | Neuraly (D&D Pharmatech) / 1ST Bio | small molecule | Oral BBB-penetrating RIPK2 kinase inhibitor that blocks alpha-synuclein-trigg... |
+| [[nly03]] | NLY03 | Neuraly (D&D Pharmatech) | small molecule | Inhibitor of the parthanatos cell death cascade, targeting PARP-1-mediated PA... |
+| [[nm-101]] | NM-101 | Neuramedy | monoclonal antibody | Humanized IgG4 monoclonal antibody antagonizing Toll-like receptor 2 to block... |
+| [[neumora-nlrp3]] | NMRA-NLRP3 | Neumora Therapeutics | small molecule | Oral, brain-penetrant small molecule NLRP3 inflammasome inhibitor blocking ne... |
+| [[nouvneu001]] | NouvNeu001 | iRegene Therapeutics | cell therapy (iPSC allogeneic) | Chemically induced allogeneic iPSC-derived dopaminergic progenitor cells tran... |
+| [[nrg5051]] | NRG5051 | NRG Therapeutics | small molecule | First-in-class orally bioavailable CNS-penetrant small molecule mPTP inhibito... |
+| [[nt-0150]] | NT-0150 | NodThera | small molecule | Oral, CNS-optimized small molecule inhibitor of NLRP3 inflammasomes; novel py... |
+| [[nt-0796]] | NT-0796 | NodThera | small molecule | Oral, brain-penetrant small molecule inhibitor of NLRP3-containing inflammaso... |
+| [[otsuka-program]] | Otsuka PD Program | Otsuka Pharmaceutical | Undisclosed | Undisclosed; Otsuka has disclosed dopamine partial agonist work in CNS but sp... |
+| [[p2b001]] | P2B001 | Pharma Two B | small molecule | Fixed-dose extended-release combination of low-dose pramipexole (D2/D3 dopami... |
+| [[pariceract]] | Pariceract | BIAL | small molecule | Oral allosteric GCase activator that stabilizes the enzyme in its active conf... |
+| [[pr001]] | PR001 | Prevail Therapeutics | AAV gene therapy | AAV9-delivered functional GBA1 gene replacement restoring glucocerebrosidase ... |
+| [[prasinezumab]] | Prasinezumab | Prothena | Monoclonal antibody | Humanized IgG1 mAb selectively binding aggregated alpha-synuclein to block pr... |
+| [[progenra-pink1]] | Progenra PINK1 activator (lead undisclosed) | Progenra | small molecule (molecular glue) | small molecule PINK1 activator that restores kinase function in pathogenic PI... |
+| [[radotinib]] | Radotinib | Il-Yang Pharmaceutical | kinase inhibitor | Second-generation c-Abl tyrosine kinase inhibitor that suppresses alpha-synuc... |
+| [[raguneprocel]] | Raguneprocel | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) | Allogeneic iPSC-derived dopaminergic neural progenitor cells transplanted int... |
+| [[risvodetinib]] | Risvodetinib | ABLi Therapeutics | kinase inhibitor | Selective, brain-penetrant c-Abl kinase inhibitor that suppresses alpha-synuc... |
+| [[rndp-001]] | RNDP-001 | Kenai Therapeutics | cell therapy (iPSC allogeneic) | Off-the-shelf allogeneic iPSC-derived dopamine progenitor cells transplanted ... |
+| [[rome-line1]] | ROME LINE-1 RT Inhibitor | ROME Therapeutics | small molecule | Small molecule inhibitor of LINE-1 reverse transcriptase, blocking retrotrans... |
+| [[saamplify-asyn]] | SAAmplify-aSYN | Amprion | diagnostic assay | Seed amplification assay that detects trace amounts of misfolded alpha-synucl... |
+| [[sargramostim]] | Sargramostim | University of Nebraska Medical Center (Howard Gendelman) | recombinant protein (cytokine) | Recombinant human GM-CSF that induces tolerogenic dendritic cells and expands... |
+| [[selnoflast]] | Selnoflast | Roche | small molecule | Orally available, peripherally-restricted small molecule that blocks NLRP3 in... |
+| [[semaglutide]] | Semaglutide | Novo Nordisk / Osaka University | small molecule | GLP-1 receptor agonist repurposed for neuroprotection — reduces microglial ac... |
+| [[ser-252]] | SER-252 | Serina Therapeutics | small molecule | POZ polymer-conjugated apomorphine providing continuous dopaminergic stimulat... |
+| [[snp614]] | SNP614 | SciNeuro Pharmaceuticals | ASO | Next-generation LNA-modified antisense oligonucleotide that degrades LRRK2 mR... |
+| [[solangepras]] | Solengepras | Cerevance | small molecule | First-in-class oral GPR6 inverse agonist that reduces constitutive cAMP signa... |
+| [[spark-program]] | Spark PD Gene Therapy Program | Spark Therapeutics | AAV gene therapy | AAV gene therapy for Parkinson's disease; specific transgene and target undis... |
+| [[stem-pd]] | STEM-PD | Lund University / University of Cambridge | cell therapy (ESC) | Dopaminergic neural progenitor cells derived from the RC17 hESC line, transpl... |
+| [[tavapadon]] | Tavapadon | Cerevel Therapeutics | small molecule | Selective D1/D5 dopamine receptor partial agonist that activates direct-pathw... |
+| [[ted-a9]] | TED-A9 | S.BIOMEDICS | cell therapy (ESC) | High-purity ventral midbrain dopaminergic progenitor cells derived from hESCs... |
+| [[trimtech-trim21]] | TRIMTAC (PD program) | TRIMTECH Therapeutics | small molecule | Small molecule TRIMTAC/TRIMGLUE degrader recruiting TRIM21 E3 ligase to selec... |
+| [[snk01]] | Troculeucel | NKGen Biotech | cell therapy (autologous NK) | Autologous ex vivo-expanded natural killer cells administered IV to reduce ne... |
+| [[ub-312]] | UB-312 | Vaxxinity | active vaccine | Active immunotherapy using a synthetic 10-amino-acid C-terminal alpha-synucle... |
+| [[ucb7853]] | UCB7853 | UCB | monoclonal antibody | Anti-alpha-synuclein monoclonal antibody targeting extracellular pathological... |
+| [[udca]] | Ursodeoxycholic acid | University of Sheffield / UCL | small molecule | Bile acid that rescues mitochondrial function by increasing respiratory chain... |
+| [[ux-da001]] | UX-DA001 | UniXell Biotechnology | cell therapy (iPSC autologous) | Autologous iPSC-derived midbrain dopaminergic neural precursor cells reprogra... |
+| [[valo-merck]] | Valo-Merck PD Program | Valo Health | AI discovery platform | AI-discovered NOD2 pathway modulator targeting neuroinflammation at the inter... |
+| [[vb-23]] | VB-23 | Vincere Biosciences | small molecule | Oral, brain-penetrant small molecule inhibitor of USP30 that removes the brak... |
+| [[vesalius-gsk]] | Vesalius-GSK PD Program | Vesalius Therapeutics | small molecule | AI/genetics-identified small molecule targeting novel intervention point in P... |
+| [[vgn-r09b]] | VGN-R09b | Shanghai Vitalgen BioPharma | AAV gene therapy | AAV9-delivered dual-gene therapy (AADC + GDNF) to the striatum via bilateral ... |
+| [[vq-101]] | VQ-101 | Vanqua Bio | small molecule | Oral, brain-penetrant small molecule allosteric activator of lysosomal GCase ... |
+| [[vt-5006]] | VT-5006 | Vertero Therapeutics | small molecule | Gut-selective small molecule inhibitor of CsgA bacterial curli amyloid protei... |
+| [[vtx3232]] | VTX3232 | Ventyx Biosciences | small molecule | Oral, CNS-penetrant small molecule NLRP3 inflammasome inhibitor that suppress... |
+| [[sizhe-biopharma]] | XS-411 | XellSmart / Shize Bio (士泽生物) | cell therapy (iPSC allogeneic) | allogeneic off-the-shelf iPSC-derived dopaminergic neural progenitor cells tr... |
 
 ### Diagnostics Commentary
 
@@ -262,12 +678,17 @@ SORT drug_name ASC
 
 ## Discontinued / Failed / Terminated
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", stage AS "Last Stage", status AS "Status", target AS "Target"
-FROM "pd-pipeline-research/assets"
-WHERE status = "Failed" OR status = "Terminated" OR status = "Discontinued"
-SORT stage DESC
-```
+| File | Drug | Company | Last Stage | Status | Target |
+| --- | --- | --- | --- | --- | --- |
+| [[biib094]] | BIIB094 | Ionis Pharmaceuticals | Discontinued | Discontinued | LRRK2 (mRNA knockdown) |
+| [[cinpanemab]] | Cinpanemab | Biogen | Terminated | Failed | alpha-synuclein (aggregated, N-terminal aa 1-10) |
+| [[ion464]] | ION464 | Ionis Pharmaceuticals | Discontinued | Discontinued | alpha-synuclein (SNCA mRNA, production inhibition) |
+| [[k0706]] | Vodobatinib | Sun Pharma Advanced Research (SPARC) | Terminated | Terminated | c-Abl tyrosine kinase |
+| [[minzasolmin]] | Minzasolmin | UCB | Terminated | Terminated | alpha-synuclein (membrane-bound oligomers) |
+| [[vent-02]] | VENT-02 | Ventus Therapeutics | Terminated | Terminated | NLRP3 inflammasome |
+| [[mk-7337]] | MK-7337 | Merck | Phase 1 | Discontinued | alpha-synuclein (aggregated fibrils) |
+| [[pt320]] | PT320 | Peptron | Phase 2 | Failed | GLP-1 receptor (neuroprotection/sustained-release repurposed) |
+| [[exenatide]] | Exenatide | UCL (Tom Foltynie) | Phase 3 | Failed | GLP-1 receptor (neuroprotection/repurposed) |
 
 ### Failure Pattern Analysis
 
@@ -281,12 +702,15 @@ The failure pattern in PD is instructive:
 
 ## Deprioritized / Inactive
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", stage AS "Stage", status AS "Status", target AS "Target"
-FROM "pd-pipeline-research/assets"
-WHERE status = "Deprioritized" OR status = "Inactive" OR status = "Unverified"
-SORT stage DESC
-```
+| File | Drug | Company | Stage | Status | Target |
+| --- | --- | --- | --- | --- | --- |
+| [[brainstorm-nurown]] | NurOwn (MSC-NTF cells) | BrainStorm Cell Therapeutics | Preclinical | Inactive | neurotrophic factor delivery (GDNF, BDNF) |
+| [[sana-program]] | Sana PD Program | Sana Biotechnology | Preclinical | Deprioritized | dopaminergic neuron replacement (cell therapy) |
+| [[abl301]] | ABL301 | ABL Bio | Phase 1 | Deprioritized | alpha-synuclein (aggregated, C-terminal) + IGF1R (BBB shuttle) |
+| [[asn51]] | ASN51 | Asceneuron | Phase 1 | Deprioritized | O-GlcNAcase (OGA) |
+| [[sar446159]] | SAR446159 | ABL Bio | Phase 1 | Deprioritized | alpha-synuclein (aggregated, C-terminal) + IGF1R (BBB shuttle) |
+| [[addex-program]] | Dipraglurant | Addex Therapeutics | Phase 2 | Deprioritized | mGluR5 (metabotropic glutamate receptor 5) |
+| [[lu-af67643]] | Lu AF67643 | Lundbeck | Phase 2 | Unverified | alpha-synuclein |
 
 ---
 
@@ -305,12 +729,23 @@ SORT stage DESC
 
 ### Asia Cell Therapy Leadership
 
-```dataview
-TABLE drug_name AS "Drug", developer AS "Company", modality AS "Modality", stage AS "Stage"
-FROM "pd-pipeline-research/assets"
-WHERE contains(modality, "cell therapy") AND status = "Active"
-SORT stage ASC
-```
+| File | Drug | Company | Modality | Stage |
+| --- | --- | --- | --- | --- |
+| [[raguneprocel]] | Raguneprocel | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) | NDA Filed |
+| [[bemdaneprocel]] | Bemdaneprocel | BlueRock Therapeutics | cell therapy (ESC) | Phase 3 |
+| [[cbt-npc]] | CBT-NPC | CHA Biotech | cell therapy (ESC) | Phase 2 |
+| [[hb-admsc]] | HB-adMSCs | Hope Biosciences Research Foundation | cell therapy (MSC allogeneic) | Phase 2 |
+| [[anpd001]] | ANPD001 | Aspen Neuroscience | cell therapy (iPSC autologous) | Phase 1/2 |
+| [[kyoto-ipsc]] | Kyoto iPSC-DA (CiRA-derived) | CiRA (Kyoto University) / Sumitomo Pharma | cell therapy (iPSC allogeneic) | Phase 1/2 |
+| [[nouvneu001]] | NouvNeu001 | iRegene Therapeutics | cell therapy (iPSC allogeneic) | Phase 1/2 |
+| [[sizhe-biopharma]] | XS-411 | XellSmart / Shize Bio (士泽生物) | cell therapy (iPSC allogeneic) | Phase 1/2 |
+| [[snk01]] | Troculeucel | NKGen Biotech | cell therapy (autologous NK) | Phase 1/2 |
+| [[stem-pd]] | STEM-PD | Lund University / University of Cambridge | cell therapy (ESC) | Phase 1/2 |
+| [[ted-a9]] | TED-A9 | S.BIOMEDICS | cell therapy (ESC) | Phase 1/2 |
+| [[alc01]] | ALC01 | iCamuno Biotherapeutics | cell therapy (iPSC allogeneic) | Phase 1 |
+| [[autologous-mdaps]] | Autologous mDAPs (NRI/McLean) | McLean Hospital / Neuroregeneration Research Institute (NRI) | cell therapy (iPSC autologous) | Phase 1 |
+| [[rndp-001]] | RNDP-001 | Kenai Therapeutics | cell therapy (iPSC allogeneic) | Phase 1 |
+| [[ux-da001]] | UX-DA001 | UniXell Biotechnology | cell therapy (iPSC autologous) | Phase 1 |
 
 Asia leads in clinical-stage cell therapy for PD. Japan's [[raguneprocel]] is at NDA stage. Korea has [[ted-a9]] (hESC-derived) and [[cbt-npc]] (fetal cells). China has three dual-IND programs ([[nouvneu001]], [[ux-da001]]) pursuing simultaneous NMPA and FDA paths -- a regulatory strategy that did not exist five years ago.
 
@@ -320,16 +755,16 @@ Asia leads in clinical-stage cell therapy for PD. Japan's [[raguneprocel]] is at
 
 ### Target Competition Analysis
 
-```dataview
-TABLE WITHOUT ID
-  thesis_cluster AS "Thesis Cluster",
-  length(rows) AS "Total Programs",
-  length(filter(rows, (r) => r.status = "Active")) AS "Active"
-FROM "pd-pipeline-research/assets"
-WHERE drug_name != null
-GROUP BY thesis_cluster
-SORT length(rows) DESC
-```
+| Thesis Cluster | Total Programs | Active |
+| --- | --- | --- |
+| alpha-synuclein | 31 | 23 |
+| neuroinflammation | 28 | 25 |
+| genetic-pd | 23 | 22 |
+| symptomatic | 21 | 19 |
+| cell-therapy | 17 | 15 |
+| mitophagy | 9 | 9 |
+| diagnostics | 4 | 3 |
+| ai-discovery | 2 | 2 |
 
 ### Novel/Emerging Targets (Low Competition)
 
@@ -393,12 +828,62 @@ The deal landscape signals a clear thesis shift: big pharma is buying **platform
 
 ### Tier 2: Single Lead Program (Clinical Stage)
 
-```dataview
-TABLE drug_name AS "Lead Asset", stage AS "Stage", target AS "Target"
-FROM "pd-pipeline-research/assets"
-WHERE status = "Active" AND (stage = "Phase 3" OR stage = "Phase 2/3" OR stage = "Phase 2b" OR stage = "Phase 2" OR stage = "NDA Filed") AND company_type = "biotech"
-SORT stage ASC, drug_name ASC
-```
+| File | Lead Asset | Stage | Target |
+| --- | --- | --- | --- |
+| [[ipx203]] | IPX203 | Approved | dopamine (symptomatic replacement via L-DOPA) |
+| [[bemdaneprocel]] | Bemdaneprocel | Phase 3 | dopaminergic neuron replacement (cell therapy) |
+| [[buntanetap]] | Buntanetap | Phase 3 | neurotoxic protein translation (IRE-mediated: APP, alpha-synuclein, tau) |
+| [[mesdopetam]] | Mesdopetam | Phase 3 | dopamine D3 receptor |
+| [[p2b001]] | P2B001 | Phase 3 | dopamine receptors / MAO-B enzyme (symptomatic combination) |
+| [[prasinezumab]] | Prasinezumab | Phase 3 | alpha-synuclein (aggregated, C-terminal) |
+| [[solangepras]] | Solengepras | Phase 3 | GPR6 (G-protein coupled receptor 6, indirect striatopallidal pathway) |
+| [[bhv-8000]] | BHV-8000 | Phase 2/3 | TYK2/JAK1 (neuroinflammation, JAK-STAT pathway) |
+| [[biib122]] | BIIB122 | Phase 2b | LRRK2 kinase |
+| [[pariceract]] | Pariceract | Phase 2b | GBA1 / GCase (glucocerebrosidase) |
+| [[aav-gad]] | AAV-GAD | Phase 2 | subthalamic nucleus GABAergic inhibition (GAD65/GAD67) |
+| [[ab-1005]] | AB-1005 | Phase 2 | GDNF (glial cell line-derived neurotrophic factor) |
+| [[aci-7104]] | ACI-7104.056 | Phase 2 | alpha-synuclein (aggregated, C-terminal mimotope) |
+| [[ath-434]] | ATH-434 | Phase 2 | iron (labile brain iron) / alpha-synuclein aggregation |
+| [[blarcamesine]] | Blarcamesine | Phase 2 | sigma-1 receptor (SIGMAR1) |
+| [[cbt-npc]] | CBT-NPC | Phase 2 | dopaminergic neuron replacement (fetal midbrain-derived neural progenitor cells) |
+| [[dapansutrile]] | Dapansutrile | Phase 2 | NLRP3 inflammasome |
+| [[exidavnemab]] | Exidavnemab | Phase 2 | alpha-synuclein (aggregated, oligomeric/protofibrillar) |
+| [[nly01]] | NLY01 | Phase 2 | GLP-1 receptor (neuroinflammation / microglial activation) |
+| [[radotinib]] | Radotinib | Phase 2 | c-Abl tyrosine kinase |
+| [[vtx3232]] | VTX3232 | Phase 2 | NLRP3 inflammasome |
+| [[snk01]] | Troculeucel | Phase 1/2 | neuroinflammation / immune modulation (NK cell-mediated) |
+| [[ted-a9]] | TED-A9 | Phase 1/2 | dopaminergic neuron replacement (hESC-derived DA progenitors) |
+| [[vgn-r09b]] | VGN-R09b | Phase 1/2 | AADC + GDNF (dual-gene: dopamine synthesis restoration + neurotrophic neuropr... |
+| [[gt-02287]] | GT-02287 | Phase 1b | GBA1 / GCase (glucocerebrosidase) |
+| [[her-096]] | HER-096 | Phase 1b | CDNF/UPR pathway (ER stress, alpha-synuclein aggregation, neuroinflammation) |
+| [[irl757]] | IRL757 | Phase 1b | frontal-subcortical circuit dysfunction (apathy) |
+| [[nt-0796]] | NT-0796 | Phase 1b | NLRP3 inflammasome |
+| [[ser-252]] | SER-252 | Phase 1b | dopamine receptors (D1/D2 agonist, extended-release) |
+| [[ub-312]] | UB-312 | Phase 1b | alpha-synuclein (aggregated, C-terminal peptide) |
+| [[arv-102]] | ARV-102 | Phase 1 | LRRK2 (full protein degradation) |
+| [[energi-f705pd]] | ENERGI-F705PD | Phase 1 | cellular ATP levels / alpha-synuclein aggregation (metabolic) |
+| [[ism8969]] | ISM8969 | Phase 1 | NLRP3 inflammasome |
+| [[ly03017]] | LY03017 | Phase 1 | serotonin 5-HT2A / 5-HT2C receptors |
+| [[mtx325]] | MTX325 | Phase 1 | USP30 (mitochondrial deubiquitinase) |
+| [[nm-101]] | NM-101 | Phase 1 | TLR2 (neuroinflammation, alpha-synuclein-mediated microglial activation) |
+| [[nrg5051]] | NRG5051 | Phase 1 | mitochondrial permeability transition pore (mPTP) |
+| [[nt-0150]] | NT-0150 | Phase 1 | NLRP3 inflammasome |
+| [[stealth-bio]] | Bevemipretide | Phase 1 | cardiolipin / inner mitochondrial membrane |
+| [[vt-5006]] | VT-5006 | Phase 1 | CsgA bacterial curli amyloid (gut-to-brain alpha-synuclein seeding) |
+| [[dnl111]] | DNL111 | IND-enabling | GBA1 / GCase (glucocerebrosidase) |
+| [[dnl422]] | DNL422 | IND-enabling | SNCA mRNA (alpha-synuclein production inhibition) |
+| [[gba1-voyager]] | GBA1 Gene Therapy (VYGR) | IND-enabling | GBA1 / GCase (glucocerebrosidase) |
+| [[nly02]] | NLY02 | IND-enabling | RIPK2 (NOD2/RIPK2 neuroinflammatory signaling) |
+| [[adp062-abc]] | ADP062-ABC | Preclinical | SNCA mRNA (alpha-synuclein production inhibition) |
+| [[adp065-abc]] | ADP065-ABC | Preclinical | NLRP3 inflammasome |
+| [[al050-abc]] | AL050-ABC | Preclinical | GBA1 / GCase (glucocerebrosidase) |
+| [[aro-snca]] | ARO-SNCA | Preclinical | SNCA mRNA (alpha-synuclein production inhibition) |
+| [[ct1812]] | CT1812 | Preclinical | sigma-2 receptor (TMEM97) |
+| [[eubiologics-vaccine]] | EuBiologics PD Vaccine | Preclinical | alpha-synuclein (peptide epitope, active immunotherapy) |
+| [[lbp-pd01]] | LB-P4 | Preclinical | gut-brain axis (microbiome dysbiosis, alpha-synuclein propagation) |
+| [[mor-a-syn]] | Morphomer alpha-synuclein | Preclinical | alpha-synuclein (intracellular aggregates) |
+| [[neumora-nlrp3]] | NMRA-NLRP3 | Preclinical | NLRP3 inflammasome |
+| [[nly03]] | NLY03 | Preclinical | parthanatos pathway (PARP-1/PAR/AIF/MIF cascade) |
 
 ### Tier 3: Preclinical/Discovery
 

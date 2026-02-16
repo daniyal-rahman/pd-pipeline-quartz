@@ -79,12 +79,25 @@ Raguneprocel (brand name AMCHEPRY) is poised to become the world's first iPSC-de
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(thesis_cluster, "cell-therapy") AND file.name != "raguneprocel"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[brainstorm-nurown]] | Preclinical | Inactive | BrainStorm Cell Therapeutics | cell therapy (autologous MSC) |
+| [[sana-program]] | Preclinical | Deprioritized | Sana Biotechnology | cell therapy (iPSC allogeneic) |
+| [[alc01]] | Phase 1 | Active | iCamuno Biotherapeutics | cell therapy (iPSC allogeneic) |
+| [[autologous-mdaps]] | Phase 1 | Active | McLean Hospital / Neuroregeneration Research Institute (NRI) | cell therapy (iPSC autologous) |
+| [[cellino-ipsc]] | Phase 1 | Active | Cellino Biotech | platform |
+| [[rndp-001]] | Phase 1 | Active | Kenai Therapeutics | cell therapy (iPSC allogeneic) |
+| [[ux-da001]] | Phase 1 | Active | UniXell Biotechnology | cell therapy (iPSC autologous) |
+| [[anpd001]] | Phase 1/2 | Active | Aspen Neuroscience | cell therapy (iPSC autologous) |
+| [[kyoto-ipsc]] | Phase 1/2 | Active | CiRA (Kyoto University) / Sumitomo Pharma | cell therapy (iPSC allogeneic) |
+| [[nouvneu001]] | Phase 1/2 | Active | iRegene Therapeutics | cell therapy (iPSC allogeneic) |
+| [[sizhe-biopharma]] | Phase 1/2 | Active | XellSmart / Shize Bio (士泽生物) | cell therapy (iPSC allogeneic) |
+| [[stem-pd]] | Phase 1/2 | Active | Lund University / University of Cambridge | cell therapy (ESC) |
+| [[ted-a9]] | Phase 1/2 | Active | S.BIOMEDICS | cell therapy (ESC) |
+| [[cbt-npc]] | Phase 2 | Active | CHA Biotech | cell therapy (ESC) |
+| [[hb-admsc]] | Phase 2 | Active | Hope Biosciences Research Foundation | cell therapy (MSC allogeneic) |
+| [[bemdaneprocel]] | Phase 3 | Active | BlueRock Therapeutics | cell therapy (ESC) |
+| [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 
 - [[bemdaneprocel]] (BlueRock/Bayer) is the primary competitor -- ESC-derived (not iPSC), Phase 3 pivotal trial (exPDite-2) dosed first patient September 2025, readout expected ~2027. Received SAKIGAKE (Pioneering Regenerative Medical Product) designation in Japan in December 2025, signaling intent to compete in Japan market
 - Raguneprocel has the regulatory lead (NDA filed vs. Phase 3 enrolling) but a smaller clinical dataset (N=7 vs. BlueRock's N=12 Phase 1). The Japan-first strategy via Regenerative Medicine framework allows conditional approval on smaller evidence packages

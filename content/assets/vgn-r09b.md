@@ -71,12 +71,17 @@ VGN-R09b is Shanghai Vitalgen BioPharma's (biotech, private) first-in-class AAV9
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(modality, "AAV gene therapy") AND file.name != "vgn-r09b"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[eladocagene]] | Approved (AADC deficiency); Phase 1b completed (PD — terminated) | Active (AADC deficiency); Discontinued (PD) | PTC Therapeutics | AAV gene therapy |
+| [[cavgene]] | Preclinical | Active | CavGene Therapeutics | AAV gene therapy |
+| [[spark-program]] | Preclinical | Active | Spark Therapeutics | AAV gene therapy |
+| [[gba1-voyager]] | IND-enabling | Active | Voyager Therapeutics | AAV gene therapy |
+| [[cap-003]] | Phase 1/2 | Active | Capsida Biotherapeutics | AAV gene therapy |
+| [[pr001]] | Phase 1/2 | Active | Prevail Therapeutics | AAV gene therapy |
+| [[vgn-r09b]] | Phase 1/2 | Active | Shanghai Vitalgen BioPharma | AAV gene therapy |
+| [[aav-gad]] | Phase 2 | Active | MeiraGTx | AAV gene therapy |
+| [[ab-1005]] | Phase 2 | Active | AskBio | AAV gene therapy |
 
 - VGN-R09b's dual-gene design is **unique** among PD gene therapies -- no other program combines AADC + GDNF in a single vector. This positions it between the symptomatic AADC approach of [[eladocagene]] (discontinued for PD) and the neuroprotective GDNF approach of [[ab-1005]]
 - [[aav-gad]] (MeiraGTx, Phase 3) is the most advanced PD gene therapy and the primary benchmark. AAV-GAD targets a different mechanism (GABAergic modulation of the STN) and showed 18-point UPDRS improvement at high dose. VGN-R09b's 25-point improvement at low dose is superficially larger, but the comparison is confounded by open-label vs. sham-controlled design

@@ -63,12 +63,10 @@ No clinical trials initiated. Program is at discovery/target-validation stage. T
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "NOD2") AND file.name != "valo-merck"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[valo-merck]] | Discovery | Active | Valo Health | AI discovery platform |
+| [[nly02]] | IND-enabling | Active | Neuraly (D&D Pharmatech) / 1ST Bio | small molecule |
 
 - No other PD programs are currently known to target NOD2 specifically -- this is a first-mover in an emerging target class
 - The broader neuroinflammation thesis competes with [[biib122|LRRK2 inhibitors]] (which share immune pathway biology with NOD2) and anti-inflammatory approaches from [[dnl111|Denali]] and others

@@ -88,12 +88,29 @@ Tavapadon is a first-in-class selective D1/D5 dopamine receptor partial agonist 
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE thesis_cluster = "symptomatic" AND file.name != "tavapadon"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[eladocagene]] | Approved (AADC deficiency); Phase 1b completed (PD — terminated) | Active (AADC deficiency); Discontinued (PD) | PTC Therapeutics | AAV gene therapy |
+| [[cavgene]] | Preclinical | Active | CavGene Therapeutics | AAV gene therapy |
+| [[lario-cav23]] | Preclinical | Active | Lario Therapeutics | small molecule |
+| [[otsuka-program]] | Preclinical | Active | Otsuka Pharmaceutical | Undisclosed |
+| [[lu-af28996]] | Phase 1 | Active | Lundbeck | small molecule |
+| [[ly03017]] | Phase 1 | Active | Luye Pharma Group | small molecule |
+| [[irl757]] | Phase 1b | Active | IRLAB Therapeutics | small molecule |
+| [[ser-252]] | Phase 1b | Active | Serina Therapeutics | small molecule |
+| [[appello-mglu4]] | Phase 1/2 | Active | Appello Pharmaceuticals | small molecule |
+| [[dive-inbrain]] | Phase 1/2 | Active | InBrain Pharma | device-aided therapy (drug/device combination) |
+| [[vgn-r09b]] | Phase 1/2 | Active | Shanghai Vitalgen BioPharma | AAV gene therapy |
+| [[aav-gad]] | Phase 2 | Active | MeiraGTx | AAV gene therapy |
+| [[addex-program]] | Phase 2 | Deprioritized | Addex Therapeutics | small molecule |
+| [[blarcamesine]] | Phase 2 | Active | Anavex Life Sciences | small molecule |
+| [[glovadalen]] | Phase 2 | Active | UCB | small molecule |
+| [[mesdopetam]] | Phase 3 | Active | IRLAB Therapeutics | small molecule |
+| [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
+| [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
+| [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
+| [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 
 - Tavapadon is not a disease-modifying therapy -- it is a novel symptomatic agent competing in the established dopaminergic treatment space. Its competitors are primarily marketed generics (pramipexole, ropinirole, levodopa/carbidopa) rather than pipeline assets
 - Key competitive advantage is the D1/D5 selectivity: if the 1.4% ICD rate holds post-approval, tavapadon could displace D2/D3 agonists as first-line dopamine agonist therapy, particularly in patients at risk for impulse control disorders

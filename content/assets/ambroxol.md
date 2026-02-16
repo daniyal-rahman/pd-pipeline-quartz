@@ -87,12 +87,18 @@ Ambroxol is a repurposed over-the-counter mucolytic being developed as a GCase p
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "GCase") AND file.name != "ambroxol"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[al050-abc]] | Preclinical | Active | Alector | enzyme activator |
+| [[congruence-gcase]] | IND-enabling | Active | Congruence Therapeutics | small molecule |
+| [[dnl111]] | IND-enabling | Active | Denali Therapeutics | platform |
+| [[gba1-voyager]] | IND-enabling | Active | Voyager Therapeutics | AAV gene therapy |
+| [[gt-02287]] | Phase 1b | Active | Gain Therapeutics | small molecule |
+| [[vq-101]] | Phase 1b | Active | Vanqua Bio | small molecule |
+| [[cap-003]] | Phase 1/2 | Active | Capsida Biotherapeutics | AAV gene therapy |
+| [[pr001]] | Phase 1/2 | Active | Prevail Therapeutics | AAV gene therapy |
+| [[ambroxol]] | Phase 2 | Active | Multiple investigators / Agyany Pharma | small molecule |
+| [[pariceract]] | Phase 2b | Active | BIAL | small molecule |
 
 - [[pariceract]] (BIAL) is the primary competitor — a purpose-built allosteric GCase activator rather than a repurposed chaperone. Pariceract binds a distinct allosteric site and does not have the concurrent inhibitor liability at lysosomal pH. If pariceract succeeds in Phase 2, it likely supersedes ambroxol for pharma investment regardless of ambroxol's own data
 - Venglustat (Sanofi) pursued substrate reduction inhibition (blocking glucosylceramide synthesis) rather than enzyme enhancement — **Phase 3 terminated** due to lack of efficacy (MOVES-PD), which removes one competitive approach but also raises questions about the GBA pathway broadly

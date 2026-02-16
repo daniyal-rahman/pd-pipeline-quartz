@@ -58,12 +58,14 @@ The LixiPark Phase 2 trial (NEJM, April 2024) is the first GLP-1 receptor agonis
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "GLP-1") AND file.name != "lixisenatide"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[liraglutide]] | Phase 2 | Active | Academic (Cedars-Sinai / Cure Parkinson's) | small molecule |
+| [[lixisenatide]] | Phase 2 | Active | Toulouse University Hospital (academic) | small molecule |
+| [[nly01]] | Phase 2 | Active | Neuraly (D&D Pharmatech) | small molecule |
+| [[pt320]] | Phase 2 | Failed | Peptron | small molecule |
+| [[semaglutide]] | Phase 2 | Active | Novo Nordisk / Osaka University | small molecule |
+| [[exenatide]] | Phase 3 | Failed | UCL (Tom Foltynie) | small molecule |
 
 - Lixisenatide is the **only GLP-1 agonist with a positive PD trial** — the class landscape is otherwise negative or inconclusive:
   - **Exenatide** (AstraZeneca/Bydureon): Phase 3 Exenatide-PD3 trial (N=194, 96 weeks) **failed** — no difference vs. placebo on MDS-UPDRS Part III off-medication (Lancet, Feb 2025). This is the single biggest risk factor for the lixisenatide thesis

@@ -16,9 +16,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Bayer" OR partner = "Bayer"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[bemdaneprocel]] | Bemdaneprocel | Phase 3 | Active | dopaminergic neuron replacement (cell therapy) | 5/10 |
+| [[ab-1005]] | AB-1005 | Phase 2 | Active | GDNF (glial cell line-derived neurotrophic factor) | 5/10 |

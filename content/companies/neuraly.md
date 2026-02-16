@@ -15,9 +15,8 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Neuraly (D&D Pharmatech)" OR partner = "Neuraly (D&D Pharmatech)" OR developer = "Neuraly (D&D Pharmatech) / 1ST Bio" OR partner = "Neuraly (D&D Pharmatech) / 1ST Bio"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[nly01]] | NLY01 | Phase 2 | Active | GLP-1 receptor (neuroinflammation / microglial activation) | 3/10 |
+| [[nly02]] | NLY02 | IND-enabling | Active | RIPK2 (NOD2/RIPK2 neuroinflammatory signaling) | 2/10 |
+| [[nly03]] | NLY03 | Preclinical | Active | parthanatos pathway (PARP-1/PAR/AIF/MIF cascade) | 1/10 |

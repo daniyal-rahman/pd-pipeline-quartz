@@ -69,12 +69,11 @@ Dipraglurant is an oral mGluR5 negative allosteric modulator developed by Addex 
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "glutamate") OR contains(target, "mGlu") OR contains(target, "dopamine D3") AND file.name != "addex-program"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[appello-mglu4]] | Phase 1/2 | Active | Appello Pharmaceuticals | small molecule |
+| [[addex-program]] | Phase 2 | Deprioritized | Addex Therapeutics | small molecule |
+| [[mesdopetam]] | Phase 3 | Active | IRLAB Therapeutics | small molecule |
 
 - [[mesdopetam]] is the most directly competitive LID program: oral D3 receptor antagonist, Phase 3-ready with FDA/EMA alignment, but also unpartnered and underfunded. Both programs share the same fundamental challenge -- LID is a real unmet need but a difficult commercial market against generic amantadine
 - Amantadine ER (Gocovri/ADS-5102, now generic) is the only approved pharmacological LID treatment; its availability as generic creates significant pricing pressure for any new entrant

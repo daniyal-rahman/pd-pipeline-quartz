@@ -61,12 +61,18 @@ No clinical trials initiated. CSM-101 is in IND-enabling studies.
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "GBA1") AND file.name != "casma-trpml1"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[al050-abc]] | Preclinical | Active | Alector | enzyme activator |
+| [[congruence-gcase]] | IND-enabling | Active | Congruence Therapeutics | small molecule |
+| [[dnl111]] | IND-enabling | Active | Denali Therapeutics | platform |
+| [[gba1-voyager]] | IND-enabling | Active | Voyager Therapeutics | AAV gene therapy |
+| [[gt-02287]] | Phase 1b | Active | Gain Therapeutics | small molecule |
+| [[vq-101]] | Phase 1b | Active | Vanqua Bio | small molecule |
+| [[cap-003]] | Phase 1/2 | Active | Capsida Biotherapeutics | AAV gene therapy |
+| [[pr001]] | Phase 1/2 | Active | Prevail Therapeutics | AAV gene therapy |
+| [[ambroxol]] | Phase 2 | Active | Multiple investigators / Agyany Pharma | small molecule |
+| [[pariceract]] | Phase 2b | Active | BIAL | small molecule |
 
 - CSM-101 targets lysosomal function via TRPML1 rather than GCase directly, making it mechanistically distinct from [[pariceract]] (allosteric GCase activator, Phase 2b) and [[ambroxol]] (GCase chaperone, Phase 2). It could be complementary or competitive depending on clinical data
 - **Merck (big pharma)** is the primary competitive threat: acquired both Calporta (2019) and Caraway (2023), both TRPML1-focused. Merck's programs are not publicly disclosed in detail, but the $1.2B+ total investment across two acquisitions signals deep commitment. Casma's competitive position depends on whether CSM-101 has differentiated pharmacology vs. Merck's internal TRPML1 compounds

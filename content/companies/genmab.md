@@ -16,9 +16,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Genmab" OR partner = "Genmab"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[amlenetug]] | Amlenetug | Phase 3 | Active | alpha-synuclein (all extracellular forms, epitope aa 112-117) | 4/10 |
+| [[lu-af67643]] | Lu AF67643 | Phase 2 | Unverified | alpha-synuclein | 1/10 |

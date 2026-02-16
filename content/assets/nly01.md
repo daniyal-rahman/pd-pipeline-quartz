@@ -66,12 +66,14 @@ NLY01 is a pegylated, long-acting exendin-4-based GLP-1 receptor agonist develop
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "GLP-1") AND file.name != "nly01"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[liraglutide]] | Phase 2 | Active | Academic (Cedars-Sinai / Cure Parkinson's) | small molecule |
+| [[lixisenatide]] | Phase 2 | Active | Toulouse University Hospital (academic) | small molecule |
+| [[nly01]] | Phase 2 | Active | Neuraly (D&D Pharmatech) | small molecule |
+| [[pt320]] | Phase 2 | Failed | Peptron | small molecule |
+| [[semaglutide]] | Phase 2 | Active | Novo Nordisk / Osaka University | small molecule |
+| [[exenatide]] | Phase 3 | Failed | UCL (Tom Foltynie) | small molecule |
 
 - NLY01 sits within the broader **GLP-1 agonist class** in PD, which includes non-pegylated exenatide (failed Phase 3, 2025), lixisenatide (positive Phase 2 / LixiPark, NEJM 2024), and semaglutide (epidemiological signal, trials planned)
 - Key differentiator vs. exenatide: PEGylation gives NLY01 longer half-life (weekly vs. daily/twice-daily dosing) and potentially improved BBB penetration, though this did not translate to efficacy in the overall Phase 2 population

@@ -83,12 +83,40 @@ Buntanetap is a first-in-class oral translational inhibitor from Annovis Bio (bi
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "alpha-synuclein") AND file.name != "buntanetap"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[cinpanemab]] | Terminated | Failed | Biogen | monoclonal antibody |
+| [[ion464]] | Discontinued | Discontinued | Ionis Pharmaceuticals | ASO |
+| [[minzasolmin]] | Terminated | Terminated | UCB | small molecule |
+| [[saamplify-asyn]] | Commercial | Active | Amprion | diagnostic assay |
+| [[trimtech-trim21]] | Discovery | Active | TRIMTECH Therapeutics | small molecule |
+| [[adp062-abc]] | Preclinical | Active | Alector | siRNA |
+| [[aro-snca]] | Preclinical | Active | Arrowhead Pharmaceuticals | siRNA |
+| [[booster-therapeutics]] | Preclinical | Active | Booster Therapeutics | small molecule |
+| [[eubiologics-vaccine]] | Preclinical | Active | EuBiologics | active vaccine |
+| [[lbp-pd01]] | Preclinical | Active | LISCure Biosciences | live biotherapeutic product |
+| [[mor-a-syn]] | Preclinical | Active | AC Immune | small molecule |
+| [[act-02]] | IND-enabling | Active | Accure Therapeutics | small molecule |
+| [[dnl422]] | IND-enabling | Active | Denali Therapeutics | ASO |
+| [[18f-fd4]] | Phase 1 | Active | SynuSight Biotech | PET tracer |
+| [[abl301]] | Phase 1 | Deprioritized | ABL Bio | bispecific antibody |
+| [[energi-f705pd]] | Phase 1 | Active | Energenesis Biomedical | small molecule |
+| [[ly3962681]] | Phase 1 | Active | Prevail Therapeutics (Eli Lilly subsidiary) | siRNA |
+| [[mk-7337]] | Phase 1 | Discontinued | Merck | PET tracer |
+| [[nm-101]] | Phase 1 | Active | Neuramedy | monoclonal antibody |
+| [[sar446159]] | Phase 1 | Deprioritized | ABL Bio | bispecific antibody |
+| [[ucb7853]] | Phase 1 | Active | UCB | monoclonal antibody |
+| [[vt-5006]] | Phase 1 | Active | Vertero Therapeutics | small molecule |
+| [[emrusolmin]] | Phase 1b | Active | MODAG GmbH | small molecule |
+| [[her-096]] | Phase 1b | Active | Herantis Pharma | peptide |
+| [[ub-312]] | Phase 1b | Active | Vaxxinity | active vaccine |
+| [[aci-7104]] | Phase 2 | Active | AC Immune | active vaccine |
+| [[ath-434]] | Phase 2 | Active | Alterity Therapeutics | small molecule |
+| [[exidavnemab]] | Phase 2 | Active | BioArctic | monoclonal antibody |
+| [[lu-af67643]] | Phase 2 | Unverified | Lundbeck | monoclonal antibody |
+| [[amlenetug]] | Phase 3 | Active | Lundbeck | monoclonal antibody |
+| [[buntanetap]] | Phase 3 | Active | Annovis Bio | small molecule |
+| [[prasinezumab]] | Phase 3 | Active | Prothena | Monoclonal antibody |
 
 - Buntanetap occupies a unique niche as a multi-target translational inhibitor -- it does not compete directly with single-target alpha-synuclein approaches like [[prasinezumab]] (antibody clearance) or [[aro-snca|ARO-SNCA]] (siRNA production silencing), but its alpha-synuclein reduction claims put it in the same therapeutic space
 - The oral route of administration is a genuine advantage over IV infusion ([[prasinezumab]]) or subcutaneous injection ([[aro-snca|ARO-SNCA]]) if efficacy is demonstrated

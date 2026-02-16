@@ -15,9 +15,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "CiRA (Kyoto University) / Sumitomo Pharma" OR partner = "CiRA (Kyoto University) / Sumitomo Pharma" OR developer = "CiRA Foundation / Kyoto University" OR partner = "CiRA Foundation / Kyoto University"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[raguneprocel]] | Raguneprocel | NDA Filed | Active | dopaminergic neuron replacement (iPSC-derived DA progenitors) | 7/10 |
+| [[kyoto-ipsc]] | Kyoto iPSC-DA (CiRA-derived) | Phase 1/2 | Active | dopaminergic neuron replacement (iPSC-derived DA progenitors) | 7/10 |

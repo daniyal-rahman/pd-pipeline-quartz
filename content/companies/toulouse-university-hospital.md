@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Toulouse University Hospital (academic)" OR partner = "Toulouse University Hospital (academic)"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[lixisenatide]] | Lixisenatide | Phase 2 | Active | GLP-1 receptor (neuroprotection via insulin signaling, anti-neuroinflammation) | 5/10 |

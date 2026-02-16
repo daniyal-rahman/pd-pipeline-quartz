@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Hangzhou Highlightll Pharma" OR partner = "Hangzhou Highlightll Pharma"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[bhv-8000]] | BHV-8000 | Phase 2/3 | Active | TYK2/JAK1 (neuroinflammation, JAK-STAT pathway) | 4/10 |

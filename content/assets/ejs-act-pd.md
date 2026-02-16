@@ -97,12 +97,15 @@ EJS ACT-PD (Edmond J Safra Accelerating Clinical Trials in Parkinson's Disease) 
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "neuroprotect") AND file.name != "ejs-act-pd"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[sargramostim]] | Phase 1b | Active | University of Nebraska Medical Center (Howard Gendelman) | recombinant protein (cytokine) |
+| [[vgn-r09b]] | Phase 1/2 | Active | Shanghai Vitalgen BioPharma | AAV gene therapy |
+| [[liraglutide]] | Phase 2 | Active | Academic (Cedars-Sinai / Cure Parkinson's) | small molecule |
+| [[lixisenatide]] | Phase 2 | Active | Toulouse University Hospital (academic) | small molecule |
+| [[pt320]] | Phase 2 | Failed | Peptron | small molecule |
+| [[semaglutide]] | Phase 2 | Active | Novo Nordisk / Osaka University | small molecule |
+| [[exenatide]] | Phase 3 | Failed | UCL (Tom Foltynie) | small molecule |
 
 - EJS ACT-PD competes in the broader "neuroprotection via repurposed drugs" space alongside [[exenatide]] (failed Phase 3), [[lixisenatide]] (positive Phase 2, Phase 3 planned), [[semaglutide]] (Phase 2 ongoing), [[ambroxol]] (Phase 3 ongoing), and [[nicotinamide-riboside]] (Phase 3 results pending)
 - The telmisartan arm's AT1R/neuroinflammation hypothesis overlaps mechanistically with other anti-inflammatory approaches: [[dapansutrile]] (NLRP3 inhibition), [[selnoflast]] (Roche NLRP3 inhibitor), and [[vtx3232]] (Ventus NLRP3 inhibitor), though the specific AT1R/RAS pathway is distinct

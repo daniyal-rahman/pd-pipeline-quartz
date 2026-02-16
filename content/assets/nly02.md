@@ -59,12 +59,20 @@ Key preclinical evidence:
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "neuroinflam") AND file.name != "nly02"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[rome-line1]] | Preclinical | Active | ROME Therapeutics | small molecule |
+| [[nly02]] | IND-enabling | Active | Neuraly (D&D Pharmatech) / 1ST Bio | small molecule |
+| [[lbt-3627]] | Phase 1 | Active | Longevity Biotech | peptide |
+| [[nm-101]] | Phase 1 | Active | Neuramedy | monoclonal antibody |
+| [[her-096]] | Phase 1b | Active | Herantis Pharma | peptide |
+| [[sargramostim]] | Phase 1b | Active | University of Nebraska Medical Center (Howard Gendelman) | recombinant protein (cytokine) |
+| [[snk01]] | Phase 1/2 | Active | NKGen Biotech | cell therapy (autologous NK) |
+| [[hb-admsc]] | Phase 2 | Active | Hope Biosciences Research Foundation | cell therapy (MSC allogeneic) |
+| [[lixisenatide]] | Phase 2 | Active | Toulouse University Hospital (academic) | small molecule |
+| [[nly01]] | Phase 2 | Active | Neuraly (D&D Pharmatech) | small molecule |
+| [[semaglutide]] | Phase 2 | Active | Novo Nordisk / Osaka University | small molecule |
+| [[bhv-8000]] | Phase 2/3 | Active | Biohaven | small molecule |
 
 - NLY02 sits within the **neuroinflammation thesis cluster** but targets a distinct pathway (NOD2/RIPK2) vs. other neuroinflammation assets:
   - [[nly01|NLY01]] (Neuraly's own lead, GLP-1R agonist): Phase 2 completed, missed primary in overall PD population, post-hoc signal in patients <60; targets the same downstream effector (A1 astrocyte conversion) but via GLP-1 receptor activation rather than RIPK2 kinase inhibition

@@ -16,9 +16,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "AC Immune" OR partner = "AC Immune"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[aci-7104]] | ACI-7104.056 | Phase 2 | Active | alpha-synuclein (aggregated, C-terminal mimotope) | 5/10 |
+| [[mor-a-syn]] | Morphomer alpha-synuclein | Preclinical | Active | alpha-synuclein (intracellular aggregates) | 3/10 |

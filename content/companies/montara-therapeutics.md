@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Montara Therapeutics" OR partner = "Montara Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[montara-lrrk2]] | Montara BrainOnly LRRK2 | Preclinical | Active | LRRK2 kinase | 3/10 |

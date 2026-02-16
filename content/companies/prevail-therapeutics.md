@@ -15,9 +15,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Prevail Therapeutics" OR partner = "Prevail Therapeutics" OR developer = "Prevail Therapeutics (Eli Lilly subsidiary)" OR partner = "Prevail Therapeutics (Eli Lilly subsidiary)"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[pr001]] | PR001 | Phase 1/2 | Active | GBA1 / GCase (glucocerebrosidase) | 4/10 |
+| [[ly3962681]] | LY3962681 | Phase 1 | Active | SNCA mRNA (alpha-synuclein production inhibition) | 3/10 |

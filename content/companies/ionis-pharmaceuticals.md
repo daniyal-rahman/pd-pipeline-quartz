@@ -16,9 +16,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Ionis Pharmaceuticals" OR partner = "Ionis Pharmaceuticals"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[biib094]] | BIIB094 | Discontinued | Discontinued | LRRK2 (mRNA knockdown) | 2/10 |
+| [[ion464]] | ION464 | Discontinued | Discontinued | alpha-synuclein (SNCA mRNA, production inhibition) | N/A (discontinued) |

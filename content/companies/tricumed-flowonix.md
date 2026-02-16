@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Tricumed / Flowonix (pump manufacturers)" OR partner = "Tricumed / Flowonix (pump manufacturers)"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[dive-inbrain]] | A-dopamine (anaerobic dopamine) | Phase 1/2 | Active | dopamine replacement (direct CNS delivery) | 5/10 |

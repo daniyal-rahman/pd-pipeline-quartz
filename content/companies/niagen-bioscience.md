@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Niagen Bioscience" OR partner = "Niagen Bioscience"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[nicotinamide-riboside]] | Nicotinamide Riboside | Phase 3 | Active | NAD+ metabolism / mitochondrial bioenergetics | 4/10 |

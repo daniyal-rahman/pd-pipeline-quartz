@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Booster Therapeutics" OR partner = "Booster Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[booster-therapeutics]] | Booster Therapeutics proteasome activator (lead undisclosed) | Preclinical | Active | 20S proteasome (activation) / alpha-synuclein (indirect clearance) | 4/10 |

@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Caraway Therapeutics (acquired by Merck)" OR partner = "Caraway Therapeutics (acquired by Merck)"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[caraway-tmem175]] | Caraway TMEM175 Modulator | Preclinical | Active | TMEM175 (lysosomal potassium/proton channel) | 4/10 |

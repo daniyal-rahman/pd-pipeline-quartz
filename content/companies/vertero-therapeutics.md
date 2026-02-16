@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Vertero Therapeutics" OR partner = "Vertero Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[vt-5006]] | VT-5006 | Phase 1 | Active | CsgA bacterial curli amyloid (gut-to-brain alpha-synuclein seeding) | 3/10 |

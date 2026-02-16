@@ -73,12 +73,9 @@ No prospective clinical trials registered as of February 2026. NHS deployment th
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "biomarker") AND file.name != "ai-blood-test"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[ai-blood-test]] | Research | Active | UCL / Guilford Street Laboratories | diagnostic assay |
 
 - The PD diagnostics space is currently dominated by CSF-based alpha-synuclein seed amplification assays (SAA) -- Amprion's SAAmplify is the commercial leader with Mayo Clinic distribution
 - PET tracers represent the imaging-based competitor: SynuSight's 18F-FD4 and Merck's MK-7337 aim to visualize alpha-synuclein deposits directly, but PET is expensive ($3,000-5,000/scan) and limited to specialized centers

@@ -16,9 +16,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Herantis Pharma" OR partner = "Herantis Pharma"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[her-096]] | HER-096 | Phase 1b | Active | CDNF/UPR pathway (ER stress, alpha-synuclein aggregation, neuroinflammation) | 5/10 |

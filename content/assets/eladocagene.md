@@ -81,12 +81,17 @@ Eladocagene exuparvovec is an AAV2 gene therapy delivering the human AADC gene d
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(modality, "AAV gene therapy") AND file.name != "eladocagene"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[eladocagene]] | Approved (AADC deficiency); Phase 1b completed (PD — terminated) | Active (AADC deficiency); Discontinued (PD) | PTC Therapeutics | AAV gene therapy |
+| [[cavgene]] | Preclinical | Active | CavGene Therapeutics | AAV gene therapy |
+| [[spark-program]] | Preclinical | Active | Spark Therapeutics | AAV gene therapy |
+| [[gba1-voyager]] | IND-enabling | Active | Voyager Therapeutics | AAV gene therapy |
+| [[cap-003]] | Phase 1/2 | Active | Capsida Biotherapeutics | AAV gene therapy |
+| [[pr001]] | Phase 1/2 | Active | Prevail Therapeutics | AAV gene therapy |
+| [[vgn-r09b]] | Phase 1/2 | Active | Shanghai Vitalgen BioPharma | AAV gene therapy |
+| [[aav-gad]] | Phase 2 | Active | MeiraGTx | AAV gene therapy |
+| [[ab-1005]] | Phase 2 | Active | AskBio | AAV gene therapy |
 
 - **[[aav-gad|AAV-GAD]] (MeiraGTx)** is now the lead intracranial gene therapy for PD at Phase 3, with $430M Hologen partnership funding. AAV-GAD targets STN circuitry (dopamine-independent) while AADC gene therapy targets putaminal dopamine synthesis (dopamine-dependent). AAV-GAD's Phase 3 advancement with RMAT designation makes it the de facto standard-bearer for PD gene therapy
 - **[[ab-1005|AB-1005]] (AskBio/Bayer)** is the other active PD gene therapy at Phase 2, delivering GDNF for neuroprotection rather than enzyme replacement. Different therapeutic goal (disease modification vs. symptomatic improvement)

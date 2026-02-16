@@ -97,12 +97,11 @@ Risvodetinib is the most advanced selective, brain-penetrant c-Abl kinase inhibi
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "c-Abl") AND file.name != "risvodetinib"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[k0706]] | Terminated | Terminated | Sun Pharma Advanced Research (SPARC) | kinase inhibitor |
+| [[radotinib]] | Phase 2 | Active | Il-Yang Pharmaceutical | kinase inhibitor |
+| [[risvodetinib]] | Phase 2b | Active | ABLi Therapeutics | kinase inhibitor |
 
 - **Risvodetinib is the last c-Abl inhibitor standing in PD.** The two closest competitors both failed:
   - **Nilotinib** (repurposed CML drug): Georgetown NILO-PD Phase 2a (NCT03205488, N=76) showed no symptomatic benefit, low CSF exposure, and failed to change dopamine metabolites. MJFF-funded investigators concluded "findings do not warrant further testing." Key issue: not designed for brain penetration

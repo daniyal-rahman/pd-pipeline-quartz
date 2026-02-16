@@ -61,12 +61,11 @@ Radotinib is a second-generation c-Abl tyrosine kinase inhibitor developed by Il
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "c-Abl") AND file.name != "radotinib"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[k0706]] | Terminated | Terminated | Sun Pharma Advanced Research (SPARC) | kinase inhibitor |
+| [[radotinib]] | Phase 2 | Active | Il-Yang Pharmaceutical | kinase inhibitor |
+| [[risvodetinib]] | Phase 2b | Active | ABLi Therapeutics | kinase inhibitor |
 
 - Radotinib enters a c-Abl competitive field defined by failure: nilotinib (NILO-PD, N=76) showed no benefit and insufficient CNS exposure; [[k0706|vodobatinib]] (PROSEEK, N=513) was terminated for futility with dose-dependent NfL elevations suggesting neuronal harm
 - [[risvodetinib]] (ABLi Therapeutics, Phase 2b) is the clear c-Abl class leader — purpose-built for brain penetration, clean safety profile, the only c-Abl inhibitor to show alpha-synuclein aggregate clearance in human skin biopsy, and advancing to registrational CAMPD Phase 2b/3 (~450 patients)

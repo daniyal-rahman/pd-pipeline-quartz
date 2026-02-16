@@ -16,9 +16,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Annovis Bio" OR partner = "Annovis Bio"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[buntanetap]] | Buntanetap | Phase 3 | Active | neurotoxic protein translation (IRE-mediated: APP, alpha-synuclein, tau) | 3/10 |

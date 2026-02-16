@@ -16,9 +16,8 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "UCB" OR partner = "UCB"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[glovadalen]] | Glovadalen | Phase 2 | Active | dopamine D1 receptor (positive allosteric modulator) | 7/10 |
+| [[ucb7853]] | UCB7853 | Phase 1 | Active | alpha-synuclein (extracellular spread) | 3/10 |
+| [[minzasolmin]] | Minzasolmin | Terminated | Terminated | alpha-synuclein (membrane-bound oligomers) | N/A (terminated) |

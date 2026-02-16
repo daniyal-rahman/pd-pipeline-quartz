@@ -84,12 +84,17 @@ Selnoflast is Roche's (big pharma, ROG) peripherally-restricted NLRP3 inflammaso
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "NLRP3") AND file.name != "selnoflast"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[vent-02]] | Terminated | Terminated | Ventus Therapeutics | small molecule |
+| [[adp065-abc]] | Preclinical | Active | Alector | siRNA |
+| [[neumora-nlrp3]] | Preclinical | Active | Neumora Therapeutics | small molecule |
+| [[ism8969]] | Phase 1 | Active | Insilico Medicine | small molecule |
+| [[nt-0150]] | Phase 1 | Active | NodThera | small molecule |
+| [[nt-0796]] | Phase 1b | Active | NodThera | small molecule |
+| [[selnoflast]] | Phase 1b | Active | Roche | small molecule |
+| [[dapansutrile]] | Phase 2 | Active | Olatec Therapeutics | small molecule |
+| [[vtx3232]] | Phase 2 | Active | Ventyx Biosciences | small molecule |
 
 - **NT-0796 (NodThera):** Brain-penetrant NLRP3 inhibitor with Phase 1b/2a data in PD (published August 2025, Movement Disorders). Demonstrated dose-dependent reductions in CSF IL-1beta, IL-6, CCL2, CXCL1, CXCL8 over 28 days, plus reductions in sTREM2 and NfL. This is the most advanced competitor and the first to demonstrate central NLRP3 target engagement in PD patients. Brain penetrance is the key differentiator vs. selnoflast
 - **VTX3232 (Ventyx Biosciences):** CNS-penetrant NLRP3 inhibitor with positive Phase 2a data (June 2025). Open-label study in 10 early PD patients showed no drug-related TEAEs, significant reductions in NLRP3-related CSF and plasma biomarkers, and clinically significant improvements on MDS-UPDRS Parts II and III (with caveat of small, open-label design). Ventyx is advancing to larger trials

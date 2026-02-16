@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Lund University / University of Cambridge" OR partner = "Lund University / University of Cambridge"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[stem-pd]] | STEM-PD | Phase 1/2 | Active | dopaminergic neuron replacement (hESC-derived DA progenitors) | 4/10 |

@@ -59,12 +59,11 @@ No clinical trials initiated for the PD-specific preclinical program.
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "Undisclosed") AND file.name != "otsuka-program"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[otsuka-program]] | Preclinical | Active | Otsuka Pharmaceutical | Undisclosed |
+| [[spark-program]] | Preclinical | Active | Spark Therapeutics | AAV gene therapy |
+| [[vesalius-gsk]] | Preclinical | Active | Vesalius Therapeutics | small molecule |
 
 - If the program is a next-generation dopamine partial agonist, direct competitors include [[tavapadon]] (AbbVie, D1/D5 partial agonist, NDA filed) and [[mesdopetam]] (IRLAB, D3 antagonist, Phase 3 preparation) in the symptomatic PD space
 - Otsuka's key competitive advantage would be their decades of D2 partial agonist clinical and manufacturing experience, plus the Lundbeck commercial partnership covering major Western markets

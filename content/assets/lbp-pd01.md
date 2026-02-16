@@ -68,12 +68,9 @@ No clinical trials initiated. The program remains at preclinical proof-of-concep
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "gut-brain") AND file.name != "lbp-pd01"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[lbp-pd01]] | Preclinical | Active | LISCure Biosciences | live biotherapeutic product |
 
 - No direct competitors in the microbiome-for-PD therapeutic space have reached clinical stage. This is a genuinely novel modality in the PD pipeline, which is both an opportunity (first-mover) and a risk (no clinical validation path established)
 - Indirect competition from FMT trials: multiple academic groups are running FMT studies in PD (GUT-PARFECT at Ghent, NCT03808389, and others), but FMT is a crude intervention vs. defined LBP products

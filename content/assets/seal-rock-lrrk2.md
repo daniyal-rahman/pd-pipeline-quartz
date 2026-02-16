@@ -53,12 +53,15 @@ Note: Seal Rock's lead clinical program is SRT-015 (ASK1 inhibitor for liver dis
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "LRRK2") AND file.name != "seal-rock-lrrk2"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[biib094]] | Discontinued | Discontinued | Ionis Pharmaceuticals | ASO |
+| [[montara-lrrk2]] | Preclinical | Active | Montara Therapeutics | small molecule |
+| [[seal-rock-lrrk2]] | Preclinical | Active | Seal Rock Therapeutics | small molecule |
+| [[snp614]] | IND-enabling | Active | SciNeuro Pharmaceuticals | ASO |
+| [[arv-102]] | Phase 1 | Active | Arvinas | small molecule |
+| [[neu-723]] | Phase 2 | Active | Neuron23 | small molecule |
+| [[biib122]] | Phase 2b | Active | Denali Therapeutics | small molecule |
 
 - The LRRK2 field is crowded: [[biib122|BIIB122]] (kinase inhibitor, Phase 2b), [[arv-102|ARV-102]] (PROTAC degrader, Phase 1), [[snp614|SNP614]] (siRNA), [[biib094|BIIB094]] (ASO), [[neu-723|NEU-723]] (precision kinase inhibitor) -- Seal Rock's LASC inhibitors would be the only dual-target approach if they reach the clinic
 - The safety differentiation claim is the main competitive angle: if LASC inhibition truly eliminates the type II pneumocyte vacuolation and kidney findings that are a class effect for selective LRRK2 inhibitors, this would matter for chronic dosing over decades in PD patients -- but this needs to be demonstrated in NHP studies, not just rodent models

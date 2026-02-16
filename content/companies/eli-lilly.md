@@ -16,9 +16,7 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Eli Lilly" OR partner = "Eli Lilly" OR developer = "Eli Lilly (parent company)" OR partner = "Eli Lilly (parent company)"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[vtx3232]] | VTX3232 | Phase 2 | Active | NLRP3 inflammasome | 4/10 |
+| [[pr001]] | PR001 | Phase 1/2 | Active | GBA1 / GCase (glucocerebrosidase) | 4/10 |

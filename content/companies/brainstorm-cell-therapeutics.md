@@ -16,9 +16,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "BrainStorm Cell Therapeutics" OR partner = "BrainStorm Cell Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[brainstorm-nurown]] | NurOwn (MSC-NTF cells) | Preclinical | Inactive | neurotrophic factor delivery (GDNF, BDNF) | 1/10 |

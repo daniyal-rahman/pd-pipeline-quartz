@@ -88,12 +88,15 @@ The most advanced LRRK2 inhibitor and the first to test whether LRRK2 kinase hyp
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "LRRK2") AND file.name != "biib122"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[biib094]] | Discontinued | Discontinued | Ionis Pharmaceuticals | ASO |
+| [[montara-lrrk2]] | Preclinical | Active | Montara Therapeutics | small molecule |
+| [[seal-rock-lrrk2]] | Preclinical | Active | Seal Rock Therapeutics | small molecule |
+| [[snp614]] | IND-enabling | Active | SciNeuro Pharmaceuticals | ASO |
+| [[arv-102]] | Phase 1 | Active | Arvinas | small molecule |
+| [[neu-723]] | Phase 2 | Active | Neuron23 | small molecule |
+| [[biib122]] | Phase 2b | Active | Denali Therapeutics | small molecule |
 
 - [[neu-723|NEU-411]] (Neuron23) is the primary competitor: same target class but differentiated by precision patient selection (QIAGEN NGS companion diagnostic targeting 50+ SNPs), digital biomarker primary endpoint (Roche smartphone-based score), and genetically enriched trial design -- 18 months behind BIIB122 with 2027 readout
 - The competitive dynamic is NOT a molecule race but an information race: Denali tests broad hypothesis first (LUMA, March 2026); Neuron23 tests enriched hypothesis second (NEULARK, 2027). If LUMA fails but NEULARK succeeds, it proves patient selection matters more than molecule. If both fail, LRRK2 inhibition is refuted.

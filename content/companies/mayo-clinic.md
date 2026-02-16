@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Mayo Clinic Laboratories" OR partner = "Mayo Clinic Laboratories"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[saamplify-asyn]] | SAAmplify-aSYN | Commercial | Active | alpha-synuclein (misfolded aggregates) |  |

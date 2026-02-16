@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "iCamuno Biotherapeutics" OR partner = "iCamuno Biotherapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[alc01]] | ALC01 | Phase 1 | Active | dopaminergic neuron replacement (iPSC-derived DA progenitors) | 2/10 |

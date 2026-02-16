@@ -65,12 +65,32 @@ Glovadalen (UCB0022) is a first-in-class oral dopamine D1 receptor positive allo
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "dopamine") AND file.name != "glovadalen"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[sana-program]] | Preclinical | Deprioritized | Sana Biotechnology | cell therapy (iPSC allogeneic) |
+| [[alc01]] | Phase 1 | Active | iCamuno Biotherapeutics | cell therapy (iPSC allogeneic) |
+| [[autologous-mdaps]] | Phase 1 | Active | McLean Hospital / Neuroregeneration Research Institute (NRI) | cell therapy (iPSC autologous) |
+| [[cellino-ipsc]] | Phase 1 | Active | Cellino Biotech | platform |
+| [[lu-af28996]] | Phase 1 | Active | Lundbeck | small molecule |
+| [[rndp-001]] | Phase 1 | Active | Kenai Therapeutics | cell therapy (iPSC allogeneic) |
+| [[ux-da001]] | Phase 1 | Active | UniXell Biotechnology | cell therapy (iPSC autologous) |
+| [[ser-252]] | Phase 1b | Active | Serina Therapeutics | small molecule |
+| [[anpd001]] | Phase 1/2 | Active | Aspen Neuroscience | cell therapy (iPSC autologous) |
+| [[dive-inbrain]] | Phase 1/2 | Active | InBrain Pharma | device-aided therapy (drug/device combination) |
+| [[kyoto-ipsc]] | Phase 1/2 | Active | CiRA (Kyoto University) / Sumitomo Pharma | cell therapy (iPSC allogeneic) |
+| [[nouvneu001]] | Phase 1/2 | Active | iRegene Therapeutics | cell therapy (iPSC allogeneic) |
+| [[sizhe-biopharma]] | Phase 1/2 | Active | XellSmart / Shize Bio (士泽生物) | cell therapy (iPSC allogeneic) |
+| [[stem-pd]] | Phase 1/2 | Active | Lund University / University of Cambridge | cell therapy (ESC) |
+| [[ted-a9]] | Phase 1/2 | Active | S.BIOMEDICS | cell therapy (ESC) |
+| [[vgn-r09b]] | Phase 1/2 | Active | Shanghai Vitalgen BioPharma | AAV gene therapy |
+| [[cbt-npc]] | Phase 2 | Active | CHA Biotech | cell therapy (ESC) |
+| [[glovadalen]] | Phase 2 | Active | UCB | small molecule |
+| [[bemdaneprocel]] | Phase 3 | Active | BlueRock Therapeutics | cell therapy (ESC) |
+| [[mesdopetam]] | Phase 3 | Active | IRLAB Therapeutics | small molecule |
+| [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
+| [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
+| [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 
 - **[[tavapadon]] is the primary competitor** -- same target receptor class (D1), same patient population (motor fluctuations), but fundamentally different mechanism: partial agonist vs. PAM. Tavapadon has NDA submitted (September 2025) with expected FDA approval H1 2026, giving it a **2-3 year head start** before glovadalen could reach market. The question is whether glovadalen's mechanistic advantages (no receptor desensitization, cleaner safety) can overcome first-mover advantage
 - **[[mesdopetam]] targets a different niche** -- D3 receptor antagonist for levodopa-induced dyskinesia specifically, not motor fluctuations broadly. Complementary rather than competitive; a patient could theoretically receive both

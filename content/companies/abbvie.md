@@ -16,9 +16,8 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "AbbVie" OR partner = "AbbVie" OR developer = "AbbVie (pre-acquisition collaboration)" OR partner = "AbbVie (pre-acquisition collaboration)"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[tavapadon]] | Tavapadon | NDA Filed | Active | dopamine D1/D5 receptor | 8/10 |
+| [[cap-003]] | CAP-003 | Phase 1/2 | Active | GBA1 / GCase (glucocerebrosidase) | 6/10 |
+| [[caraway-tmem175]] | Caraway TMEM175 Modulator | Preclinical | Active | TMEM175 (lysosomal potassium/proton channel) | 4/10 |

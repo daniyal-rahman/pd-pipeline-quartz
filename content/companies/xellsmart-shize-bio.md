@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "XellSmart / Shize Bio (士泽生物)" OR partner = "XellSmart / Shize Bio (士泽生物)"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[sizhe-biopharma]] | XS-411 | Phase 1/2 | Active | dopaminergic neuron replacement (iPSC-derived DA progenitors) | 5/10 |

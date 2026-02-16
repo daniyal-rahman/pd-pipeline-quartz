@@ -69,12 +69,17 @@ No clinical trials initiated for PD.
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "NLRP3") AND file.name != "neumora-nlrp3"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[vent-02]] | Terminated | Terminated | Ventus Therapeutics | small molecule |
+| [[adp065-abc]] | Preclinical | Active | Alector | siRNA |
+| [[neumora-nlrp3]] | Preclinical | Active | Neumora Therapeutics | small molecule |
+| [[ism8969]] | Phase 1 | Active | Insilico Medicine | small molecule |
+| [[nt-0150]] | Phase 1 | Active | NodThera | small molecule |
+| [[nt-0796]] | Phase 1b | Active | NodThera | small molecule |
+| [[selnoflast]] | Phase 1b | Active | Roche | small molecule |
+| [[dapansutrile]] | Phase 2 | Active | Olatec Therapeutics | small molecule |
+| [[vtx3232]] | Phase 2 | Active | Ventyx Biosciences | small molecule |
 
 - Enters one of the most crowded PD target classes: at least 6 NLRP3 programs with PD data or active PD trials
 - [[vtx3232|VTX3232]] (Lilly/Ventyx) is the clinical leader with Phase 2a open-label PD data showing motor improvement and CSF biomarker engagement; acquired for $1.2B in January 2026

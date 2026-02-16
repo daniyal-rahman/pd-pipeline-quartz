@@ -61,12 +61,10 @@ No clinical trials initiated. Preclinical stage.
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "calcium") AND file.name != "lario-cav23"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[cavgene]] | Preclinical | Active | CavGene Therapeutics | AAV gene therapy |
+| [[lario-cav23]] | Preclinical | Active | Lario Therapeutics | small molecule |
 
 - The calcium channel neuroprotection thesis was heavily damaged by isradipine's STEADY-PD III Phase 3 failure (2020), but that was a **non-selective L-type (CaV1.3) blocker** repurposed from cardiology. Lario's selective CaV2.3 approach addresses the key criticism: wrong channel subtype, insufficient CNS selectivity
 - No other companies are known to be developing selective CaV2.3 inhibitors for PD — Lario has first-mover advantage on this target

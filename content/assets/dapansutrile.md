@@ -83,12 +83,17 @@ Dapansutrile (OLT1177) is an oral selective NLRP3 inflammasome inhibitor develop
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "NLRP3") AND file.name != "dapansutrile"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[vent-02]] | Terminated | Terminated | Ventus Therapeutics | small molecule |
+| [[adp065-abc]] | Preclinical | Active | Alector | siRNA |
+| [[neumora-nlrp3]] | Preclinical | Active | Neumora Therapeutics | small molecule |
+| [[ism8969]] | Phase 1 | Active | Insilico Medicine | small molecule |
+| [[nt-0150]] | Phase 1 | Active | NodThera | small molecule |
+| [[nt-0796]] | Phase 1b | Active | NodThera | small molecule |
+| [[selnoflast]] | Phase 1b | Active | Roche | small molecule |
+| [[dapansutrile]] | Phase 2 | Active | Olatec Therapeutics | small molecule |
+| [[vtx3232]] | Phase 2 | Active | Ventyx Biosciences | small molecule |
 
 - The NLRP3 inhibitor class in PD is nascent -- dapansutrile is the most clinically advanced NLRP3 inhibitor specifically in a PD trial (Phase 2), though Roche's selnoflast (RO7486967) completed a Phase 1 study in early PD patients in 2025 with 28-day dosing
 - Roche acquired Inflazome in 2020 for its NLRP3 program, initially planning to test inzomelid in PD, but withdrew that trial and pivoted to selnoflast -- a second-generation CNS-penetrant NLRP3 inhibitor. Selnoflast backed by big pharma resources represents the most direct competitive threat

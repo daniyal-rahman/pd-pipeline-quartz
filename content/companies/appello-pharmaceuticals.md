@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Appello Pharmaceuticals" OR partner = "Appello Pharmaceuticals"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[appello-mglu4]] | AP-472 | Phase 1/2 | Active | mGlu4 (metabotropic glutamate receptor 4) | 4/10 |

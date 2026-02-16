@@ -75,12 +75,17 @@ Bevemipretide (SBT-272) is Stealth BioTherapeutics' next-generation mitochondria
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(thesis_cluster, "mitophagy") AND file.name != "stealth-bio"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[nly03]] | Preclinical | Active | Neuraly (D&D Pharmatech) | small molecule |
+| [[progenra-pink1]] | Preclinical | Active | Progenra | small molecule (molecular glue) |
+| [[vb-23]] | IND-enabling | Active | Vincere Biosciences | small molecule |
+| [[energi-f705pd]] | Phase 1 | Active | Energenesis Biomedical | small molecule |
+| [[mtx325]] | Phase 1 | Active | Mission Therapeutics | small molecule |
+| [[nrg5051]] | Phase 1 | Active | NRG Therapeutics | small molecule |
+| [[stealth-bio]] | Phase 1 | Active | Stealth BioTherapeutics | small molecule |
+| [[udca]] | Phase 2 | Active | University of Sheffield / UCL | small molecule |
+| [[nicotinamide-riboside]] | Phase 3 | Active | Neuro-SysMed / Haukeland University Hospital | small molecule |
 
 - The mitophagy/mitochondria cluster in PD is thin -- few pure-play mitochondria-targeted therapeutics are in clinical development for PD specifically
 - [[abbv-1088]] (if it exists) represents a distinct mitophagy approach; comparison depends on whether that program targets mitophagy induction vs. Stealth's approach of stabilizing mitochondrial membrane integrity

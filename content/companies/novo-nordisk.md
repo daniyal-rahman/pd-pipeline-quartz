@@ -16,9 +16,8 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Novo Nordisk" OR partner = "Novo Nordisk" OR developer = "Novo Nordisk (originator)" OR partner = "Novo Nordisk (originator)" OR developer = "Novo Nordisk / Osaka University" OR partner = "Novo Nordisk / Osaka University"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[liraglutide]] | Liraglutide | Phase 2 | Active | GLP-1 receptor (neuroprotection) | 4/10 |
+| [[semaglutide]] | Semaglutide | Phase 2 | Active | GLP-1 receptor (neuroinflammation / neuroprotection) | 4/10 |
+| [[stem-pd]] | STEM-PD | Phase 1/2 | Active | dopaminergic neuron replacement (hESC-derived DA progenitors) | 4/10 |

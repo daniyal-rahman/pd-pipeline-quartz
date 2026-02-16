@@ -65,12 +65,22 @@ No clinical trials initiated. The program is in preclinical stage.
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "lysosomal") OR contains(target, "GBA1") OR contains(target, "GCase") AND file.name != "endlyz"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[mair-tmem175]] | Discovery | Active | Mair Therapeutics | small molecule |
+| [[al050-abc]] | Preclinical | Active | Alector | enzyme activator |
+| [[caraway-tmem175]] | Preclinical | Active | Caraway Therapeutics (acquired by Merck) | small molecule |
+| [[endlyz]] | Preclinical | Active | Endlyz Therapeutics | small molecule |
+| [[casma-trpml1]] | IND-enabling | Active | Casma Therapeutics | small molecule |
+| [[congruence-gcase]] | IND-enabling | Active | Congruence Therapeutics | small molecule |
+| [[dnl111]] | IND-enabling | Active | Denali Therapeutics | platform |
+| [[gba1-voyager]] | IND-enabling | Active | Voyager Therapeutics | AAV gene therapy |
+| [[gt-02287]] | Phase 1b | Active | Gain Therapeutics | small molecule |
+| [[vq-101]] | Phase 1b | Active | Vanqua Bio | small molecule |
+| [[cap-003]] | Phase 1/2 | Active | Capsida Biotherapeutics | AAV gene therapy |
+| [[pr001]] | Phase 1/2 | Active | Prevail Therapeutics | AAV gene therapy |
+| [[ambroxol]] | Phase 2 | Active | Multiple investigators / Agyany Pharma | small molecule |
+| [[pariceract]] | Phase 2b | Active | BIAL | small molecule |
 
 - **First-mover on PARK9:** No other company is publicly developing ATP13A2 modulators — Endlyz has an exclusive collaboration with Peter Vangheluwe (KU Leuven), the leading academic expert on this transporter
 - The closest competitive frame is the broader **lysosomal dysfunction thesis**: [[pariceract]] (GBA1 activator, Phase 2b) and [[ambroxol]] (GBA1 chaperone, Phase 2 academic) target the same organelle through a different enzyme — GCase rather than ATP13A2

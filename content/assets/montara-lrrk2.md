@@ -60,12 +60,15 @@ Montara Therapeutics (startup, private) is developing a brain-selective LRRK2 ki
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "LRRK2") AND file.name != "montara-lrrk2"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[biib094]] | Discontinued | Discontinued | Ionis Pharmaceuticals | ASO |
+| [[montara-lrrk2]] | Preclinical | Active | Montara Therapeutics | small molecule |
+| [[seal-rock-lrrk2]] | Preclinical | Active | Seal Rock Therapeutics | small molecule |
+| [[snp614]] | IND-enabling | Active | SciNeuro Pharmaceuticals | ASO |
+| [[arv-102]] | Phase 1 | Active | Arvinas | small molecule |
+| [[neu-723]] | Phase 2 | Active | Neuron23 | small molecule |
+| [[biib122]] | Phase 2b | Active | Denali Therapeutics | small molecule |
 
 - [[biib122|BIIB122]] (Denali/Biogen) is the class-leading LRRK2 kinase inhibitor in Phase 2b -- if LUMA succeeds, it validates the target and creates demand for next-generation LRRK2 inhibitors with improved safety profiles, which is exactly Montara's pitch
 - [[arv-102|ARV-102]] (Arvinas) takes a fundamentally different approach: LRRK2 protein degradation via PROTAC rather than kinase inhibition. Degradation eliminates both kinase and scaffolding functions of LRRK2 but may also eliminate any protective LRRK2 functions

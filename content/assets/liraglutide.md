@@ -58,12 +58,14 @@ Liraglutide is a GLP-1 receptor agonist (marketed as Victoza for type 2 diabetes
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "GLP-1") AND file.name != "liraglutide"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[liraglutide]] | Phase 2 | Active | Academic (Cedars-Sinai / Cure Parkinson's) | small molecule |
+| [[lixisenatide]] | Phase 2 | Active | Toulouse University Hospital (academic) | small molecule |
+| [[nly01]] | Phase 2 | Active | Neuraly (D&D Pharmatech) | small molecule |
+| [[pt320]] | Phase 2 | Failed | Peptron | small molecule |
+| [[semaglutide]] | Phase 2 | Active | Novo Nordisk / Osaka University | small molecule |
+| [[exenatide]] | Phase 3 | Failed | UCL (Tom Foltynie) | small molecule |
 
 - The GLP-1 agonist class in PD includes multiple agents at various stages: [[exenatide]] (Phase 3 failed, Feb 2025), [[lixisenatide]] (Phase 2 positive, NEJM 2024), semaglutide (Phase 2 ongoing, NCT03659682), and NLY01 (Phase 2 failed)
 - [[lixisenatide]] is the strongest class validator — the only GLP-1 agonist to show statistically significant motor slowing in PD (MDS-UPDRS Part III difference of 3.08 points, p=0.007), though the clinical meaningfulness of this magnitude is debated

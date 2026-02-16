@@ -62,12 +62,17 @@ Ventus Therapeutics (biotech, private) developed VENT-02 as an oral, brain-penet
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "NLRP3") AND file.name != "vent-02"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[vent-02]] | Terminated | Terminated | Ventus Therapeutics | small molecule |
+| [[adp065-abc]] | Preclinical | Active | Alector | siRNA |
+| [[neumora-nlrp3]] | Preclinical | Active | Neumora Therapeutics | small molecule |
+| [[ism8969]] | Phase 1 | Active | Insilico Medicine | small molecule |
+| [[nt-0150]] | Phase 1 | Active | NodThera | small molecule |
+| [[nt-0796]] | Phase 1b | Active | NodThera | small molecule |
+| [[selnoflast]] | Phase 1b | Active | Roche | small molecule |
+| [[dapansutrile]] | Phase 2 | Active | Olatec Therapeutics | small molecule |
+| [[vtx3232]] | Phase 2 | Active | Ventyx Biosciences | small molecule |
 
 - **NodThera (NT-0796):** Most direct competitor. Phase 1b/2a in PD showed reversal of neuroinflammatory biomarkers (IL-1B, IL-18) to levels of healthy elderly controls over 28 days; well tolerated. Now in advanced Phase 2 planning. Published in Movement Disorders (2025). NT-0796's positive data make the VENT-02 termination more puzzling -- either VENT-02 had a compound-specific issue or the termination was for strategic/financial reasons
 - **Ventyx/Roche (VTX3232):** Brain-penetrant NLRP3 inhibitor in Phase 1b/2a for PD. Early data showed safety, tolerability, and reductions in IL-1B/IL-18 with improvements in motor and nonmotor symptoms. Roche (via Ventyx acquisition) provides deep resources for PD development

@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "McLean Hospital / Neuroregeneration Research Institute (NRI)" OR partner = "McLean Hospital / Neuroregeneration Research Institute (NRI)"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[autologous-mdaps]] | Autologous mDAPs (NRI/McLean) | Phase 1 | Active | dopaminergic neuron replacement (autologous iPSC-derived DA progenitors) | 4/10 |

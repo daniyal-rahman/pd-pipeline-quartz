@@ -87,12 +87,15 @@ Nicotinamide riboside (NR) is a repurposed vitamin B3 supplement being tested as
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "mitochond") AND file.name != "nicotinamide-riboside"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[vb-23]] | IND-enabling | Active | Vincere Biosciences | small molecule |
+| [[mtx325]] | Phase 1 | Active | Mission Therapeutics | small molecule |
+| [[nrg5051]] | Phase 1 | Active | NRG Therapeutics | small molecule |
+| [[stealth-bio]] | Phase 1 | Active | Stealth BioTherapeutics | small molecule |
+| [[udca]] | Phase 2 | Active | University of Sheffield / UCL | small molecule |
+| [[ejs-act-pd]] | Phase 3 | Active | UCL / MRC Clinical Trials Unit | platform |
+| [[nicotinamide-riboside]] | Phase 3 | Active | Neuro-SysMed / Haukeland University Hospital | small molecule |
 
 - NR is mechanistically distinct from other mitophagy-cluster assets: it works upstream by replenishing the NAD+ pool, while [[mtx325|MTX325]] and [[vb-23|VB-23]] (USP30 inhibitors) and [[progenra-pink1]] (PINK1 activator) target specific nodes in the mitophagy machinery, and [[nrg5051|NRG5051]] (mPTP inhibitor) prevents mitochondrial permeability transition
 - These approaches are potentially complementary rather than competitive -- NAD+ repletion could theoretically enhance the efficacy of PINK1 activation or USP30 inhibition by providing the bioenergetic substrate for improved mitophagy

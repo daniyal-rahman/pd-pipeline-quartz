@@ -96,12 +96,29 @@ AAV-GAD is the most clinically advanced gene therapy for Parkinson's disease, wi
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(thesis_cluster, "symptomatic") AND file.name != "aav-gad"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[eladocagene]] | Approved (AADC deficiency); Phase 1b completed (PD — terminated) | Active (AADC deficiency); Discontinued (PD) | PTC Therapeutics | AAV gene therapy |
+| [[cavgene]] | Preclinical | Active | CavGene Therapeutics | AAV gene therapy |
+| [[lario-cav23]] | Preclinical | Active | Lario Therapeutics | small molecule |
+| [[otsuka-program]] | Preclinical | Active | Otsuka Pharmaceutical | Undisclosed |
+| [[lu-af28996]] | Phase 1 | Active | Lundbeck | small molecule |
+| [[ly03017]] | Phase 1 | Active | Luye Pharma Group | small molecule |
+| [[irl757]] | Phase 1b | Active | IRLAB Therapeutics | small molecule |
+| [[ser-252]] | Phase 1b | Active | Serina Therapeutics | small molecule |
+| [[appello-mglu4]] | Phase 1/2 | Active | Appello Pharmaceuticals | small molecule |
+| [[dive-inbrain]] | Phase 1/2 | Active | InBrain Pharma | device-aided therapy (drug/device combination) |
+| [[vgn-r09b]] | Phase 1/2 | Active | Shanghai Vitalgen BioPharma | AAV gene therapy |
+| [[aav-gad]] | Phase 2 | Active | MeiraGTx | AAV gene therapy |
+| [[addex-program]] | Phase 2 | Deprioritized | Addex Therapeutics | small molecule |
+| [[blarcamesine]] | Phase 2 | Active | Anavex Life Sciences | small molecule |
+| [[glovadalen]] | Phase 2 | Active | UCB | small molecule |
+| [[mesdopetam]] | Phase 3 | Active | IRLAB Therapeutics | small molecule |
+| [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
+| [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
+| [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
+| [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 
 - **vs. Deep Brain Stimulation (DBS):** DBS is the established standard for moderate-advanced PD motor symptoms (41% UPDRS improvement at 6 months). AAV-GAD offers a potential one-time treatment vs. permanent hardware with battery replacements, programming visits, and infection risk. However, DBS is reversible and adjustable; AAV-GAD is a permanent intervention. The disease-modification signal (brain circuitry remodeling, substantia nigra protection) would be the decisive differentiator if confirmed
 - **vs. [[cavgene|CavGene (CaV1.3 RNAi)]]:** Both are intracranial AAV gene therapies but target different problems -- AAV-GAD addresses core motor symptoms via STN modulation, while CavGene targets levodopa-induced dyskinesia via striatal calcium channel silencing. Complementary rather than competitive; CavGene is years behind in preclinical

@@ -60,12 +60,18 @@ No clinical trials initiated. IND submission targeted for 2027.
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "GCase") AND file.name != "al050-abc"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[al050-abc]] | Preclinical | Active | Alector | enzyme activator |
+| [[congruence-gcase]] | IND-enabling | Active | Congruence Therapeutics | small molecule |
+| [[dnl111]] | IND-enabling | Active | Denali Therapeutics | platform |
+| [[gba1-voyager]] | IND-enabling | Active | Voyager Therapeutics | AAV gene therapy |
+| [[gt-02287]] | Phase 1b | Active | Gain Therapeutics | small molecule |
+| [[vq-101]] | Phase 1b | Active | Vanqua Bio | small molecule |
+| [[cap-003]] | Phase 1/2 | Active | Capsida Biotherapeutics | AAV gene therapy |
+| [[pr001]] | Phase 1/2 | Active | Prevail Therapeutics | AAV gene therapy |
+| [[ambroxol]] | Phase 2 | Active | Multiple investigators / Agyany Pharma | small molecule |
+| [[pariceract]] | Phase 2b | Active | BIAL | small molecule |
 
 - [[pariceract]] (BIAL, Phase 2b) is the dominant GBA-PD competitor -- oral small molecule GCase activator with ACTIVATE readout in mid-2026. If positive, this sets the standard of care for GBA-PD and makes enzyme replacement a harder sell
 - [[ambroxol]] (repurposed mucolytic, Phase 2/3 academic trial) is a low-cost chaperone approach but limited by its dependence on residual enzyme foldability

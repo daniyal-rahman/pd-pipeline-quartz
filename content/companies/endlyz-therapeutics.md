@@ -14,9 +14,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Endlyz Therapeutics" OR partner = "Endlyz Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[endlyz]] | ATP13A2 modulators | Preclinical | Active | ATP13A2 / PARK9 (lysosomal P-type ATPase) | 3/10 |

@@ -15,9 +15,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "CHA Biotech" OR partner = "CHA Biotech"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[cbt-npc]] | CBT-NPC | Phase 2 | Active | dopaminergic neuron replacement (fetal midbrain-derived neural progenitor cells) | 4/10 |

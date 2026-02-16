@@ -73,12 +73,19 @@ Troculeucel (SNK01) is an autologous, non-genetically modified, ex vivo-expanded
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "neuroinflammation") AND file.name != "snk01"
-SORT stage DESC
-```
+| File | stage | status | developer | modality |
+| --- | --- | --- | --- | --- |
+| [[rome-line1]] | Preclinical | Active | ROME Therapeutics | small molecule |
+| [[lbt-3627]] | Phase 1 | Active | Longevity Biotech | peptide |
+| [[nm-101]] | Phase 1 | Active | Neuramedy | monoclonal antibody |
+| [[her-096]] | Phase 1b | Active | Herantis Pharma | peptide |
+| [[sargramostim]] | Phase 1b | Active | University of Nebraska Medical Center (Howard Gendelman) | recombinant protein (cytokine) |
+| [[snk01]] | Phase 1/2 | Active | NKGen Biotech | cell therapy (autologous NK) |
+| [[hb-admsc]] | Phase 2 | Active | Hope Biosciences Research Foundation | cell therapy (MSC allogeneic) |
+| [[lixisenatide]] | Phase 2 | Active | Toulouse University Hospital (academic) | small molecule |
+| [[nly01]] | Phase 2 | Active | Neuraly (D&D Pharmatech) | small molecule |
+| [[semaglutide]] | Phase 2 | Active | Novo Nordisk / Osaka University | small molecule |
+| [[bhv-8000]] | Phase 2/3 | Active | Biohaven | small molecule |
 
 - SNK01 occupies a unique modality niche -- the only NK cell therapy in PD clinical development -- but competes for the broader neuroinflammation thesis with [[bhv-8000|BHV-8000]] (brain-penetrant TYK2/JAK1 inhibitor, Phase 2/3), [[hb-admsc|HB-adMSCs]] (MSC cell therapy, Phase 2), [[nly01|NLY01]] (GLP-1R agonist, Phase 2), and inflammasome-targeting approaches like [[selnoflast]] and [[dapansutrile]]
 - Key modality distinction: [[bhv-8000]] is an oral small molecule with demonstrated ~50% brain penetration; SNK01 requires IV infusion of living cells that must traffic to the CNS -- the small molecule has a clear pharmacological advantage for chronic dosing

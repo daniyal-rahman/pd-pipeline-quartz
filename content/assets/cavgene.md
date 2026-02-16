@@ -61,12 +61,7 @@ Next step is development of a human-safe viral vector, followed by IND-enabling 
 
 ### Competitive
 
-```dataview
-TABLE stage, status, developer, modality
-FROM "pd-pipeline-research/assets"
-WHERE contains(target, "dyskinesia") AND file.name != "cavgene"
-SORT stage DESC
-```
+*No results*
 
 - CavGene occupies a unique niche: it is the only known gene therapy approach specifically targeting levodopa-induced dyskinesia rather than disease modification at the alpha-synuclein or genetic PD level
 - Amantadine (Gocovri) is the only FDA-approved treatment for LID -- it is a small molecule with partial efficacy, tolerance development, and side effects including hallucinations

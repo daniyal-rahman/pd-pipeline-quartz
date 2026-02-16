@@ -16,9 +16,6 @@ tags:
 
 ## PD Pipeline
 
-```dataview
-TABLE drug_name AS "Asset", stage AS "Stage", status AS "Status", target AS "Target", confidence_rating AS "Conf."
-FROM "pd-pipeline-research/assets"
-WHERE developer = "Voyager Therapeutics" OR partner = "Voyager Therapeutics"
-SORT stage ASC
-```
+| File | Asset | Stage | Status | Target | Conf. |
+| --- | --- | --- | --- | --- | --- |
+| [[gba1-voyager]] | GBA1 Gene Therapy (VYGR) | IND-enabling | Active | GBA1 / GCase (glucocerebrosidase) | 5/10 |
