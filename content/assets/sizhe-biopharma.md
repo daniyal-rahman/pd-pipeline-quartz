@@ -20,6 +20,8 @@ catalyst_date: "2026-2027"
 thesis_cluster: "cell-therapy"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/xellsmart-shize-bio]]"
+partner_link: "[[companies/shanghai-east-hospital-tongji]]"
 ---
 
 # XS-411 (XellSmart / Shize Bio / Sizhe Biopharmaceuticals)

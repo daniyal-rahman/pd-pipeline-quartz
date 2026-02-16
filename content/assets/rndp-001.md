@@ -20,6 +20,8 @@ catalyst_date: "2026"
 thesis_cluster: "cell-therapy"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/kenai-therapeutics]]"
+partner_link: "[[companies/fujifilm-cellular-dynamics]]"
 ---
 
 # RNDP-001

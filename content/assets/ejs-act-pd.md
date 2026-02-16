@@ -20,6 +20,8 @@ catalyst_date: "2028-2029"
 thesis_cluster: "neuroinflammation"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/university-college-london]]"
+partner_link: "[[companies/cure-parkinsons]]"
 ---
 
 # EJS ACT-PD Platform

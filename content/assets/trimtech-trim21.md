@@ -18,6 +18,7 @@ catalyst_date: "TBD"
 thesis_cluster: "alpha-synuclein"
 tags: [pd-pipeline, claude]
 date: 2026-02-16
+company_link: "[[companies/trimtech-therapeutics]]"
 ---
 
 # TRIMTECH TRIM21 Aggregate Degrader

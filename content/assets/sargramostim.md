@@ -20,6 +20,8 @@ catalyst_date: "TBD (announced intent, no registered trial as of Feb 2026)"
 thesis_cluster: "neuroinflammation"
 tags: [pd-pipeline, claude]
 date: 2026-02-16
+company_link: "[[companies/university-nebraska-medical-center]]"
+partner_link: "[[companies/partner-therapeutics]]"
 ---
 
 # Sargramostim (Leukine)

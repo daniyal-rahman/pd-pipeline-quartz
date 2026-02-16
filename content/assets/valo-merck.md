@@ -19,6 +19,8 @@ catalyst_date: "2026-2027 (estimated)"
 thesis_cluster: "ai-discovery"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/valo-health]]"
+partner_link: "[[companies/merck-kgaa]]"
 ---
 
 # Valo-Merck PD Program

@@ -20,6 +20,7 @@ catalyst_date: "2026-2027"
 thesis_cluster: "mitophagy"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/stealth-biotherapeutics]]"
 ---
 
 # Bevemipretide (SBT-272)

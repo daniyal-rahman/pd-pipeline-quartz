@@ -21,6 +21,8 @@ catalyst_date: "H1 2026"
 thesis_cluster: "symptomatic"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/cerevel-therapeutics]]"
+partner_link: "[[companies/abbvie]]"
 ---
 
 # Tavapadon

@@ -18,6 +18,7 @@ catalyst_date: "Q4 2026 - 2027"
 thesis_cluster: "cell-therapy"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/iregene-therapeutics]]"
 ---
 
 # NouvNeu001

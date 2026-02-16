@@ -19,6 +19,7 @@ catalyst_date: "2026"
 thesis_cluster: "alpha-synuclein"
 tags: [pd-pipeline, claude]
 date: 2026-02-16
+company_link: "[[companies/accure-therapeutics]]"
 ---
 
 # ACT-02

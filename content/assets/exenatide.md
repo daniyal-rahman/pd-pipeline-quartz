@@ -20,6 +20,8 @@ catalyst_date: "2025-2026"
 thesis_cluster: "neuroinflammation"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/university-college-london]]"
+partner_link: "[[companies/astrazeneca]]"
 ---
 
 # Exenatide

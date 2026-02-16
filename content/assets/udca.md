@@ -20,6 +20,8 @@ catalyst_date: "2026"
 thesis_cluster: "mitophagy"
 tags: [pd-pipeline, claude]
 date: 2026-02-16
+company_link: "[[companies/university-of-sheffield]]"
+partner_link: "[[companies/cure-parkinsons]]"
 ---
 
 # Ursodeoxycholic acid (UDCA)

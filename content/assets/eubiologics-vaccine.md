@@ -21,6 +21,8 @@ catalyst_date: "2027-2028 (estimated)"
 thesis_cluster: "alpha-synuclein"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/eubiologics]]"
+partner_link: "[[companies/pop-biotechnologies]]"
 ---
 
 # EuBiologics PD Vaccine

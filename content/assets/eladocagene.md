@@ -21,6 +21,7 @@ catalyst_date: "Uncertain — no announced PD program"
 thesis_cluster: "symptomatic"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/ptc-therapeutics]]"
 ---
 
 # Eladocagene exuparvovec

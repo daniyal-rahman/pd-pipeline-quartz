@@ -20,6 +20,8 @@ catalyst_date: "2026-2027"
 thesis_cluster: "symptomatic"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/inbrain-pharma]]"
+partner_link: "[[companies/tricumed-flowonix]]"
 ---
 
 # A-dopamine (DIVE-I / InBrain Pharma)

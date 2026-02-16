@@ -19,6 +19,7 @@ catalyst_date: "2026-2027"
 thesis_cluster: "genetic-pd"
 tags: [pd-pipeline, claude]
 date: 2026-02-16
+company_link: "[[companies/seal-rock-therapeutics]]"
 ---
 
 # Seal Rock Therapeutics LASC Inhibitors

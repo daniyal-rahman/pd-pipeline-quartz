@@ -19,6 +19,7 @@ catalyst_date: "2026-2027 (autoimmune); neuro IND TBD"
 thesis_cluster: "neuroinflammation"
 tags: [pd-pipeline, claude]
 date: 2026-02-16
+company_link: "[[companies/rome-therapeutics]]"
 ---
 
 # ROME LINE-1 RT Inhibitor

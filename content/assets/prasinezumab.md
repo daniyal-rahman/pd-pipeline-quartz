@@ -21,6 +21,8 @@ catalyst_date: "2027-2028 (readout)"
 thesis_cluster: "alpha-synuclein"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/prothena]]"
+partner_link: "[[companies/roche]]"
 ---
 
 # Prasinezumab

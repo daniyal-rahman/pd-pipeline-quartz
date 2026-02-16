@@ -21,6 +21,8 @@ catalyst_date: "2026"
 thesis_cluster: "neuroinflammation"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/novo-nordisk]]"
+partner_link: "[[companies/osaka-university]]"
 ---
 
 # Semaglutide

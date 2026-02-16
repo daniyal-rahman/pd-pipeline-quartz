@@ -20,6 +20,8 @@ catalyst_date: "2025-2026"
 thesis_cluster: "mitophagy"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/neuro-sysmed-haukeland]]"
+partner_link: "[[companies/niagen-bioscience]]"
 ---
 
 # Nicotinamide Riboside

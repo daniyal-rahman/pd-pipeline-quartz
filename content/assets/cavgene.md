@@ -18,6 +18,7 @@ catalyst_date: "2027+"
 thesis_cluster: "symptomatic"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/cavgene-therapeutics]]"
 ---
 
 # CGT-102 / CGT-103 (CavGene Therapeutics)

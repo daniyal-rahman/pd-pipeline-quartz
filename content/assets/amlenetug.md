@@ -21,6 +21,8 @@ catalyst_date: "2027 (estimated)"
 thesis_cluster: "alpha-synuclein"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/lundbeck]]"
+partner_link: "[[companies/genmab]]"
 ---
 
 # Amlenetug

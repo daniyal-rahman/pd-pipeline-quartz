@@ -21,6 +21,8 @@ catalyst_date: "2025-2026 (initiation); ~2027-2028 (readout)"
 thesis_cluster: "symptomatic"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/meiragtx]]"
+partner_link: "[[companies/hologen]]"
 ---
 
 # AAV-GAD

@@ -20,6 +20,7 @@ catalyst_date: "2026"
 thesis_cluster: "cell-therapy"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/hope-biosciences]]"
 ---
 
 # HB-adMSCs

@@ -21,6 +21,8 @@ catalyst_date: "N/A"
 thesis_cluster: "alpha-synuclein"
 tags: [pd-pipeline, claude, failure-case]
 date: 2026-02-15
+company_link: "[[companies/ucb]]"
+partner_link: "[[companies/novartis]]"
 ---
 
 # Minzasolmin

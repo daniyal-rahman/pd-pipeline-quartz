@@ -21,6 +21,7 @@ catalyst_date: "Uncertain"
 thesis_cluster: "symptomatic"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/addex-therapeutics]]"
 ---
 
 # Dipraglurant (Addex Therapeutics)

@@ -20,6 +20,8 @@ catalyst_date: "TBD (no public timeline)"
 thesis_cluster: "neuroinflammation"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/liscure-biosciences]]"
+partner_link: "[[companies/celltrion]]"
 ---
 
 # LB-P4

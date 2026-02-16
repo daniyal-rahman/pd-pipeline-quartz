@@ -20,6 +20,8 @@ catalyst_date: "2026-2027"
 thesis_cluster: "symptomatic"
 tags: [pd-pipeline, claude]
 date: 2026-02-16
+company_link: "[[companies/lario-therapeutics]]"
+partner_link: "[[companies/oxford-parkinsons-disease-centre]]"
 ---
 
 # Lario CaV2.3 Inhibitor

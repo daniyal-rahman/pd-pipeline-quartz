@@ -20,6 +20,7 @@ catalyst_date: "2027 (first-in-human target per company, from July 2025 announce
 thesis_cluster: "mitophagy"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/progenra]]"
 ---
 
 # Progenra PINK1 Activator Program

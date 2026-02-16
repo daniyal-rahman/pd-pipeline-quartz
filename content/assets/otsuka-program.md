@@ -20,6 +20,8 @@ catalyst_date: "Unknown"
 thesis_cluster: "symptomatic"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/otsuka-pharmaceutical]]"
+partner_link: "[[companies/lundbeck]]"
 ---
 
 # Otsuka PD Program

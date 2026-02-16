@@ -20,6 +20,7 @@ catalyst_date: "H2 2026"
 thesis_cluster: "alpha-synuclein"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/bioarctic]]"
 ---
 
 # Exidavnemab

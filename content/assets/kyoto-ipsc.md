@@ -20,6 +20,8 @@ catalyst_date: "H2 2026"
 thesis_cluster: "cell-therapy"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/cira-kyoto-university]]"
+partner_link: "[[companies/sumitomo-pharma]]"
 ---
 
 # Kyoto iPSC-DA (CiRA Phase I/II Trial)

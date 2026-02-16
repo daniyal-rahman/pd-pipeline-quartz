@@ -19,6 +19,7 @@ catalyst_date: "2026-2027"
 thesis_cluster: "cell-therapy"
 tags: [pd-pipeline, claude]
 date: 2026-02-16
+company_link: "[[companies/icamuno-biotherapeutics]]"
 ---
 
 # ALC01

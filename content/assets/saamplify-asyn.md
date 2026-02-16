@@ -19,6 +19,8 @@ catalyst_date: "TBD"
 thesis_cluster: "diagnostics"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/amprion]]"
+partner_link: "[[companies/mayo-clinic]]"
 ---
 
 # SAAmplify-aSYN

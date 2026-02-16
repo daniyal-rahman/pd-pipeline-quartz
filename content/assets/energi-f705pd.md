@@ -21,6 +21,7 @@ catalyst_date: "2026"
 thesis_cluster: "mitophagy"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/energenesis-biomedical]]"
 ---
 
 # ENERGI-F705PD

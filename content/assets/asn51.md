@@ -19,6 +19,7 @@ catalyst_date: "Unknown"
 thesis_cluster: "alpha-synuclein"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/asceneuron]]"
 ---
 
 # ASN51

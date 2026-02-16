@@ -20,6 +20,8 @@ catalyst_date: "2026-2027"
 thesis_cluster: "diagnostics"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/university-college-london]]"
+partner_link: "[[companies/uclh-nhs-foundation-trust]]"
 ---
 
 # AI Blood Test

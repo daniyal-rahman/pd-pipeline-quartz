@@ -20,6 +20,8 @@ catalyst_date: "2027-2028"
 thesis_cluster: "cell-therapy"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/bluerock-therapeutics]]"
+partner_link: "[[companies/bayer]]"
 ---
 
 # Bemdaneprocel

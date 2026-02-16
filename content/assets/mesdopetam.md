@@ -21,6 +21,7 @@ catalyst_date: "2025-2026"
 thesis_cluster: "symptomatic"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/irlab-therapeutics]]"
 ---
 
 # Mesdopetam

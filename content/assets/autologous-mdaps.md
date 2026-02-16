@@ -20,6 +20,8 @@ catalyst_date: "H2 2025 - H1 2026"
 thesis_cluster: "cell-therapy"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/mclean-hospital-nri]]"
+partner_link: "[[companies/oryon-cell-therapies]]"
 ---
 
 # Autologous mDAPs (NRI/McLean)

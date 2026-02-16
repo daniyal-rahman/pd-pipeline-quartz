@@ -20,6 +20,8 @@ catalyst_date: "2027 (TOPAS-MSA); PD Phase 2 TBD"
 thesis_cluster: "alpha-synuclein"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/modag]]"
+partner_link: "[[companies/teva-pharmaceutical]]"
 ---
 
 # Emrusolmin

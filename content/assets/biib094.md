@@ -21,6 +21,8 @@ catalyst_date: "N/A"
 thesis_cluster: "genetic-pd"
 tags: [pd-pipeline, claude]
 date: 2026-02-15
+company_link: "[[companies/ionis-pharmaceuticals]]"
+partner_link: "[[companies/biogen]]"
 ---
 
 # BIIB094
