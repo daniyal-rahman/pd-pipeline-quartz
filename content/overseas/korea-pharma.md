@@ -1,6 +1,6 @@
 # Major Korean Pharma Parkinson's Disease Programs
 
-#claude
+
 
 
 *Last updated: January 2026*

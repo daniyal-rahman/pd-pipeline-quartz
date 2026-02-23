@@ -19,7 +19,7 @@ confidence_rating: "8/10"
 next_catalyst: "FDA decision"
 catalyst_date: "April 5, 2026"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery, claude]
+tags: [bbb-delivery]
 date: 2026-02-16
 company_link: "[[companies/denali-therapeutics]]"
 ---

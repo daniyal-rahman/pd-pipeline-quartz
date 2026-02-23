@@ -19,7 +19,7 @@ confidence_rating: "1/10"
 next_catalyst: "None foreseeable for PD"
 catalyst_date: "N/A"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline, claude, zombie-company, shell-risk]
+tags: [pd-pipeline, zombie-company, shell-risk]
 date: 2026-02-15
 company_link: "[[companies/brainstorm-cell-therapeutics]]"
 ---

@@ -1,6 +1,6 @@
 # China Parkinson's Disease Clinical Trials
 
-#claude
+
 
 
 **Research Date:** January 21, 2026

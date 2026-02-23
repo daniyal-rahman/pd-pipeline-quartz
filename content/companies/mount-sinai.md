@@ -11,7 +11,6 @@ tags:
   - pd-pipeline
   - company
   - academic
-  - claude
 ---
 
 # Icahn School of Medicine at Mount Sinai

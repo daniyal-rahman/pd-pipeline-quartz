@@ -18,7 +18,7 @@ confidence_rating: "5/10"
 next_catalyst: "exPDite-2 Phase 3 readout"
 catalyst_date: "2027-2028"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/bluerock-therapeutics]]"
 partner_link: "[[companies/bayer]]"

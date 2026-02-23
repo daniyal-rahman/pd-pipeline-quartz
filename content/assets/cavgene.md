@@ -16,7 +16,7 @@ confidence_rating: "5/10"
 next_catalyst: "IND-enabling studies; SBIR/STTR grant award for human-safe vector development"
 catalyst_date: "2027+"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/cavgene-therapeutics]]"
 ---

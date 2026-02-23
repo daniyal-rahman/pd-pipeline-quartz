@@ -12,7 +12,7 @@ partner_type: "big pharma"
 stage: "Preclinical (lead optimization)"
 status: "Active"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery, claude]
+tags: [bbb-delivery]
 date: 2026-02-16
 company_link: "[[companies/sironax]]"
 partner_link: "[[companies/novartis]]"
@@ -138,4 +138,4 @@ These are not BDM platform programs but provide context on Sironax's neuroscienc
 
 ---
 
-*Generated: 2026-02-16 | Status: #claude #bbb-delivery*
+*Generated: 2026-02-16 | Status: #bbb-delivery*

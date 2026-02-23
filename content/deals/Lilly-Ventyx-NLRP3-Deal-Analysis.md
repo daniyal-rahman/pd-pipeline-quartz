@@ -6,7 +6,7 @@ Perfect. I have comprehensive data from my web searches. Now I'll compile the de
 ## $1.2 Billion Bet on the NLRP3 Inflammasome in Parkinson's Disease
 
 **Date:** February 14, 2026  
-**Analyst:** Claude Code Research  
+**Analyst:** Automated Analysis Research  
 **Classification:** Deal-Sourcing Landscape Analysis
 
 ---

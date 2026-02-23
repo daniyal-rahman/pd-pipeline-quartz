@@ -1,6 +1,6 @@
 # European Biotech Hubs - Parkinson's Disease Research
 
-#claude
+
 
 
 > Last updated: January 2026

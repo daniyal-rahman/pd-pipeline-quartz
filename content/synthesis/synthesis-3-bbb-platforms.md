@@ -11,7 +11,7 @@
 **Total Deal Value Across Cluster: ~$8.3B in biobucks**
 **Total Upfront Payments: ~$530M**
 
-#claude #synthesis #deal-analysis #parkinson
+#synthesis #deal-analysis #parkinson
 
 ---
 
@@ -447,4 +447,4 @@ But this threat is narrow:
 ---
 
 **Generated:** February 14, 2026
-**Status:** #claude #synthesis
+**Status:** #synthesis

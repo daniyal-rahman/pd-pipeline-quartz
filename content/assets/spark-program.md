@@ -18,7 +18,7 @@ confidence_rating: "2/10"
 next_catalyst: "Public disclosure of target, mechanism, or IND-enabling data"
 catalyst_date: "Unknown"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/spark-therapeutics]]"
 partner_link: "[[companies/roche]]"

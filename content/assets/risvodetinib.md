@@ -19,7 +19,7 @@ confidence_rating: "5/10"
 next_catalyst: "CAMPD Phase 2b/3 trial initiation"
 catalyst_date: "2026"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/abli-therapeutics]]"
 ---

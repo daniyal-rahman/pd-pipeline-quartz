@@ -16,7 +16,7 @@ confidence_rating: "7/10"
 next_catalyst: "SONOBIRD Phase 3 readout"
 catalyst_date: "2027-2028"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery, claude]
+tags: [bbb-delivery]
 date: 2026-02-16
 company_link: "[[companies/carthera]]"
 ---

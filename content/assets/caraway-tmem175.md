@@ -19,7 +19,7 @@ confidence_rating: "4/10"
 next_catalyst: "IND-enabling study disclosure or clinical candidate nomination"
 catalyst_date: "Unknown"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-16
 company_link: "[[companies/caraway-therapeutics]]"
 partner_link: "[[companies/abbvie]]"

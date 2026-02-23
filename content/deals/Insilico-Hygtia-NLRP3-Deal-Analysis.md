@@ -1,7 +1,7 @@
 # Deep Due Diligence: Insilico Medicine / Hygtia Therapeutics NLRP3 Deal
 
 **Analysis Date:** February 14, 2026
-**Analyst:** Claude Code
+**Analyst:** Automated Analysis
 **Deal Value:** $66M total ($10M upfront + $56M milestones)
 **Asset:** ISM8969 — AI-designed, oral, BBB-penetrant NLRP3 inhibitor
 **Stage:** IND-cleared (January 2026), Phase 1 planned
@@ -512,4 +512,4 @@ ISM8969 will likely fail if:
 ---
 
 **Analysis completed February 14, 2026.**
-**#claude #deal-analysis #pd-pipeline #nlrp3 #insilico-medicine #hygtia #fosun-pharma #ai-drug-discovery**
+**#deal-analysis #pd-pipeline #nlrp3 #insilico-medicine #hygtia #fosun-pharma #ai-drug-discovery**

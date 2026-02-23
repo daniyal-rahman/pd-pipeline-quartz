@@ -18,7 +18,7 @@ confidence_rating: "4/10"
 next_catalyst: "12-month safety data from high-dose cohort; 36-month efficacy readout from low-dose cohort"
 catalyst_date: "2026-2027"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/lund-university-cambridge]]"
 partner_link: "[[companies/novo-nordisk]]"

@@ -19,7 +19,7 @@ confidence_rating: "5/10"
 next_catalyst: "IND filing and Phase 1 initiation"
 catalyst_date: "2026"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/voyager-therapeutics]]"
 partner_link: "[[companies/neurocrine-biosciences]]"

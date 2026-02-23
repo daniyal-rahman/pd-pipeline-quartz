@@ -18,7 +18,7 @@ confidence_rating: "4/10"
 next_catalyst: "NOPARK Phase 3 results publication"
 catalyst_date: "2025-2026"
 thesis_cluster: "mitophagy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/neuro-sysmed-haukeland]]"
 partner_link: "[[companies/niagen-bioscience]]"

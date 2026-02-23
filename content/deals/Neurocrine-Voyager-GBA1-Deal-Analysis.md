@@ -1,7 +1,7 @@
 # Deep Due Diligence: Neurocrine/Voyager $4.4B GBA1 Gene Therapy Deal
 
 **Date:** February 14, 2026
-**Analyst:** Claude Code
+**Analyst:** Automated Analysis
 **Deal Date:** January 9, 2023
 
 ---

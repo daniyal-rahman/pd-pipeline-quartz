@@ -19,7 +19,7 @@ confidence_rating: "2/10"
 next_catalyst: "New partnership or strategic decision on PD-LID indication"
 catalyst_date: "Uncertain"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/addex-therapeutics]]"
 ---

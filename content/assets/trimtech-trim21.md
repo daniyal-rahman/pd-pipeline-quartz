@@ -16,7 +16,7 @@ key_biomarkers: []
 next_catalyst: "Lead candidate nomination for PD program"
 catalyst_date: "TBD"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-16
 company_link: "[[companies/trimtech-therapeutics]]"
 ---

@@ -1,6 +1,6 @@
 # Parkinson's Disease Pipeline - Known Assets Baseline
 
-#claude
+
 
 
 *Last Updated: January 2026*

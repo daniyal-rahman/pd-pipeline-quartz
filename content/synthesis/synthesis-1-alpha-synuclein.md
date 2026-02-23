@@ -1,8 +1,8 @@
 # Cluster Synthesis #1: Alpha-Synuclein Targeting in Parkinson's Disease
-#claude #synthesis #alpha-synuclein #deal-sourcing
+#synthesis #alpha-synuclein #deal-sourcing
 
 **Generated:** February 14, 2026
-**Analyst:** Claude Code (Opus 4.6) cluster-level synthesis
+**Analyst:** Automated Analysis cluster-level synthesis
 **Input Files:**
 - Roche/Prothena Prasinezumab Deal Analysis
 - Minzasolmin (UCB/Novartis) Failure Analysis
@@ -373,6 +373,6 @@ The alpha-synuclein field has spent $5B+ and 15 years to learn three things: (1)
 
 ---
 
-**Document Status:** #claude-generated #synthesis
+**Document Status:**-generated #synthesis
 **Date:** February 14, 2026
 **Verification Status:** Unverified -- all data points require primary source confirmation before decision-making

@@ -1,6 +1,6 @@
 # Coverage Gaps
 
-#claude
+
 
 Cross-reference of patents and clinical trials against the 135 atomic asset notes. Items below are **not** covered by any existing asset note.
 

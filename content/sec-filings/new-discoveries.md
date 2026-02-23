@@ -1,6 +1,6 @@
 # New Discoveries: Lesser-Known PD Pipeline Companies and Assets
 
-#claude
+
 
 
 *Research Date: January 21, 2026*

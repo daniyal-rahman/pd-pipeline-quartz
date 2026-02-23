@@ -1,6 +1,6 @@
 # Japan PD Pipeline Research: Information Gaps
 
-#claude
+
 
 
 **Research Date:** January 2026

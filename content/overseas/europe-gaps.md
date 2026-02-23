@@ -1,6 +1,6 @@
 # European PD Pipeline Research - Gaps and Limitations
 
-#claude
+
 
 
 > Last updated: January 2026

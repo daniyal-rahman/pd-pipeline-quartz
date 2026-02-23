@@ -13,7 +13,7 @@ status: "Active"
 patient_population: "PD (SAR446159), AD, neurodegeneration broadly"
 route_of_administration: "IV"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery, claude]
+tags: [bbb-delivery]
 date: 2026-02-16
 company_link: "[[companies/abl-bio]]"
 ---

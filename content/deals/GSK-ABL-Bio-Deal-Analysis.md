@@ -1,7 +1,7 @@
 # GSK / ABL Bio Deal Deep-Dive Analysis
 **$2.8B Grabody-B BBB Platform License (April 2025)**
 
-#claude #deal-analysis #parkinson
+#deal-analysis #parkinson
 
 **Deal Summary:**
 - GSK / ABL Bio partnership announced April 2025
@@ -550,4 +550,4 @@ But if brain penetration is insufficient OR PD target biology invalidates large-
 ---
 
 **Generated:** February 14, 2026
-**Status:** #claude
+**Status:**

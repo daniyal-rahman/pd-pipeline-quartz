@@ -19,7 +19,7 @@ confidence_rating: "7/10"
 next_catalyst: "Phase 3 readout"
 catalyst_date: "~2028"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery, claude]
+tags: [bbb-delivery]
 date: 2026-02-16
 company_link: "[[companies/roche]]"
 ---
@@ -169,4 +169,4 @@ Trontinemab is the first BBB shuttle antibody to demonstrate human proof-of-conc
 
 ---
 
-*Generated: 2026-02-16 | Status: #claude #bbb-delivery*
+*Generated: 2026-02-16 | Status: #bbb-delivery*

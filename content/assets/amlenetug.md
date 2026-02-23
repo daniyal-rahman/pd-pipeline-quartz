@@ -19,7 +19,7 @@ confidence_rating: "4/10"
 next_catalyst: "MASCOT Phase 3 topline readout"
 catalyst_date: "2027 (estimated)"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/lundbeck]]"
 partner_link: "[[companies/genmab]]"

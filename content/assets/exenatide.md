@@ -18,7 +18,7 @@ confidence_rating: "1/10"
 next_catalyst: "Subgroup analyses (glucose metabolism markers) and implications for next-gen GLP-1 agonists"
 catalyst_date: "2025-2026"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/university-college-london]]"
 partner_link: "[[companies/astrazeneca]]"

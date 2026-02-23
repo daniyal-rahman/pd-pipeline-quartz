@@ -49,7 +49,14 @@ Later leadership additions:
 
 | File | Asset | Stage | Status | Target |
 | --- | --- | --- | --- | --- |
+| [[carbidopa-levodopa]] | Carbidopa/Levodopa | Approved | Active | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) |
+| [[duopa]] | Duopa | Approved | Active | dopamine replacement (continuous intestinal levodopa delivery) |
+| [[gocovri]] | Gocovri | Approved | Active | NMDA receptor / dopamine reuptake transporter |
 | [[ipx203]] | IPX203 | Approved | Active | dopamine (symptomatic replacement via L-DOPA) |
+| [[neupro]] | Neupro (rotigotine) | Approved | Active | dopamine receptors (D1-D5, non-selective) |
+| [[nuplazid]] | Nuplazid (pimavanserin) | Approved | Active | 5-HT2A serotonin receptor |
+| [[rytary]] | Rytary | Approved | Active | dopamine (symptomatic replacement via L-DOPA) |
+| [[vyalev]] | VYALEV (foslevodopa/foscarbidopa) | Approved | Active | dopamine replacement (continuous levodopa/carbidopa prodrug delivery) |
 | [[nd0612]] | ND0612 | NDA Filed | Active | levodopa delivery optimization (continuous subcutaneous L-DOPA/carbidopa) |
 | [[raguneprocel]] | Raguneprocel | NDA Filed | Active | dopaminergic neuron replacement (iPSC-derived DA progenitors) |
 | [[tavapadon]] | Tavapadon | NDA Filed | Active | dopamine D1/D5 receptor |

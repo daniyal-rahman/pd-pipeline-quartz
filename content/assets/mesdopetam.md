@@ -19,7 +19,7 @@ confidence_rating: "5/10"
 next_catalyst: "Phase 3 partner announcement / Phase 3 initiation"
 catalyst_date: "2025-2026"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/irlab-therapeutics]]"
 ---
@@ -123,7 +123,13 @@ Note: Ipsen returned worldwide rights to IRLAB in August 2023. IRLAB retains ful
 | [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
 | [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[duopa]] | Approved | Active | AbbVie | drug-device combination |
+| [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[neupro]] | Approved | Active | UCB | small molecule |
+| [[rytary]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[vyalev]] | Approved | Active | AbbVie | drug-device combination |
 
 - The LID treatment landscape is dominated by **amantadine** (NMDA receptor antagonist), available in extended-release formulations (Gocovri/ADS-5102, Osmolex ER). Amantadine is now generic in many markets, creating pricing pressure for any new LID entrant
 - Mesdopetam's key differentiation is its novel mechanism (D3 antagonism vs. NMDA antagonism), potentially offering benefit in patients who do not respond to or tolerate amantadine

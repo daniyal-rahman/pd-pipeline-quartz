@@ -18,7 +18,7 @@ confidence_rating: "3/10"
 next_catalyst: "IND submission for Phase 2 multi-site RCT"
 catalyst_date: "TBD (announced intent, no registered trial as of Feb 2026)"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-16
 company_link: "[[companies/university-nebraska-medical-center]]"
 partner_link: "[[companies/partner-therapeutics]]"

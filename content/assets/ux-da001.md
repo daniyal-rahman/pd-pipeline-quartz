@@ -16,7 +16,7 @@ confidence_rating: "4/10"
 next_catalyst: "Phase 1 multi-patient safety/efficacy data"
 catalyst_date: "2026-2027"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/unixell-biotechnology]]"
 ---

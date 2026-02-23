@@ -19,7 +19,7 @@ confidence_rating: "2/10"
 next_catalyst: "Phase 2 IND filing and trial initiation in PD patients"
 catalyst_date: "2026"
 thesis_cluster: "mitophagy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/energenesis-biomedical]]"
 ---

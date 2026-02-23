@@ -18,7 +18,7 @@ confidence_rating: "4/10"
 next_catalyst: "Phase 2 first patient dosed in PD"
 catalyst_date: "2026"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/appello-pharmaceuticals]]"
 ---
@@ -208,7 +208,14 @@ AP-472 is an oral mGlu4 positive allosteric modulator developed by Appello Pharm
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[duopa]] | Approved | Active | AbbVie | drug-device combination |
+| [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[neupro]] | Approved | Active | UCB | small molecule |
+| [[nuplazid]] | Approved | Active | Acadia Pharmaceuticals | small molecule |
+| [[rytary]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[vyalev]] | Approved | Active | AbbVie | drug-device combination |
 
 - [[addex-program|Dipraglurant (mGluR5 NAM)]] targets a related but distinct glutamate receptor; it is deprioritized for PD-LID but the programs are scientifically complementary rather than competitive. If AP-472 succeeds, it validates glutamate modulation broadly and could rekindle interest in mGluR5 approaches
 - Foliglurax (PXT002331, Lundbeck) was the first mGlu4 PAM to reach Phase 2 in PD; it failed its primary endpoint (OFF time reduction) in the AMBLED study (N=157, 28 days) despite dose-dependent trends. Lundbeck terminated the program and wrote off EUR 100M. This is the critical precedent for AP-472 -- the key question is whether AP-472 is pharmacologically differentiated or whether the target itself is flawed

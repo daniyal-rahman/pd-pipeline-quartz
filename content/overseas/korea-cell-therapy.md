@@ -1,6 +1,6 @@
 # Korean Stem Cell & Cell Therapy Programs for Parkinson's Disease
 
-#claude
+
 
 
 *Last updated: January 2026*

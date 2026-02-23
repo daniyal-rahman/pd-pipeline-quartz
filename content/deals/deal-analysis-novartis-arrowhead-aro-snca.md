@@ -1,6 +1,6 @@
 # Deep Due Diligence: Novartis/Arrowhead ARO-SNCA Deal Analysis
 
-#claude #deal-analysis #alpha-synuclein #RNAi
+#deal-analysis #alpha-synuclein #RNAi
 
 **Deal Date:** September 2, 2025
 **Deal Value:** $200M upfront + up to $2B in milestones + tiered royalties (low double digits)
@@ -980,9 +980,9 @@ The Novartis/Arrowhead deal is **neither a moonshot home run nor a disaster**—
 
 ---
 
-**Document Status:** #claude-generated
+**Document Status:**-generated
 **Date:** February 14, 2026
-**Author:** Claude Code (Sonnet 4.5)
+**Author:** Automated Analysis (Sonnet 4.5)
 **Verification Status:** Unverified—all data points require primary source confirmation before decision-making
 
 ---

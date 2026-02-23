@@ -17,7 +17,7 @@ confidence_rating: "4/10"
 next_catalyst: "FDA guidance on PDD pivotal trial design"
 catalyst_date: "2026-2027"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-16
 company_link: "[[companies/anavex-life-sciences]]"
 ---

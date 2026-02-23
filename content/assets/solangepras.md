@@ -17,7 +17,7 @@ confidence_rating: "6/10"
 next_catalyst: "ARISE Phase 3 topline readout"
 catalyst_date: "H1 2026"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/cerevance]]"
 ---
@@ -99,7 +99,14 @@ Solengepras (CVN424) is a first-in-class oral GPR6 inverse agonist from Cerevanc
 | [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[duopa]] | Approved | Active | AbbVie | drug-device combination |
+| [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[neupro]] | Approved | Active | UCB | small molecule |
+| [[nuplazid]] | Approved | Active | Acadia Pharmaceuticals | small molecule |
+| [[rytary]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[vyalev]] | Approved | Active | AbbVie | drug-device combination |
 
 - The primary competitive frame is **non-dopaminergic adjunctive PD therapies**. [[tavapadon|Tavapadon]] (AbbVie) is a D1/D5 partial agonist -- technically still dopaminergic but avoids D2/D3 side effects. [[mesdopetam|Mesdopetam]] (IRLAB/Ipsen) targets levodopa-induced dyskinesia specifically via D3 antagonism
 - Istradefylline (Nourianz, Kyowa Kirin) is the closest approved comparator -- also a non-dopaminergic mechanism (adenosine A2A antagonist), also reduces OFF-time, but commercial performance has been modest, suggesting either market access barriers or limited physician adoption for non-dopaminergic mechanisms

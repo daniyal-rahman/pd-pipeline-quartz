@@ -2,7 +2,7 @@
 ## GCase Activation for GBA1-Associated Parkinson's Disease
 
 Date: February 14, 2026
-Author: Claude Code Research Analysis
+Author: Automated Analysis Research Analysis
 
 ---
 
@@ -701,5 +701,5 @@ Build a watchlist of every company/asset that benefits from pariceract success:
 ---
 
 **Analysis completed:** February 14, 2026
-**Document classification:** #claude #deep-dive #deal-sourcing #GBA1 #pariceract #BIAL
+**Document classification:** #deep-dive #deal-sourcing #GBA1 #pariceract #BIAL
 **Next update:** Post-ACTIVATE data readout (mid-2026)

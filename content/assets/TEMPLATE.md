@@ -38,7 +38,7 @@ confidence_rating: "6/10"                  # optional — from our analysis, not
 next_catalyst: "PARAISO Phase 3 readout"
 catalyst_date: "2027-2028"
 thesis_cluster: "alpha-synuclein"          # Use consistent values (see Cluster Values below)
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 ---
 ```

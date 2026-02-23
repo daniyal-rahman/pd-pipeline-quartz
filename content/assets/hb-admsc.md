@@ -18,7 +18,7 @@ confidence_rating: "3/10"
 next_catalyst: "FDA close-out meetings and Phase 3 design disclosure"
 catalyst_date: "2026"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/hope-biosciences]]"
 ---

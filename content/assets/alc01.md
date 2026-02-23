@@ -17,7 +17,7 @@ confidence_rating: "2/10"
 next_catalyst: "Trial enrollment and first patient dosed"
 catalyst_date: "2026-2027"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-16
 company_link: "[[companies/icamuno-biotherapeutics]]"
 ---

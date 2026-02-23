@@ -7,7 +7,7 @@
 **Stage at Acquisition:** Discovery/IND-enabling
 **Mechanism:** PINK1 kinase activation → enhanced mitophagy (mitochondrial quality control)
 
-#claude #deal-analysis #mitochondria #disease-modification
+#deal-analysis #mitochondria #disease-modification
 
 ---
 
@@ -910,4 +910,4 @@ PINK1 loss-of-function mutations cause autosomal recessive early-onset Parkinson
 ---
 
 **Analysis completed:** February 14, 2026
-**Author:** Claude (Sonnet 4.5) in collaboration with human researcher
+**Author:** Automated Analysis in collaboration with human researcher

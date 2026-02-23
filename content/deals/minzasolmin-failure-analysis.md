@@ -1,9 +1,9 @@
 # Minzasolmin Failure: Deep Due Diligence Analysis
-#claude #deal-analysis #alpha-synuclein #failure-case
+#deal-analysis #alpha-synuclein #failure-case
 
 **Generated:** February 14, 2026
 **Deal:** Novartis / UCB — Minzasolmin (UCB0599) — ~$1.5B co-development — TERMINATED
-**Analyst:** Claude Code deep research synthesis
+**Analyst:** Automated Analysis deep research synthesis
 
 ---
 

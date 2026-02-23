@@ -18,7 +18,7 @@ confidence_rating: "4/10"
 next_catalyst: "Completion of comparative activity studies vs. MTK-458; IND-enabling preclinical toxicity studies"
 catalyst_date: "2027 (first-in-human target per company, from July 2025 announcement)"
 thesis_cluster: "mitophagy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/progenra]]"
 ---
@@ -198,7 +198,14 @@ No clinical trials initiated. The program is in preclinical stage.
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[duopa]] | Approved | Active | AbbVie | drug-device combination |
+| [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[neupro]] | Approved | Active | UCB | small molecule |
+| [[nuplazid]] | Approved | Active | Acadia Pharmaceuticals | small molecule |
+| [[rytary]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[vyalev]] | Approved | Active | AbbVie | drug-device combination |
 
 **PINK1/Parkin/Mitophagy Competitive Landscape (as of Feb 2026):**
 

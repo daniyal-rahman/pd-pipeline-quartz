@@ -5,7 +5,7 @@ Perfect. Now I have comprehensive data. Let me compile the deep due-diligence an
 # Deep Due Diligence: AbbVie-Capsida $665M+ AAV Platform Deal
 
 **Date:** February 14, 2026  
-**Analyst:** Claude Code  
+**Analyst:** Automated Analysis  
 **Deal Timeline:**  
 - **2021:** Initial CNS collaboration ($90M upfront for 3 neurodegen targets)  
 - **February 2023:** Ophthalmology expansion ($70M upfront, up to $595M milestones)  

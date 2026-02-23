@@ -16,7 +16,6 @@ tags:
   - pd-pipeline
   - company
   - bbb-delivery
-  - claude
 ---
 
 # Sironax
@@ -87,4 +86,4 @@ Source: [Sironax Board of Directors](https://www.sironax.com/about-us/board-of-d
 
 ---
 
-*Generated: 2026-02-16 | Status: #claude*
+*Generated: 2026-02-16 | Status:*

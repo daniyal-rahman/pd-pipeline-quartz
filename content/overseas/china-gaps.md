@@ -1,6 +1,6 @@
 # China PD Research: Information Gaps and Access Limitations
 
-#claude
+
 
 
 **Research Date:** January 21, 2026

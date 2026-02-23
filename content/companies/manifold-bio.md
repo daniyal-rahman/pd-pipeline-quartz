@@ -11,7 +11,6 @@ website: "https://www.manifold.bio"
 tags:
   - pd-pipeline
   - company
-  - claude
 ---
 
 # Manifold Bio

@@ -18,7 +18,7 @@ key_biomarkers: ["CSF heparan sulfate", "CSF dermatan sulfate", "neurocognitive 
 confidence_rating: "9/10"
 next_catalyst: "Global Phase 3 readout / US filing"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery, claude]
+tags: [bbb-delivery]
 date: 2026-02-16
 company_link: "[[companies/jcr-pharmaceuticals]]"
 partner_link: "[[companies/takeda]]"

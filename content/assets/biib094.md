@@ -19,7 +19,7 @@ confidence_rating: "2/10"
 next_catalyst: "None — program discontinued February 2025"
 catalyst_date: "N/A"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/ionis-pharmaceuticals]]"
 partner_link: "[[companies/biogen]]"

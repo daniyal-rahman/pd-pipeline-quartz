@@ -17,7 +17,7 @@ confidence_rating: "3/10"
 next_catalyst: "Lead candidate selection and IND-enabling study initiation"
 catalyst_date: "2025-2026"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/ac-immune]]"
 ---

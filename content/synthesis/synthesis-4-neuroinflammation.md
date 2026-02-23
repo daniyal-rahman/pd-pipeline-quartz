@@ -1,11 +1,11 @@
 # CLUSTER SYNTHESIS #4: Neuroinflammation & Mitochondrial Biology in PD
 
 **Date:** February 14, 2026
-**Analyst:** Claude Code
+**Analyst:** Automated Analysis
 **Classification:** Cross-Deal Pattern Analysis
 **Deals Analyzed:** 5 (Lilly/Ventyx, Biohaven/Highlightll, GSK/Vesalius, Insilico/Hygtia, AbbVie/Mitokinin)
 
-#claude #synthesis #neuroinflammation #mitochondria #pd-pipeline
+#synthesis #neuroinflammation #mitochondria #pd-pipeline
 
 ---
 
@@ -514,4 +514,4 @@ Key cross-cutting references:
 ---
 
 **Analysis completed:** February 14, 2026
-**#claude #synthesis #neuroinflammation #mitochondria #pd-pipeline #deal-sourcing**
+**#synthesis #neuroinflammation #mitochondria #pd-pipeline #deal-sourcing**

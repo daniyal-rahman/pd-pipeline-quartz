@@ -1,6 +1,6 @@
 # Parkinson's Disease Pipeline: Public Company SEC Filing Analysis
 
-#claude
+
 
 
 *Research Date: January 21, 2026*

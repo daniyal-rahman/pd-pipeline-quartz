@@ -16,7 +16,6 @@ tags:
   - pd-pipeline
   - company
   - bbb-delivery
-  - claude
 ---
 
 # Carthera

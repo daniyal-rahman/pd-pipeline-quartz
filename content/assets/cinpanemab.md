@@ -19,7 +19,7 @@ confidence_rating: "N/A"
 next_catalyst: "N/A"
 catalyst_date: "N/A"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline, claude, failure-case]
+tags: [pd-pipeline, failure-case]
 date: 2026-02-15
 company_link: "[[companies/biogen]]"
 partner_link: "[[companies/neurimmune]]"

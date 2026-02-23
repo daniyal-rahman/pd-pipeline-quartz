@@ -1,6 +1,6 @@
 # China Parkinson's Disease Pipeline
 
-#claude
+
 
 
 **Research Date:** January 21, 2026

@@ -19,7 +19,7 @@ confidence_rating: "5/10"
 next_catalyst: "ST-506 (prion disease) CTA submission"
 catalyst_date: "mid-2026"
 thesis_cluster: "bbb-platform"
-tags: [bbb-delivery, claude]
+tags: [bbb-delivery]
 date: 2026-02-16
 company_link: "[[companies/sangamo-therapeutics]]"
 partner_link: "[[companies/roche]]"

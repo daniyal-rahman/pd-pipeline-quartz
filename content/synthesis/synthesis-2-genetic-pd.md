@@ -1,7 +1,7 @@
 # Cluster Synthesis #2: Genetic PD & Lysosomal Biology Deals
 
 **Date:** February 14, 2026
-**Analyst:** Claude Code
+**Analyst:** Automated Analysis
 **Deals Analyzed:** 6
 **Cluster Focus:** GBA1, GBA2, LRRK2 targets; gene therapy, small molecule, and cell therapy modalities
 

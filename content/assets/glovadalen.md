@@ -17,7 +17,7 @@ confidence_rating: "7/10"
 next_catalyst: "Phase 3 decision and trial initiation"
 catalyst_date: "2026-2027"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/ucb]]"
 ---
@@ -90,7 +90,13 @@ Glovadalen (UCB0022) is a first-in-class oral dopamine D1 receptor positive allo
 | [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
 | [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[duopa]] | Approved | Active | AbbVie | drug-device combination |
+| [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[neupro]] | Approved | Active | UCB | small molecule |
+| [[rytary]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[vyalev]] | Approved | Active | AbbVie | drug-device combination |
 
 - **[[tavapadon]] is the primary competitor** -- same target receptor class (D1), same patient population (motor fluctuations), but fundamentally different mechanism: partial agonist vs. PAM. Tavapadon has NDA submitted (September 2025) with expected FDA approval H1 2026, giving it a **2-3 year head start** before glovadalen could reach market. The question is whether glovadalen's mechanistic advantages (no receptor desensitization, cleaner safety) can overcome first-mover advantage
 - **[[mesdopetam]] targets a different niche** -- D3 receptor antagonist for levodopa-induced dyskinesia specifically, not motor fluctuations broadly. Complementary rather than competitive; a patient could theoretically receive both

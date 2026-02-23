@@ -10,8 +10,8 @@
 5. BIAL pariceract (GCase activator, disease-modifying in GBA-PD)
 6. Merck KGaA/Valo Health (AI-driven PD drug discovery)
 
-**Analyst:** Claude Code
-**Classification:** #claude #synthesis #deal-sourcing
+**Analyst:** Automated Analysis
+**Classification:** #synthesis #deal-sourcing
 
 ---
 
@@ -485,7 +485,7 @@ All data points and conclusions in this synthesis are drawn from the 6 individua
 
 ---
 
-**Document Status:** LLM-Generated Synthesis (#claude)
+**Document Status:** LLM-Generated Synthesis
 **Date:** February 14, 2026
-**Analyst:** Claude Code (Opus 4.6)
+**Analyst:** Automated Analysis
 **Verification Status:** Requires manual verification of all clinical data, financial figures, and strategic assessments before investment decision-making

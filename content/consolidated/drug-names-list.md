@@ -1,6 +1,6 @@
 # Parkinson's Disease Pipeline - Drug Names List
 
-#claude
+
 
 **Auto-generated from asset notes via Dataview.**
 
@@ -10,7 +10,14 @@
 
 | File | Drug Name | Developer | Stage | Status | Target |
 | --- | --- | --- | --- | --- | --- |
+| [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Approved | Active | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) |
+| [[duopa]] | Duopa | AbbVie | Approved | Active | dopamine replacement (continuous intestinal levodopa delivery) |
+| [[gocovri]] | Gocovri | Supernus Pharmaceuticals | Approved | Active | NMDA receptor / dopamine reuptake transporter |
 | [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Approved | Active | dopamine (symptomatic replacement via L-DOPA) |
+| [[neupro]] | Neupro (rotigotine) | UCB | Approved | Active | dopamine receptors (D1-D5, non-selective) |
+| [[nuplazid]] | Nuplazid (pimavanserin) | Acadia Pharmaceuticals | Approved | Active | 5-HT2A serotonin receptor |
+| [[rytary]] | Rytary | Amneal Pharmaceuticals | Approved | Active | dopamine (symptomatic replacement via L-DOPA) |
+| [[vyalev]] | VYALEV (foslevodopa/foscarbidopa) | AbbVie | Approved | Active | dopamine replacement (continuous levodopa/carbidopa prodrug delivery) |
 | [[nd0612]] | ND0612 | NeuroDerm | NDA Filed | Active | levodopa delivery optimization (continuous subcutaneous L-DOPA/carbidopa) |
 | [[raguneprocel]] | Raguneprocel | Sumitomo Pharma / RACTHERA | NDA Filed | Active | dopaminergic neuron replacement (iPSC-derived DA progenitors) |
 | [[tavapadon]] | Tavapadon | Cerevel Therapeutics | NDA Filed | Active | dopamine D1/D5 receptor |
@@ -152,7 +159,14 @@
 
 | File | Drug Name | Developer | Stage | Target |
 | --- | --- | --- | --- | --- |
+| [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Approved | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) |
+| [[duopa]] | Duopa | AbbVie | Approved | dopamine replacement (continuous intestinal levodopa delivery) |
+| [[gocovri]] | Gocovri | Supernus Pharmaceuticals | Approved | NMDA receptor / dopamine reuptake transporter |
 | [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Approved | dopamine (symptomatic replacement via L-DOPA) |
+| [[neupro]] | Neupro (rotigotine) | UCB | Approved | dopamine receptors (D1-D5, non-selective) |
+| [[nuplazid]] | Nuplazid (pimavanserin) | Acadia Pharmaceuticals | Approved | 5-HT2A serotonin receptor |
+| [[rytary]] | Rytary | Amneal Pharmaceuticals | Approved | dopamine (symptomatic replacement via L-DOPA) |
+| [[vyalev]] | VYALEV (foslevodopa/foscarbidopa) | AbbVie | Approved | dopamine replacement (continuous levodopa/carbidopa prodrug delivery) |
 | [[nd0612]] | ND0612 | NeuroDerm | NDA Filed | levodopa delivery optimization (continuous subcutaneous L-DOPA/carbidopa) |
 | [[raguneprocel]] | Raguneprocel | Sumitomo Pharma / RACTHERA | NDA Filed | dopaminergic neuron replacement (iPSC-derived DA progenitors) |
 | [[tavapadon]] | Tavapadon | Cerevel Therapeutics | NDA Filed | dopamine D1/D5 receptor |
@@ -379,9 +393,12 @@
 | [[aav-gad]] | AAV-GAD | MeiraGTx | Phase 2 | Active |
 | [[appello-mglu4]] | AP-472 | Appello Pharmaceuticals | Phase 1/2 | Active |
 | [[blarcamesine]] | Blarcamesine | Anavex Life Sciences | Phase 2 | Active |
+| [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Approved | Active |
 | [[cavgene]] | CGT-102 / CGT-103 | CavGene Therapeutics | Preclinical | Active |
 | [[dive-inbrain]] | A-dopamine (anaerobic dopamine) | InBrain Pharma | Phase 1/2 | Active |
+| [[duopa]] | Duopa | AbbVie | Approved | Active |
 | [[glovadalen]] | Glovadalen | UCB | Phase 2 | Active |
+| [[gocovri]] | Gocovri | Supernus Pharmaceuticals | Approved | Active |
 | [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Approved | Active |
 | [[irl757]] | IRL757 | IRLAB Therapeutics | Phase 1b | Active |
 | [[lario-cav23]] | Lario CaV2.3 Inhibitor | Lario Therapeutics | Preclinical | Active |
@@ -389,13 +406,17 @@
 | [[ly03017]] | LY03017 | Luye Pharma Group | Phase 1 | Active |
 | [[mesdopetam]] | Mesdopetam | IRLAB Therapeutics | Phase 3 | Active |
 | [[nd0612]] | ND0612 | NeuroDerm | NDA Filed | Active |
+| [[neupro]] | Neupro (rotigotine) | UCB | Approved | Active |
+| [[nuplazid]] | Nuplazid (pimavanserin) | Acadia Pharmaceuticals | Approved | Active |
 | [[otsuka-program]] | Otsuka PD Program | Otsuka Pharmaceutical | Preclinical | Active |
 | [[p2b001]] | P2B001 | Pharma Two B | Phase 3 | Active |
+| [[rytary]] | Rytary | Amneal Pharmaceuticals | Approved | Active |
 | [[ser-252]] | SER-252 | Serina Therapeutics | Phase 1b | Active |
 | [[solangepras]] | Solengepras | Cerevance | Phase 3 | Active |
 | [[tavapadon]] | Tavapadon | Cerevel Therapeutics | NDA Filed | Active |
 | [[vgn-r09b]] | VGN-R09b | Shanghai Vitalgen BioPharma | Phase 1/2 | Active |
+| [[vyalev]] | VYALEV (foslevodopa/foscarbidopa) | AbbVie | Approved | Active |
 
 ---
 
-**Total asset notes:** `135 assets` tracked
+**Total asset notes:** `142 assets` tracked

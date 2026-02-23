@@ -19,7 +19,7 @@ confidence_rating: "3/10"
 next_catalyst: "Phase 2 data readout (safety, tolerability, PK, exploratory efficacy)"
 catalyst_date: "2026-2027 (estimated)"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/il-yang-pharmaceutical]]"
 ---

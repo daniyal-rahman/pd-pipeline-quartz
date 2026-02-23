@@ -3,7 +3,7 @@
 **Deal Date:** November 12, 2025
 **Deal Value:** $40M upfront + $15M equity + up to $2.562B milestones + tiered royalties
 **Asset:** Grabody-B BBB shuttle platform (multi-program, multi-modality CNS license)
-**Analyst:** Claude Code
+**Analyst:** Automated Analysis
 **Analysis Date:** February 14, 2026
 
 ---

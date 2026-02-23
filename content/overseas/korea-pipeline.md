@@ -1,6 +1,6 @@
 # South Korea Parkinson's Disease Pipeline Overview
 
-#claude
+
 
 
 *Last updated: January 2026*

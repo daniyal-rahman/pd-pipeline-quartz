@@ -17,7 +17,7 @@ confidence_rating: "3/10"
 next_catalyst: "IND submission"
 catalyst_date: "2027"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/alector]]"
 ---

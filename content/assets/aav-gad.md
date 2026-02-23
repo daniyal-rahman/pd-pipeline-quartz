@@ -19,7 +19,7 @@ confidence_rating: "6/10"
 next_catalyst: "exPDite-2 Phase 3 initiation and enrollment"
 catalyst_date: "2025-2026 (initiation); ~2027-2028 (readout)"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/meiragtx]]"
 partner_link: "[[companies/hologen]]"
@@ -118,7 +118,14 @@ AAV-GAD is the most clinically advanced gene therapy for Parkinson's disease, wi
 | [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[duopa]] | Approved | Active | AbbVie | drug-device combination |
+| [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[neupro]] | Approved | Active | UCB | small molecule |
+| [[nuplazid]] | Approved | Active | Acadia Pharmaceuticals | small molecule |
+| [[rytary]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[vyalev]] | Approved | Active | AbbVie | drug-device combination |
 
 - **vs. Deep Brain Stimulation (DBS):** DBS is the established standard for moderate-advanced PD motor symptoms (41% UPDRS improvement at 6 months). AAV-GAD offers a potential one-time treatment vs. permanent hardware with battery replacements, programming visits, and infection risk. However, DBS is reversible and adjustable; AAV-GAD is a permanent intervention. The disease-modification signal (brain circuitry remodeling, substantia nigra protection) would be the decisive differentiator if confirmed
 - **vs. [[cavgene|CavGene (CaV1.3 RNAi)]]:** Both are intracranial AAV gene therapies but target different problems -- AAV-GAD addresses core motor symptoms via STN modulation, while CavGene targets levodopa-induced dyskinesia via striatal calcium channel silencing. Complementary rather than competitive; CavGene is years behind in preclinical

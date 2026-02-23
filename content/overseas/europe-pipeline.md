@@ -1,6 +1,6 @@
 # European Parkinson's Disease Pipeline Assets
 
-#claude
+
 
 
 > Last updated: January 2026

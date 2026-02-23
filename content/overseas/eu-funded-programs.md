@@ -1,6 +1,6 @@
 # EU-Funded Parkinson's Disease Research Programs
 
-#claude
+
 
 
 > Last updated: January 2026

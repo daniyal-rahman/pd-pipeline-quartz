@@ -1,6 +1,6 @@
 # Japan Parkinson's Disease Pipeline Overview
 
-#claude
+
 
 
 **Research Date:** January 2026

@@ -18,7 +18,7 @@ confidence_rating: "4/10"
 next_catalyst: "EJS ACT-PD Arm 3 initiation"
 catalyst_date: "2026"
 thesis_cluster: "mitophagy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-16
 company_link: "[[companies/university-of-sheffield]]"
 partner_link: "[[companies/cure-parkinsons]]"

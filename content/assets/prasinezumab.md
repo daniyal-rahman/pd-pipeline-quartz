@@ -19,7 +19,7 @@ confidence_rating: "6/10"
 next_catalyst: "PARAISO Phase 3 enrollment/design disclosure"
 catalyst_date: "2027-2028 (readout)"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/prothena]]"
 partner_link: "[[companies/roche]]"

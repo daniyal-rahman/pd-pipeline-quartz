@@ -18,7 +18,7 @@ confidence_rating: "5/10"
 next_catalyst: "DEEP-DIVE Phase 3 initiation"
 catalyst_date: "2026-2027"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/inbrain-pharma]]"
 partner_link: "[[companies/tricumed-flowonix]]"
@@ -103,7 +103,13 @@ InBrain Pharma (startup, Lille, France) completed the Phase 1/2 DIVE-I trial dem
 | [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
 | [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[duopa]] | Approved | Active | AbbVie | drug-device combination |
+| [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[neupro]] | Approved | Active | UCB | small molecule |
+| [[rytary]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[vyalev]] | Approved | Active | AbbVie | drug-device combination |
 
 - The competitive set for A-dopamine is **device-aided therapies (DATs) for advanced PD**, not disease-modifying agents. Direct comparators: DBS (Medtronic, Abbott, Boston Scientific — all approved), Duodopa/LCIG (AbbVie — approved), subcutaneous apomorphine infusion (Britannia — approved), and [[nd0612|ND0612]] (NeuroDerm/Mitsubishi Tanabe — subcutaneous levodopa/carbidopa infusion)
 - Key advantage over DBS: pharmacological mechanism directly addresses dopamine deficit rather than modulating circuits electrically. DBS can cause speech/gait side effects from stimulation of adjacent structures; A-dopamine avoids this

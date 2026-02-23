@@ -17,7 +17,7 @@ confidence_rating: "3/10"
 next_catalyst: "Decision on PD-specific follow-up trial enriched for younger patients"
 catalyst_date: "TBD"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/neuraly]]"
 ---

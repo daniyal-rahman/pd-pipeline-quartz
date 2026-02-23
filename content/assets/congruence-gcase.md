@@ -18,7 +18,7 @@ confidence_rating: "4/10"
 next_catalyst: "IND filing for lead GCase program"
 catalyst_date: "2026"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-16
 company_link: "[[companies/congruence-therapeutics]]"
 ---
@@ -200,7 +200,14 @@ No clinical trials initiated. The program is in IND-enabling studies.
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[duopa]] | Approved | Active | AbbVie | drug-device combination |
+| [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[neupro]] | Approved | Active | UCB | small molecule |
+| [[nuplazid]] | Approved | Active | Acadia Pharmaceuticals | small molecule |
+| [[rytary]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[vyalev]] | Approved | Active | AbbVie | drug-device combination |
 
 - Key competitive distinction is **corrector vs. activator mechanism**: [[pariceract]] (BIAL, Phase 2b) and [[lys-therapeutics|GT-02287]] (Gain Therapeutics, Phase 1b) activate GCase already in the lysosome; Congruence corrects misfolded protein upstream in the ER and restores trafficking. These are complementary, not directly competitive
 - Gene therapy competitors ([[cavgene|Capsida CAP-003]], Lilly/Prevail PR001, Spur SPR301) replace the GBA1 gene entirely, delivering a one-time dose of functional enzyme. Small molecules (correctors and activators) offer oral, titratable, reversible, cheaper alternatives without AAV pre-existing immunity exclusion

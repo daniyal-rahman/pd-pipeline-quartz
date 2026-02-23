@@ -1,6 +1,6 @@
 # Japanese Big Pharma Parkinson's Disease Programs
 
-#claude
+
 
 
 **Research Date:** January 2026

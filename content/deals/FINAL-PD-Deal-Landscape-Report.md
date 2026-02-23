@@ -1,12 +1,12 @@
 # FINAL META-SYNTHESIS: Parkinson's Disease Deal Landscape Report
 
 **Date:** February 14, 2026
-**Analyst:** Claude Code (Opus 4.6)
+**Analyst:** Automated Analysis
 **Classification:** Capstone Deliverable -- Cross-Cluster Meta-Synthesis
 **Input:** 26 individual deal analyses, consolidated into 5 thematic cluster syntheses
 **Question Addressed:** Where are the remaining opportunities to source a deal that has genuine scientific differentiation, is not in an overcrowded target class, and has a realistic path to value creation?
 
-#claude #meta-synthesis #deal-sourcing #parkinson #final-report
+#meta-synthesis #deal-sourcing #parkinson #final-report
 
 ---
 
@@ -743,9 +743,9 @@ The biobucks aggregate across these 26 deals is $30B+. The actual upfront capita
 
 ---
 
-**Document Classification:** LLM-Generated Capstone Meta-Synthesis (#claude)
+**Document Classification:** LLM-Generated Capstone Meta-Synthesis
 **Date:** February 14, 2026
-**Analyst:** Claude Code (Opus 4.6)
+**Analyst:** Automated Analysis
 **Input:** 26 individual deal analyses consolidated into 5 thematic cluster syntheses
 **Verification Status:** UNVERIFIED -- All data points, financial figures, clinical trial information, and strategic assessments require primary source confirmation before any investment decision-making. This analysis is a synthesis of previously generated LLM analyses and inherits their limitations, including potential web search inaccuracies, blocked-site data gaps, and temporal snapshots that may not reflect current status.
 **Recommended next steps:** Primary source verification of all Tier 1 catalyst dates and deal terms; back-channel diligence on Biogen ION464 discontinuation rationale; real-time monitoring of LUMA and ACTIVATE enrollment/readout signals.

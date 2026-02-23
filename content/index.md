@@ -8,7 +8,7 @@
 
 | Stage | Programs | Active |
 | --- | --- | --- |
-| Approved | 1 | 1 |
+| Approved | 8 | 8 |
 | NDA Filed | 3 | 3 |
 | Phase 3 | 10 | 9 |
 | Phase 2/3 | 1 | 1 |
@@ -65,8 +65,8 @@ Full deal analyses: [[deals/FINAL-PD-Deal-Landscape-Report|Deal Landscape Report
 | --- | --- | --- |
 | alpha-synuclein | 31 | 23 |
 | neuroinflammation | 28 | 25 |
+| symptomatic | 28 | 26 |
 | genetic-pd | 23 | 22 |
-| symptomatic | 21 | 19 |
 | cell-therapy | 17 | 15 |
 | mitophagy | 9 | 9 |
 | diagnostics | 4 | 3 |
@@ -100,7 +100,14 @@ Full deal analyses: [[deals/FINAL-PD-Deal-Landscape-Report|Deal Landscape Report
 
 | File | Drug | Company | Stage | Status | Conf. | Target |
 | --- | --- | --- | --- | --- | --- | --- |
+| [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Approved | Active |  | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) |
+| [[duopa]] | Duopa | AbbVie | Approved | Active |  | dopamine replacement (continuous intestinal levodopa delivery) |
+| [[gocovri]] | Gocovri | Supernus Pharmaceuticals | Approved | Active |  | NMDA receptor / dopamine reuptake transporter |
 | [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Approved | Active |  | dopamine (symptomatic replacement via L-DOPA) |
+| [[neupro]] | Neupro (rotigotine) | UCB | Approved | Active | N/A — approved product | dopamine receptors (D1-D5, non-selective) |
+| [[nuplazid]] | Nuplazid (pimavanserin) | Acadia Pharmaceuticals | Approved | Active |  | 5-HT2A serotonin receptor |
+| [[rytary]] | Rytary | Amneal Pharmaceuticals | Approved | Active |  | dopamine (symptomatic replacement via L-DOPA) |
+| [[vyalev]] | VYALEV (foslevodopa/foscarbidopa) | AbbVie | Approved | Active |  | dopamine replacement (continuous levodopa/carbidopa prodrug delivery) |
 | [[nd0612]] | ND0612 | NeuroDerm | NDA Filed | Active | 5/10 | levodopa delivery optimization (continuous subcutaneous L-DOPA/carbidopa) |
 | [[raguneprocel]] | Raguneprocel | Sumitomo Pharma / RACTHERA | NDA Filed | Active | 7/10 | dopaminergic neuron replacement (iPSC-derived DA progenitors) |
 | [[tavapadon]] | Tavapadon | Cerevel Therapeutics | NDA Filed | Active | 8/10 | dopamine D1/D5 receptor |

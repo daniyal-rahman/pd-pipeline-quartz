@@ -1,6 +1,6 @@
 # China Academic Parkinson's Disease Programs
 
-#claude
+
 
 
 **Research Date:** January 21, 2026

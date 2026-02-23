@@ -18,7 +18,7 @@ confidence_rating: "6.5/10"
 next_catalyst: "ACTIVATE Phase 2b topline data"
 catalyst_date: "Mid-2026"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/bial]]"
 ---
@@ -218,7 +218,14 @@ Pariceract is the most advanced oral GCase activator in clinical development, wi
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[duopa]] | Approved | Active | AbbVie | drug-device combination |
+| [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[neupro]] | Approved | Active | UCB | small molecule |
+| [[nuplazid]] | Approved | Active | Acadia Pharmaceuticals | small molecule |
+| [[rytary]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[vyalev]] | Approved | Active | AbbVie | drug-device combination |
 
 - **Modality distinction is the central competitive question**: oral small molecule activators (pariceract, GT-02287) vs. AAV gene therapy ([[cavgene|Capsida CAP-003]], Lilly/Prevail PR001, Spur SPR301, Voyager/Neurocrine) vs. GCase correctors (Congruence Therapeutics). Each modality addresses GCase deficiency differently — activators boost existing enzyme, gene therapy replaces the gene, correctors fix protein misfolding
 - **Market timing advantage:** Pariceract reads out first (mid-2026), 12-24 months ahead of all competitors. GT-02287 Phase 2 likely 2027; [[cavgene|Capsida CAP-003]] Phase 1/2 data likely 2027-2028; Congruence IND 2026, data 2028+; Biogen/Alectos AL01811 2028+ at earliest

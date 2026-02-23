@@ -18,7 +18,7 @@ confidence_rating: "4/10"
 next_catalyst: "IND filing with FDA"
 catalyst_date: "H1 2026"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/casma-therapeutics]]"
 ---

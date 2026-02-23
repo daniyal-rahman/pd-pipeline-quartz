@@ -16,7 +16,7 @@ confidence_rating: "5/10"
 next_catalyst: "China Phase 2 readout; US Phase 1 data"
 catalyst_date: "Q4 2026 - 2027"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/iregene-therapeutics]]"
 ---

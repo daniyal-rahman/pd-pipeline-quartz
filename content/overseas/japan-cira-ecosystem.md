@@ -1,6 +1,6 @@
 # CiRA/Kyoto University iPSC Ecosystem for Parkinson's Disease
 
-#claude
+
 
 
 **Research Date:** January 2026

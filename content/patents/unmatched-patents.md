@@ -1,6 +1,6 @@
 # Unmatched Patents: No Corresponding Asset Note
 
-#claude
+
 
 Cross-reference of all patent entries in `patents/recent-patents.md` and `patents/new-players.md` against the `assets/` folder. Each entry below is a patent or patent holder that does NOT have a corresponding asset note covering the same company, drug, or target program.
 

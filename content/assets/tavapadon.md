@@ -19,7 +19,7 @@ confidence_rating: "8/10"
 next_catalyst: "FDA PDUFA decision"
 catalyst_date: "H1 2026"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/cerevel-therapeutics]]"
 partner_link: "[[companies/abbvie]]"
@@ -110,7 +110,14 @@ Tavapadon is a first-in-class selective D1/D5 dopamine receptor partial agonist 
 | [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[duopa]] | Approved | Active | AbbVie | drug-device combination |
+| [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[neupro]] | Approved | Active | UCB | small molecule |
+| [[nuplazid]] | Approved | Active | Acadia Pharmaceuticals | small molecule |
+| [[rytary]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
+| [[vyalev]] | Approved | Active | AbbVie | drug-device combination |
 
 - Tavapadon is not a disease-modifying therapy -- it is a novel symptomatic agent competing in the established dopaminergic treatment space. Its competitors are primarily marketed generics (pramipexole, ropinirole, levodopa/carbidopa) rather than pipeline assets
 - Key competitive advantage is the D1/D5 selectivity: if the 1.4% ICD rate holds post-approval, tavapadon could displace D2/D3 agonists as first-line dopamine agonist therapy, particularly in patients at risk for impulse control disorders

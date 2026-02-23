@@ -18,7 +18,7 @@ key_biomarkers: []
 next_catalyst: "Compound disclosure or IND filing"
 catalyst_date: "Unknown"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/otsuka-pharmaceutical]]"
 partner_link: "[[companies/lundbeck]]"

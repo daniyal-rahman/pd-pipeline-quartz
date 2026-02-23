@@ -12,7 +12,7 @@ partner_type: "big pharma"
 stage: "Preclinical"
 status: "Active"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery, claude]
+tags: [bbb-delivery]
 date: 2026-02-16
 company_link: "[[companies/manifold-bio]]"
 partner_link: "[[companies/roche]]"
@@ -146,4 +146,4 @@ Manifold Bio is a Boston-based platform therapeutics company that combines massi
 
 ---
 
-*Generated: 2026-02-16 | Status: #claude #bbb-delivery*
+*Generated: 2026-02-16 | Status: #bbb-delivery*

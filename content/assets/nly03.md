@@ -17,7 +17,7 @@ confidence_rating: "1/10"
 next_catalyst: "Disclosure of lead compound identity and preclinical efficacy data"
 catalyst_date: "TBD"
 thesis_cluster: "mitophagy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/neuraly]]"
 ---

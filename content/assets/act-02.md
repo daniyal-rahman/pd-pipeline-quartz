@@ -17,7 +17,7 @@ confidence_rating: "3/10"
 next_catalyst: "IND filing for Phase 1"
 catalyst_date: "2026"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-16
 company_link: "[[companies/accure-therapeutics]]"
 ---

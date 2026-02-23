@@ -18,7 +18,7 @@ confidence_rating: "4/10"
 next_catalyst: "Phase 1 12-month safety/feasibility readout"
 catalyst_date: "H2 2025 - H1 2026"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/mclean-hospital-nri]]"
 partner_link: "[[companies/oryon-cell-therapies]]"

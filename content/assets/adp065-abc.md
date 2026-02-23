@@ -17,7 +17,7 @@ confidence_rating: "2/10"
 next_catalyst: "Preclinical data disclosure or IND timeline announcement"
 catalyst_date: "TBD"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/alector]]"
 ---

@@ -1,5 +1,5 @@
 ---
-tags: [bbb-delivery, synthesis, claude]
+tags: [bbb-delivery, synthesis]
 date: 2026-02-16
 ---
 
@@ -7,7 +7,14 @@ date: 2026-02-16
 
 | File | Drug | Developer | Stage | Target | Modality |
 | --- | --- | --- | --- | --- | --- |
+| [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Approved | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) | small molecule |
+| [[duopa]] | Duopa | AbbVie | Approved | dopamine replacement (continuous intestinal levodopa delivery) | drug-device combination |
+| [[gocovri]] | Gocovri | Supernus Pharmaceuticals | Approved | NMDA receptor / dopamine reuptake transporter | small molecule |
 | [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Approved | dopamine (symptomatic replacement via L-DOPA) | small molecule |
+| [[neupro]] | Neupro (rotigotine) | UCB | Approved | dopamine receptors (D1-D5, non-selective) | small molecule |
+| [[nuplazid]] | Nuplazid (pimavanserin) | Acadia Pharmaceuticals | Approved | 5-HT2A serotonin receptor | small molecule |
+| [[rytary]] | Rytary | Amneal Pharmaceuticals | Approved | dopamine (symptomatic replacement via L-DOPA) | small molecule |
+| [[vyalev]] | VYALEV (foslevodopa/foscarbidopa) | AbbVie | Approved | dopamine replacement (continuous levodopa/carbidopa prodrug delivery) | drug-device combination |
 | [[nd0612]] | ND0612 | NeuroDerm | NDA Filed | levodopa delivery optimization (continuous subcutaneous L-DOPA/carbidopa) | small molecule |
 | [[raguneprocel]] | Raguneprocel | Sumitomo Pharma / RACTHERA | NDA Filed | dopaminergic neuron replacement (iPSC-derived DA progenitors) | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | Tavapadon | Cerevel Therapeutics | NDA Filed | dopamine D1/D5 receptor | small molecule |
@@ -370,4 +377,4 @@ The three events with the greatest impact on the PD BBB delivery thesis, ranked:
 
 ---
 
-*Generated: 2026-02-16 | #claude #bbb-delivery #synthesis*
+*Generated: 2026-02-16 | #bbb-delivery #synthesis*

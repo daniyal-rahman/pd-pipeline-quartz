@@ -1,6 +1,6 @@
 # Parkinson's Disease Pipeline - Gaps and Notes
 
-#claude
+
 
 
 *Last Updated: January 2026*

@@ -18,7 +18,7 @@ confidence_rating: "4/10"
 next_catalyst: "Interim futility analysis (first arm)"
 catalyst_date: "2028-2029"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline, claude]
+tags: [pd-pipeline]
 date: 2026-02-15
 company_link: "[[companies/university-college-london]]"
 partner_link: "[[companies/cure-parkinsons]]"
