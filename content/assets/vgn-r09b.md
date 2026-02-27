@@ -18,7 +18,7 @@ confidence_rating: "5/10"
 next_catalyst: "Phase 1/2 dose-escalation completion and expanded cohort data"
 catalyst_date: "2026-2027"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/shanghai-vitalgen-biopharma]]"
 ---

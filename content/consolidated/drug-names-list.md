@@ -10,7 +10,9 @@
 
 | File | Drug Name | Developer | Stage | Status | Target |
 | --- | --- | --- | --- | --- | --- |
+| [[apokyn]] | APOKYN | Supernus Pharmaceuticals | Approved | Active | dopamine receptors (D1-D5, non-selective full agonist) |
 | [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Approved | Active | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) |
+| [[crexont]] | CREXONT | Amneal Pharmaceuticals | Approved | Active | dopamine (symptomatic replacement via L-DOPA) |
 | [[duopa]] | Duopa | AbbVie | Approved | Active | dopamine replacement (continuous intestinal levodopa delivery) |
 | [[gocovri]] | Gocovri | Supernus Pharmaceuticals | Approved | Active | NMDA receptor / dopamine reuptake transporter |
 | [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Approved | Active | dopamine (symptomatic replacement via L-DOPA) |
@@ -159,7 +161,9 @@
 
 | File | Drug Name | Developer | Stage | Target |
 | --- | --- | --- | --- | --- |
+| [[apokyn]] | APOKYN | Supernus Pharmaceuticals | Approved | dopamine receptors (D1-D5, non-selective full agonist) |
 | [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Approved | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) |
+| [[crexont]] | CREXONT | Amneal Pharmaceuticals | Approved | dopamine (symptomatic replacement via L-DOPA) |
 | [[duopa]] | Duopa | AbbVie | Approved | dopamine replacement (continuous intestinal levodopa delivery) |
 | [[gocovri]] | Gocovri | Supernus Pharmaceuticals | Approved | NMDA receptor / dopamine reuptake transporter |
 | [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Approved | dopamine (symptomatic replacement via L-DOPA) |
@@ -391,10 +395,12 @@
 | [[snk01]] | Troculeucel | NKGen Biotech | Phase 1/2 | Active |
 | [[vtx3232]] | VTX3232 | Ventyx Biosciences | Phase 2 | Active |
 | [[aav-gad]] | AAV-GAD | MeiraGTx | Phase 2 | Active |
+| [[apokyn]] | APOKYN | Supernus Pharmaceuticals | Approved | Active |
 | [[appello-mglu4]] | AP-472 | Appello Pharmaceuticals | Phase 1/2 | Active |
 | [[blarcamesine]] | Blarcamesine | Anavex Life Sciences | Phase 2 | Active |
 | [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Approved | Active |
 | [[cavgene]] | CGT-102 / CGT-103 | CavGene Therapeutics | Preclinical | Active |
+| [[crexont]] | CREXONT | Amneal Pharmaceuticals | Approved | Active |
 | [[dive-inbrain]] | A-dopamine (anaerobic dopamine) | InBrain Pharma | Phase 1/2 | Active |
 | [[duopa]] | Duopa | AbbVie | Approved | Active |
 | [[glovadalen]] | Glovadalen | UCB | Phase 2 | Active |
@@ -419,4 +425,4 @@
 
 ---
 
-**Total asset notes:** `142 assets` tracked
+**Total asset notes:** `144 assets` tracked

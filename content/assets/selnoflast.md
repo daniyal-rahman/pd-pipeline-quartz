@@ -17,7 +17,7 @@ confidence_rating: "3/10"
 next_catalyst: "Phase 1b PD results disclosure"
 catalyst_date: "2025-2026"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/roche]]"
 ---

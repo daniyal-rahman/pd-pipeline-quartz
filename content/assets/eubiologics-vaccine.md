@@ -19,7 +19,7 @@ confidence_rating: "2/10"
 next_catalyst: "IND filing for Phase 1"
 catalyst_date: "2027-2028 (estimated)"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/eubiologics]]"
 partner_link: "[[companies/pop-biotechnologies]]"

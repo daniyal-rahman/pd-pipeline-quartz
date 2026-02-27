@@ -18,7 +18,7 @@ confidence_rating: "3/10"
 next_catalyst: "Phase 1 safety/feasibility data from MGH trial"
 catalyst_date: "2027"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-16
 company_link: "[[companies/cellino-biotech]]"
 partner_link: "[[companies/mass-general-brigham]]"

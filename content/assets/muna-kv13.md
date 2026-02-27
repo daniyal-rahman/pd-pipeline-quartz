@@ -18,7 +18,7 @@ confidence_rating: "3/10"
 next_catalyst: "Clinical candidate nomination / IND filing"
 catalyst_date: "2025-2026 (estimated)"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/muna-therapeutics]]"
 partner_link: "[[companies/gsk]]"

@@ -18,7 +18,7 @@ confidence_rating: "5/10"
 next_catalyst: "Phase 3 trial initiation (Cure Parkinson's-led)"
 catalyst_date: "2026-2027"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/toulouse-university-hospital]]"
 partner_link: "[[companies/sanofi]]"

@@ -17,7 +17,7 @@ confidence_rating: "2/10"
 next_catalyst: "IND filing and Phase 1 initiation"
 catalyst_date: "TBD"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/neuraly]]"
 ---

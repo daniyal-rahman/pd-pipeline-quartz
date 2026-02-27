@@ -18,7 +18,7 @@ confidence_rating: "3/10"
 next_catalyst: "Series A close and IND-enabling study initiation"
 catalyst_date: "2025-2026"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/endlyz-therapeutics]]"
 ---

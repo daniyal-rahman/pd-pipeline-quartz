@@ -17,7 +17,7 @@ confidence_rating: "5/10"
 next_catalyst: "Phase 1/2a full cohort 24-month follow-up data; Phase 2 trial initiation"
 catalyst_date: "2026-2027"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/sbiomedics]]"
 ---

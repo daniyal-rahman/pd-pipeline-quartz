@@ -19,7 +19,7 @@ confidence_rating: ""
 next_catalyst: "Generic entry (settled for March 2030)"
 catalyst_date: "2030-03-04"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-20
 company_link: "[[companies/supernus-pharmaceuticals]]"
 ---
@@ -84,7 +84,7 @@ CVR details: $0.50/share payable if Gocovri net sales reach $150M in any four co
 - **Interpretation:** Broadened label beyond LID to OFF episodes, expanding addressable patient population
 
 ### Financial
-- **FY2024 net sales:** $130.8M (up 9% YoY from FY2023)
+- **FY2024 net sales:** $130.8M (up 9% YoY from FY2023) [source](https://ir.supernus.com/news-releases/news-release-details/supernus-announces-fourth-quarter-and-full-year-2024-financial)
 - **Q3 2025 net sales:** $40.8M (up 15% YoY); H1 2025 trending ~16% growth
 - **Annualized run-rate (mid-2025):** ~$145-150M
 - **Acquisition economics:** Supernus paid ~$400M for Adamas in 2021. At the time, Gocovri was generating roughly $90-100M/year. At current trajectory, Supernus will have recouped the acquisition price in cumulative Gocovri revenue within ~3-4 years post-close — a clean return
@@ -116,7 +116,9 @@ CVR details: $0.50/share payable if Gocovri net sales reach $150M in any four co
 | [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[apokyn]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[crexont]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 | [[duopa]] | Approved | Active | AbbVie | drug-device combination |
 | [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |

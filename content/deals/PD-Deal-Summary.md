@@ -161,6 +161,7 @@ The ~$28B+ headline aggregate collapses to **~$3-4B in actual upfront cash**. Th
 | [[ambroxol]] |  |
 | [[amlenetug]] |  |
 | [[anpd001]] |  |
+| [[apokyn]] |  |
 | [[appello-mglu4]] |  |
 | [[aro-snca]] |  |
 | [[arv-102]] |  |
@@ -184,6 +185,7 @@ The ~$28B+ headline aggregate collapses to **~$3-4B in actual upfront cash**. Th
 | [[cellino-ipsc]] |  |
 | [[cinpanemab]] |  |
 | [[congruence-gcase]] |  |
+| [[crexont]] |  |
 | [[ct1812]] |  |
 | [[dapansutrile]] |  |
 | [[dive-inbrain]] |  |

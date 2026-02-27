@@ -17,7 +17,7 @@ confidence_rating: "N/A — approved product"
 next_catalyst: "Generic entry timing (patent litigation resolved in favor of Teva/Viatris; launch date uncertain)"
 catalyst_date: "2025-2032"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-20
 company_link: "[[companies/ucb]]"
 ---
@@ -69,8 +69,10 @@ Neupro is the only transdermal dopamine agonist approved for PD, providing conti
 - **Interpretation:** This trial established Neupro's differentiated clinical niche — 24-hour continuous delivery translates to measurable nocturnal/early-morning benefit that oral DA agonists (taken once daily in the morning) cannot match
 
 ### Financial
-- **Peak global sales:** ~EUR 400M (~$440M) in the early 2020s. North America and Europe account for >70% of revenue. Sales have been declining in the US and Japan, stable in Europe
-- **UCB context:** Neupro is a legacy product for UCB, which now generates most growth from immunology (Cimzia, Bimzelx) and neurology (Vimpat, Briviact, Rystiggo). UCB's total 2024 revenue was ~EUR 6.4B; Neupro is <7% of revenue and shrinking
+- **Peak global sales:** ~EUR 400M (~$440M) in the early 2020s. North America and Europe account for >70% of revenue. Sales declining in the US and Japan, stable in Europe
+- **FY2024 revenue:** H1 2024: €123M confirmed [source](https://www.ucb.com/stories-media/Press-Releases/article/UCB-half-year-results-2024); FY2024 est. €210-240M (~$225-260M) — MEDIUM confidence. Simple H1×2 implies €246M, but UCB divested China Neupro rights (closing November 2024), reducing H2 contribution for the final ~2 months of year; applying -15% YoY trend yields ~€210-240M. UCB FY2024 annual report product table not accessible as of this writing.
+- **China divestiture:** UCB sold China Neupro rights in November 2024. Removes a growth market but simplifies the portfolio; 2025 UCB Neupro comparables will reflect this structural change.
+- **UCB context:** Neupro is a legacy product for UCB, which now generates most growth from immunology (Cimzia, Bimzelx) and neurology (Vimpat, Briviact, Rystiggo). UCB's total 2024 revenue was ~EUR 6.4B; Neupro is <5% of revenue and shrinking
 - **Patent/generic status:** Federal Circuit invalidated UCB's key '589 patent in April 2023, affirming 2021 district court ruling. Teva (via Actavis) and Viatris (via Mylan) won the appeals but have not yet launched generics as of February 2026. DrugPatentWatch lists earliest generic entry as March 2032 based on remaining patents, but the invalidated '589 patent was the primary barrier — actual generic entry could be sooner
 - **Cost:** ~$600-700/month (US wholesale) for branded Neupro; transdermal patches are inherently harder to genericize than oral pills due to manufacturing complexity, which may delay generic erosion even after patent clearance
 - **No residual deal economics:** Schwarz Pharma (original developer) was acquired by UCB in 2006 for EUR 4.4B; Neupro was a key asset in that acquisition alongside Vimpat
@@ -99,7 +101,9 @@ Neupro is the only transdermal dopamine agonist approved for PD, providing conti
 | [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[apokyn]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[crexont]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 | [[duopa]] | Approved | Active | AbbVie | drug-device combination |
 | [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |

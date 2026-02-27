@@ -19,7 +19,7 @@ confidence_rating: "6/10"
 next_catalyst: "ARO-MAPT Phase 1/2a readout (TRiM platform validation)"
 catalyst_date: "H2 2026-2027"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/arrowhead-pharmaceuticals]]"
 partner_link: "[[companies/novartis]]"

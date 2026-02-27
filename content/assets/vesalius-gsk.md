@@ -18,7 +18,7 @@ confidence_rating: "3/10"
 next_catalyst: "Development candidate nomination"
 catalyst_date: "2026-2027"
 thesis_cluster: "ai-discovery"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/vesalius-therapeutics]]"
 partner_link: "[[companies/gsk]]"

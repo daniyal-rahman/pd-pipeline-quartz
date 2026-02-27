@@ -19,7 +19,7 @@ confidence_rating: "6/10"
 next_catalyst: "LUMA Phase 2b readout"
 catalyst_date: "March 2026"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/denali-therapeutics]]"
 partner_link: "[[companies/biogen]]"

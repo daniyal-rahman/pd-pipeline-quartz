@@ -10,7 +10,7 @@
 
 | Stage | Count |
 | --- | --- |
-| Approved | 8 |
+| Approved | 10 |
 | NDA Filed | 3 |
 | Phase 3 | 9 |
 | Phase 2/3 | 1 |
@@ -31,7 +31,9 @@
 
 | File | Drug | Company | Mechanism | Route |
 | --- | --- | --- | --- | --- |
+| [[apokyn]] | APOKYN | Supernus Pharmaceuticals | Subcutaneous apomorphine; potent non-ergot dopamine agonist with rapid onset ... | subcutaneous (injection) |
 | [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Levodopa crosses the BBB and is converted to dopamine by AADC in surviving ni... | oral |
+| [[crexont]] | CREXONT | Amneal Pharmaceuticals | Mucoadhesive extended-release carbidopa/levodopa capsule; bioadhesive bead te... | oral |
 | [[duopa]] | Duopa | AbbVie | Continuous intrajejunal infusion of carbidopa/levodopa gel bypasses erratic g... | intrajejunal (PEG-J) |
 | [[gocovri]] | Gocovri | Supernus Pharmaceuticals | Extended-release amantadine formulation delivering NMDA receptor antagonism a... | oral |
 | [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Extended-release oral carbidopa/levodopa capsule combining IR granules for ra... | oral |
@@ -66,7 +68,9 @@
 
 | File | Drug | Company | Target | Mechanism | Conf. |
 | --- | --- | --- | --- | --- | --- |
+| [[apokyn]] | APOKYN | Supernus Pharmaceuticals | dopamine receptors (D1-D5, non-selective full agonist) | Subcutaneous apomorphine; potent non-ergot dopamine agonist with rapid onset ... |  |
 | [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) | Levodopa crosses the BBB and is converted to dopamine by AADC in surviving ni... |  |
+| [[crexont]] | CREXONT | Amneal Pharmaceuticals | dopamine (symptomatic replacement via L-DOPA) | Mucoadhesive extended-release carbidopa/levodopa capsule; bioadhesive bead te... |  |
 | [[dnl422]] | DNL422 | Denali Therapeutics | SNCA mRNA (alpha-synuclein production inhibition) | OTV-conjugated ASO targeting SNCA mRNA; engineered Fc domain binds transferri... |  |
 | [[duopa]] | Duopa | AbbVie | dopamine replacement (continuous intestinal levodopa delivery) | Continuous intrajejunal infusion of carbidopa/levodopa gel bypasses erratic g... |  |
 | [[gocovri]] | Gocovri | Supernus Pharmaceuticals | NMDA receptor / dopamine reuptake transporter | Extended-release amantadine formulation delivering NMDA receptor antagonism a... |  |
@@ -451,6 +455,7 @@ This stage is dominated by cell therapy programs, each with distinct strategic p
 | [[amlenetug]] | Amlenetug | Lundbeck | alpha-synuclein (all extracellular forms, epitope aa 112-117) | Fully human IgG1 mAb binding all major extracellular alpha-synuclein forms (m... |
 | [[anpd001]] | ANPD001 | Aspen Neuroscience | dopaminergic neuron replacement | Autologous iPSC-derived dopaminergic neuronal precursor cells (DANPCs) transp... |
 | [[appello-mglu4]] | AP-472 | Appello Pharmaceuticals | mGlu4 (metabotropic glutamate receptor 4) | Small molecule positive allosteric modulator (PAM) of mGlu4 that enhances glu... |
+| [[apokyn]] | APOKYN | Supernus Pharmaceuticals | dopamine receptors (D1-D5, non-selective full agonist) | Subcutaneous apomorphine; potent non-ergot dopamine agonist with rapid onset ... |
 | [[aro-snca]] | ARO-SNCA | Arrowhead Pharmaceuticals | SNCA mRNA (alpha-synuclein production inhibition) | siRNA-mediated gene silencing of SNCA via TRiM conjugate platform; subcutaneo... |
 | [[arv-102]] | ARV-102 | Arvinas | LRRK2 (full protein degradation) | Oral, brain-penetrant PROTAC bifunctional molecule that recruits E3 ubiquitin... |
 | [[ath-434]] | ATH-434 | Alterity Therapeutics | iron (labile brain iron) / alpha-synuclein aggregation | Oral small molecule iron chaperone that redistributes excess labile iron in t... |
@@ -470,6 +475,7 @@ This stage is dominated by cell therapy programs, each with distinct strategic p
 | [[cellino-ipsc]] | Cellino iPSC Platform (MGH) | Cellino Biotech | dopaminergic neuron replacement (autologous iPSC-derived DA progenitors) | AI-driven autonomous iPSC manufacturing platform (Nebula) producing patient-s... |
 | [[cavgene]] | CGT-102 / CGT-103 | CavGene Therapeutics | CaV1.3 L-type calcium channel (CACNA1D) | AAV-delivered shRNA silencing of striatal CaV1.3 calcium channels to prevent/... |
 | [[congruence-gcase]] | Congruence GCase Program | Congruence Therapeutics | GBA1 / GCase (glucocerebrosidase) | Oral allosteric small molecule correctors and activators that stabilize misfo... |
+| [[crexont]] | CREXONT | Amneal Pharmaceuticals | dopamine (symptomatic replacement via L-DOPA) | Mucoadhesive extended-release carbidopa/levodopa capsule; bioadhesive bead te... |
 | [[casma-trpml1]] | CSM-101 | Casma Therapeutics | TRPML1 (lysosomal ion channel) | First-in-class oral small molecule TRPML1 agonist that restores lysosomal fun... |
 | [[ct1812]] | CT1812 | Cognition Therapeutics | sigma-2 receptor (TMEM97) | Small molecule sigma-2 receptor antagonist that blocks alpha-synuclein oligom... |
 | [[dapansutrile]] | Dapansutrile | Olatec Therapeutics | NLRP3 inflammasome | Oral selective NLRP3 inflammasome inhibitor that blocks ATPase-dependent asse... |
@@ -583,6 +589,7 @@ This stage is dominated by cell therapy programs, each with distinct strategic p
 | [[amlenetug]] | Amlenetug | Lundbeck | monoclonal antibody | Fully human IgG1 mAb binding all major extracellular alpha-synuclein forms (m... |
 | [[anpd001]] | ANPD001 | Aspen Neuroscience | cell therapy (iPSC autologous) | Autologous iPSC-derived dopaminergic neuronal precursor cells (DANPCs) transp... |
 | [[appello-mglu4]] | AP-472 | Appello Pharmaceuticals | small molecule | Small molecule positive allosteric modulator (PAM) of mGlu4 that enhances glu... |
+| [[apokyn]] | APOKYN | Supernus Pharmaceuticals | small molecule | Subcutaneous apomorphine; potent non-ergot dopamine agonist with rapid onset ... |
 | [[aro-snca]] | ARO-SNCA | Arrowhead Pharmaceuticals | siRNA | siRNA-mediated gene silencing of SNCA via TRiM conjugate platform; subcutaneo... |
 | [[arv-102]] | ARV-102 | Arvinas | small molecule | Oral, brain-penetrant PROTAC bifunctional molecule that recruits E3 ubiquitin... |
 | [[ath-434]] | ATH-434 | Alterity Therapeutics | small molecule | Oral small molecule iron chaperone that redistributes excess labile iron in t... |
@@ -602,6 +609,7 @@ This stage is dominated by cell therapy programs, each with distinct strategic p
 | [[cellino-ipsc]] | Cellino iPSC Platform (MGH) | Cellino Biotech | platform | AI-driven autonomous iPSC manufacturing platform (Nebula) producing patient-s... |
 | [[cavgene]] | CGT-102 / CGT-103 | CavGene Therapeutics | AAV gene therapy | AAV-delivered shRNA silencing of striatal CaV1.3 calcium channels to prevent/... |
 | [[congruence-gcase]] | Congruence GCase Program | Congruence Therapeutics | small molecule | Oral allosteric small molecule correctors and activators that stabilize misfo... |
+| [[crexont]] | CREXONT | Amneal Pharmaceuticals | small molecule | Mucoadhesive extended-release carbidopa/levodopa capsule; bioadhesive bead te... |
 | [[casma-trpml1]] | CSM-101 | Casma Therapeutics | small molecule | First-in-class oral small molecule TRPML1 agonist that restores lysosomal fun... |
 | [[ct1812]] | CT1812 | Cognition Therapeutics | small molecule | Small molecule sigma-2 receptor antagonist that blocks alpha-synuclein oligom... |
 | [[dapansutrile]] | Dapansutrile | Olatec Therapeutics | small molecule | Oral selective NLRP3 inflammasome inhibitor that blocks ATPase-dependent asse... |
@@ -786,8 +794,8 @@ Asia leads in clinical-stage cell therapy for PD. Japan's [[raguneprocel]] is at
 | Thesis Cluster | Total Programs | Active |
 | --- | --- | --- |
 | alpha-synuclein | 31 | 23 |
+| symptomatic | 30 | 28 |
 | neuroinflammation | 28 | 25 |
-| symptomatic | 28 | 26 |
 | genetic-pd | 23 | 22 |
 | cell-therapy | 17 | 15 |
 | mitophagy | 9 | 9 |
@@ -848,7 +856,9 @@ Blood-brain barrier delivery is the cross-cutting enabler for PD biologics. No B
 
 | File | Drug/Platform | Developer | Stage | Target | Modality |
 | --- | --- | --- | --- | --- | --- |
+| [[apokyn]] | APOKYN | Supernus Pharmaceuticals | Approved | dopamine receptors (D1-D5, non-selective full agonist) | small molecule |
 | [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Approved | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) | small molecule |
+| [[crexont]] | CREXONT | Amneal Pharmaceuticals | Approved | dopamine (symptomatic replacement via L-DOPA) | small molecule |
 | [[duopa]] | Duopa | AbbVie | Approved | dopamine replacement (continuous intestinal levodopa delivery) | drug-device combination |
 | [[gocovri]] | Gocovri | Supernus Pharmaceuticals | Approved | NMDA receptor / dopamine reuptake transporter | small molecule |
 | [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Approved | dopamine (symptomatic replacement via L-DOPA) | small molecule |
@@ -1049,6 +1059,8 @@ For full landscape analysis: [[bbb-delivery/BBB-Delivery-Landscape|BBB Delivery 
 
 | File | Lead Asset | Stage | Target |
 | --- | --- | --- | --- |
+| [[apokyn]] | APOKYN | Approved | dopamine receptors (D1-D5, non-selective full agonist) |
+| [[crexont]] | CREXONT | Approved | dopamine (symptomatic replacement via L-DOPA) |
 | [[gocovri]] | Gocovri | Approved | NMDA receptor / dopamine reuptake transporter |
 | [[ipx203]] | IPX203 | Approved | dopamine (symptomatic replacement via L-DOPA) |
 | [[nuplazid]] | Nuplazid (pimavanserin) | Approved | 5-HT2A serotonin receptor |

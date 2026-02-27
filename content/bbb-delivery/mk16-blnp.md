@@ -16,7 +16,7 @@ confidence_rating: "N/A (platform, not PD-specific asset)"
 next_catalyst: "NHP studies, IND-enabling toxicology"
 catalyst_date: "Unknown"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery]
+tags: [bbb-delivery, claude]
 date: 2026-02-16
 company_link: "[[companies/mount-sinai]]"
 ---

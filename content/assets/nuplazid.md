@@ -16,7 +16,7 @@ key_biomarkers: ["SAPS-PD (efficacy)", "QTc interval (safety)"]
 next_catalyst: "Pimavanserin patent expiry Q1 2030; remlifanserin (ACP-204) Phase 2 RADIANT readout Aug-Oct 2026"
 catalyst_date: "2026 (RADIANT) / 2030 (generics)"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-20
 company_link: "[[companies/acadia-pharmaceuticals]]"
 ---
@@ -25,7 +25,7 @@ company_link: "[[companies/acadia-pharmaceuticals]]"
 
 ## Summary
 
-The only FDA-approved treatment for Parkinson's disease psychosis (PDP), approved April 2016. Acadia Pharmaceuticals (biotech, ACAD) has grown Nuplazid into a $609M/year franchise (FY2024) with 2025 guidance of $685-695M, on a trajectory toward ~$1B by 2028. The drug works by selectively blocking 5-HT2A receptors without touching dopamine D2 — the critical differentiator in PD where D2 blockade worsens motor symptoms. Acadia attempted label expansion into dementia-related psychosis (DRP) via the HARMONY trial but received two FDA Complete Response Letters (2021, 2022), limiting the drug to the PDP indication. The key competitive dynamics: quetiapine dominates off-label despite weak evidence; clozapine is effective but requires mandatory blood monitoring; [[ly03017|LY03017]] (Luye) and remlifanserin (Acadia's own next-gen 5-HT2A) are the pipeline threats. Patent expiry ~Q1 2030 creates a generics cliff, making the 2026-2029 window critical for Acadia to either expand the franchise or transition revenue to remlifanserin and DAYBUE.
+The only FDA-approved treatment for Parkinson's disease psychosis (PDP), approved April 2016. Acadia Pharmaceuticals (biotech, ACAD) has grown Nuplazid into a $609.4M/year franchise (FY2024) with 2025 guidance of $650-690M, on a trajectory toward ~$1B by 2028. The drug works by selectively blocking 5-HT2A receptors without touching dopamine D2 — the critical differentiator in PD where D2 blockade worsens motor symptoms. Acadia attempted label expansion into dementia-related psychosis (DRP) via the HARMONY trial but received two FDA Complete Response Letters (2021, 2022), limiting the drug to the PDP indication. The key competitive dynamics: quetiapine dominates off-label despite weak evidence; clozapine is effective but requires mandatory blood monitoring; [[ly03017|LY03017]] (Luye) and remlifanserin (Acadia's own next-gen 5-HT2A) are the pipeline threats. Patent expiry ~Q1 2030 creates a generics cliff, making the 2026-2029 window critical for Acadia to either expand the franchise or transition revenue to remlifanserin and DAYBUE.
 
 ## Notes
 
@@ -75,8 +75,8 @@ The only FDA-approved treatment for Parkinson's disease psychosis (PDP), approve
 ### Financial
 - **Revenue trajectory (Nuplazid net product sales):**
   - 2017: $125M | 2018: $224M | 2019: $339M | 2020: $442M
-  - 2021: $484M | 2022: $517M | 2023: $549M | 2024: $609M
-  - 2025 guidance: $685-695M | 2028 target: ~$1B
+  - 2021: $484M | 2022: $517M | 2023: $549M | 2024: $609.4M [source](https://acadia.com/en-us/media/news-releases/acadia-pharmaceuticals-reports-fourth-quarter-and-full-year-2024)
+  - 2025 guidance: $650-690M [source](https://acadia.com/en-us/media/news-releases/acadia-pharmaceuticals-reports-fourth-quarter-and-full-year-2024) | 2028 target: ~$1B
 - **Growth drivers:** Steady volume growth (~5-9% annually) plus modest price increases; new prescriptions accelerating as of Q3 2025
 - **Patent expiry:** ~Q1 2030. Generics cliff is the primary financial risk
 - **Acadia market cap:** ~$3.8B (Oct 2025); ~60% of enterprise value attributable to Nuplazid franchise

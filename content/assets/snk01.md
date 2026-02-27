@@ -19,7 +19,7 @@ confidence_rating: "2/10"
 next_catalyst: "PD Phase 1/2a enrollment initiation and first patient dosing"
 catalyst_date: "TBD (originally anticipated H2 2024; delayed)"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/nkgen-biotech]]"
 ---

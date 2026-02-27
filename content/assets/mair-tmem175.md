@@ -18,7 +18,7 @@ confidence_rating: "2/10"
 next_catalyst: "Preclinical candidate nomination from Radboud collaboration"
 catalyst_date: "2027 (estimated)"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-16
 company_link: "[[companies/mair-therapeutics]]"
 ---

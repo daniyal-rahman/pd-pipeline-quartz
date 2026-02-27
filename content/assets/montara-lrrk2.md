@@ -18,7 +18,7 @@ confidence_rating: "3/10"
 next_catalyst: "Development candidate nomination for LRRK2 program"
 catalyst_date: "2026-2027 (estimated)"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-16
 company_link: "[[companies/montara-therapeutics]]"
 ---

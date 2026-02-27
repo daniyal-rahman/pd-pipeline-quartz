@@ -16,7 +16,7 @@ key_biomarkers: ["ON time without troublesome dyskinesia", "OFF time", "PD diary
 next_catalyst: "Duopa-to-VYALEV conversion trajectory; peak sales inflection"
 catalyst_date: "2026-2027"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-20
 company_link: "[[companies/abbvie]]"
 ---
@@ -66,7 +66,8 @@ VYALEV is the first subcutaneous 24-hour continuous levodopa infusion, FDA-appro
 
 ### Financial
 - **Duopa baseline:** ~$468M annual revenue pre-VYALEV launch. VYALEV is designed to cannibalize and expand beyond this base
-- **VYALEV revenue trajectory:** Q2 2025: $98M; Q3 2025: $138M — strong ramp in first full year on market
+- **VYALEV FY2024 revenue:** Not separately disclosed by AbbVie; no Vyalev line item in AbbVie FY2024 press release [source](https://news.abbvie.com/2025-01-31-AbbVie-Reports-Full-Year-2024-Financial-Results) — ~est. <$50M globally (~$20-30M US est.); US approved October 2024 limiting revenue to partial Q4 2024 only; Medicare coverage expected H2 2025 is the inflection point. (est. — not verifiable from primary filings)
+- **VYALEV revenue trajectory (2025):** Q2 2025: $98M; Q3 2025: $138M — strong ramp in first full year on market
 - **Peak sales estimates:** AbbVie internal >$1B; Evercore ISI >$2B. The bull case rests on capturing most of Duopa's base plus expanding into the larger pool of advanced PD patients who refused PEG-J surgery
 - **AbbVie neuroscience portfolio:** VYALEV sits alongside Vraylar (antipsychotic) and Botox (therapeutic). AbbVie raised 2025 neuroscience guidance by $200M, spread across these three products
 - **No discrete deal:** VYALEV is internally developed by AbbVie (originally Allergan pipeline, acquired 2020)
@@ -97,7 +98,9 @@ VYALEV is the first subcutaneous 24-hour continuous levodopa infusion, FDA-appro
 | [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[apokyn]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[crexont]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 | [[duopa]] | Approved | Active | AbbVie | drug-device combination |
 | [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |

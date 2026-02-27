@@ -19,7 +19,7 @@ confidence_rating: "7/10"
 next_catalyst: "Phase 3 readout"
 catalyst_date: "~2028"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery]
+tags: [bbb-delivery, claude]
 date: 2026-02-16
 company_link: "[[companies/roche]]"
 ---

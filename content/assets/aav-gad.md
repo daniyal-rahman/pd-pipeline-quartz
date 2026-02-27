@@ -19,7 +19,7 @@ confidence_rating: "6/10"
 next_catalyst: "exPDite-2 Phase 3 initiation and enrollment"
 catalyst_date: "2025-2026 (initiation); ~2027-2028 (readout)"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/meiragtx]]"
 partner_link: "[[companies/hologen]]"
@@ -118,7 +118,9 @@ AAV-GAD is the most clinically advanced gene therapy for Parkinson's disease, wi
 | [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[apokyn]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[crexont]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 | [[duopa]] | Approved | Active | AbbVie | drug-device combination |
 | [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |

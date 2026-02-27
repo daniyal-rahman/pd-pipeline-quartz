@@ -18,7 +18,7 @@ confidence_rating: "3/10"
 next_catalyst: "Regulatory path decision for neuro indications; MJFF-funded biomarker study completion"
 catalyst_date: "2026-2027"
 thesis_cluster: "mitophagy"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/stealth-biotherapeutics]]"
 ---

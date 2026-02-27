@@ -15,7 +15,7 @@ key_biomarkers: ["gadolinium contrast enhancement (BBB opening confirmation)", "
 next_catalyst: "Lotus Neuro GBM pivotal trial data; PD GCase delivery Phase I/II readout"
 catalyst_date: "2025-2026"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery]
+tags: [bbb-delivery, claude]
 date: 2026-02-16
 company_link: "[[companies/insightec]]"
 ---

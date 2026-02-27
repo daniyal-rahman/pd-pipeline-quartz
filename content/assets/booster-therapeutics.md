@@ -17,7 +17,7 @@ confidence_rating: "4/10"
 next_catalyst: "IND-enabling study completion; lead candidate selection"
 catalyst_date: "2027-2028 (estimated)"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/booster-therapeutics]]"
 ---

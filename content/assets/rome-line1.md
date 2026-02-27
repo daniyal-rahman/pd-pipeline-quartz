@@ -17,7 +17,7 @@ confidence_rating: "3/10"
 next_catalyst: "IND filing (autoimmune indication expected first; neuro program behind)"
 catalyst_date: "2026-2027 (autoimmune); neuro IND TBD"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-16
 company_link: "[[companies/rome-therapeutics]]"
 ---

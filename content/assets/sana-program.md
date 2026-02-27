@@ -17,7 +17,7 @@ confidence_rating: "2/10"
 next_catalyst: "Partnership or spinout announcement for CNS programs"
 catalyst_date: "TBD"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/sana-biotechnology]]"
 ---

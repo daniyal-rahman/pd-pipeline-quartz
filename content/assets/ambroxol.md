@@ -18,7 +18,7 @@ confidence_rating: "4/10"
 next_catalyst: "AMBITIOUS Phase 2 readout; ASPro-PD Phase 3 interim data"
 catalyst_date: "2026-2027"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/agyany-pharma]]"
 ---

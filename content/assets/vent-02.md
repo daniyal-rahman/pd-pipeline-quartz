@@ -18,7 +18,7 @@ confidence_rating: "2/10"
 next_catalyst: "Phase 2a data disclosure (if released)"
 catalyst_date: "TBD"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/ventus-therapeutics]]"
 ---

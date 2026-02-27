@@ -16,7 +16,7 @@ confidence_rating: "4/10"
 next_catalyst: "DAPA-PD Phase 2 safety/tolerability readout"
 catalyst_date: "2027"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/olatec-therapeutics]]"
 ---

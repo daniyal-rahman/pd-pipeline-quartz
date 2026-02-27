@@ -19,7 +19,7 @@ confidence_rating: "2/10"
 next_catalyst: "Completion of IND-enabling studies (Parkinson's UK-funded)"
 catalyst_date: "2026-2027"
 thesis_cluster: "neuroinflammation"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-16
 company_link: "[[companies/neumora-therapeutics]]"
 partner_link: "[[companies/parkinsons-uk]]"

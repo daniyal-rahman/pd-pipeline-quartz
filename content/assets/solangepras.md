@@ -17,7 +17,7 @@ confidence_rating: "6/10"
 next_catalyst: "ARISE Phase 3 topline readout"
 catalyst_date: "H1 2026"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/cerevance]]"
 ---
@@ -99,7 +99,9 @@ Solengepras (CVN424) is a first-in-class oral GPR6 inverse agonist from Cerevanc
 | [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[apokyn]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[crexont]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 | [[duopa]] | Approved | Active | AbbVie | drug-device combination |
 | [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |

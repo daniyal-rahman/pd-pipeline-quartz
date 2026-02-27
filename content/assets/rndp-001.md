@@ -18,7 +18,7 @@ confidence_rating: "5/10"
 next_catalyst: "REPLACE Phase 1 initial safety and imaging data"
 catalyst_date: "2026"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/kenai-therapeutics]]"
 partner_link: "[[companies/fujifilm-cellular-dynamics]]"

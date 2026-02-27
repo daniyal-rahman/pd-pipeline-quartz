@@ -17,7 +17,7 @@ confidence_rating: "3/10"
 next_catalyst: "IND-enabling studies; LITE program preclinical data"
 catalyst_date: "2026-2027"
 thesis_cluster: "genetic-pd"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-16
 company_link: "[[companies/seal-rock-therapeutics]]"
 ---

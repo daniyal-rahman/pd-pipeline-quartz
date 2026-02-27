@@ -12,7 +12,7 @@ partner_type: "big pharma"
 stage: "Preclinical"
 status: "Active"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery]
+tags: [bbb-delivery, claude]
 date: 2026-02-16
 company_link: "[[companies/manifold-bio]]"
 partner_link: "[[companies/roche]]"

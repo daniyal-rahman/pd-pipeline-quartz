@@ -17,7 +17,7 @@ key_biomarkers: ["alpha-synuclein SAA positivity", "SAA amplification kinetics"]
 next_catalyst: "FDA clearance/approval (beyond current LDT status)"
 catalyst_date: "TBD"
 thesis_cluster: "diagnostics"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/amprion]]"
 partner_link: "[[companies/mayo-clinic]]"

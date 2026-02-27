@@ -17,7 +17,7 @@ confidence_rating: "2/10"
 next_catalyst: "Clarity on program restart or pivot after class-wide OGA failures"
 catalyst_date: "Unknown"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/asceneuron]]"
 ---

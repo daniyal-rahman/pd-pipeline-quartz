@@ -8,7 +8,7 @@
 
 | Stage | Programs | Active |
 | --- | --- | --- |
-| Approved | 8 | 8 |
+| Approved | 10 | 10 |
 | NDA Filed | 3 | 3 |
 | Phase 3 | 10 | 9 |
 | Phase 2/3 | 1 | 1 |
@@ -64,8 +64,8 @@ Full deal analyses: [[deals/FINAL-PD-Deal-Landscape-Report|Deal Landscape Report
 | Cluster | Total | Active |
 | --- | --- | --- |
 | alpha-synuclein | 31 | 23 |
+| symptomatic | 30 | 28 |
 | neuroinflammation | 28 | 25 |
-| symptomatic | 28 | 26 |
 | genetic-pd | 23 | 22 |
 | cell-therapy | 17 | 15 |
 | mitophagy | 9 | 9 |
@@ -100,7 +100,9 @@ Full deal analyses: [[deals/FINAL-PD-Deal-Landscape-Report|Deal Landscape Report
 
 | File | Drug | Company | Stage | Status | Conf. | Target |
 | --- | --- | --- | --- | --- | --- | --- |
+| [[apokyn]] | APOKYN | Supernus Pharmaceuticals | Approved | Active |  | dopamine receptors (D1-D5, non-selective full agonist) |
 | [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Approved | Active |  | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) |
+| [[crexont]] | CREXONT | Amneal Pharmaceuticals | Approved | Active |  | dopamine (symptomatic replacement via L-DOPA) |
 | [[duopa]] | Duopa | AbbVie | Approved | Active |  | dopamine replacement (continuous intestinal levodopa delivery) |
 | [[gocovri]] | Gocovri | Supernus Pharmaceuticals | Approved | Active |  | NMDA receptor / dopamine reuptake transporter |
 | [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Approved | Active |  | dopamine (symptomatic replacement via L-DOPA) |

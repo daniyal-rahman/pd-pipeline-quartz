@@ -15,7 +15,7 @@ key_biomarkers: ["DaT-SPECT (diagnostic)", "levodopa equivalent dose (LED)"]
 next_catalyst: "N/A (generic standard of care)"
 catalyst_date: "N/A"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-20
 ---
 
@@ -63,7 +63,8 @@ Everything in the symptomatic PD pipeline is either trying to replace this drug,
 
 ### Financial
 
-- **Generic pricing (US, 2026):** Immediate-release carbidopa/levodopa 25/100 mg available for ~$9-15/month (90 tablets) at retail with discount cards. Average wholesale price has declined 30-50% post-patent expiry
+- **Generic pricing (US, 2026):** Immediate-release carbidopa/levodopa 25/100 mg: $9-44/30-count at retail, translating to $108-530/year depending on dose frequency and pharmacy [source](https://www.goodrx.com/carbidopa-levodopa). Average wholesale price has declined 30-50% post-patent expiry. The pricing span vs. branded formulations is extreme: ~$108-530/yr (generic IR) vs. ~$5,000/yr (Rytary) vs. ~$62,000-65,000/yr (Vyalev/Duopa) — a 500× range across the CD/LD delivery spectrum.
+- **US market size (generic CD/LD):** ~$520M US [source: Grand View Research, secondary market research] / ~$1.5-2.0B global [source: Cognitive Market Research] — LOW confidence; no IQVIA or primary pharmacy-level data available publicly. No public company reports generic CD/LD as a distinct revenue segment (Teva buries it in $16.5B generics; Amneal in "Affordable Medicines"). Treat these estimates as directional order-of-magnitude only.
 - **Global market:** CD/LD accounts for the dominant share of the ~$5B global PD drug market by volume (not revenue, since generics are cheap). Estimated >1 million US patients on CD/LD
 - **Available formulations:**
   - **Sinemet** (immediate-release) -- original brand, now generic-only in most markets
@@ -104,7 +105,9 @@ Everything in the symptomatic PD pipeline is either trying to replace this drug,
 | [[solangepras]] | Phase 3 | Active | Cerevance | small molecule |
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[apokyn]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[crexont]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 | [[duopa]] | Approved | Active | AbbVie | drug-device combination |
 | [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |

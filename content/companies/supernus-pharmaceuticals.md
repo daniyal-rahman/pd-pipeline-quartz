@@ -20,4 +20,5 @@ Mid-cap CNS-focused biotech with the broadest PD symptomatic portfolio among non
 
 | File | Asset | Stage | Status | Target | Conf. |
 | --- | --- | --- | --- | --- | --- |
+| [[apokyn]] | APOKYN | Approved | Active | dopamine receptors (D1-D5, non-selective full agonist) |  |
 | [[gocovri]] | Gocovri | Approved | Active | NMDA receptor / dopamine reuptake transporter |  |

@@ -18,7 +18,7 @@ confidence_rating: "5/10"
 next_catalyst: "DEEP-DIVE Phase 3 initiation"
 catalyst_date: "2026-2027"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/inbrain-pharma]]"
 partner_link: "[[companies/tricumed-flowonix]]"
@@ -103,7 +103,9 @@ InBrain Pharma (startup, Lille, France) completed the Phase 1/2 DIVE-I trial dem
 | [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
 | [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[apokyn]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[crexont]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 | [[duopa]] | Approved | Active | AbbVie | drug-device combination |
 | [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |

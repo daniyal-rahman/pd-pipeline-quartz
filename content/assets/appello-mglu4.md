@@ -18,7 +18,7 @@ confidence_rating: "4/10"
 next_catalyst: "Phase 2 first patient dosed in PD"
 catalyst_date: "2026"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/appello-pharmaceuticals]]"
 ---
@@ -208,7 +208,9 @@ AP-472 is an oral mGlu4 positive allosteric modulator developed by Appello Pharm
 | [[nd0612]] | NDA Filed | Active | NeuroDerm | small molecule |
 | [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[apokyn]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[crexont]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 | [[duopa]] | Approved | Active | AbbVie | drug-device combination |
 | [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |

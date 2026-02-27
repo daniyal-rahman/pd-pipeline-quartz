@@ -17,7 +17,7 @@ confidence_rating: "4/10"
 next_catalyst: "Phase 2 full data publication and Phase 3 regulatory pathway clarification (MFDS)"
 catalyst_date: "2026-2027"
 thesis_cluster: "cell-therapy"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/cha-biotech]]"
 ---

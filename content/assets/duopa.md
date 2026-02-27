@@ -16,7 +16,7 @@ key_biomarkers: ["OFF time (patient diary)", "ON time without troublesome dyskin
 next_catalyst: "Progressive displacement by VYALEV (subcutaneous foslevodopa/foscarbidopa)"
 catalyst_date: "2025-2027 (transition period)"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-20
 company_link: "[[companies/abbvie]]"
 ---
@@ -63,7 +63,7 @@ Duopa is the incumbent continuous levodopa delivery system for advanced PD, FDA-
 - **Interpretation:** Real-world data confirmed pivotal trial efficacy but also confirmed the device complication burden at scale. The 30% serious device-AE rate over 3 years is the data point that makes the case for subcutaneous alternatives.
 
 ### Financial
-- **2024 global revenue:** ~$447M (reported as Duodopa; down 4.5% from $468M in 2023)
+- **2024 global revenue:** $447M total ($96M US Duopa + $351M ex-US Duodopa; down 4.7% from $468M in 2023) [source](https://news.abbvie.com/2025-01-31-AbbVie-Reports-Full-Year-2024-Financial-Results)
 - **Revenue trajectory:** Declining. Peaked in the ~$500M range. VYALEV launch (October 2024 US, EU approval pending) will accelerate decline.
 - **VYALEV peak sales estimate:** >$2B (Evercore ISI), which implies AbbVie expects VYALEV to capture the Duopa installed base plus expand the market by removing the surgical barrier.
 - **Global footprint:** Approved in 41 countries. Branded as Duopa (US), Duodopa (EU, Japan, rest of world).
@@ -97,7 +97,9 @@ Duopa is the incumbent continuous levodopa delivery system for advanced PD, FDA-
 | [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
 | [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[apokyn]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[crexont]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 | [[duopa]] | Approved | Active | AbbVie | drug-device combination |
 | [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |

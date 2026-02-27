@@ -17,7 +17,7 @@ confidence_rating: "3/10"
 next_catalyst: "PD OLE data; AD Phase 3 symptomatic readout"
 catalyst_date: "H2 2026 - 2027"
 thesis_cluster: "alpha-synuclein"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-15
 company_link: "[[companies/annovis-bio]]"
 ---

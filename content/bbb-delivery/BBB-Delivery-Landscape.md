@@ -1,5 +1,5 @@
 ---
-tags: [bbb-delivery, synthesis]
+tags: [bbb-delivery, synthesis, claude]
 date: 2026-02-16
 ---
 
@@ -7,7 +7,9 @@ date: 2026-02-16
 
 | File | Drug | Developer | Stage | Target | Modality |
 | --- | --- | --- | --- | --- | --- |
+| [[apokyn]] | APOKYN | Supernus Pharmaceuticals | Approved | dopamine receptors (D1-D5, non-selective full agonist) | small molecule |
 | [[carbidopa-levodopa]] | Carbidopa/Levodopa | Multiple (generic) | Approved | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) | small molecule |
+| [[crexont]] | CREXONT | Amneal Pharmaceuticals | Approved | dopamine (symptomatic replacement via L-DOPA) | small molecule |
 | [[duopa]] | Duopa | AbbVie | Approved | dopamine replacement (continuous intestinal levodopa delivery) | drug-device combination |
 | [[gocovri]] | Gocovri | Supernus Pharmaceuticals | Approved | NMDA receptor / dopamine reuptake transporter | small molecule |
 | [[ipx203]] | IPX203 | Amneal Pharmaceuticals | Approved | dopamine (symptomatic replacement via L-DOPA) | small molecule |

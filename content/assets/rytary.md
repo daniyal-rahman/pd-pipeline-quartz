@@ -16,7 +16,7 @@ key_biomarkers: ["OFF time (PD diary)", "Good ON time (PD diary)", "UPDRS Part I
 next_catalyst: "Loss of exclusivity (LOE)"
 catalyst_date: "2025 Q3"
 thesis_cluster: "symptomatic"
-tags: [pd-pipeline]
+tags: [pd-pipeline, claude]
 date: 2026-02-20
 company_link: "[[companies/amneal-pharmaceuticals]]"
 ---
@@ -59,8 +59,9 @@ Rytary is the dominant branded extended-release oral carbidopa/levodopa in the U
 - **Interpretation:** Part of the registration program supporting the broad PD indication (early through advanced)
 
 ### Financial
-- **Annual revenue:** Amneal's Parkinson's franchise (Rytary + CREXONT + Ongentys) generated $61M in Q3 2024 alone. Full-year Rytary revenue has been a major driver of Amneal's Specialty segment, which grew 14% in 2024
-- **2025 guidance:** Amneal expects Rytary sales of $120-140M in 2025 given LOE in Q3 2025 -- implying significant second-half erosion
+- **FY2024 revenue (Rytary):** ~$130-160M est. (not individually disclosed — Amneal reports PD franchise-level only) [source](https://investors.amneal.com/news/press-releases/press-release-details/2025/Amneal-Reports-Fourth-Quarter-and-Full-Year-2024-Financial-Results/default.aspx); inferred from quarterly franchise totals (Rytary + CREXONT + Ongentys combined: Q3 2024: $61M, Q4 2024: $64M). Amneal 10-K may include product-level detail when filed.
+- **Annual revenue:** Amneal's Parkinson's franchise (Rytary + CREXONT + Ongentys) generated $61M in Q3 2024 and $64M in Q4 2024. Full-year Rytary revenue has been a major driver of Amneal's Specialty segment, which grew 14% in 2024
+- **2025 guidance:** Amneal expects Rytary sales of $120-140M in 2025 given LOE in Q3 2025 [source](https://investors.amneal.com/news/press-releases/press-release-details/2025/Amneal-Reports-Fourth-Quarter-and-Full-Year-2024-Financial-Results/default.aspx) -- implying significant second-half erosion
 - **LOE impact:** Patent protection through at least 2028 per DrugPatentWatch (15 US patents, 2 Paragraph IV challenges filed), but Amneal's own guidance references Q3 2025 LOE -- likely reflecting specific key patent expirations or settlements that open the door to generics before the last patent expires
 - **Franchise strategy:** Amneal is executing a deliberate Rytary-to-CREXONT ([[ipx203]]) transition, using the same sales force and neurologist relationships. CREXONT launched September 2024 with fresh patent protection and a clinically differentiated profile (longer duration per dose, TID dosing)
 - **Market context:** Rytary competes in the ~$2-3B US oral levodopa market. Branded ER formulations command significant price premiums over generic IR Sinemet, but the ER segment is small relative to the total levodopa market (most patients remain on generic IR)
@@ -92,7 +93,9 @@ Rytary is the dominant branded extended-release oral carbidopa/levodopa in the U
 | [[p2b001]] | Phase 3 | Active | Pharma Two B | small molecule |
 | [[raguneprocel]] | NDA Filed | Active | Sumitomo Pharma / RACTHERA | cell therapy (iPSC allogeneic) |
 | [[tavapadon]] | NDA Filed | Active | Cerevel Therapeutics | small molecule |
+| [[apokyn]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[carbidopa-levodopa]] | Approved | Active | Multiple (generic) | small molecule |
+| [[crexont]] | Approved | Active | Amneal Pharmaceuticals | small molecule |
 | [[duopa]] | Approved | Active | AbbVie | drug-device combination |
 | [[gocovri]] | Approved | Active | Supernus Pharmaceuticals | small molecule |
 | [[ipx203]] | Approved | Active | Amneal Pharmaceuticals | small molecule |

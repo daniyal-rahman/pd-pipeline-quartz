@@ -15,7 +15,7 @@ status: "Active"
 patient_population: "GBA1-PD (lead program); CNS diseases broadly"
 route_of_administration: "IV"
 thesis_cluster: "bbb-delivery"
-tags: [bbb-delivery]
+tags: [bbb-delivery, claude]
 date: 2026-02-16
 company_link: "[[companies/voyager-therapeutics]]"
 partner_link: "[[companies/neurocrine-biosciences]]"

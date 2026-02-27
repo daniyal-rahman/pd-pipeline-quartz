@@ -49,7 +49,9 @@ Later leadership additions:
 
 | File | Asset | Stage | Status | Target |
 | --- | --- | --- | --- | --- |
+| [[apokyn]] | APOKYN | Approved | Active | dopamine receptors (D1-D5, non-selective full agonist) |
 | [[carbidopa-levodopa]] | Carbidopa/Levodopa | Approved | Active | dopamine synthesis (AADC substrate + peripheral DDC inhibitor) |
+| [[crexont]] | CREXONT | Approved | Active | dopamine (symptomatic replacement via L-DOPA) |
 | [[duopa]] | Duopa | Approved | Active | dopamine replacement (continuous intestinal levodopa delivery) |
 | [[gocovri]] | Gocovri | Approved | Active | NMDA receptor / dopamine reuptake transporter |
 | [[ipx203]] | IPX203 | Approved | Active | dopamine (symptomatic replacement via L-DOPA) |
