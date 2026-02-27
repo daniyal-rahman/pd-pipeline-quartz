@@ -1,3 +1,8 @@
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2025-09-02
+---
+
 # Deep Due Diligence: Novartis/Arrowhead ARO-SNCA Deal Analysis
 
 #deal-analysis #alpha-synuclein #RNAi
@@ -1021,3 +1026,9 @@ The Novartis/Arrowhead deal is **neither a moonshot home run nor a disaster**—
 ### RNAi Deal Landscape
 - [BioSpace: Top Deals 2024](https://www.biospace.com/business/the-top-7-biopharma-licensing-deals-of-2024)
 - [LabioTech: Novartis Deals 2025](https://www.labiotech.eu/trends-news/novartis-deals-billions-2025/)
+
+## See Also
+- [[aro-snca]] — lead asset
+- [[novartis]] — partner
+- [[arrowhead-pharmaceuticals]] — partner
+- [[PD-Deal-Summary]]

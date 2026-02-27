@@ -1,5 +1,6 @@
-Now I have comprehensive data. Let me compile the deep-dive analysis.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2023-12-06
 ---
 
 # AbbVie-Cerevel Acquisition Deep Dive: Deal Forensics & Market Signal Analysis
@@ -476,3 +477,8 @@ Which patients respond best to D1 agonists vs. D2 agonists vs. MAO-B inhibitors?
 ### Levodopa Limitations
 - [Levodopa treatment: impacts and mechanisms throughout Parkinson's disease progression](https://pmc.ncbi.nlm.nih.gov/articles/PMC12116664/)
 - [Motor Complications of Dopaminergic Medications in Parkinson's Disease](https://pmc.ncbi.nlm.nih.gov/articles/PMC5990008/)
+## See Also
+- [[tavapadon]] — lead asset
+- [[abbvie]] — acquirer
+- [[cerevel-therapeutics]] — target
+- [[PD-Deal-Summary]]

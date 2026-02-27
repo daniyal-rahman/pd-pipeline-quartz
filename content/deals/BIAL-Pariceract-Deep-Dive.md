@@ -1,3 +1,8 @@
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2020-10-01
+---
+
 # BIAL Pariceract (BIA 28-6156) Deep Due Diligence
 ## GCase Activation for GBA1-Associated Parkinson's Disease
 
@@ -228,7 +233,7 @@ From BioCentury reporting (Oct 2020), Lysosomal had previously been in talks wit
 ##### Gain Therapeutics GT-02287
 - **Mechanism:** Allosteric enzyme modulator (similar to pariceract)
 - **Status:** Phase 1b completed
-- **Key data (Dec 2024):** **First GCase modulator to show CSF GluSph reduction in humans**
+- **Key data (Dec 2025):** **First GCase modulator to show CSF GluSph reduction in humans**
   - All patients with elevated CSF GluSph showed "large decreases back towards healthy levels" after 90 days
   - This is the biomarker vindication of the GCase activation thesis
 - **Population:** PD with OR without GBA1 mutation (broader indication)
@@ -703,3 +708,8 @@ Build a watchlist of every company/asset that benefits from pariceract success:
 **Analysis completed:** February 14, 2026
 **Document classification:** #deep-dive #deal-sourcing #GBA1 #pariceract #BIAL
 **Next update:** Post-ACTIVATE data readout (mid-2026)
+
+## See Also
+- [[pariceract]] — lead asset (BIA 28-6156)
+- [[bial]] — acquirer
+- [[PD-Deal-Summary]]

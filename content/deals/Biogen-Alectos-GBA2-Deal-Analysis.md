@@ -1,4 +1,7 @@
-Now I have comprehensive information. Let me create a detailed due-diligence report.
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2022-06-06
+---
 
 # Deep Due-Diligence: Biogen/Alectos GBA2 Inhibitor Deal
 
@@ -485,3 +488,6 @@ Gain's GT-02287 (GCase activator) has clinical biomarker data. AL01811 (GBA2 inh
 - [Nanoparticles restore lysosomal acidification defects: Implications for Parkinson and other lysosomal-related diseases](https://pmc.ncbi.nlm.nih.gov/articles/PMC4835967/)
 - [Mutations in GBA2 Cause Autosomal-Recessive Cerebellar Ataxia with Spasticity](https://pmc.ncbi.nlm.nih.gov/articles/PMC3567281/)
 - [First-in-human single-dose study of nizubaglustat, a dual inhibitor of ceramide glucosyltransferase and non-lysosomal glucosylceramidase](https://www.sciencedirect.com/science/article/abs/pii/S1096719223007436)
+## See Also
+- [[biogen]] — partner
+- [[PD-Deal-Summary]]

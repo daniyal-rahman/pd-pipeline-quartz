@@ -1,5 +1,6 @@
-Now I have comprehensive information to provide a thorough analysis. Let me compile this deep-dive research into a structured report.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2024-11-12
 ---
 
 # GSK / VESALIUS THERAPEUTICS: $650M+ PD DEAL DEEP-DIVE ANALYSIS
@@ -78,7 +79,7 @@ Timeline of deals:
 |------|---------|-------|------------|-------|
 | July 2021 | [Alector](https://www.gsk.com/en-gb/media/press-releases/gsk-and-alector-collaboration-in-immuno-neurology/) | AL001/AL101 (progranulin antibodies) | Undisclosed | PD, AD, FTD |
 | Dec 2021 | [Oxford University](https://www.biopharmadive.com/news/gsk-oxford-neuroscience-institute-brain-drug/610866/) | Institute partnership | £30M | AD, PD, ALS target discovery |
-| Dec 2024 | [ABL Bio](https://www.fiercebiotech.com/biotech/gsks-pens-25b-pact-use-abl-bios-tech-bypass-blood-brain-barrier) | Grabody-B (BBB platform) | $2.8B biobucks | Platform for antibodies/ASOs |
+| April 2025 | [ABL Bio](https://www.fiercebiotech.com/biotech/gsks-pens-25b-pact-use-abl-bios-tech-bypass-blood-brain-barrier) | Grabody-B (BBB platform) | $2.8B biobucks | Platform for antibodies/ASOs |
 | Nov 2024 | [Muna Therapeutics](https://www.fiercebiotech.com/biotech/gsk-inks-2nd-neuro-pact-weeks-time-danish-biotech-muna-alzheimers) | Human brain target discovery | Undisclosed | Alzheimer's small molecules |
 | Nov 2024 | **Vesalius** | Novel PD targets + platform | **$650M biobucks** | PD + undisclosed neuro |
 
@@ -588,3 +589,8 @@ When a top-10 pharma pays $80M upfront for an undisclosed preclinical target fro
 ### Leadership
 - [Christopher Austin reflects on translational science at the NIH's 10-year-old NCATS](https://cen.acs.org/pharmaceuticals/drug-development/Christopher-Austin-reflects-translational-science-at-the-NIH-10-year-old-NCATS-now-that-heading-for-the-exit/99/i16)
 - [Christopher Austin - CEO-Partner & CEO, Vesalius Therapeutics | The Org](https://theorg.com/org/flagship-pioneering/org-chart/christopher-austin)
+## See Also
+- [[vesalius-gsk]] — asset
+- [[gsk]] — partner
+- [[vesalius-therapeutics]] — partner
+- [[PD-Deal-Summary]]

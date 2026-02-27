@@ -1,3 +1,8 @@
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2026-01-20
+---
+
 # Deep Due Diligence: Insilico Medicine / Hygtia Therapeutics NLRP3 Deal
 
 **Analysis Date:** February 14, 2026
@@ -513,3 +518,9 @@ ISM8969 will likely fail if:
 
 **Analysis completed February 14, 2026.**
 **#deal-analysis #pd-pipeline #nlrp3 #insilico-medicine #hygtia #fosun-pharma #ai-drug-discovery**
+
+## See Also
+- [[ism8969]] — lead asset
+- [[insilico-medicine]] — partner
+- [[hygtia-therapeutics]] — partner
+- [[PD-Deal-Summary]]

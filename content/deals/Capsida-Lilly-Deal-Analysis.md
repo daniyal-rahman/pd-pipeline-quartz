@@ -1,5 +1,6 @@
-Now let me compile this comprehensive research into a structured deep due-diligence report.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2023-01-01
 ---
 
 # **DEEP DUE-DILIGENCE: Capsida-Lilly $740M AAV CNS Gene Therapy Deal**
@@ -665,3 +666,8 @@ The thesis is **high-risk, high-reward**:
 - [MeiraGTx AAV-GAD RMAT](https://investors.meiragtx.com/news-releases/news-release-details/meiragtx-announces-positive-data-randomized-sham-controlled)
 - [Zolgensma Safety](https://pmc.ncbi.nlm.nih.gov/articles/PMC10104684/)
 - [Apertura and Emerging Platforms](https://www.labiotech.eu/best-biotech/biotech-companies-to-watch-2026/)
+## See Also
+- [[cap-003]] — lead asset
+- [[eli-lilly]] — partner
+- [[capsida-biotherapeutics]] — partner
+- [[PD-Deal-Summary]]

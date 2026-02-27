@@ -1,3 +1,8 @@
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2025-11-12
+---
+
 # Deep Due-Diligence: Eli Lilly / ABL Bio Grabody-B BBB Platform Deal
 
 **Deal Date:** November 12, 2025
@@ -10,7 +15,7 @@
 
 ## EXECUTIVE SUMMARY
 
-Lilly's $2.6B Grabody-B license is **the third mega-deal for ABL Bio's IGF1R-based BBB shuttle** (after GSK's $2.8B and Sanofi's $1.06B), marking Lilly's most aggressive move yet to build **the deepest, most multi-modal Parkinson's Disease franchise in pharma**.
+Lilly's $2.6B Grabody-B license is **the third mega-deal for ABL Bio's IGF1R-based BBB shuttle** (after GSK's ~$2.5B and Sanofi's $1.06B), marking Lilly's most aggressive move yet to build **the deepest, most multi-modal Parkinson's Disease franchise in pharma**.
 
 The deal signals:
 1. **Platform > Product:** Lilly is betting BBB delivery will unlock value across multiple CNS payloads (antibodies, siRNA, ASO, gene therapies)
@@ -82,7 +87,7 @@ The deal signals:
 | **Asset** | **Mechanism** | **Stage** | **Acquisition** | **Strategic Fit** |
 |-----------|--------------|----------|----------------|-------------------|
 | **PR001 (LY3884961)** | AAV9 gene therapy for GBA1-PD | Phase 1/2 PROPEL | Prevail ($1B+ acq, 2021) | Genetic PD subtype (5% of patients) |
-| **VTX3232** | NLRP3 inflammasome inhibitor | Phase 2 (positive data 6/2025) | Ventyx ($1.2B acq, 2024) | Neuroinflammation, disease modification |
+| **VTX3232** | NLRP3 inflammasome inhibitor | Phase 2 (positive data 6/2025) | Ventyx ($1.2B acq, announced Jan 2026; pending close H1 2026) | Neuroinflammation, disease modification |
 | **GDNF + Medtronic** | Neurotrophic factor device delivery | Preclinical | Drug-device partnership | Neuroprotection, requires surgery |
 | **Capsida AAV capsids** | Engineered AAV for IV CNS delivery | Discovery | $55M + $685M biobucks | Platform for future gene therapies |
 
@@ -173,7 +178,7 @@ The deal signals:
 
 **Supporting Data (VTX3232 Phase 2a):**
 - **Biomarker validation:** VTX3232 reduced CSF IL-1β, IL-6, and plasma hsCRP to near-normal levels, demonstrating **target engagement**
-- **Motor improvement:** Trend toward motor symptom improvement in n=10 trial (not statistically significant, but directionally positive)
+- **Motor improvement:** Statistically significant improvement across MDS-UPDRS subscales (Part III: -5.2 pts, p=0.0054; Part I: -2.4, p=0.0118; Part II: -2.7, p=0.0471) in n=10 Phase 2a trial
 - **Mechanism:** NLRP3 activation in microglia drives α-synuclein-induced neuroinflammation; inhibition breaks the **α-syn/inflammation feedback loop**
 
 **Counterpoint:** Phase 2a was **open-label, n=10**—placebo effect cannot be ruled out. Phase 2b placebo-controlled trial will determine real efficacy (results pending).
@@ -412,3 +417,9 @@ The deal signals:
 
 **End of Analysis**
 *For questions or follow-up sourcing requests, contact analyst.*
+
+## See Also
+- [[abl301]] — key asset (ABL301)
+- [[eli-lilly]] — partner
+- [[abl-bio]] — partner
+- [[PD-Deal-Summary]]

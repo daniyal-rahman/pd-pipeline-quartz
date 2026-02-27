@@ -1,5 +1,6 @@
-Perfect. Now I have comprehensive data. Let me compile the deep due-diligence analysis on the AbbVie-Capsida deal.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2021-04-01
 ---
 
 # Deep Due Diligence: AbbVie-Capsida $665M+ AAV Platform Deal
@@ -962,3 +963,7 @@ Will Capsida's engineered capsids prove safe and effective in humans, establishi
 2. **CAP-002 causality analysis** - Determines if patient death was AAV-related
 3. **AbbVie optioned program advancement** - IND-enabling studies progress (2026-2027)
 4. **BIAL Phase 2b ACTIVATE results (Q2 2026)** - Small molecule vs gene therapy competitive dynamic
+## See Also
+- [[abbvie]] — partner
+- [[capsida-biotherapeutics]] — partner
+- [[PD-Deal-Summary]]

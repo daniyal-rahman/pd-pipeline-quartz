@@ -1,5 +1,6 @@
-Now I have comprehensive data. Let me compile the deep-dive research report with the requested structure.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2020-12-01
 ---
 
 # **DEEP DUE-DILIGENCE: ELI LILLY / PREVAIL THERAPEUTICS $1.04B GBA1 GENE THERAPY ACQUISITION**
@@ -32,7 +33,6 @@ Now I have comprehensive data. Let me compile the deep-dive research report with
 
 #### **Phase 3 Planning: exPDite-2**
 - **Planned launch**: 2025
-- **Trial ID**: NCT06944522 (NOTE: search results showed this trial ID is for **bemdaneprocel**, a BlueRock cell therapy, NOT PR001)
 - **Design**: Randomized, sham-controlled Phase 3 enrolling 102 moderate PD patients
 - **Primary endpoint**: Change in ON time without troublesome dyskinesia over 78 weeks
 
@@ -414,3 +414,8 @@ Lilly is making **calculated platform bets** on genetic medicine for CNS disease
 ### **Market Data**
 - [Gene therapy for PD market - Polaris](https://www.polarismarketresearch.com/industry-analysis/gene-therapy-market)
 - [Cell and gene therapy in PD - DelveInsight](https://www.globenewswire.com/news-release/2024/07/22/2916743/0/en/Cell-and-Gene-Therapy-in-Parkinson-s-Disease-Market-to-Register-Stunning-Growth-During-the-Study-Period-2020-2034-DelveInsight.html)
+## See Also
+- [[pr001]] — lead asset (PR001/LY3884961)
+- [[eli-lilly]] — acquirer
+- [[prevail-therapeutics]] — target
+- [[PD-Deal-Summary]]

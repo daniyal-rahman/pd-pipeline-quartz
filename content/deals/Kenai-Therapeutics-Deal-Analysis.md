@@ -1,5 +1,6 @@
-Perfect. Now I have comprehensive data. Let me compile a thorough deep-dive analysis report on the Kenai Therapeutics deal.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2024-02-01
 ---
 
 # KENAI THERAPEUTICS DEEP DUE DILIGENCE: RNDP-001 ALLOGENEIC iPSC CELL THERAPY FOR PARKINSON'S DISEASE
@@ -670,3 +671,7 @@ If considering investment or M&A, demand answers to:
 - [PD cell therapy competitive landscape (DelveInsight)](https://www.prnewswire.com/news-releases/cell-and-gene-therapy-in-parkinsons-disease-clinical-trial-pipeline-analysis-demonstrates-18-key-companies-at-the-horizon-expected-to-transform-the-treatment-paradigm-assesses-delveinsight-302270981.html)
 - [Sumitomo iPSC NDA filing](https://www.cira.kyoto-u.ac.jp/e/pressrelease/newsletter/250924-000001.html)
 - [PD market size and TAM](https://www.openpr.com/news/4302868/cell-and-gene-therapy-in-parkinson-s-disease-market-accelerates)
+## See Also
+- [[rndp-001]] — lead asset
+- [[kenai-therapeutics]] — company
+- [[PD-Deal-Summary]]

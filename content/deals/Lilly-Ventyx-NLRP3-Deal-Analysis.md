@@ -1,5 +1,6 @@
-Perfect. I have comprehensive data from my web searches. Now I'll compile the deep due-diligence analysis with the structured format requested. Let me create a comprehensive synthesis.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2026-01-07
 ---
 
 # ELI LILLY / VENTYX BIOSCIENCES ACQUISITION: DEEP DUE-DILIGENCE ANALYSIS
@@ -698,3 +699,8 @@ The neuroinflammation wave is real, but NLRP3 is getting crowded. **Hunt for:**
 - [Microglial dynamics in early PD | Journal of Neuroinflammation 2025](https://link.springer.com/article/10.1186/s12974-025-03462-y)
 - [AbbVie Cerevel $8.7B acquisition | Fierce Biotech](https://www.fiercebiotech.com/biotech/abbvie-bound-cerevel-reports-phase-3-parkinsons-victory-early-win-87b-deal)
 - [Beyond GLP-1: Is NLRP3 the Next Trillion Dollar Target? | Forever.ai](https://www.forever.ai/p/next-generation-nlrp3-inhibitors)
+## See Also
+- [[vtx3232]] — lead asset
+- [[eli-lilly]] — acquirer
+- [[ventyx-biosciences]] — target
+- [[PD-Deal-Summary]]

@@ -1,3 +1,8 @@
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2023-01-09
+---
+
 # Deep Due Diligence: Neurocrine/Voyager $4.4B GBA1 Gene Therapy Deal
 
 **Date:** February 14, 2026
@@ -942,3 +947,9 @@ The **Neurocrine/Voyager $4.4B GBA1 deal** is a **watershed moment** for Parkins
 2. **Voyager/Neurocrine GBA1 IND filing (2025)** - Validates development candidate
 3. **Capsida CAP-003 Phase 1 first patient (Q3 2025)** - Competitive threat timing
 4. **Lilly PR001 Phase 1/2 PROPEL data readout** - First clinical validation of GBA1 gene therapy approach
+
+## See Also
+- [[gba1-voyager]] — lead asset
+- [[neurocrine-biosciences]] — partner
+- [[voyager-therapeutics]] — partner
+- [[PD-Deal-Summary]]

@@ -1,3 +1,8 @@
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2025-04-06
+---
+
 # GSK / ABL Bio Deal Deep-Dive Analysis
 **$2.8B Grabody-B BBB Platform License (April 2025)**
 
@@ -551,3 +556,8 @@ But if brain penetration is insufficient OR PD target biology invalidates large-
 
 **Generated:** February 14, 2026
 **Status:**
+
+## See Also
+- [[gsk]] — partner
+- [[abl-bio]] — partner
+- [[PD-Deal-Summary]]

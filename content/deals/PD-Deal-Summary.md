@@ -32,15 +32,15 @@ Sorted by total deal value (descending). Upfront/total ratio signals real convic
 | 13 | **Roche / Prothena** (prasinezumab) | Dec 2013 | $45M (upfront + near-term milestone) [^13] | $755M (current total potential) [^14] | 6.0% | Prasinezumab (anti-aSyn mAb) | alpha-synuclein | Active — Phase 3 (PARAISO) | [[Roche-Prothena-Deal-Analysis]] |
 | 14 | **Capsida / Lilly** (AAV platform) | Jan 2023 | $55M ($55M upfront + financing commitment) [^15] | $740M | 7.4% | CAP-003 (engineered AAV for GBA1) | genetic-pd | Active — Phase 1 | [[Capsida-Lilly-Deal-Analysis]] |
 | 15 | **Biogen / Alectos** (GBA2) | Jun 2022 [^16] | $15M | $722M | 2.1% | AL01811 (GBA2 inhibitor) | genetic-pd | Active — Preclinical | [[Biogen-Alectos-GBA2-Deal-Analysis]] |
-| 16 | **AbbVie / Capsida** (AAV platform) | 2022 | ~$200M cumul. | $665M+ | ~30% | AAV capsid engineering platform | bbb-platform | Active | [[AbbVie-Capsida-Deal-Analysis]] |
+| 16 | **AbbVie / Capsida** (AAV platform) | 2021 | ~$200M cumul. | $665M+ | ~30% | AAV capsid engineering platform | bbb-platform | Active | [[AbbVie-Capsida-Deal-Analysis]] |
 | 17 | **AbbVie / Mitokinin** (PINK1) | Oct 2023 (acq. closed) [^17] | $110M | $655M | 16.8% | ABBV-1088 (PINK1 kinase activator) | mitophagy | Active — Phase 1 | [[AbbVie-Mitokinin-Deal-Analysis]] |
 | 18 | **GSK / Vesalius** (AI discovery) | 2024 | $80M | $650M | 12.3% | Novel target discovery (precision PD) | ai-discovery | Active — Discovery | [[GSK-Vesalius-Deal-Analysis]] |
-| 19 | **MeiraGTx / Hologen** (AAV-GAD) | 2024 | $200M | $430M | 46.5% | AAV-GAD gene therapy (symptomatic) | symptomatic | Active — Phase 3 | [[MeiraGTx-Hologen-Deal-Analysis]] |
+| 19 | **MeiraGTx / Hologen** (AAV-GAD) | Mar 2025 | $200M | $430M | 46.5% | AAV-GAD gene therapy (symptomatic) | symptomatic | Active — Phase 3 | [[MeiraGTx-Hologen-Deal-Analysis]] |
 | 20 | **Aspen Neuroscience** (Series C) | Nov 2025 | — | $340M raised total | — | ANPD-001 (autologous iPSC DA neurons) | cell-therapy | Active — Phase 1/2 | [[Aspen-Neuroscience-Deal-Analysis]] |
 | 21 | **BIAL / Lysosomal Therapeutics** (acquisition) | Oct 2020 | Undisclosed | Up to $130M | — | Pariceract / BIA 28-6156 (GCase activator) | genetic-pd | Active — Phase 3 (ACTIVATE) | [[BIAL-Pariceract-Deep-Dive]] |
 | 22 | **Neuron23** (Series D) | Jun 2025 | — | $96.5M raised | — | NEU-411 (LRRK2i + CDx) | genetic-pd | Active — Phase 2 (NEULARK) | [[Neuron23-Deal-Analysis]] |
 | 23 | **Kenai Therapeutics** (Series A) | Feb 2024 | — | $90M raised | — | RNDP-001 (allogeneic iPSC) | cell-therapy | Active — Preclinical | [[Kenai-Therapeutics-Deal-Analysis]] |
-| 24 | **Insilico / Hygtia** (NLRP3) | 2024 | $10M | $66M | 15.2% | NLRP3 inhibitor (AI-discovered) | neuroinflammation | Active — Preclinical | [[Insilico-Hygtia-NLRP3-Deal-Analysis]] |
+| 24 | **Insilico / Hygtia** (NLRP3) | Jan 2026 | $10M | $66M | 15.2% | NLRP3 inhibitor (AI-discovered) | neuroinflammation | Active — Preclinical | [[Insilico-Hygtia-NLRP3-Deal-Analysis]] |
 | 25 | **Merck KGaA / Valo** (AI discovery) | Nov 2025 | Undisclosed | $3B+ (headline) | — | AI-enabled PD drug discovery | ai-discovery | Active — Discovery | [[Merck-Valo-Deal-Analysis]] |
 | 26 | **Sumitomo / CiRA** (iPSC) | Ongoing | — | Undisclosed | — | Raguneprocel (allogeneic iPSC) | cell-therapy | Active — Phase 1/2 (Japan) | [[Sumitomo-Raguneprocel-Analysis]] |
 
@@ -99,6 +99,10 @@ The following known PD deals do not have dedicated analysis files. Data sourced 
 | Congruence Therapeutics | Private | Undisclosed | GCase correctors | Early stage; pre-ACTIVATE positioning |
 | Mission Therapeutics (USP30) | Private | Undisclosed | USP30 inhibitor (mitophagy) | PINK1/Parkin pathway |
 | Vincere Biosciences (USP30) | Private | Undisclosed | USP30 inhibitor (mitophagy) | PINK1/Parkin pathway |
+| **J&J / Intra-Cellular Therapies** (acquisition) | Jan 2025 (closed Apr 2025) | $14.6B | ITI-214/lenrispodun (PDE1 inhibitor, Phase 2 PD motor) | Primary rationale = Caplyta (schizophrenia); PD is secondary asset |
+| **Roche / Inflazome** (acquisition) | Oct 2020 | ~$449M (€380M) | Selnoflast/RO-7486967 (NLRP3 inhibitor, Phase 1b PD completed Jul 2024; no results published) | neuroinflammation — pre-window acquisition but PD Phase 1b is within tracking period |
+| **Ipsen / IRLAB** (license) | 2021 → rights returned Aug 2023 | Up to $363M ($28M upfront) | Mesdopetam/IRL790 (D3 antagonist for levodopa-induced dyskinesia, Phase IIb failed) | symptomatic — terminated; IRLAB regained rights and planning Phase 3 independently |
+| **J&J / Yumanity YTX-7739** (asset acquisition) | Jun 2022 | $26M | YTX-7739/JNJ-0376 (SCD inhibitor targeting aSyn lipid processing) | Discontinued Oct 2024; failed aSyn/lipid mechanism |
 
 ---
 

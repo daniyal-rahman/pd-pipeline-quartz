@@ -1,4 +1,7 @@
-Now I have comprehensive data to write the deep due-diligence analysis. Let me create the final report.
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2024-12-01
+---
 
 # DEEP DUE-DILIGENCE: Sumitomo Pharma / RACTHERA / Kyoto University — Raguneprocel
 
@@ -494,3 +497,7 @@ This is not incremental progress. This is a **paradigm shift**.
 - [npj Parkinson's Disease — Persistent Dyskinesias in Fetal Tissue Transplantation (2021)](https://www.nature.com/articles/s41531-021-00183-w)
 - [Nobel Prize — Shinya Yamanaka Biography (2012)](https://www.nobelprize.org/prizes/medicine/2012/yamanaka/biographical/)
 - [ScienceDirect — Driving the Future of iPS-Cell-Based Therapy in Japan (2025)](https://www.sciencedirect.com/science/article/pii/S1359644625002752)
+## See Also
+- [[raguneprocel]] — lead asset
+- [[sumitomo-pharma]] — partner
+- [[PD-Deal-Summary]]

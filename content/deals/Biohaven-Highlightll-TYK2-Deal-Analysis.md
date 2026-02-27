@@ -1,5 +1,6 @@
-Now I'll compile the comprehensive deep-dive analysis based on all the research conducted.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2023-03-22
 ---
 
 # DEEP DUE DILIGENCE: Biohaven/Hangzhou Highlightll BHV-8000 Deal
@@ -663,3 +664,8 @@ Neuroinflammation in PD is a **validated, investable theme** with multiple mecha
 - [New Parkinson's Treatments in the Clinical Trial Pipeline | 2025](https://www.apdaparkinson.org/article/new-pd-treatments-clinical-trial-pipeline/)
 - [APDA pledges $4M for Parkinson's research, up 55% from 2024](https://parkinsonsnewstoday.com/news/apda-pledges-4m-parkinsons-research-55-2024/)
 - [BioVie's Upcoming Parkinson's Disease Clinical Trial is Fully Funded](https://www.biospace.com/press-releases/biovies-upcoming-parkinsons-disease-clinical-trial-is-fully-funded)
+## See Also
+- [[bhv-8000]] — lead asset
+- [[biohaven]] — partner
+- [[hangzhou-highlightll-pharma]] — partner
+- [[PD-Deal-Summary]]

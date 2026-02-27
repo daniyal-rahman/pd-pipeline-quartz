@@ -1,5 +1,6 @@
-Now I have comprehensive information. Let me compile the deep due-diligence analysis.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2022-01-18
 ---
 
 # DEEP DUE-DILIGENCE: Sanofi/ABL Bio ABL301 Deprioritization
@@ -49,12 +50,12 @@ Sanofi officially stated this is **NOT a discontinuation or contract termination
 
 **Grabody-B Platform Deals**:
 
-**GSK** ([PR Newswire](https://www.prnewswire.com/news-releases/abl-bio-announces-grabody-b-brain-delivery-platform-license-agreement-with-gsk-to-develop-novel-medicines-for-neurodegenerative-diseases-302421544.html), April 2024):
+**GSK** ([PR Newswire](https://www.prnewswire.com/news-releases/abl-bio-announces-grabody-b-brain-delivery-platform-license-agreement-with-gsk-to-develop-novel-medicines-for-neurodegenerative-diseases-302421544.html), April 2025):
 - £38.5M upfront, £77.1M near-term
 - Up to £2.075B ($2.8B) total milestones
 - **Platform license for multiple programs**
 
-**Lilly** ([PR Newswire](https://www.prnewswire.com/news-releases/abl-bio-receives-upfront-payment-for-license-research-and-collaboration-agreement-for-grabody-platform-and-equity-investment-from-lilly-302649529.html), December 2024):
+**Lilly** ([PR Newswire](https://www.prnewswire.com/news-releases/abl-bio-receives-upfront-payment-for-license-research-and-collaboration-agreement-for-grabody-platform-and-equity-investment-from-lilly-302649529.html), November 2025):
 - $40M upfront + $15M equity
 - Up to $2.6B milestones
 - **Platform license for multiple large-molecule drugs**
@@ -229,8 +230,8 @@ Sanofi officially stated this is **NOT a discontinuation or contract termination
 **The Case for Patience**:
 
 **1. Platform Validation is Real**
-- GSK paid **$2.8B** for Grabody-B in April 2024
-- Lilly paid **$2.6B** for Grabody-B in December 2024
+- GSK paid **~$2.5B** for Grabody-B in April 2025
+- Lilly paid **$2.6B** for Grabody-B in November 2025
 - These deals came **after ABL301's Phase 1** — meaning GSK/Lilly saw the data and **still wanted the platform**
 - If Phase 1 showed the BBB shuttle didn't work, **why would they license it?**
 
@@ -332,8 +333,8 @@ Sanofi officially stated this is **NOT a discontinuation or contract termination
   - Roche's prasinezumab Phase 3 succeeds (validates target)
 
 **Signal 2: GSK/Lilly Deal Timing**
-- GSK signed **April 2024** (2+ years after ABL301 Phase 1 started)
-- Lilly signed **December 2024** (after Phase 1 completed)
+- GSK signed **April 2025** (~2.5 years after ABL301 Phase 1 started)
+- Lilly signed **November 2025** (after Phase 1 completed)
 - **Implication**: They saw Phase 1 data and **still wanted the platform**
 - **Counter**: They may have seen BBB penetration data but recognized the alpha-syn target is weak
 
@@ -481,3 +482,8 @@ If you're sourcing in this space: **bet on the platform, not the first product**
 ### Sanofi Neurology Portfolio
 - [Sanofi Denali RIPK1 deprioritization - Fierce Biotech](https://www.fiercebiotech.com/biotech/sanofi-keeps-mum-future-denali-pact-after-scrapping-final-ripk1-inhibitor)
 - [Sanofi neurology pipeline - Labiotech](https://www.labiotech.eu/in-depth/sanofi-pipeline-2025/)
+## See Also
+- [[abl301]] — lead asset (ABL301/SAR446159)
+- [[sanofi]] — partner
+- [[abl-bio]] — partner
+- [[PD-Deal-Summary]]

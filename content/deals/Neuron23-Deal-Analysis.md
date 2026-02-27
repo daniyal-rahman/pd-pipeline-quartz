@@ -1,5 +1,6 @@
-Now I have comprehensive data. Let me compile my deep due diligence analysis.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2025-06-01
 ---
 
 # NEURON23 NEU-411 DEAL — DEEP DUE DILIGENCE ANALYSIS
@@ -550,3 +551,6 @@ This is a **high-conviction strategic bet**, not a science gamble. Neuron23 lear
 - [Roche PD Mobile App - Scientific Reports](https://www.nature.com/articles/s41598-022-15874-4)
 - [Digital Outcomes Review - Movement Disorders](https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.30056)
 - [Roche Digital Health Platform - MDS Abstracts](https://www.mdsabstracts.org/abstract/scaling-the-roche-digital-health-technology-platform-to-assess-disease-severity-and-progression-in-individuals-with-parkinsons-disease/)
+## See Also
+- [[neuron23]] — company
+- [[PD-Deal-Summary]]

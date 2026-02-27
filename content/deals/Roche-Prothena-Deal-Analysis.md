@@ -1,5 +1,6 @@
-Perfect. Now I have comprehensive information. Let me compile this into a thorough due diligence report following the user's structure.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2013-12-01
 ---
 
 # DEEP DUE DILIGENCE: Roche/Prothena Prasinezumab Deal
@@ -692,3 +693,8 @@ The 30-35% success probability is data-driven but involves substantial uncertain
 ### Disease Heterogeneity & Genetics
 - [Genetic variations in GBA1 and LRRK2 genes - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9416236/)
 - [Approaches to Early Parkinson's Disease Subtyping - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11492007/)
+## See Also
+- [[prasinezumab]] — lead asset
+- [[roche]] — partner
+- [[prothena]] — partner
+- [[PD-Deal-Summary]]

@@ -1,3 +1,8 @@
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2025-11-01
+---
+
 # Aspen Neuroscience Deep Due Diligence
 ## Autologous vs. Allogeneic iPSC Cell Therapy for Parkinson's Disease
 
@@ -813,3 +818,8 @@ BUT: This is a high-risk, high-reward play. The manufacturing scalability is unp
 **Date:** February 14, 2026
 **Analyst:** Automated Analysis (Sonnet 4.5)
 **Verification Status:** Requires manual verification of all clinical data and financial figures before investment decision-making
+
+## See Also
+- [[anpd001]] — lead asset
+- [[aspen-neuroscience]] — company
+- [[PD-Deal-Summary]]

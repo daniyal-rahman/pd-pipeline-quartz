@@ -1,5 +1,6 @@
-Now I have gathered comprehensive information. Let me compile the deep-dive analysis following the structured format requested.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2020-08-03
 ---
 
 # DEEP DUE-DILIGENCE: BIOGEN/DENALI LRRK2 DEAL ($2.15B+)
@@ -615,3 +616,8 @@ The **LRRK2 lysosomal dysfunction hypothesis for sporadic PD** is:
 ### Clinical Development Challenges
 - [LRRK2 in Parkinson disease: challenges of clinical trials | Nature Reviews Neurology](https://www.nature.com/articles/s41582-019-0301-2)
 - [The development of inhibitors of LRRK2 as a therapeutic strategy | British Journal of Pharmacology](https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.15575)
+## See Also
+- [[biib122]] — lead asset
+- [[biogen]] — partner
+- [[denali-therapeutics]] — partner
+- [[PD-Deal-Summary]]

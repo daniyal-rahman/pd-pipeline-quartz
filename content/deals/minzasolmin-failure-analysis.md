@@ -1,3 +1,8 @@
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2021-12-02
+---
+
 # Minzasolmin Failure: Deep Due Diligence Analysis
 #deal-analysis #alpha-synuclein #failure-case
 
@@ -582,3 +587,9 @@ Minzasolmin failed because:
 - [LRRK2 and α-Synuclein interactions - Frontiers](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2020.00577/full)
 - [GBA1 and LRRK2 clinical consequences - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9416236/)
 - [Targeted Therapies from Genetics - Movement Disorders](https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.27414)
+
+## See Also
+- [[minzasolmin]] — lead asset (UCB0599)
+- [[novartis]] — partner
+- [[ucb]] — partner
+- [[PD-Deal-Summary]]

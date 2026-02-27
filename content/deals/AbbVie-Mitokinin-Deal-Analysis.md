@@ -1,3 +1,8 @@
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2023-10-05
+---
+
 # AbbVie / Mitokinin PINK1 Acquisition: Deep Due-Diligence Analysis
 
 **Date of Analysis:** February 14, 2026
@@ -166,7 +171,7 @@ PINK1 loss-of-function mutations cause autosomal recessive early-onset Parkinson
 **What changed between 2021 and 2023?**
 
 1. **Tavapadon risk reduction:**
-   - AbbVie acquired **Cerevel Therapeutics** for **$8.7B** in August 2023 (1 month before Mitokinin close)
+   - AbbVie acquired **Cerevel Therapeutics** for **$8.7B** (announced December 6, 2023; closed August 1, 2024)
    - Cerevel's lead asset: **tavapadon** (D1/D5 dopamine agonist, symptomatic treatment)
    - Tavapadon Phase 3 results: ✅ Positive (TEMPO-1, TEMPO-2 trials)
    - **FDA NDA submitted September 2025**
@@ -911,3 +916,7 @@ PINK1 loss-of-function mutations cause autosomal recessive early-onset Parkinson
 
 **Analysis completed:** February 14, 2026
 **Author:** Automated Analysis in collaboration with human researcher
+
+## See Also
+- [[abbvie]] — acquirer
+- [[PD-Deal-Summary]]

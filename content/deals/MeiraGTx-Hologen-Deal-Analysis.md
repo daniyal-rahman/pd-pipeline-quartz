@@ -1,5 +1,6 @@
-Perfect. Now I have comprehensive information. Let me compile the deep due-diligence analysis.
-
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2025-03-13
 ---
 
 # DEEP DUE DILIGENCE: MeiraGTx/Hologen AI — $430M AAV-GAD PARKINSON'S DEAL
@@ -591,3 +592,8 @@ The AAV-GAD deal could be a **"peak hype" signal** rather than a validated thesi
 - [Value-Based Pricing for Emerging Gene Therapies](https://www.jmcp.org/doi/10.18553/jmcp.2019.18378)
 - [Previewing Parkinson Disease Pipeline: Emerging Trials to Watch in 2026](https://www.neurologylive.com/view/previewing-parkinson-disease-pipeline-emerging-trials-to-watch-in-2026)
 - [Cost-Effectiveness of Extended-Release Carbidopa-Levodopa for Advanced Parkinson's Disease](https://www.pharmacytimes.com/view/cost-effectiveness-of-extended-release-carbidopa-levodopa-for-advanced-parkinsons-disease)
+## See Also
+- [[aav-gad]] — lead asset
+- [[meiragtx]] — partner
+- [[hologen]] — partner
+- [[PD-Deal-Summary]]

@@ -1,3 +1,8 @@
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2025-11-20
+---
+
 # Deep Due-Diligence: Merck KGaA/Valo Health $3B+ PD AI Deal
 
 **Date:** February 14, 2026
@@ -837,3 +842,9 @@ This is **intelligent optionality-buying by Merck**, not a validation of proven 
 3. Watch Novo/Valo cardiometabolic programs for clinical advancement
 4. Follow MJFF Targets to Therapies Initiative publications
 5. Monitor Recursion/Exscientia post-merger pipeline progress
+
+## See Also
+- [[valo-merck]] — asset
+- [[merck-kgaa]] — partner
+- [[valo-health]] — partner
+- [[PD-Deal-Summary]]

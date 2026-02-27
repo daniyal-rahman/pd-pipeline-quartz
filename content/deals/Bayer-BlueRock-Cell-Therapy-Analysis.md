@@ -1,4 +1,7 @@
-Now let me compile this comprehensive research into a detailed due-diligence report.
+---
+tags: [pd-pipeline, deal-analysis]
+date: 2019-08-08
+---
 
 # Deep Due-Diligence: Bayer/BlueRock Bemdaneprocel Cell Therapy for Parkinson's Disease
 
@@ -988,3 +991,8 @@ Bemdaneprocel is a landmark trial. Its outcome will define the field for the nex
 - [FDA RMAT designation](https://www.neurologylive.com/view/fda-grants-rmat-designation-pd-cell-therapy-bemdaneprocel)
 - [Cell therapy pricing and reimbursement](https://www.healthcarewebwire.com/us-cell-therapy-market/)
 - [VC funding landscape](https://www.biopharmadive.com/news/aspen-neuroscience-stem-cell-therapy-parkinsons-series-c/806048/)
+## See Also
+- [[bemdaneprocel]] — lead asset
+- [[bayer]] — acquirer
+- [[bluerock-therapeutics]] — target
+- [[PD-Deal-Summary]]
